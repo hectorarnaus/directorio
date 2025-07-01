@@ -1,6 +1,13 @@
 def slurguiza(texto):
     texto=texto.strip()
-    
+    texto=texto.lower()
+    texto=texto.replace("ñ","n")
+    texto=texto.replace("á","a")
+    texto=texto.replace("é","e")
+    texto=texto.replace("í","i")
+    texto=texto.replace("ó","o")
+    texto=texto.replace("ú","u")
+    texto=texto.replace("ü","u")
     texto=texto.replace("de","")
     texto=texto.replace("el","")
     texto=texto.replace("la","")
@@ -9,7 +16,5 @@ def slurguiza(texto):
     texto=texto.replace(" ","-")
     while texto.find("--")!=-1:
         texto=texto.replace("--","-")
-    texto=texto.lower()
+    
     return texto
-
-print(slurguiza("Santa Cruz de los Tenerifes"))
