@@ -1,5 +1,5 @@
 import os
-#import openpyxl 
+import openpyxl 
 #from autowordpress import *
 
 def crea_provincia(home,provincia,texto,imagen):
@@ -26,13 +26,16 @@ def crea_provincia(home,provincia,texto,imagen):
         '\t<!-- /wp:group -->\n')
     return res
 
+
+
 #wc=WpConnection("https://calculadora-porcentajes-colombia.top//xmlrpc.php",'hector.arnaus@gmail.com','bolo3o,Eresgay')
 #wc.connect()
 
 etiquetas=['crepería','crepes']
 ciudades=[]
 provincias=[]
-print(crea_provincia("http://www.creperias.com","Valencia","Este es un texto de prueba de la provincia",'https://calculadora-porcentajes-colombia.top/wp-content/uploads/2025/06/valencia.jpg'))
+#print(crea_provincia("http://www.creperias.com","Valencia","Este es un texto de prueba de la provincia",'https://calculadora-porcentajes-colombia.top/wp-content/uploads/2025/06/valencia.jpg'))
+print(obten_lista_municipios("castilla_leon_1.xlsx"))
 
 '''creperias=openpyxl.load_workbook('creperias.xlsx')
 hoja_activa = creperias.active
