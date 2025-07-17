@@ -1,36 +1,52 @@
 import os
 import openpyxl 
 from funciones import *
+from extraer_datos_excel import *
 from autowordpress import *
 
 
 
 
-
-wc=WpConnection("https://calculadora-porcentajes-colombia.top//xmlrpc.php",'hector.arnaus@gmail.com','bolo3o,Eresgay')
+dominio="https://calculadora-porcentajes-colombia.top"
+wc=WpConnection(f"{dominio}//xmlrpc.php",'hector.arnaus@gmail.com','bolo3o,Eresgay')
 wc.connect()
 
-etiquetas=['crepería','crepes']
+etiquetas=['crepería','crepes','creperias cerca','crepe suzette','crepe nutella','crepe nocilla','crepe chocolate']
 
 
 
-ruta=os.getcwd()+("/img")
+ruta=os.getcwd()+("/provincia")
 for img in os.listdir(ruta):
     provincia=obten_nombre_provincia(img)
     print(f"Creando el artículo de la provincia de {provincia}")
-    #texto_con_estado=cambia_estado(texto_base,estado)
-    #parrafos=texto_con_estado.split("\n")
     wp_img=Image(ruta+"/"+img,f"Creperías en la provincia de {provincia}")
     wp_img.upload(wc)
     wp_article=WpPost(f"Creperías en la provincia de {provincia}")
     #imagen=WpImage(wp_img)
-    wp_article.add_element(crea_provincia("https://calculadora-porcentajes-colombia.top",provincia,obten_texto_provincia(provincia),wp_img))
+    for etiqueta in etiquetas:
+        wp_article.add_tag(etiqueta)
+    wp_article.add_element(crea_provincia(dominio,provincia,obten_texto_provincia(provincia),wp_img))
+    wp_article.set_slug(sluguiza(provincia))
+    print(wp_article.get_post())
     wc.publica_post(wp_article)
 
 
-'''creperias=openpyxl.load_workbook('creperias.xlsx')
-hoja_activa = creperias.active
-fila=1
-while fila<hoja_activa.max_row:
-    print(hoja_activa.cell(row=fila,column=1).value)
-    fila+=1'''
+ruta=os.getcwd()+("/municipio")
+for img in os.listdir(ruta):
+    municipio=obten_nombre_municipio(img)
+    provincia=obten_nombre_provincia_municipio(img)
+    print(f"La provincia de {municipio} es {provincia}")
+    print(f"Creando el artículo del municipio de {municipio}")
+    #texto_con_estado=cambia_estado(texto_base,estado)
+    #parrafos=texto_con_estado.split("\n")
+    wp_img=Image(ruta+"/"+img,f"Creperías en el municipio de {municipio}")
+    wp_img.upload(wc)
+    wp_article=WpPost(f"Creperías en el municipio de {municipio}")
+    wp_article.add_category(provincia)
+    wp_article.add_tag(provincia)
+    for etiqueta in etiquetas:
+        wp_article.add_tag(etiqueta)
+    #imagen=WpImage(wp_img)
+    wp_article.add_element(crea_municipio(dominio,municipio,provincia,obten_texto_municipio(municipio),wp_img))
+    wp_article.set_slug(sluguiza(provincia)+"/"+sluguiza(municipio))
+    wc.publica_post(wp_article)

@@ -16,6 +16,7 @@ class WpPost():
           'post_tag': [],
           'category': []
         }
+        self.post.post_status = 'publish'
         
     def get_post(self):
         return self.post
@@ -31,3 +32,12 @@ class WpPost():
         
     def setContent(self,content):
        self.post.content=content
+
+    def set_category(self,category):
+      aux=[]
+      aux.append(category)
+      self.post.terms_names['category']=aux
+
+    def set_slug(self,slug):
+       self.post.slug=slug
+
