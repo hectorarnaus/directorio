@@ -44,13 +44,53 @@ def obten_provincia_de_municipio(fichero_excel,municipio):
         hoja_activa = datos.active
         fila=2
         while fila<hoja_activa.max_row:
-            print(fila)
-            print(hoja_activa.cell(row=fila,column=7).value)
-            print(hoja_activa.cell(row=fila,column=8).value)
             if hoja_activa.cell(row=fila,column=7).value==municipio:
                 return hoja_activa.cell(row=fila,column=8).value
             fila+=1
         return ""
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
+
+class Negocio:
+    def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto):
+        self.municipio=municipio
+        self.provincia=provincia
+        self.nombre=nombre
+        self.texto=texto
+        self.direccion=direccion
+        self.telefono=telefono
+        self.web=web
+        self.mapa=mapa
+        self.horario=horario
+        self.foto=foto
+    
+    def __str__(self):
+        return f'nombre={self.nombre} municipio={self.municipio}'
+    
+def obten_lista_negocios(fichero_excel):
+    lista_negocios=[]
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=2
+        while fila<hoja_activa.max_row:
+            municipio=hoja_activa.cell(row=fila,column=7).value
+            provincia=hoja_activa.cell(row=fila,column=8).value
+            nombre=hoja_activa.cell(row=fila,column=1).value
+            texto=hoja_activa.cell(row=fila,column=13).value
+            direccion=hoja_activa.cell(row=fila,column=6).value
+            telefono=hoja_activa.cell(row=fila,column=10).value
+            web=hoja_activa.cell(row=fila,column=9).value
+            mapa=hoja_activa.cell(row=fila,column=11).value
+            horario=hoja_activa.cell(row=fila,column=5).value
+            foto=hoja_activa.cell(row=fila,column=12).value
+            nuevo=Negocio(municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto)
+            lista_negocios.append(nuevo)
+            fila+=1
+        return lista_negocios
     except FileNotFoundError:
         print("Error: Archivo no encontrado.")
     except Exception as e:

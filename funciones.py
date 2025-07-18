@@ -30,6 +30,30 @@ def spinner(s):
         if n == 0: break
     return s.strip()
 
+def obten_nombre_provincia(imagen):
+   return imagen.split(".")[0]
+
+def obten_nombre_municipio(imagen):
+   return imagen.split("_")[0]
+
+def obten_nombre_provincia_municipio(imagen):
+    aux=imagen.split("_")[1]
+    return aux.split(".")[0]
+
+def obten_texto_provincia(provincia):
+    with open('provincia.txt', 'r') as file :
+        texto_base = file.read()
+        texto=spinner(texto_base)
+        texto=texto.replace("*Provincia*",provincia)
+        return texto
+    
+def obten_texto_municipio(municipio):
+    with open('municipio.txt', 'r') as file :
+        texto_base = file.read()
+        texto=spinner(texto_base)
+        texto=texto.replace("*Municipio*",municipio)
+        return texto
+
 def crea_provincia(home,provincia,texto,imagen):
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
@@ -73,26 +97,136 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
         '<!-- /wp:group -->')
     return res
 
-def obten_nombre_provincia(imagen):
-   return imagen.split(".")[0]
+def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto):
 
-def obten_nombre_municipio(imagen):
-   return imagen.split("_")[0]
+    res=('<!-- wp:html -->\n'
+        '\t<div class="migas">\n'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{provincia}">{provincia}</a> &gt; <a href="{home}/{provincia}/{municipio}" &gt; {nombre}</p>'
+        '\t</div>\n'
+        '<!-- /wp:html -->\n'
 
-def obten_nombre_provincia_municipio(imagen):
-    aux=imagen.split("_")[1]
-    return aux.split(".")[0]
+        '<!-- wp:columns -->\n'
+        '<div class="wp-block-columns"><!-- wp:column {"className":"contenedor"} -->\n'
+        '\t<div class="wp-block-column contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
+        '\t\t<h2 class="wp-block-heading has-text-align-center">Datos de contacto</h2>\n'
+        '\t<!-- /wp:heading -->\n'
 
-def obten_texto_provincia(provincia):
-    with open('provincia.txt', 'r') as file :
-        texto_base = file.read()
-        texto=spinner(texto_base)
-        texto=texto.replace("*Provincia*",provincia)
-        return texto
-    
-def obten_texto_municipio(municipio):
-    with open('municipio.txt', 'r') as file :
-        texto_base = file.read()
-        texto=spinner(texto_base)
-        texto=texto.replace("*Municipio*",municipio)
-        return texto
+        '\t<!-- wp:paragraph -->„'
+        f'\t\t<p><strong>Dirección postal:</strong>{direccion}</p>\n'
+        '\t<!-- /wp:paragraph -->\n'
+
+        '\t<!-- wp:paragraph -->\n'
+        f'\t\t<p><strong>Teléfono:</strong>{telefono}</p>\n'
+        '\t<!-- /wp:paragraph -->\n'
+
+        '\t<!-- wp:paragraph -->\n'
+        f'\t\t<p><strong>Sitio web:</strong>{web}</p>\n'
+        '\t<!-- /wp:paragraph -->\n'
+
+        '\t<!-- wp:shortcode -->\n'
+        '\t\t[adinserter name="anuncio_manual"]\n'
+        '\t<!-- /wp:shortcode -->\n'
+
+        '\t<!-- wp:buttons -->\n'
+        '\t<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
+        '\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="http://t#" style="border-radius:15px">Llamar ahora</a></div>\n'
+        '\t<!-- /wp:button -->\n'
+
+        '\t<!-- wp:button {"width":100,"className":"is-style-fill","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
+        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="{web}" style="border-radius:15px" rel="">Visitar sitio web</a></div>\n'
+        '\t<!-- /wp:button --></div>\n'
+        '\t<!-- /wp:buttons -->\n'
+
+        '\t<!-- wp:paragraph -->\n'
+        f'\t\t<p>{texto}</p>\n'
+        '\t<!-- /wp:paragraph -->\n'
+
+        '\t<!-- wp:heading {"textAlign":"center"} -->\n'
+        '\t\t<h2 class="wp-block-heading has-text-align-center">Horario</h2>\n'
+        '\t\t<!-- /wp:heading -->\n'
+
+        '\t<!-- wp:html -->\n'
+        f'\t\t[su_list icon="icon: clock-o" icon_color="#7B2C2C" indent="15" class="lista-bloque"]\n{horario}\n'
+				'''<ul>
+					<li>Lunes:&nbsp;de 9:00 a 17:00</li>
+					<li>Martes:&nbsp;de 9:00 a 17:00</li>
+					<li>Miércoles:&nbsp;de 9:00 a 17:00</li>
+					<li>Jueves:&nbsp;de 9:00 a 17:00</li>
+					<li>Viernes:&nbsp;de 9:00 a 17:00</li>
+					<li>Sábado:&nbsp;de 8:30 a 14:30</li>
+					<li>Domingo:&nbsp;cerrado</li>
+				</ul>'''
+		'\t\t[/su_list]\n'
+        '\t<!-- /wp:html --></div>\n'
+        '\t<!-- /wp:column -->\n'
+
+        '\t<!-- wp:column {"className":"contenedor"} -->\n'
+        '\t\t<div class="wp-block-column contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
+        '\t\t\t<h2 class="wp-block-heading has-text-align-center">Localización</h2>\n'
+        '\t\t<!-- /wp:heading -->\n'
+
+        '\t!-- wp:html -->\n'
+        f'\t\t<iframe src="{mapa}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+        '\t<!-- /wp:html -->\n'
+
+        '\t<!-- wp:heading {"textAlign":"center"} -->\n'
+        '\t\t<h2 class="wp-block-heading has-text-align-center">Fotografía</h2>\n'
+        '\t<!-- /wp:heading -->\n'
+
+        '\t\t<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
+        f'\t\t\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{foto}" alt=""/></figure>\n'
+        '\t\t<!-- /wp:image --></div>\n'
+        '\t<!-- /wp:column --></div>\n'
+        '\t<!-- /wp:columns -->\n'
+
+        '<!-- wp:shortcode -->\n'
+        '\t[site_reviews_summary assigned_posts="post_id" schema="true" class="contenedor"]\n'
+        '\t<!-- /wp:shortcode -->\n'
+
+        '<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->\n'
+        '\t<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
+        '\t\t<div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-text-align-center has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">DEJA UNA RESEÑA AHORA</a></div>\n'
+        '\t<!-- /wp:button --></div>\n'
+        '<!-- /wp:buttons -->\n'
+
+        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
+        '\t<div class="wp-block-group contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
+        '\t\t<h2 class="wp-block-heading has-text-align-center">Información</h2>\n'
+        '\t<!-- /wp:heading -->\n'
+
+        '<!-- wp:paragraph -->\n'
+        '\t<p>Información del negocio</p>\n'
+        '\t<!-- /wp:paragraph --></div>\n'
+        '<!-- /wp:group -->\n'
+
+        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
+        '<div class="wp-block-group contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
+        '<h2 class="wp-block-heading has-text-align-center">¿Qué opinan los usuarios de negocio?</h2>\n'
+        '<!-- /wp:heading -->\n'
+
+        '<!-- wp:paragraph -->\n'
+        '\t<p>A continuación, te dejamos un listado con las opiniones más destacadas que otros usuarios han dejado al negocio de localidad, provincia.</p>\n'
+        '<!-- /wp:paragraph --></div>\n'
+        '<!-- /wp:group -->\n'
+
+        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
+        '\t<div class="wp-block-group contenedor"><!-- wp:heading -->\n'
+        '\t\t<h2 class="wp-block-heading">Escribe tu reseña</h2>\n'
+        '\t<!-- /wp:heading -->\n'
+
+        '<!-- wp:shortcode /-->\n'
+
+        '<!-- wp:shortcode -->\n'
+        '\t[site_reviews_form assigned_posts="post_id"  class="contenedor" id="formulario_resenya"]\n'
+        '\t\t<!-- /wp:shortcode --></div>\n'
+        '\t<!-- /wp:group -->  \n'
+
+        '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
+        '\t<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->\n'
+        '\t\t<h2 class="wp-block-heading has-text-align-center">Otras creperías del municipio</h2>\n'
+        '\t<!-- /wp:heading -->\n'
+
+        f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{municipio}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
+        '<!-- /wp:group -->\n'
+    )
+    return res
