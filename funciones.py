@@ -10,11 +10,11 @@ def sluguiza(texto):
     texto=texto.replace("ó","o")
     texto=texto.replace("ú","u")
     texto=texto.replace("ü","u")
-    texto=texto.replace("de","")
-    texto=texto.replace("el","")
-    texto=texto.replace("la","")
-    texto=texto.replace("los","")
-    texto=texto.replace("las","")
+    texto=texto.replace(" de ","-")
+    texto=texto.replace(" el ","-")
+    texto=texto.replace(" la ","-")
+    texto=texto.replace(" los ","-")
+    texto=texto.replace(" las ","-")
     texto=texto.replace(" ","-")
     while texto.find("--")!=-1:
         texto=texto.replace("--","-")
@@ -97,11 +97,13 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
         '<!-- /wp:group -->')
     return res
 
-def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto):
+def crea_negocio(home,negocio):
 
+    provincia=sluguiza(negocio.provincia)
+    municipio=sluguiza(negocio.municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{provincia}">{provincia}</a> &gt; <a href="{home}/{provincia}/{municipio}" &gt; {nombre}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{provincia}">{negocio.provincia}</a> &gt; <a href="{home}/{provincia}/{municipio}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->\n'
 
@@ -111,16 +113,16 @@ def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,ma
         '\t\t<h2 class="wp-block-heading has-text-align-center">Datos de contacto</h2>\n'
         '\t<!-- /wp:heading -->\n'
 
-        '\t<!-- wp:paragraph -->„'
-        f'\t\t<p><strong>Dirección postal:</strong>{direccion}</p>\n'
+        '\t<!-- wp:paragraph -->'
+        f'\t\t<p><strong>Dirección postal:</strong> {negocio.direccion}</p>\n'
         '\t<!-- /wp:paragraph -->\n'
 
         '\t<!-- wp:paragraph -->\n'
-        f'\t\t<p><strong>Teléfono:</strong>{telefono}</p>\n'
+        f'\t\t<p><strong>Teléfono:</strong> {negocio.telefono}</p>\n'
         '\t<!-- /wp:paragraph -->\n'
 
         '\t<!-- wp:paragraph -->\n'
-        f'\t\t<p><strong>Sitio web:</strong>{web}</p>\n'
+        f'\t\t<p><strong>Sitio web:</strong> {negocio.web}</p>\n'
         '\t<!-- /wp:paragraph -->\n'
 
         '\t<!-- wp:shortcode -->\n'
@@ -129,16 +131,16 @@ def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,ma
 
         '\t<!-- wp:buttons -->\n'
         '\t<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
-        '\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="http://t#" style="border-radius:15px">Llamar ahora</a></div>\n'
+        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="tel:{negocio.telefono}" style="border-radius:15px">Llamar ahora</a></div>\n'
         '\t<!-- /wp:button -->\n'
 
         '\t<!-- wp:button {"width":100,"className":"is-style-fill","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
-        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="{web}" style="border-radius:15px" rel="">Visitar sitio web</a></div>\n'
+        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.web}" style="border-radius:15px" rel="">Visitar sitio web</a></div>\n'
         '\t<!-- /wp:button --></div>\n'
         '\t<!-- /wp:buttons -->\n'
 
         '\t<!-- wp:paragraph -->\n'
-        f'\t\t<p>{texto}</p>\n'
+        f'\t\t<p>{negocio.texto}</p>\n'
         '\t<!-- /wp:paragraph -->\n'
 
         '\t<!-- wp:heading {"textAlign":"center"} -->\n'
@@ -146,16 +148,7 @@ def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,ma
         '\t\t<!-- /wp:heading -->\n'
 
         '\t<!-- wp:html -->\n'
-        f'\t\t[su_list icon="icon: clock-o" icon_color="#7B2C2C" indent="15" class="lista-bloque"]\n{horario}\n'
-				'''<ul>
-					<li>Lunes:&nbsp;de 9:00 a 17:00</li>
-					<li>Martes:&nbsp;de 9:00 a 17:00</li>
-					<li>Miércoles:&nbsp;de 9:00 a 17:00</li>
-					<li>Jueves:&nbsp;de 9:00 a 17:00</li>
-					<li>Viernes:&nbsp;de 9:00 a 17:00</li>
-					<li>Sábado:&nbsp;de 8:30 a 14:30</li>
-					<li>Domingo:&nbsp;cerrado</li>
-				</ul>'''
+        f'\t\t[su_list icon="icon: clock-o" icon_color="#7B2C2C" indent="15" class="lista-bloque"]\n{negocio.horario}\n'
 		'\t\t[/su_list]\n'
         '\t<!-- /wp:html --></div>\n'
         '\t<!-- /wp:column -->\n'
@@ -165,8 +158,8 @@ def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,ma
         '\t\t\t<h2 class="wp-block-heading has-text-align-center">Localización</h2>\n'
         '\t\t<!-- /wp:heading -->\n'
 
-        '\t!-- wp:html -->\n'
-        f'\t\t<iframe src="{mapa}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+        '\t<!-- wp:html -->\n'
+        f'\t\t<iframe src="{negocio.mapa}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
         '\t<!-- /wp:html -->\n'
 
         '\t<!-- wp:heading {"textAlign":"center"} -->\n'
@@ -174,7 +167,7 @@ def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,ma
         '\t<!-- /wp:heading -->\n'
 
         '\t\t<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
-        f'\t\t\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{foto}" alt=""/></figure>\n'
+        f'\t\t\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.foto}" alt=""/></figure>\n'
         '\t\t<!-- /wp:image --></div>\n'
         '\t<!-- /wp:column --></div>\n'
         '\t<!-- /wp:columns -->\n'
@@ -223,10 +216,10 @@ def crea_negocio(home,municipio,provincia,nombre,texto,direccion,telefono,web,ma
 
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
         '\t<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Otras creperías del municipio</h2>\n'
+        f'\t\t<h2 class="wp-block-heading has-text-align-center">Otras creperías de {negocio.municipio}</h2>\n'
         '\t<!-- /wp:heading -->\n'
 
-        f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{municipio}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
+        f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{negocio.municipio}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
         '<!-- /wp:group -->\n'
     )
     return res
