@@ -5,17 +5,37 @@ def sluguiza(texto):
     texto=texto.lower()
     texto=texto.replace("ñ","n")
     texto=texto.replace("á","a")
+    texto=texto.replace("ä","a")
+    texto=texto.replace("à","a")
+    texto=texto.replace("â","a")
     texto=texto.replace("é","e")
+    texto=texto.replace("ê","e")
+    texto=texto.replace("ë","e")
+    texto=texto.replace("è","e")
     texto=texto.replace("í","i")
+    texto=texto.replace("ï","i")
+    texto=texto.replace("ì","i")
     texto=texto.replace("ó","o")
+    texto=texto.replace("ö","o")
+    texto=texto.replace("ò","o")
     texto=texto.replace("ú","u")
     texto=texto.replace("ü","u")
+    texto=texto.replace("ù","u")
+    texto=texto.replace(" de las ","-")
+    texto=texto.replace(" de los","-")
     texto=texto.replace(" de ","-")
     texto=texto.replace(" el ","-")
     texto=texto.replace(" la ","-")
     texto=texto.replace(" los ","-")
     texto=texto.replace(" las ","-")
     texto=texto.replace(" ","-")
+    texto=texto.replace("&quot;","'")
+    texto=texto.replace("&amp;","&")
+    texto=texto.replace("&apos;","'")
+    texto=texto.replace("|","")
+    texto=texto.replace(".","")
+    texto=texto.replace(",","")
+    texto=texto.replace("*","")
     while texto.find("--")!=-1:
         texto=texto.replace("--","-")
     
@@ -54,7 +74,15 @@ def obten_texto_municipio(municipio):
         texto=texto.replace("*Municipio*",municipio)
         return texto
 
+def obten_id_categoria_provincia(provincia,lista_categorias):
+    for categoria in lista_categorias:
+        if categoria.get('Nombre')==provincia:
+            return categoria['Id']
+    return 0
+
 def crea_provincia(home,provincia,texto,imagen):
+    provincia=sluguiza(provincia)
+
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
         f'\t\t<p><a href="{home}">Inicio</a> &gt; {provincia}</p>\n'
@@ -78,9 +106,11 @@ def crea_provincia(home,provincia,texto,imagen):
     return res
 
 def crea_municipio(home,municipio,provincia,texto,imagen):
+    provincia=sluguiza(provincia)
+    municipio=sluguiza(municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{provincia}">{provincia}</a> &gt; {municipio}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/provincia-{provincia}">{provincia}</a> &gt; {municipio}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->'
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"https://calculadora-porcentajes-colombia.top/localidad/ciudad/#main","mediaType":"image"}} -->\n'
@@ -103,7 +133,7 @@ def crea_negocio(home,negocio):
     municipio=sluguiza(negocio.municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{provincia}">{negocio.provincia}</a> &gt; <a href="{home}/{provincia}/{municipio}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/provincia-{provincia}">{negocio.provincia}</a> &gt; <a href="{home}/provincia-{provincia}/{sluguiza(municipio)}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->\n'
 
@@ -223,3 +253,6 @@ def crea_negocio(home,negocio):
         '<!-- /wp:group -->\n'
     )
     return res
+
+
+

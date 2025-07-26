@@ -34,9 +34,8 @@ class WpPost():
        self.post.content=content
 
     def set_category(self,category):
-      aux=[]
-      aux.append(category)
-      self.post.terms_names['category']=aux
+      self.post.terms_names['category']=[]
+      self.post.terms_names['category'].append(category)
 
     def set_slug(self,slug):
        self.post.slug=slug

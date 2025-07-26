@@ -135,7 +135,6 @@ def obten_lista_negocios(fichero_excel):
         hoja_activa = datos.active
         fila=2
         while fila<hoja_activa.max_row:
-            print(fila)
             municipio=hoja_activa.cell(row=fila,column=7).value
             provincia=hoja_activa.cell(row=fila,column=8).value
             nombre=hoja_activa.cell(row=fila,column=1).value
