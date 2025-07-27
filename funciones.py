@@ -77,6 +77,7 @@ def obten_texto_municipio(municipio):
 def obten_id_categoria_provincia(provincia,lista_categorias):
     for categoria in lista_categorias:
         if categoria.get('Nombre')==provincia:
+            print("encontrada")
             return categoria['Id']
     return 0
 
@@ -110,7 +111,7 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
     municipio=sluguiza(municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/provincia-{provincia}">{provincia}</a> &gt; {municipio}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/blog/provincia-{provincia}">{provincia}</a> &gt; {municipio}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->'
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"https://calculadora-porcentajes-colombia.top/localidad/ciudad/#main","mediaType":"image"}} -->\n'
@@ -133,7 +134,7 @@ def crea_negocio(home,negocio):
     municipio=sluguiza(negocio.municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/provincia-{provincia}">{negocio.provincia}</a> &gt; <a href="{home}/provincia-{provincia}/{sluguiza(municipio)}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/blog/provincia-{provincia}">{negocio.provincia}</a> &gt; <a href="{home}/blog/provincia-{provincia}/{sluguiza(municipio)}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->\n'
 
