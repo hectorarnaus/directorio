@@ -101,7 +101,7 @@ def crea_provincia(home,provincia,texto,imagen):
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
         f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las creperias de {provincia} ordenadas por nombre de municipio</h2>\n'
         '\t\t<!-- /wp:heading -->\n'
-        f'\t\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{provincia}"],"number":100,"styleSup":["title"],"showPgnation":true}} /-->\n'
+        f'\t\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["Provincia de {provincia}"],"number":100,"styleSup":["title"],"showPgnation":true}} /-->\n'
         '\t</div>\n'
         '\t<!-- /wp:group -->\n')
     return res
@@ -124,7 +124,7 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
         f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las creperias de {municipio}</h2>\n'
         '\t\t<!-- /wp:heading -->\n'
-        '\t<!-- wp:dpt/display-post-types {"taxonomy":"category","terms":["blog"],"number":100,"styleSup":["title"],"showPgnation":true} /--></div>\n'
+        f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{sluguiza(municipio)}")"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
         '<!-- /wp:group -->')
     return res
 

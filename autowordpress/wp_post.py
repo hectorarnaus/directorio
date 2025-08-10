@@ -8,14 +8,21 @@ from wordpress_xmlrpc.compat import xmlrpc_client
 from wordpress_xmlrpc.methods import media, posts
 
 class WpPost():
-    def __init__(self,titulo):
+    def __init__(self,titulo,categoria=None):
         self.post = WordPressPost()
         self.post.title=titulo
         self.post.content=""
-        self.post.terms_names = {
-          'post_tag': [],
-          'category': []
-        }
+        if categoria==None:
+          self.post.terms_names = {
+            'post_tag': [],
+            'category': []
+          }
+        else:
+          self.post.terms_names = {
+              'post_tag': [],
+              'category': [categoria]
+            }
+
         self.post.post_status = 'publish'
         
     def get_post(self):

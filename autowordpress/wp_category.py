@@ -21,7 +21,7 @@ class WPCategory:
             nueva_categoria.parent = int(self.padre)  # ID de la categoría padre
 
         cat_id = wp.get_connection().call(taxonomies.NewTerm(nueva_categoria))
-        print(f'✅ Categoría creada: {self.nombre} (ID: {cat_id})')
+        print(f'✅ Categoría creada: {self.slug} (ID: {cat_id})')
         self.id=id
         return cat_id
     
