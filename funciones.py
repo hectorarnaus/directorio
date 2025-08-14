@@ -21,13 +21,15 @@ def sluguiza(texto):
     texto=texto.replace("ú","u")
     texto=texto.replace("ü","u")
     texto=texto.replace("ù","u")
+    '''
     texto=texto.replace(" de las ","-")
-    texto=texto.replace(" de los","-")
+    texto=texto.replace(" de los ","-")
     texto=texto.replace(" de ","-")
+    texto=texto.replace(" del ","-")
     texto=texto.replace(" el ","-")
     texto=texto.replace(" la ","-")
     texto=texto.replace(" los ","-")
-    texto=texto.replace(" las ","-")
+    texto=texto.replace(" las ","-")'''
     texto=texto.replace(" ","-")
     texto=texto.replace("&quot;","'")
     texto=texto.replace("&amp;","&")
@@ -82,7 +84,6 @@ def obten_id_categoria_provincia(provincia,lista_categorias):
     return 0
 
 def crea_provincia(home,provincia,texto,imagen):
-    provincia=sluguiza(provincia)
 
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
@@ -107,11 +108,9 @@ def crea_provincia(home,provincia,texto,imagen):
     return res
 
 def crea_municipio(home,municipio,provincia,texto,imagen):
-    provincia=sluguiza(provincia)
-    municipio=sluguiza(municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/blog/provincia-{provincia}">{provincia}</a> &gt; {municipio}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{sluguiza("Provincia de "+provincia)}">{provincia}</a> &gt; {municipio}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->'
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"https://calculadora-porcentajes-colombia.top/localidad/ciudad/#main","mediaType":"image"}} -->\n'
@@ -124,17 +123,80 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
         f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las creperias de {municipio}</h2>\n'
         '\t\t<!-- /wp:heading -->\n'
-        f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{sluguiza(municipio)}")"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
+        f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{municipio}"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
+
         '<!-- /wp:group -->')
+    '''
+    {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mejores creperías en Valladolid",
+  "description": "Directorio de creperías recomendadas en Valladolid",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Restaurant",
+        "@id": "https://midominio.com/valladolid/creperia-la-dulce/",
+        "url": "https://midominio.com/valladolid/creperia-la-dulce/",
+        "name": "Crepería La Dulce",
+        "image": "https://midominio.com/wp-content/uploads/creperia-la-dulce.jpg",
+        "servesCuisine": "Creperie",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle Mayor 12",
+          "addressLocality": "Valladolid",
+          "addressRegion": "Valladolid",
+          "postalCode": "47001",
+          "addressCountry": "ES"
+        },
+        "telephone": "+34 912 345 678",
+        "priceRange": "$$",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "reviewCount": "127"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Restaurant",
+        "@id": "https://midominio.com/valladolid/creperia-el-sabor/",
+        "url": "https://midominio.com/valladolid/creperia-el-sabor/",
+        "name": "Crepería El Sabor",
+        "image": "https://midominio.com/wp-content/uploads/creperia-el-sabor.jpg",
+        "servesCuisine": "Creperie",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenida Central 45",
+          "addressLocality": "Valladolid",
+          "addressRegion": "Valladolid",
+          "postalCode": "47002",
+          "addressCountry": "ES"
+        },
+        "telephone": "+34 987 654 321",
+        "priceRange": "$$",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "reviewCount": "98"
+        }
+      }
+    }
+  ]
+}
+'''
     return res
 
 def crea_negocio(home,negocio):
 
-    provincia=sluguiza(negocio.provincia)
-    municipio=sluguiza(negocio.municipio)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
-        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/blog/provincia-{provincia}">{negocio.provincia}</a> &gt; <a href="{home}/blog/provincia-{provincia}/{sluguiza(municipio)}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
+        f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{home}/{sluguiza(negocio.municipio)}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->\n'
 
@@ -252,6 +314,43 @@ def crea_negocio(home,negocio):
 
         f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{negocio.municipio}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
         '<!-- /wp:group -->\n'
+        '<script>\n'
+        '\t{\n'
+        '\t"@context": "https://schema.org",\n'
+        '\t"@type": "Restaurant",\n'
+        f'\t"name": "{negocio.nombre}",\n'
+        f'\t"image": "{negocio.foto}",\n'
+        '\t"servesCuisine": "Creperie",\n'
+        '\t"address": {\n'
+        '\t\t"@type": "PostalAddress",\n'
+        f'\t\t"streetAddress": "{negocio.direccion}",\n'
+        f'\t\t"addressLocality": "{negocio.municipio}",\n'
+        f'\t\t"addressRegion": "{negocio.provincia}",\n'
+        '\t\t"addressCountry": "ES"\n'
+        '\t},\n'
+        f'\t"telephone": "{negocio.telefono}",\n'
+        '\t"openingHours": [\n'
+        f'\t\t"Mo 09:00-23:00",\n'
+        f'\t\t"Tu 09:00-23:00",\n'
+        f'\t\t"We 09:00-23:00",\n'
+        f'\t\t"Th 09:00-23:00",\n'
+        f'\t\t"Fr 09:00-23:00",\n'
+        f'\t\t"Sa 10:00-00:00",\n'
+        f'\t\t"Su 10:00-00:00"\n'
+        '\t]\n'
+    
+  "url": "https://midominio.com/valladolid/creperia-la-dulce/",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "127"
+  },
+  "sameAs": [
+    "https://www.facebook.com/creperialadulce",
+    "https://www.instagram.com/creperialadulce"
+  ]
+}
+'''
     )
     return res
 

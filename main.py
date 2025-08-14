@@ -13,7 +13,12 @@ wc.connect()
 
 etiquetas=['crepería','crepes','creperias cerca','crepe suzette','crepe nutella','crepe nocilla','crepe chocolate']
 lista_categorias=[]
-
+'''
+categoria_provincia=WPCategory("provincia","provincia")
+categoria_provincia.creaCategoria(wc)
+categoria_municipio=WPCategory("municipio","municipio")
+categoria_municipio.creaCategoria(wc)
+'''
 ruta=os.getcwd()+("/provincia")
 for img in os.listdir(ruta):
     provincia=obten_nombre_provincia(img)
@@ -21,19 +26,20 @@ for img in os.listdir(ruta):
     wp_img.upload(wc)
     wp_article=WpPost(f"Creperías en la provincia de {provincia}")
     print(f"sluguiza provincia de {provincia}={sluguiza("provincia de "+provincia)}")
-    categoria=WPCategory("Provincia de "+provincia,sluguiza("provincia-"+provincia))
+    ''' categoria=WPCategory("Provincia de "+provincia,"provincia")
     id_categoria=categoria.creaCategoria(wc)
     d_categoria = {
         "Nombre": provincia,
         "Id": id_categoria
     }
     lista_categorias.append(d_categoria)
-    '''wp_article.add_tag("provincias")
+    wp_article.add_tag("provincias")
     for etiqueta in etiquetas:
         wp_article.add_tag(etiqueta)'''
     wp_article.add_element(crea_provincia(dominio,provincia,obten_texto_provincia(provincia),wp_img))
     wp_article.set_slug(sluguiza("provincia de "+provincia))
-    print(wp_article.get_post())
+    wp_article.add_category("provincia")
+   
     wc.publica_post(wp_article)
 
 
@@ -47,13 +53,14 @@ for img in os.listdir(ruta):
     wp_img.upload(wc)
     wp_article=WpPost(f"Creperías en el municipio de {municipio}","Provincia de "+provincia)
     ''' print(f"creando categoría nombre={municipio} slug={sluguiza(municipio)} provincia={provincia}")
-    print(f"id de categoria de provincia={obten_id_categoria_provincia(provincia,lista_categorias)}")'''
+    print(f"id de categoria de provincia={obten_id_categoria_provincia(provincia,lista_categorias)}")
     categoria=WPCategory(sluguiza(municipio),sluguiza(municipio),obten_id_categoria_provincia(provincia,lista_categorias))
     categoria.creaCategoria(wc)
-    #wp_article.add_category("Provincia de "+provincia)
+    wp_article.add_category("Provincia de "+provincia)
+    wp_article.add_category("municipio")
     wp_article.add_tag(provincia)
     for etiqueta in etiquetas:
-        wp_article.add_tag(etiqueta)
+        wp_article.add_tag(etiqueta)'''
     wp_article.add_element(crea_municipio(dominio,municipio,provincia,obten_texto_municipio(municipio),wp_img))
     wp_article.set_slug(sluguiza(municipio))
     wc.publica_post(wp_article)

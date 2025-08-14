@@ -1,4 +1,5 @@
 import openpyxl 
+import re
 def obten_lista_provincias(fichero_excel):
     lista=[]
     try:
@@ -110,6 +111,26 @@ def crea_horario_html(horario):
 				'</ul>\n')
     return horario_html
 
+
+def obten_horario_dia(horario,dia):
+    horario_troceado=horario.split(";")
+    for trozo in horario_troceado:
+        if dia in trozo:
+            
+            if "Cerrado" in trozo:
+                return None
+            elif f"{dia}, De " in trozo:                
+                texto=trozo[len(f"{dia}, De "):]
+
+            # 00:00–23:59 amb hora d'1 o 2 xifres
+            HORA = r'(?:[01]?\d|2[0-3]):[0-5]\d'
+
+            patron = rf'(?:\bde\b[\s\u00A0]*)?({HORA})[\s\u00A0]*a[\s\u00A0]*({HORA})'
+            res=re.findall(patron, texto, flags=re.IGNORECASE)
+            
+            return res
+    return None
+
 class Negocio:
     def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto):
         self.municipio=municipio
@@ -123,6 +144,13 @@ class Negocio:
         final=mapa.find('"',inicio+1)+1
         self.mapa=mapa[inicio:final-1]
         self.horario=crea_horario_html(horario)
+        self.horario_lunes=obten_horario_dia(horario,"lunes")
+        self.horario_martes=obten_horario_dia(horario,"martes")
+        self.horario_miercoles=obten_horario_dia(horario,"miércoles")
+        self.horario_jueves=obten_horario_dia(horario,"jueves")
+        self.horario_viernes=obten_horario_dia(horario,"viernes")
+        self.horario_sabado=obten_horario_dia(horario,"sábado")
+        self.horario_domingo=obten_horario_dia(horario,"donmingo")
         self.foto=foto
     
     def __str__(self):
@@ -133,7 +161,7 @@ def obten_lista_negocios(fichero_excel):
     try:
         datos=openpyxl.load_workbook(fichero_excel)
         hoja_activa = datos.active
-        fila=2
+        fila=1
         while fila<hoja_activa.max_row:
             municipio=hoja_activa.cell(row=fila,column=7).value
             provincia=hoja_activa.cell(row=fila,column=8).value
