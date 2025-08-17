@@ -1,4 +1,5 @@
 import random, re
+from extraer_datos_excel import obten_horario_semanal
 
 def sluguiza(texto):
     texto=texto.strip()
@@ -193,7 +194,7 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
     return res
 
 def crea_negocio(home,negocio):
-
+    print(negocio.nombre)
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
         f'\t\t<p><a href="{home}">Inicio</a> &gt; <a href="{home}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{home}/{sluguiza(negocio.municipio)}">{negocio.municipio}</a> &gt; {negocio.nombre}</p>'
@@ -242,7 +243,7 @@ def crea_negocio(home,negocio):
 
         '\t<!-- wp:html -->\n'
         f'\t\t[su_list icon="icon: clock-o" icon_color="#7B2C2C" indent="15" class="lista-bloque"]\n{negocio.horario}\n'
-		'\t\t[/su_list]\n'
+		    '\t\t[/su_list]\n'
         '\t<!-- /wp:html --></div>\n'
         '\t<!-- /wp:column -->\n'
 
@@ -314,6 +315,7 @@ def crea_negocio(home,negocio):
 
         f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{negocio.municipio}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
         '<!-- /wp:group -->\n'
+        
         '<script>\n'
         '\t{\n'
         '\t"@context": "https://schema.org",\n'
@@ -330,28 +332,17 @@ def crea_negocio(home,negocio):
         '\t},\n'
         f'\t"telephone": "{negocio.telefono}",\n'
         '\t"openingHours": [\n'
-        f'\t\t"Mo 09:00-23:00",\n'
-        f'\t\t"Tu 09:00-23:00",\n'
-        f'\t\t"We 09:00-23:00",\n'
-        f'\t\t"Th 09:00-23:00",\n'
-        f'\t\t"Fr 09:00-23:00",\n'
-        f'\t\t"Sa 10:00-00:00",\n'
-        f'\t\t"Su 10:00-00:00"\n'
+        f'{obten_horario_semanal(negocio.horario)}'
         '\t]\n'
-    
-  "url": "https://midominio.com/valladolid/creperia-la-dulce/",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "127"
-  },
-  "sameAs": [
-    "https://www.facebook.com/creperialadulce",
-    "https://www.instagram.com/creperialadulce"
-  ]
-}
-'''
+        f'\turl": "{negocio.web}"\n'
+        '\t"aggregateRating": {\n'
+        '\t\t"@type": "AggregateRating",\n'
+        f'\t\t"ratingValue": "{negocio.rating}",\n'
+        f'\t\t"reviewCount": "{negocio.reviews}"\n'
+        '\t},\n'
+        '}\n'
     )
+   
     return res
 
 

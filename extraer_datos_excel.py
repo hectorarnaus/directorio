@@ -113,6 +113,7 @@ def crea_horario_html(horario):
 
 
 def obten_horario_dia(horario,dia):
+       
     horario_troceado=horario.split(";")
     for trozo in horario_troceado:
         if dia in trozo:
@@ -122,17 +123,61 @@ def obten_horario_dia(horario,dia):
             elif f"{dia}, De " in trozo:                
                 texto=trozo[len(f"{dia}, De "):]
 
-            # 00:00–23:59 amb hora d'1 o 2 xifres
-            HORA = r'(?:[01]?\d|2[0-3]):[0-5]\d'
+            #HORA = r'(?:[01]?\d|2[0-3])(?::[0-5]\d)?'
+            HORA = r'(?:2[0-3]|[01]?\d)(?::[0-5]\d)?'
 
+            # Expresión regular que captura todos los intervalos
             patron = rf'(?:\bde\b[\s\u00A0]*)?({HORA})[\s\u00A0]*a[\s\u00A0]*({HORA})'
-            res=re.findall(patron, texto, flags=re.IGNORECASE)
             
-            return res
+            # Encuentra todos los pares de horas
+            tramos = re.findall(patron, texto, flags=re.IGNORECASE)
+            # Aplana la lista de tuplas [(ini, fin), ...] → [ini, fin, ...]
+            horas = [h if ":" in h else f"{h}:00" for par in tramos for h in par]
+
+
+            d_dias=dict([
+                ('lunes','Mo'),
+                ('martes','Tu'),
+                ('miércoles','We'),
+                ('jueves','Th'),
+                ('viernes','Fr'),
+                ('sábado','Sa'),
+                ('domingo','Su')
+            ])
+            if len(horas)==2:
+                return f'\t\t{d_dias[dia]} {horas[0]}-{horas[1]}'
+            elif len(horas)==4:
+                return f'\t\t{d_dias[dia]} {horas[0]}-{horas[1]}, {horas[2]}-{horas[3]}'
+                     
     return None
 
+def obten_horario_semanal(horario):
+    horario_dias=[]
+    if obten_horario_dia(horario,"lunes")!=None:
+        horario_dias.append(obten_horario_dia(horario,"lunes"))
+    if obten_horario_dia(horario,"martes")!=None:
+        horario_dias.append(obten_horario_dia(horario,"martes"))
+    if obten_horario_dia(horario,"miércoles")!=None:
+        horario_dias.append(obten_horario_dia(horario,"miércoles"))
+    if obten_horario_dia(horario,"jueves")!=None:
+        horario_dias.append(obten_horario_dia(horario,"jueves"))
+    if obten_horario_dia(horario,"viernes")!=None:
+        horario_dias.append(obten_horario_dia(horario,"viernes"))
+    if obten_horario_dia(horario,"sábado")!=None:
+        horario_dias.append(obten_horario_dia(horario,"sábado"))
+    if obten_horario_dia(horario,"domingo")!=None:
+        horario_dias.append(obten_horario_dia(horario,"domingo"))
+    
+    res=""
+    i=0
+    while i<len(horario_dias)-2:
+        res+=f'{horario_dias[i]},\n'
+        i+=1
+    res+=f'{horario_dias[i]}\n'  
+    return res
+
 class Negocio:
-    def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto):
+    def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews):
         self.municipio=municipio
         self.provincia=provincia
         self.nombre=nombre
@@ -143,7 +188,8 @@ class Negocio:
         inicio=mapa.find('src="')+5
         final=mapa.find('"',inicio+1)+1
         self.mapa=mapa[inicio:final-1]
-        self.horario=crea_horario_html(horario)
+        self.horario=horario
+        self.horario_html=crea_horario_html(horario)
         self.horario_lunes=obten_horario_dia(horario,"lunes")
         self.horario_martes=obten_horario_dia(horario,"martes")
         self.horario_miercoles=obten_horario_dia(horario,"miércoles")
@@ -152,6 +198,8 @@ class Negocio:
         self.horario_sabado=obten_horario_dia(horario,"sábado")
         self.horario_domingo=obten_horario_dia(horario,"donmingo")
         self.foto=foto
+        self.rating=rating
+        self.reviews=reviews
     
     def __str__(self):
         return f'nombre={self.nombre} municipio={self.municipio}'
@@ -172,10 +220,12 @@ def obten_lista_negocios(fichero_excel):
             web=hoja_activa.cell(row=fila,column=9).value
             mapa=hoja_activa.cell(row=fila,column=11).value
             horario=hoja_activa.cell(row=fila,column=5).value
+            rating=hoja_activa.cell(row=fila,column=3).value
+            reviews=hoja_activa.cell(row=fila,column=4).value
             if horario==None:
                 horario=""
             foto=hoja_activa.cell(row=fila,column=12).value
-            nuevo=Negocio(municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto)
+            nuevo=Negocio(municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews)
             lista_negocios.append(nuevo)
             fila+=1
             
