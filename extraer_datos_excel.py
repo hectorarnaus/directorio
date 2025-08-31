@@ -20,16 +20,14 @@ def obten_lista_provincias(fichero_excel):
 
 def obten_lista_municipios(fichero_excel):
     lista=[]
-    lista_localidades=[]
     try:
         datos=openpyxl.load_workbook(fichero_excel)
         hoja_activa = datos.active
         fila=2
         while fila<hoja_activa.max_row:
             localidad=hoja_activa.cell(row=fila,column=7).value#,hoja_activa.cell(row=fila,column=8).value]
-            if localidad not in lista_localidades:
-                lista.append([localidad,hoja_activa.cell(row=fila,column=8).value])
-                lista_localidades.append(localidad)
+            if localidad not in lista:
+                lista.append(localidad)#,hoja_activa.cell(row=fila,column=8).value])
             fila+=1
         #lista.sort()
         return lista
@@ -101,13 +99,13 @@ def crea_horario_html(horario):
     domingo=horario[inicio_domingo+9:final_domingo].lower()
 
     horario_html=('<ul>\n'
-                  f'\t<li><stron>Lunes:</strong> {lunes}</li>\n'
-                  f'\t<li><stron>Martes:</strong> {martes}</li>\n'
-                  f'\t<li><stron>Miércoles:</strong> {miercoles}</li>\n'
-                  f'\t<li><stron>Jueves:</strong> {jueves}</li>\n'
-                  f'\t<li><stron>Viernes:</strong> {viernes}</li>\n'
-                  f'\t<li><stron>Sábado:</strong> {sabado}</li>\n'
-                  f'\t<li><stron>Domingo:</strong> {domingo}</li>\n'
+                  f'\t<li><strong>Lunes:</strong> {lunes}</li>\n'
+                  f'\t<li><strong>Martes:</strong> {martes}</li>\n'
+                  f'\t<li><strong>Miércoles:</strong> {miercoles}</li>\n'
+                  f'\t<li><strong>Jueves:</strong> {jueves}</li>\n'
+                  f'\t<li><strong>Viernes:</strong> {viernes}</li>\n'
+                  f'\t<li><strong>Sábado:</strong> {sabado}</li>\n'
+                  f'\t<li><strong>Domingo:</strong> {domingo}</li>\n'
 				'</ul>\n')
     return horario_html
 
@@ -228,9 +226,42 @@ def obten_lista_negocios(fichero_excel):
             nuevo=Negocio(municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews)
             lista_negocios.append(nuevo)
             fila+=1
-            
+                  
         return lista_negocios
     except FileNotFoundError:
         print("Error: Archivo no encontrado.")
     except Exception as e:
         print(f"Ocurrió un error: {e}")
+
+
+def obten_lista_negocios_municipio(fichero_excel,municipio):
+    lista_negocios=[]
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=1
+        while fila<hoja_activa.max_row:
+            if hoja_activa.cell(row=fila,column=7).value==municipio:
+                provincia=hoja_activa.cell(row=fila,column=8).value
+                nombre=hoja_activa.cell(row=fila,column=1).value
+                texto=hoja_activa.cell(row=fila,column=13).value
+                direccion=hoja_activa.cell(row=fila,column=6).value
+                telefono=hoja_activa.cell(row=fila,column=10).value
+                web=hoja_activa.cell(row=fila,column=9).value
+                mapa=hoja_activa.cell(row=fila,column=11).value
+                horario=hoja_activa.cell(row=fila,column=5).value
+                rating=hoja_activa.cell(row=fila,column=3).value
+                reviews=hoja_activa.cell(row=fila,column=4).value
+                if horario==None:
+                    horario=""
+                foto=hoja_activa.cell(row=fila,column=12).value
+                nuevo=Negocio(municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews)
+                lista_negocios.append(nuevo)
+            fila+=1
+                  
+        return lista_negocios
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+               

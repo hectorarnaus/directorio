@@ -1,5 +1,57 @@
 import random, re
-from extraer_datos_excel import obten_horario_semanal
+from extraer_datos_excel import obten_horario_semanal,obten_lista_negocios_municipio,crea_horario_html
+def imprime_lista_negocios(lista_negocios):
+    res=""
+    for negocio in lista_negocios:
+        bloque=('<!-- wp:html -->\t'
+                f'\t[su_box title="{negocio.nombre}" box_color="contrast-3" title_color="contrast" radius="6" class="su_box"]\n'
+                '\t[su_row]\n'
+		            '\t[su_column size="1/2" center="no" class=""]\n'
+			          '\t[su_list icon="icon: clock-o" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+				        '\t<ul>\n'
+					      '\t<li>Horario</li>\n'
+				        '\t</ul>\n'
+			          '\t[/su_list]\n'
+			          '\t[su_list icon="icon: check" icon_color="contrast-3" indent="70" class="lista-bloque"]\n'
+                f'\t\t{crea_horario_html(negocio.horario)}\n'
+			          '\t[/su_list]\n'
+                '\t[su_list icon="icon: envelope" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+	              '\t\t<ul>\n'
+		            f'\t\t\t<li>Dirección: {negocio.direccion}</li>\n'
+  	            '\t\t</ul>\n'
+                '\t[/su_list]\n'
+                '\t[su_list icon="icon: dribbble" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+	              '\t\t<ul>\n'
+		            f'\t\t\t<li>Web:<a href="{negocio.web}">{negocio.web}</a></li>'
+	              '\t\t</ul>\n'
+                '\t[/su_list]\n'
+                '\t[su_list icon="icon: phone" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+	              '\t\t<ul>\n'
+		            f'\t\t\t<li>Teléfono: <a href="tel:{negocio.telefono}">{negocio.telefono}</a></li>'
+	              '\t\t</ul>\n'
+                '\t[/su_list]\n'
+		            '[/su_column]\n'
+		            '[su_column size="1/2" center="no" class=""]\n'
+                f'\t<iframe src="{negocio.mapa}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+		            '[/su_column]\n'
+	              '[/su_row]\n'
+	              '[su_row]\n'
+		            '\t[su_column size="1/1" center="yes" class=""]\n'
+                f'\t\t[su_button url="tel:+{negocio.telefono}" target="blank" background="contrast-3" color="contrast" size="15" center="yes"]'
+	              '\t\t\t¡LLAMA AHORA!\n'
+                '\t[/su_button]\n'
+		            '[/su_column]\n'
+	              '[/su_row]\n'
+                '[/su_box]\n'
+                '<br>\n'
+                '<!-- /wp:html -->\n'
+            )
+        res+=bloque
+    return res
+
+
+    
+	
 
 def sluguiza(texto):
     texto=texto.strip()
@@ -22,15 +74,6 @@ def sluguiza(texto):
     texto=texto.replace("ú","u")
     texto=texto.replace("ü","u")
     texto=texto.replace("ù","u")
-    '''
-    texto=texto.replace(" de las ","-")
-    texto=texto.replace(" de los ","-")
-    texto=texto.replace(" de ","-")
-    texto=texto.replace(" del ","-")
-    texto=texto.replace(" el ","-")
-    texto=texto.replace(" la ","-")
-    texto=texto.replace(" los ","-")
-    texto=texto.replace(" las ","-")'''
     texto=texto.replace(" ","-")
     texto=texto.replace("&quot;","'")
     texto=texto.replace("&amp;","&")
@@ -84,6 +127,46 @@ def obten_id_categoria_provincia(provincia,lista_categorias):
             return categoria['Id']
     return 0
 
+
+def crea_schema_negocio(negocio):
+    res=('\t{\n'
+        '\t"@context": "https://schema.org",\n'
+        '\t"@type": "Restaurant",\n'
+        f'\t"name": "{negocio.nombre}",\n'
+        f'\t"image": "{negocio.foto}",\n'
+        '\t"servesCuisine": "Creperie",\n'
+        '\t"address": {\n'
+        '\t\t"@type": "PostalAddress",\n'
+        f'\t\t"streetAddress": "{negocio.direccion}",\n'
+        f'\t\t"addressLocality": "{negocio.municipio}",\n'
+        f'\t\t"addressRegion": "{negocio.provincia}",\n'
+        '\t\t"addressCountry": "ES"\n'
+        '\t},\n'
+        f'\t"telephone": "{negocio.telefono}",\n'
+        '\t"openingHours": [\n'
+        f'{obten_horario_semanal(negocio.horario)}'
+        '\t]\n'
+        f'\turl": "{negocio.web}"\n'
+        '\t"aggregateRating": {\n'
+        '\t\t"@type": "AggregateRating",\n'
+        f'\t\t"ratingValue": "{negocio.rating}",\n'
+        f'\t\t"reviewCount": "{negocio.reviews}"\n'
+        '\t},\n'
+        '}\n'
+    )
+    return res
+
+def crear_schema_municipio(municipio):
+    res=(
+        '{\n'
+        '"\t@context": "https://schema.org",\n'
+        '"\t@type": "ItemList",\n'
+        f'\t"\tname": "Mejores creperías en {municipio}",\n'
+        f'\t"description": "Directorio de creperías recomendadas en {municipio}",\n'
+        '\t"itemListElement": [\n'
+        )
+    return res
+
 def crea_provincia(home,provincia,texto,imagen):
 
     res=('<!-- wp:html -->\n'
@@ -126,7 +209,10 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
         '\t\t<!-- /wp:heading -->\n'
         f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{municipio}"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
 
-        '<!-- /wp:group -->')
+        '<!-- /wp:group -->'
+        '<div>'
+        f'{imprime_lista_negocios(obten_lista_negocios_municipio("castilla_leon_1.xlsx",municipio))}'
+      )
     '''
     {
   "@context": "https://schema.org",
@@ -317,30 +403,8 @@ def crea_negocio(home,negocio):
         '<!-- /wp:group -->\n'
         
         '<script>\n'
-        '\t{\n'
-        '\t"@context": "https://schema.org",\n'
-        '\t"@type": "Restaurant",\n'
-        f'\t"name": "{negocio.nombre}",\n'
-        f'\t"image": "{negocio.foto}",\n'
-        '\t"servesCuisine": "Creperie",\n'
-        '\t"address": {\n'
-        '\t\t"@type": "PostalAddress",\n'
-        f'\t\t"streetAddress": "{negocio.direccion}",\n'
-        f'\t\t"addressLocality": "{negocio.municipio}",\n'
-        f'\t\t"addressRegion": "{negocio.provincia}",\n'
-        '\t\t"addressCountry": "ES"\n'
-        '\t},\n'
-        f'\t"telephone": "{negocio.telefono}",\n'
-        '\t"openingHours": [\n'
-        f'{obten_horario_semanal(negocio.horario)}'
-        '\t]\n'
-        f'\turl": "{negocio.web}"\n'
-        '\t"aggregateRating": {\n'
-        '\t\t"@type": "AggregateRating",\n'
-        f'\t\t"ratingValue": "{negocio.rating}",\n'
-        f'\t\t"reviewCount": "{negocio.reviews}"\n'
-        '\t},\n'
-        '}\n'
+        f'{crea_schema_negocio(negocio)}'
+        '</script>\n'
     )
    
     return res
