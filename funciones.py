@@ -1,43 +1,50 @@
 import random, re
 from extraer_datos_excel import obten_horario_semanal,obten_lista_negocios_municipio,crea_horario_html
-def imprime_lista_negocios(lista_negocios):
+
+color_contrast="#4B3621"
+color_base="#FAF4E8"
+excel_datos="castilla_leon_1.xlsx"
+
+def imprime_lista_negocios(lista_negocios,contrast,base):
     res=""
     for negocio in lista_negocios:
         bloque=('<!-- wp:html -->\t'
-                f'\t[su_box title="{negocio.nombre}" box_color="contrast-3" title_color="contrast" radius="6" class="su_box"]\n'
+                f'\t[su_box title="{negocio.nombre}" box_color="{contrast}" title_color="{base}" radius="6"]\n'
                 '\t[su_row]\n'
 		            '\t[su_column size="1/2" center="no" class=""]\n'
-			          '\t[su_list icon="icon: clock-o" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+			          f'\t[su_list icon="icon: clock-o" icon_color="{contrast}" indent="40" class="lista-bloque"]\n'
 				        '\t<ul>\n'
 					      '\t<li>Horario</li>\n'
 				        '\t</ul>\n'
 			          '\t[/su_list]\n'
-			          '\t[su_list icon="icon: check" icon_color="contrast-3" indent="70" class="lista-bloque"]\n'
+			          f'\t[su_list icon="icon: check" icon_color="{contrast}" indent="70" class="lista-bloque"]\n'
                 f'\t\t{crea_horario_html(negocio.horario)}\n'
 			          '\t[/su_list]\n'
-                '\t[su_list icon="icon: envelope" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+                f'\t[su_list icon="icon: envelope" icon_color="{contrast}" indent="40" class="lista-bloque"]\n'
 	              '\t\t<ul>\n'
 		            f'\t\t\t<li>Dirección: {negocio.direccion}</li>\n'
   	            '\t\t</ul>\n'
                 '\t[/su_list]\n'
-                '\t[su_list icon="icon: dribbble" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+                f'\t[su_list icon="icon: dribbble" icon_color="{contrast}" indent="40" class="lista-bloque"]\n'
 	              '\t\t<ul>\n'
-		            f'\t\t\t<li>Web:<a href="{negocio.web}">{negocio.web}</a></li>'
-	              '\t\t</ul>\n'
-                '\t[/su_list]\n'
-                '\t[su_list icon="icon: phone" icon_color="contrast-3" indent="40" class="lista-bloque"]\n'
+        )
+        if negocio.web!=None:
+                bloque+=f'\t\t\t<li>Web:<a href="{negocio.web}">{negocio.web}</a></li>\t\t</ul>\n\t[/su_list]\n'
+
+        bloque+=(
+                f'\t[su_list icon="icon: phone" icon_color="{contrast}" indent="40" class="lista-bloque"]\n'
 	              '\t\t<ul>\n'
 		            f'\t\t\t<li>Teléfono: <a href="tel:{negocio.telefono}">{negocio.telefono}</a></li>'
 	              '\t\t</ul>\n'
                 '\t[/su_list]\n'
 		            '[/su_column]\n'
 		            '[su_column size="1/2" center="no" class=""]\n'
-                f'\t<iframe src="{negocio.mapa}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+                f'\t<iframe src="{negocio.mapa}" width="600" height="450" style="border:1px solid {contrast};" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
 		            '[/su_column]\n'
 	              '[/su_row]\n'
 	              '[su_row]\n'
 		            '\t[su_column size="1/1" center="yes" class=""]\n'
-                f'\t\t[su_button url="tel:+{negocio.telefono}" target="blank" background="contrast-3" color="contrast" size="15" center="yes"]'
+                f'\t\t[su_button url="tel:+{negocio.telefono}" target="blank" background="{contrast}" color="{base}" size="15" center="yes"]'
 	              '\t\t\t¡LLAMA AHORA!\n'
                 '\t[/su_button]\n'
 		            '[/su_column]\n'
@@ -144,27 +151,66 @@ def crea_schema_negocio(negocio):
         '\t},\n'
         f'\t"telephone": "{negocio.telefono}",\n'
         '\t"openingHours": [\n'
-        f'{obten_horario_semanal(negocio.horario)}'
+        f'{obten_horario_semanal(negocio.horario)},'
         '\t]\n'
-        f'\turl": "{negocio.web}"\n'
+        f'\t"url": "{negocio.web}",\n'
         '\t"aggregateRating": {\n'
         '\t\t"@type": "AggregateRating",\n'
         f'\t\t"ratingValue": "{negocio.rating}",\n'
         f'\t\t"reviewCount": "{negocio.reviews}"\n'
-        '\t},\n'
+        '\t}\n'
         '}\n'
     )
     return res
 
 def crear_schema_municipio(municipio):
+    negocios=obten_lista_negocios_municipio(excel_datos,municipio)
     res=(
         '{\n'
-        '"\t@context": "https://schema.org",\n'
-        '"\t@type": "ItemList",\n'
-        f'\t"\tname": "Mejores creperías en {municipio}",\n'
+        '\t"@context": "https://schema.org",\n'
+        '\t"@type": "ItemList",\n'
+        f'\t\t"name": "Mejores creperías en {municipio}",\n'
         f'\t"description": "Directorio de creperías recomendadas en {municipio}",\n'
         '\t"itemListElement": [\n'
         )
+    i=0
+    while i<len(negocios):
+      schema_negocio=(
+          '{\t\t\n'
+          '\t\t"@type": "ListItem",\n'
+          f'\t\t"position": {i},\n'
+          '\t\t"item": {\n'
+          '\t\t\t"@type": "Restaurant",\n'
+          f'\t\t\t"name": "{negocios[i].nombre}",\n'
+          f'\t\t\t"image": "{negocios[i].foto}",\n'
+          '\t\t\t"servesCuisine": "Creperie",\n'
+          '\t\t\t"address": {\n'
+          '\t\t\t\t"@type": "PostalAddress",\n'
+          f'\t\t\t\t"streetAddress": "{negocios[i].direccion}",\n'
+          f'\t\t\t\t"addressLocality": "{negocios[i].municipio}",\n'
+          f'\t\t\t\t"addressRegion": "{negocios[i].provincia}",\n'
+          '\t\t\t\t"addressCountry": "ES"\n'
+          '\t\t\t},\n'
+          f'\t\t\t"telephone": "{negocios[i].telefono}",\n'
+          '\t\t\t"openingHours": [\n'
+          f'{obten_horario_semanal(negocios[i].horario)}'
+          '\t\t\t],\n'
+          f'\t\t\t"url": "{negocios[i].web}",\n'
+          '\t\t\t"aggregateRating": {\n'
+          '\t\t\t\t"@type": "AggregateRating",\n'
+          f'\t\t\t\t"ratingValue": "{negocios[i].rating}",\n'
+          f'\t\t\t\t"reviewCount": "{negocios[i].reviews}"\n'
+          '\t\t\t}\n'
+          '\t\t}\n'
+          '\t}\n'
+      )
+      if i<len(negocios)-1:
+        schema_negocio+=","
+      i+=1  
+    res+=schema_negocio
+    res+=']\n}\n'
+
+        
     return res
 
 def crea_provincia(home,provincia,texto,imagen):
@@ -211,72 +257,15 @@ def crea_municipio(home,municipio,provincia,texto,imagen):
 
         '<!-- /wp:group -->'
         '<div>'
-        f'{imprime_lista_negocios(obten_lista_negocios_municipio("castilla_leon_1.xlsx",municipio))}'
+        f'{imprime_lista_negocios(obten_lista_negocios_municipio(excel_datos,municipio),color_contrast,color_base)}'
+        '<script type="application/ld+json">\n'
+        f'{crear_schema_municipio(municipio)}'
+        '</script>\n'
       )
-    '''
-    {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Mejores creperías en Valladolid",
-  "description": "Directorio de creperías recomendadas en Valladolid",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@type": "Restaurant",
-        "@id": "https://midominio.com/valladolid/creperia-la-dulce/",
-        "url": "https://midominio.com/valladolid/creperia-la-dulce/",
-        "name": "Crepería La Dulce",
-        "image": "https://midominio.com/wp-content/uploads/creperia-la-dulce.jpg",
-        "servesCuisine": "Creperie",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Calle Mayor 12",
-          "addressLocality": "Valladolid",
-          "addressRegion": "Valladolid",
-          "postalCode": "47001",
-          "addressCountry": "ES"
-        },
-        "telephone": "+34 912 345 678",
-        "priceRange": "$$",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "reviewCount": "127"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@type": "Restaurant",
-        "@id": "https://midominio.com/valladolid/creperia-el-sabor/",
-        "url": "https://midominio.com/valladolid/creperia-el-sabor/",
-        "name": "Crepería El Sabor",
-        "image": "https://midominio.com/wp-content/uploads/creperia-el-sabor.jpg",
-        "servesCuisine": "Creperie",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Avenida Central 45",
-          "addressLocality": "Valladolid",
-          "addressRegion": "Valladolid",
-          "postalCode": "47002",
-          "addressCountry": "ES"
-        },
-        "telephone": "+34 987 654 321",
-        "priceRange": "$$",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "reviewCount": "98"
-        }
-      }
-    }
-  ]
-}
-'''
+    
+    
+
+
     return res
 
 def crea_negocio(home,negocio):
@@ -402,7 +391,7 @@ def crea_negocio(home,negocio):
         f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{negocio.municipio}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
         '<!-- /wp:group -->\n'
         
-        '<script>\n'
+        '<script type="application/ld+json">\n'
         f'{crea_schema_negocio(negocio)}'
         '</script>\n'
     )

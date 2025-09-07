@@ -11,7 +11,10 @@ dominio="https://calculadora-porcentajes-colombia.top"
 wc=WpConnection(f"{dominio}//xmlrpc.php",'hector.arnaus@gmail.com','bolo3o,Eresgay')
 wc.connect()
 
+
+
 excel_datos="castilla_leon_1.xlsx"
+
 lista_provincias=obten_lista_provincias(excel_datos)
 lista_municipios=obten_lista_municipios(excel_datos)
 negocios=obten_lista_negocios(excel_datos)

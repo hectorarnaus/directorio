@@ -143,9 +143,9 @@ def obten_horario_dia(horario,dia):
                 ('domingo','Su')
             ])
             if len(horas)==2:
-                return f'\t\t{d_dias[dia]} {horas[0]}-{horas[1]}'
+                return f'\t\t"{d_dias[dia]} {horas[0]}-{horas[1]}"'
             elif len(horas)==4:
-                return f'\t\t{d_dias[dia]} {horas[0]}-{horas[1]}, {horas[2]}-{horas[3]}'
+                return f'\t\t"{d_dias[dia]} {horas[0]}-{horas[1]}, {horas[2]}-{horas[3]}"'
                      
     return None
 
