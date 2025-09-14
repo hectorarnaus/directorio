@@ -1,0 +1,5 @@
+tipo_negocio="Creperías"
+dominio="https://calculadora-porcentajes-colombia.top"
+color_contrast="#4B3621"
+color_base="#FAF4E8"
+excel_datos="castilla_leon_1.xlsx"

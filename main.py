@@ -2,12 +2,13 @@ import os
 import openpyxl 
 from funciones import *
 from extraer_datos_excel import *
+from negocio import *
 from autowordpress import *
+from constantes_configuracion import *
 
 
 
 
-dominio="https://calculadora-porcentajes-colombia.top"
 wc=WpConnection(f"{dominio}//xmlrpc.php",'hector.arnaus@gmail.com','bolo3o,Eresgay')
 wc.connect()
 
@@ -21,21 +22,16 @@ negocios=obten_lista_negocios(excel_datos)
 
 etiquetas=['crepería','crepes','creperias cerca','crepe suzette','crepe nutella','crepe nocilla','crepe chocolate']
 lista_categorias=[]
-'''
-categoria_provincia=WPCategory("provincia","provincia")
-categoria_provincia.creaCategoria(wc)
-categoria_municipio=WPCategory("municipio","municipio")
-categoria_municipio.creaCategoria(wc)
-'''
+
 ruta=os.getcwd()+("/provincia")
 for img in os.listdir(ruta):
     provincia=obten_nombre_provincia(img)
     if provincia in lista_provincias:
-        wp_img=Image(ruta+"/"+img,f"Descubre todas las creperías en la provincia de {provincia} ordenadas por orden alfabético")
+        wp_img=Image(ruta+"/"+img,f"Descubre todas las {tipo_negocio.lower()} en la provincia de {provincia} ordenadas por orden alfabético")
         wp_img.upload(wc)
-        wp_article=WpPost(f"Creperías en la provincia de {provincia}")
+        wp_article=WpPost(f"{tipo_negocio} en la provincia de {provincia}")
         print(f"sluguiza provincia de {provincia}={sluguiza("provincia de "+provincia)}")
-        wp_article.add_element(crea_provincia(dominio,provincia,obten_texto_provincia(provincia),wp_img))
+        wp_article.add_element(crea_provincia(provincia,obten_texto_provincia(provincia),wp_img))
         wp_article.set_slug(sluguiza("provincia de "+provincia))
         wp_article.add_category("provincia")
         wc.publica_post(wp_article)
@@ -46,12 +42,11 @@ for img in os.listdir(ruta):
     municipio=obten_nombre_municipio(img)
     if municipio in lista_municipios:
         provincia=obten_nombre_provincia_municipio(img)
-        print(f"La provincia de {municipio} es {provincia}")
         print(f"Creando el artículo del municipio de {municipio}")
-        wp_img=Image(ruta+"/"+img,f"Creperías en el municipio de {municipio}")
+        wp_img=Image(ruta+"/"+img,f"{tipo_negocio} en el municipio de {municipio}")
         wp_img.upload(wc)
-        wp_article=WpPost(f"Creperías en el municipio de {municipio}","Provincia de "+provincia)
-        wp_article.add_element(crea_municipio(dominio,municipio,provincia,obten_texto_municipio(municipio),wp_img))
+        wp_article=WpPost(f"{tipo_negocio} en el municipio de {municipio}","Provincia de "+provincia)
+        wp_article.add_element(crea_municipio(municipio,provincia,obten_texto_municipio(municipio),wp_img))
         wp_article.set_slug(sluguiza(municipio))
         wc.publica_post(wp_article)
 
@@ -62,7 +57,7 @@ for negocio in negocios:
     wp_article.add_tag(negocio.municipio)
     for etiqueta in etiquetas:
         wp_article.add_tag(etiqueta)
-    wp_article.add_element(crea_negocio(dominio,negocio))
+    wp_article.add_element(crea_negocio(negocio))
     print(sluguiza(negocio.provincia)+"/"+sluguiza(negocio.municipio)+"/"+sluguiza(negocio.nombre))
     wp_article.set_slug(sluguiza(negocio.nombre))
     wc.publica_post(wp_article)
