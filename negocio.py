@@ -1,5 +1,5 @@
 
-import re
+import re,html
 
 
 def obten_horario_dia(horario,dia):
@@ -68,13 +68,14 @@ def obten_horario_semanal(horario):
 
 class Negocio:
     def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews):
-        self.municipio=municipio
-        self.provincia=provincia
-        self.nombre=nombre
-        self.texto=texto
-        self.direccion=direccion
-        self.telefono=telefono
-        self.web=web
+
+        self.municipio=html.escape(str(municipio))
+        self.provincia=html.escape(str(provincia))
+        self.nombre=html.escape(str(nombre))
+        self.texto=html.escape(str(texto))
+        self.direccion=html.escape(str(direccion))
+        self.telefono=html.escape(str(telefono))
+        self.web=html.escape(str(web))
         inicio=mapa.find('src="')+5
         final=mapa.find('"',inicio+1)+1
         self.mapa=mapa[inicio:final-1]

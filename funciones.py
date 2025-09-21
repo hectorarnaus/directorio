@@ -1,4 +1,4 @@
-import random, re
+import random, re, html
 from extraer_datos_excel import *
 from constantes_configuracion import *
 
@@ -47,8 +47,99 @@ def spinner(s):
         if n == 0: break
     return s.strip()
 
+def imprime_lista_negocios(lista_negocios):
+    import html
 
 def imprime_lista_negocios(lista_negocios):
+    res = ""
+    for negocio in lista_negocios:
+        # Escapamos valores para seguridad
+        nombre = html.escape(str(negocio.nombre))
+        direccion = html.escape(str(negocio.direccion))
+        telefono = html.escape(str(negocio.telefono))
+        web = html.escape(str(negocio.web)) if negocio.web else None
+        mapa = html.escape(str(negocio.mapa))
+        horario_html = negocio.obten_horario_html()  # devuelve HTML, no escapamos
+
+        bloque = f"""
+            <!-- wp:html -->
+            [su_box title="{nombre}" box_color="{color_contrast}" title_color="{color_base}" radius="6"]
+            [su_row]
+                [su_column size="1/2" center="no"]
+            
+                [su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
+                    <ul>
+                    <li>Horario</li>
+                    </ul>
+                [/su_list]
+            
+                [su_list icon="icon: check" icon_color="{color_contrast}" indent="70" class="lista-bloque"]
+                    {horario_html}
+                [/su_list]
+            
+                [su_list icon="icon: envelope" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
+                    <ul>
+                    <li>Dirección: {direccion}</li>
+                    </ul>
+                [/su_list]
+            """
+            
+        if web:
+            bloque += f"""
+                [su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
+                    <ul>
+                    <li>Web: <a href="{web}">{web}</a></li>
+                    </ul>
+                [/su_list]
+            """
+            
+        bloque += f"""
+                [su_list icon="icon: phone" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
+                    <ul>
+                    <li>Teléfono: <a href="tel:{telefono}">{telefono}</a></li>
+                    </ul>
+                [/su_list]
+            
+                [/su_column]
+                [su_column size="1/2" center="no"]
+            
+                <iframe src="{mapa}"
+                        width="600"
+                        height="450"
+                        style="border:1px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                [/su_column]
+            [/su_row]
+            
+            [su_row]
+                [su_column size="1/1" center="yes"]
+            
+                <!-- wp:buttons -->
+                    <div class="wp-block-buttons">
+                    <div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
+                        <a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color wp-element-button"
+                        href="tel:{telefono}" style="border-radius:15px">
+                        ¡Llama ahora!
+                        </a>
+                    </div>
+                    </div>
+                <!-- /wp:buttons -->
+            
+                [/su_column]
+            [/su_row]
+            [/su_box]
+            <br>
+            <!-- /wp:html -->
+            """
+        res += bloque
+    return res
+
+
+
+def imprime_lista_negocios_old(lista_negocios):
     res=""
     for negocio in lista_negocios:
         bloque=('<!-- wp:html -->\t'
@@ -68,13 +159,15 @@ def imprime_lista_negocios(lista_negocios):
 		            f'\t\t\t<li>Dirección: {negocio.direccion}</li>\n'
   	            '\t\t</ul>\n'
                 '\t[/su_list]\n'
-                f'\t[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n'
-	              '\t\t<ul>\n'
+                
         )
         if negocio.web!=None:
-                bloque+=f'\t\t\t<li>Web:<a href="{negocio.web}">{negocio.web}</a></li>\t\t</ul>\n\t[/su_list]\n'
+                bloque+=f'\t[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n\t\t<ul>\n'
+                bloque+=f'\t\t\t<li>Web:<a href="{negocio.web}">{negocio.web}</a></li>\t\t\n</ul>\n\t[/su_list]\n'
+                
 
         bloque+=(
+                
                 f'\t[su_list icon="icon: phone" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n'
 	              '\t\t<ul>\n'
 		            f'\t\t\t<li>Teléfono: <a href="tel:{negocio.telefono}">{negocio.telefono}</a></li>'
@@ -87,14 +180,21 @@ def imprime_lista_negocios(lista_negocios):
 	              '[/su_row]\n'
 	              '[su_row]\n'
 		            '\t[su_column size="1/1" center="yes" class=""]\n'
+
+                    '\t<!-- wp:buttons -->\n'
+                    '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
+                    f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="tel:{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
+                    '\t\t<!-- /wp:button -->\n'
+                    '\t<!-- /wp:buttons -->\n'
+
                 
                 #f'\t\t[su_button url="tel:+{negocio.telefono}" target="blank" background="{contrast}" color="contrast-3" size="15" center="yes"]'
 	            #  '\t\t\t¡LLAMA AHORA!\n'
                 #'\t[/su_button]\n'
                 
-                '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-                f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
-                '\t\t<!-- /wp:button -->\n'
+                #'\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
+                #f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
+                #'\t\t<!-- /wp:button -->\n'
 		            '[/su_column]\n'
 	              '[/su_row]\n'
                 '[/su_box]\n'
@@ -336,8 +436,8 @@ def crea_negocio(negocio):
         '\t\t<!-- /wp:heading -->\n'
 
         '\t<!-- wp:html -->\n'
-        #style="border:1px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;"
-        f'\t\t<iframe src="{negocio.mapa}" width="600" height="450"  class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+        
+        f'\t\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:2px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
         '\t<!-- /wp:html -->\n'
 
         '\t<!-- wp:heading {"textAlign":"center"} -->\n'
@@ -410,6 +510,7 @@ def crea_negocio(negocio):
     )
    
     return res
+
 
 
 
