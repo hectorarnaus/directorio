@@ -1,0 +1,2446 @@
+{ "creperias": [
+{
+	"nombre":"Dulcería Artesanal Gomera (Altagracia Navarro Navarro)",
+	"categoria":"Pastelería",
+	"rating":"4,7",
+	"reviews":"149",
+	"horario":"lunes, De 8:30 a 13:30, De 16:00 a 19:00; martes, De 8:30 a 13:30, De 16:00 a 19:00; miércoles, De 8:30 a 13:30, De 16:00 a 19:00; jueves, De 8:30 a 13:30, De 16:00 a 19:00; viernes, De 8:30 a 13:30, De 16:00 a 19:00; sábado, De 9:00 a 13:00; domingo, Cerrado",
+	"direccion":"C. Lugo y Herrera, 28, 38320 La Cuesta, Santa Cruz de Tenerife",
+	"ciudad":"La Cuesta",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"922 65 47 99",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2852921505587!2d-16.291239703210447!3d28.4709537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cc581194f1f3%3A0x7b779f4d3f4ecc0a!2sDulcer%C3%ADa%20Artesanal%20Gomera%20(Altagracia%20Navarro%20Navarro)!5e0!3m2!1ses!2ses!4v1748741484576!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOlI0FaEyn25KbKx3p0Q6OGvoH4CNPjDHxRfVYX=w408-h544-k-no",
+	"comentarios":[
+		"Soy amante de las elaboraciones de la gomera, cómo galletas de mantequillas, rosquetes de manteca, la verdad tenía mejor expectativas con respecto a los productos de allí, ya que son hechos por ellos, pero no quede satisfecha con la textura y resultado final de algunas de sus elaboraciones. Eso sí, todo está hecho por ellos."
+	]
+},
+{
+	"nombre":"Heladería Zumería Gran Rey",
+	"categoria":"Heladería",
+	"rating":"4,0",
+	"reviews":"217",
+	"horario":"lunes, De 9:30 a 22:00; martes, De 9:30 a 22:00; miércoles, Cerrado; jueves, Cerrado; viernes, De 9:30 a 22:00; sábado, De 9:30 a 22:00; domingo, De 9:30 a 22:00",
+	"direccion":"P.º Las Palmeras, n°3, 38870 Playa de la Calera, Santa Cruz de Tenerife",
+	"ciudad":"Playa de la Calera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"922 80 71 57",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.6809637022807!2d-17.347264603210448!3d28.095272899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6b1cd971b41dd5%3A0x8cc1e580ba4b501d!2sHelader%C3%ADa%20Zumer%C3%ADa%20Gran%20Rey!5e0!3m2!1ses!2ses!4v1748741493201!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipO9jwIP7HnjKmaJqWa8UPVIlT_yezKGZhzYLH66=w408-h306-k-no",
+	"comentarios":[
+		"Un sitio muy bien ubicado, solo me tomé un café pero tenían helados y una gran variedad de zumos naturales que hacen en el momento.",
+		"Tiene unas vistas muy bonitas a la playa desde su terraza ya que está literalmente a 3 pasos."
+	]
+},
+{
+	"nombre":"PERENQUÉN FÁBRICA ARTESANAL",
+	"categoria":"Heladería",
+	"rating":"4,3",
+	"reviews":"348",
+	"horario":"lunes, Cerrado; martes, Cerrado; miércoles, Cerrado; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, De 12:30 a 21:00",
+	"direccion":"Pl. de la Constitución, 14, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://sites.google.com/view/gastrobar-la-salamandra/home",
+	"telefono":"626 22 33 01",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.8080359291575!2d-17.11477280321045!3d28.091397799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae58302b987f3%3A0x5e273fc5b74902e0!2sPERENQU%C3%89N%20F%C3%81BRICA%20ARTESANAL!5e0!3m2!1ses!2ses!4v1748741501592!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nryyzH5toLibG8tq7C1NwgTKozNVIDTuT_UEguV4w1Q40_OZvzOB68Fv61uCYttfOXKkAH3xTilRExqMmszSt7fh2MYjiHtq1iUOlBdebs_q_kt25ebeE82c-xTWoSYstxbL4HEsw=w432-h240-k-no",
+	"comentarios":[
+		"Local de pequeñas dimensiones gestionado por dos personas, aunque tiene fama de lento en las comandas he de decir que a nosotros para nada, bien servido y en su tiempo. Detalles de decoración, detalles en la elaboración, platos con sentimiento y calidad. Gran experiencia para nosotros, lo recomiendo. El precio es acorde con los platos y su trabajo."
+	]
+},
+{
+	"nombre":"Kiosko Ramón",
+	"categoria":"Bar restaurante",
+	"rating":"3,7",
+	"reviews":"384",
+	"horario":"lunes, Cerrado; martes, De 6:00 a 22:00; miércoles, De 6:00 a 22:00; jueves, De 6:00 a 22:00; viernes, De 6:00 a 22:00; sábado, De 6:00 a 22:00; domingo, De 7:00 a 23:00",
+	"direccion":"Av. de los Descubridores, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.8080359291575!2d-17.11477280321045!3d28.091397799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae59b52caf8b7%3A0xf0e7f3e05b03aaee!2sKiosko%20Ram%C3%B3n!5e0!3m2!1ses!2ses!4v1748741510279!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqU-uLAkCmPw7dwqmPmbQaKBkmiDDeDYuporCj0VziMLeyhaqcUDKDcO1H021pO99oHp6n08U1kq7RwdpMq99bTGvbBHWOv-P92Sc3pHUWL9cEZHyW2udc63hBSgG-swNsrhTMk1g=w426-h240-k-no",
+	"comentarios":[
+		"Picamos algo aquí antes de tomar el ferry, ya que no teníamos mucho tiempo a disposición.",
+		"Las croquetas no estaban tan mal, teniendo en cuenta que este no es un restaurante.",
+		"El queso asado estaba bañado en miel de palma(que no es santo de mi devoción), pero no era un queso malo.",
+		"El servicio lento…y los camareros muy despistados."
+	]
+},
+{
+	"nombre":"Restaurante Donde Marco&apos;s",
+	"categoria":"Restaurante familiar",
+	"rating":"4,2",
+	"reviews":"104",
+	"horario":"lunes, Cerrado; martes, Cerrado; miércoles, De 13:00 a 22:30; jueves, De 13:30 a 17:00; viernes, De 13:00 a 22:30; sábado, De 13:30 a 22:30; domingo, De 13:30 a 21:30",
+	"direccion":"C. República de Chile, 9, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.8080359291575!2d-17.11477280321045!3d28.091397799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae5ad27edbed9%3A0x15170962d2ab7889!2sRestaurante%20Donde%20Marco&#39;s!5e0!3m2!1ses!2ses!4v1748741518560!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noC4B-vtgxX5PF2liBdP6c5FO45oWJsOzhkBXgdS-2_j95Af5OyiunxwrAklMVmPlIdYOokEjbnlyXN92g5SFodXWQJxAaOxm8xUwK5Sdur0ajgidlNQPHSY3mzhyCB_Rded7JlMQ=w408-h306-k-no",
+	"comentarios":[
+		"Restaurante recomendado por unos amigos de San Sebastián de Las Gomera.",
+		"La Cazuela de Solomillo es extremadamente sabrosa y el Calamar Sahariano súper fresco y sabroso.",
+		"Restaurante super rico y muy céntrico."
+	]
+},
+{
+	"nombre":"Tu Trébol La Gomera",
+	"categoria":"Supermercado",
+	"rating":"3,8",
+	"reviews":"707",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 9:00 a 15:00",
+	"direccion":"Mercado municipal, Av. de Colón, 30, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"http://www.tutrebol.es/",
+	"telefono":"671 69 21 03",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.8080359291575!2d-17.11477280321045!3d28.091397799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae59d2bb949af%3A0xc6e5da680287d667!2sTu%20Tr%C3%A9bol%20La%20Gomera!5e0!3m2!1ses!2ses!4v1748741527937!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nof0IEmWMo_xcIBBcSAQ8CzTbq3VfJi06LZ9Sa6ltfmijYD7lnVbzlOWAb10Ixyp4hnew6aGKkb399FOW_K01Z5TpP7LDR_Jtt1EioYZTK3qGe8872FOuuC5yYGs1lYLU2nTQ9s4w=w408-h306-k-no",
+	"comentarios":[
+		"Los lineales siempre están medio repuestos siempre faltan muchas cosas. La fruta y la verdura parece que viene directamente en mal estado desde Tenerife. Ojo con las fechas de caducidad. Falta de limpieza. El personal es escaso en las cajas porque se utilizan para todo. Las etiquetas con la procedencia del pescado y la carne casi inexistente. El personal pasa de todo."
+	]
+},
+{
+	"nombre":"El Pajar de la gomera",
+	"categoria":"Restaurante",
+	"rating":"3,9",
+	"reviews":"384",
+	"horario":"lunes, Cerrado; martes, De 12:30 a 15:30, De 18:30 a 23:00; miércoles, De 12:30 a 15:30, De 18:30 a 23:00; jueves, De 12:30 a 15:30, De 18:30 a 23:00; viernes, De 12:30 a 15:30, De 18:30 a 23:00; sábado, De 12:30 a 15:30, De 18:30 a 23:00; domingo, De 12:30 a 15:30, De 18:30 a 23:00",
+	"direccion":"C. de Ruiz de Padrón, 42, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://www.instagram.com/restaurante_el_pajar?igsh=MXM1ZmtkOXlrcjhwcQ==",
+	"telefono":"665 11 24 18",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.798192350135!2d-17.118275203210448!3d28.091698000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae5b2ec6c66af%3A0xb0997c02e71738c9!2sEl%20Pajar%20de%20la%20gomera!5e0!3m2!1ses!2ses!4v1748741537717!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nryVZ1sW_Wzmv0qpE2zg9H2qD9qmJP5SW14B1YLXZxsy3JnNLRuqJNFusmOajRu-MV9TDudOMFHFwdRswtwI2SaZlnlZWHW2V8DwORMr2lyV3xnOMvem0cG2XzMGFCBR7d_ZWjfUA=w408-h253-k-no",
+	"comentarios":[
+		"El peor de los peores. El vino blanco tenia un sabor muy raro. La botella sucia y manchata de tinto. La paella seca y muy mal de pescado. El servicio desagradable. Los baños muy sucios. Nunca mas!"
+	]
+},
+{
+	"nombre":"Kiosco Las Carabelas",
+	"categoria":"Bar",
+	"rating":"3,6",
+	"reviews":"742",
+	"horario":"lunes, De 7:30 a 23:30; martes, De 7:30 a 23:30; miércoles, De 7:30 a 23:30; jueves, De 7:30 a 23:30; viernes, De 7:30 a 23:30; sábado, De 7:30 a 23:30; domingo, De 7:30 a 23:30",
+	"direccion":"Pl. de la Constitución, 132, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.798192350135!2d-17.118275203210448!3d28.091698000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae583a89a47fd%3A0x7d45afa0b02b0c6d!2sKiosco%20Las%20Carabelas!5e0!3m2!1ses!2ses!4v1748741547372!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrEs05x5WHxvEfwlH4kzu1olBgc3V1uES1rECaUNoSPJ5X4D8Q0kJQxxzSfBDVvq9NYKtXIAChJvOEITUQDGYPnqx8BBNwrD0EL_Q4hagIEIDofTipUoXQMZW07OBflsWoBPStSOg=w408-h544-k-no",
+	"comentarios":[
+		"Sitio guarro, baños asquerosos, porquería detrás de la barra. Sanidad debería hacer una visita y la policía también, porque estafan a los clientes... No puede ser que una mini tapa de ensaladilla que no da ni para un diente cueste la friolera de 8 euros ¡Ni que fuera una ración! Y que por dos pinchos de tortilla seca del día anterior te estafen 12 eurazos.",
+		"El café infumable...Rancio y viejo.",
+		"En fin... DEMOLEDOR. Sitio a evitar a toda costa."
+	]
+},
+{
+	"nombre":"Panadería y dulcería La Rama",
+	"categoria":"Panadería",
+	"rating":"4,2",
+	"reviews":"51",
+	"horario":"lunes, De 6:30 a 20:00; martes, De 6:30 a 20:00; miércoles, De 6:30 a 20:00; jueves, De 6:30 a 20:00; viernes, De 6:30 a 20:00; sábado, De 7:30 a 20:00; domingo, De 7:30 a 20:00",
+	"direccion":"Av. de los Descubridores, 4, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"http://www.dulcerialarama.es/",
+	"telefono":"922 87 13 21",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.798192350135!2d-17.118275203210448!3d28.091698000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae5831270fab9%3A0xee1f66827d808ae1!2sPanader%C3%ADa%20y%20dulcer%C3%ADa%20La%20Rama!5e0!3m2!1ses!2ses!4v1748741557210!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr6y0KRqN7-oh35zvCgx8pzxXlzssNQoqhqum6l8NCMeGORh39WEMdbnRXiRJDd9MaIO1-VpbubTBxhzgILK-YMArYnikwlEZjtlY91Y37q9S3T5FpWhCrD3TsglDdcXAijMp_8=w426-h240-k-no",
+	"comentarios":[
+		"Me encanta esta pasteleria por su amplia variedad de dulces bollos, tartas y panes.",
+		"Tienen varias sucursales en la isla con horarios de turno partido desde las 7.30 de la mañana.",
+		"La decoración es muy alegre con sillas de coloree ymesas imitando madera. Como lleva poco abierto esta bastante vacio.",
+		"Las chivas son muy agradables."
+	]
+},
+{
+	"nombre":"Restaurante Esperanto",
+	"categoria":"Restaurante",
+	"rating":"4,7",
+	"reviews":"119",
+	"horario":"lunes, De 17:00 a 22:00; martes, De 17:00 a 22:00; miércoles, De 17:00 a 22:00; jueves, De 17:00 a 22:00; viernes, De 17:00 a 22:00; sábado, De 17:00 a 22:00; domingo, De 17:00 a 22:00",
+	"direccion":"C. el Carmen, 3, 38870 Valle Gran Rey, Santa Cruz de Tenerife",
+	"ciudad":"Valle Gran Rey",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"922 80 60 46",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.101023415305!2d-17.33735450321045!3d28.08246119999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6b1dc999b9ff41%3A0x30ab1dbeb2acdaeb!2sRestaurante%20Esperanto!5e0!3m2!1ses!2ses!4v1748741568638!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqWRfi22sL8PsTVSd72UbOAS6yyOH7gfOVWYS_F1lQQE5c-JbpdZ7Tqxf2aH1lIPllTo6f3ehKx2yijJQgsOfXDml0f6CaI2Kz7p0gF1QwIPwUlBq0oh6k97jy1ayiEFOKZ8Q=w408-h306-k-no",
+	"comentarios":[
+		"Comida muy buena, el atendimiento muy bien y el lugar muy tranquilo con unas increíbles vistas al Puerto de Vueltas"
+	]
+},
+{
+	"nombre":"El Mesón de Clemente",
+	"categoria":"Restaurante",
+	"rating":"4,2",
+	"reviews":"743",
+	"horario":"lunes, De 12:00 a 22:00; martes, De 12:00 a 16:00; miércoles, Cerrado; jueves, De 12:00 a 21:00; viernes, De 12:00 a 21:00; sábado, De 12:00 a 21:00; domingo, De 12:00 a 21:00",
+	"direccion":"C. las Cruces, 6, 38812 Alajeró, Santa Cruz de Tenerife",
+	"ciudad":"Alajeró",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"http://www.elmesondeclemente.com/",
+	"telefono":"922 89 57 21",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.9369530322133!2d-17.23816450321045!3d28.056949599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae3b6f039d499%3A0x3db5edc3121c4a10!2sEl%20Mes%C3%B3n%20de%20Clemente!5e0!3m2!1ses!2ses!4v1748741579202!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noT8RmZpgF3yoHcEBWa0Gut6zHM9mRmKk1ajhe845T7M6MqMT77oGsoBKVkQUgUD1Vs7wC6FbDJ0BpRiqxogWNT3DCDOf2iJwf51XMRXlVKWTdk8D3C71XQF9YYxcM6HSaovSI=w408-h544-k-no",
+	"comentarios":[
+		"Nos recomendaron este sitio y fue de los mejores restaurantes donde hemos comido. El servicio y trato al cliente más que un 10, y la calidad de la comida lo mismo. Si volvemos a la isla repetimos seguro.",
+		"Relación calidad/precio 👌🏼",
+		"",
+		"Gracias por la atención y calidad de la comida.",
+		"",
+		"Lo recomendamos 100%."
+	]
+},
+{
+	"nombre":"Cafetería Macedonia Fruit Cafe",
+	"categoria":"Cafetería",
+	"rating":"4,8",
+	"reviews":"323",
+	"horario":"lunes, De 9:00 a 22:00; martes, Cerrado; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, De 9:00 a 22:00",
+	"direccion":"Av. Emigrante, 5, 38687 Guía de Isora, Santa Cruz de Tenerife",
+	"ciudad":"Guía de Isora",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://selectid.net/macedonia-selectmenu/",
+	"telefono":"662 16 71 60",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.839116147462!2d-16.82344360321045!3d28.181807900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a8dfe105ae761%3A0x616c753c096886ed!2sCafeter%C3%ADa%20Macedonia%20Fruit%20Cafe!5e0!3m2!1ses!2ses!4v1748741590779!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noVSNpKbcYWPaiFlyp3YfNVvwz3QndepAG38099AJD7ZDfv82CrGkDPnpljGibax4J_QK49ON90oe6IvYDte0bCJozpG0LqC4sOhYQKiGuqWX0JDC-76g4Bbs4BunFI8dYlEvuk=w426-h240-k-no",
+	"comentarios":[
+		"Espectacular sitio para desayunar, merendar o brunch. Bocadillos y pan muy rico. Lo mejor son los zumos naturales de diferentes frutas de la zona, deliciosos. Buen precio, vistas al mar y a La Gomera. Saludos, y gracias del amigo del caratortilla."
+	]
+},
+{
+	"nombre":"Bazar Oriental",
+	"categoria":"Bazar",
+	"rating":"3,8",
+	"reviews":"10",
+	"horario":"lunes, De 9:00 a 20:30; martes, De 9:00 a 20:30; miércoles, De 9:00 a 20:30; jueves, De 9:00 a 20:30; viernes, De 9:00 a 20:30; sábado, De 9:00 a 20:30; domingo, De 10:00 a 17:00",
+	"direccion":"C. Real, 5, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"922 87 20 87",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.817961385518!2d-17.115296103210447!3d28.09109510000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae5fe8dac6efd%3A0xcb1c7e2fd2bb9f8f!2sBazar%20Oriental!5e0!3m2!1ses!2ses!4v1748741599857!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npT1pkCzVFEYG7w90h_LAreHsUoU9iNp9_5X2f4K84NDEKfk4Z1MVqTiim4esFyJZzV3j1TtxxP0mK3F4l1xBTRupC7A2SZojz4rcpWNsw55ZlbOv5fcXdIATQ3yD7N53x9A93HtA=w408-h306-k-no",
+	"comentarios":[
+		"Muy buen servicio y tienen todo lo necesario. Es un buen sitio para comprar lo que sea!"
+	]
+},
+{
+	"nombre":"Spar, San Sebastian, La Gomera",
+	"categoria":"Supermercado",
+	"rating":"4,2",
+	"reviews":"377",
+	"horario":"lunes, De 8:30 a 20:30; martes, De 8:30 a 20:30; miércoles, De 8:30 a 20:30; jueves, De 8:30 a 20:30; viernes, De 8:30 a 20:30; sábado, De 8:30 a 20:30; domingo, De 8:30 a 13:30",
+	"direccion":"Av. José Aguiar, 40, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://spar.es/",
+	"telefono":"922 87 28 82",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.455600540892!2d-17.12778750321045!3d28.10214420000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae572f0210c3f%3A0xde096aefd3c99f53!2sSpar%2C%20San%20Sebastian%2C%20La%20Gomera!5e0!3m2!1ses!2ses!4v1748741608171!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrqpDvZ5U9S6MWDX60p8mAEOmQvGxy4gyaWPdE_-pytwY7TPuVUkGVUHallMmkh50zKzmJCbdh2oKOUcbmDcYNHEzjzMR9PkCr4lPxsC3Ej2e7sF1oiPKLlP9P68Kb-vU-lBY8y5A=w408-h544-k-no",
+	"comentarios":[
+		"Pasillos estrechos, producto fresco en mal estado (frutas y verduras) y precios desorbitados. Se trata de uno de los supermercados mas grandes de la isla, esto denota las carencias de esta maravillosa isla"
+	]
+},
+{
+	"nombre":"Restaurante Pizzería La Avenida",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"958",
+	"horario":"lunes, De 12:30 a 22:00; martes, De 12:30 a 22:00; miércoles, Cerrado; jueves, Cerrado; viernes, De 12:30 a 22:00; sábado, De 12:30 a 22:00; domingo, De 12:30 a 22:00",
+	"direccion":"Valle Gran Rey, 38870, Playa la Calera, Santa Cruz de Tenerife, España, 38870 Valle Gran Rey, Santa Cruz de Tenerife",
+	"ciudad":"Valle Gran Rey",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"922 80 71 15",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.6844693815833!2d-17.34743460321045!3d28.095166000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6b1cd97022d85f%3A0x2b62d4170f3c7187!2sRestaurante%20Pizzer%C3%ADa%20La%20Avenida!5e0!3m2!1ses!2ses!4v1748741617341!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMAUbhgEHw4k5nCGQsadq6dXrkjD6Q7AfqsNMHC=w408-h306-k-no",
+	"comentarios":[
+		"Terraza con vistas al Mar.",
+		"Comida muy buena y con variedad de platos.",
+		"El pescado muy rico y las pizzas muy buenas.",
+		"Está cerca de la playa."
+	]
+},
+{
+	"nombre":"Québec Krep&apos;Herria",
+	"categoria":"Crepería",
+	"rating":"4,4",
+	"reviews":"669",
+	"horario":"lunes, Cerrado; martes, De 10:00 a 13:30, De 17:00 a 20:00; miércoles, De 10:00 a 13:30, De 17:00 a 20:00; jueves, De 10:00 a 13:30, De 17:00 a 20:00; viernes, De 10:00 a 13:30, De 17:00 a 20:00; sábado, De 10:00 a 21:00; domingo, De 10:00 a 13:30, De 16:30 a 20:00",
+	"direccion":"Fermin Calbeton Kalea, 11, 20003 Donostia, Gipuzkoa",
+	"ciudad":"San Sebastián",
+	"provincia":"Gipuzkoa",
+	"web":"https://quebeckrepherria.wixsite.com/my-site",
+	"telefono":"943 43 67 08",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.5634862697816!2d-1.9885269032104493!3d43.32339650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a54ddcd9bd17%3A0xabac92e49b0ece23!2sQu%C3%A9bec%20Krep&#39;Herria!5e0!3m2!1ses!2ses!4v1748741627387!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipM3xVZAqeQeX3VKHnniJyICQTrwkY35LFjRF3dx=w408-h272-k-no",
+	"comentarios":[
+		"Es un local pequeño pero pudimos sentarnos para poder comernos la crepe que pedimos de chocolate blanco y oreo que estaba muy rica sobre todo la masa, muy recomendado!"
+	]
+},
+{
+	"nombre":"Pastelería y Panadería La Rama",
+	"categoria":"Panadería",
+	"rating":"4,4",
+	"reviews":"7",
+	"horario":"lunes, De 7:30 a 20:00; martes, De 7:30 a 20:00; miércoles, De 7:30 a 20:00; jueves, De 7:30 a 20:00; viernes, De 7:30 a 20:00; sábado, De 7:30 a 15:00; domingo, De 8:00 a 14:00",
+	"direccion":"Mercado Municipal, Av. de Colón, 19A, puesto comercial nº2, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://dulcerialarama.es/",
+	"telefono":"922 87 10 57",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.7893520649013!2d-17.11824060321045!3d28.091967600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae528f499a01b%3A0xddcfb6edd8eee9f6!2sPasteler%C3%ADa%20y%20Panader%C3%ADa%20La%20Rama!5e0!3m2!1ses!2ses!4v1748741636560!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nryBb2uYBNciWepjg925KOoCfg3LKE2ld2NOX90RvPxggMoTQvq9wCrhOObGhN3YkBAWn09apiiBfKmLUdpQ_JFpbNfi8NCJ_FkpVIMLA4wVtb81SXjnjQE4j_xNQbf0fX_XV3U=w408-h306-k-no",
+	"comentarios":[
+		"Asunto: Calidad de las Tortas Cuajadas",
+		"",
+		"Estimados Panadería la Rama",
+		"",
+		"Quisiera expresar mi descontento con la calidad de las tortas cuajadas que he comprado recientemente en su establecimiento. Como podrán ver en la imagen adjunta, la torta estaba cruda por dentro y con muy poca cantidad de queso fresco, lo que le daba más la textura y el sabor de un bizcocho que de una auténtica torta cuajada gomera.",
+		"",
+		"La torta cuajada es un producto tradicional con una receta que nuestras abuelas han transmitido de generación en generación. Es preocupante ver que, en lugar de respetar su esencia, se están vendiendo versiones de menor calidad que desvirtúan este patrimonio gastronómico.",
+		"",
+		"Les animo a revisar su proceso de elaboración para garantizar que la torta cuajada mantenga su textura adecuada y el equilibrio correcto de ingredientes, en especial la cantidad de queso, que es clave en su receta original. Estoy segura de que, con un poco más de cuidado, podrían ofrecer un producto mucho más fiel a la tradición y satisfactorio para sus clientes."
+	]
+},
+{
+	"nombre":"Mil Deseos",
+	"categoria":"Pastelería",
+	"rating":"4,7",
+	"reviews":"245",
+	"horario":"lunes, Cerrado; martes, De 8:00 a 16:00; miércoles, De 8:00 a 16:00; jueves, De 8:00 a 16:00; viernes, De 8:00 a 16:00; sábado, De 8:00 a 16:00; domingo, De 8:00 a 16:00",
+	"direccion":"C. la Gomera, 3, 35650 El Cotillo, Las Palmas",
+	"ciudad":"El Cotillo",
+	"provincia":"Las Palmas",
+	"web":"",
+	"telefono":"645 59 42 51",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0309153988383!2d-14.015970003210446!3d28.68872179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc464cabd11a9721%3A0xf963e7418ffc807c!2sMil%20Deseos!5e0!3m2!1ses!2ses!4v1748741645732!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlxbXpBxoIKoiBesbnfUJPOfSzION4VTKZQqsEfVfTBbXywaHpgwROM9s8B1kV6cdkcEo-Hc972xISJZDU9KbCV27voy3DUjfhRfxmDtl-UI5nZJeuKSTzrzxVQdR35S2r27Fa1A=w408-h305-k-no",
+	"comentarios":[
+		"Sinceramente, me pareció espectacular todo lo que probé. Pedimos dos focaccias y estaban buenísimas; nos encantaron. Para endulzarnos, pedimos dos croissants de chocolate que estaban deliciosos y con mucho chocolate. Un sitio súper recomendable."
+	]
+},
+{
+	"nombre":"Dulcería Oscar",
+	"categoria":"Bar",
+	"rating":"2,8",
+	"reviews":"4",
+	"horario":"lunes, De 7:00 a 22:00; martes, De 7:00 a 22:00; miércoles, De 7:00 a 22:00; jueves, De 7:00 a 22:00; viernes, De 7:00 a 22:00; sábado, De 7:00 a 22:00; domingo, De 7:00 a 22:00",
+	"direccion":"Av. de los Descubridores, 4, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://dulceria-oscar.eatbu.com/",
+	"telefono":"666 13 97 93",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.8367693148234!2d-17.115587403210448!3d28.090521499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae517df63817f%3A0x573c00ca157a9a56!2sDulcer%C3%ADa%20Oscar!5e0!3m2!1ses!2ses!4v1748741659826!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npUJqxEhdqkJAa8sMR1KtsJVJl1dq9hN3Xxp4wAleFgB1NFVPq0W9AUTU55DZex_DQWIYDJouOBDS9G_au8dhw7mZmG2tXiJswAe1pFAnhZVPTkSWSdcQ1bwVNYtk0ezaPiDV3lfA=w426-h240-k-no",
+	"comentarios":[
+		"Excelent ducilery in San Sebastián de la Gomera a good bocadillos de pollo un the street"
+	]
+},
+{
+	"nombre":"Antojos, comida para llevar y churrería",
+	"categoria":"Comida a domicilio",
+	"rating":"4,8",
+	"reviews":"73",
+	"horario":"lunes, De 8:00 a 16:00; martes, De 8:00 a 16:00; miércoles, De 8:00 a 16:00; jueves, De 8:00 a 16:00; viernes, De 8:00 a 16:00; sábado, De 8:00 a 16:00; domingo, De 8:00 a 16:00",
+	"direccion":"Terrazas del Faro, Av. el Palm-Mar, 35, Edificio 6, 38632 Palm-Mar, Santa Cruz de Tenerife",
+	"ciudad":"Palm-Mar",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://storage.doitsquare.com/files/29979/carta-antojos_2024-05-13-13-24-13.jpg",
+	"telefono":"822 17 82 16",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.0363728712537!2d-16.704206303210448!3d28.023364100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a9999bd969563%3A0x4835e4aea52bde00!2sAntojos%2C%20comida%20para%20llevar%20y%20churrer%C3%ADa!5e0!3m2!1ses!2ses!4v1748741668482!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqvaR7C08jLhMZGaiyMYBtyw_IkG6ZBWXFzF81iB-AbHp2pZMbx5oOLpVtT3Y1-z71-ntSobAb_fdGwZeizU9fLQCA1vjtbRCoDsVXh89Ofzvvkm2X2pXcDMjvtAliHwE81ogo=w408-h306-k-no",
+	"comentarios":[
+		"Me ha gustado tanto que estoy escribiendo la reseña en el propio local.",
+		"El trato genial, el desayuno riquísimo y contundente. Relación precio fantástica. No pienso desayunar en otro lugar hasta que me vaya 🤣…"
+	]
+},
+{
+	"nombre":"HELADERÍA BAR TORRENT.",
+	"categoria":"Bar",
+	"rating":"4,5",
+	"reviews":"2.062",
+	"horario":"lunes, De 8:30 a 16:00; martes, De 8:30 a 16:00; miércoles, De 8:30 a 16:00; jueves, De 8:30 a 16:00; viernes, De 8:30 a 16:00; sábado, De 8:30 a 16:00; domingo, De 8:30 a 16:00",
+	"direccion":"Plaça del País Valencià, 8, 46183 L&apos;Eliana, Valencia",
+	"ciudad":"La Eliana",
+	"provincia":"Valencia",
+	"web":"",
+	"telefono":"962 74 01 10",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.701190115621!2d-0.5348435032104492!3d39.56634470000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6059549bdec897%3A0x236fe99b9c3520cf!2sHELADER%C3%8DA%20BAR%20TORRENT.!5e0!3m2!1ses!2ses!4v1748741679763!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr-wFi4xVmCtr2JCaqMRfdFLNT_yQjs0I_CaBzLPAiPowMznvn6dH7jTGKFre9glLHaKoP1SMZQj-mymvfeyN4sEYcwq33udSzwwmF3B_AfOzJpJt_tMtalNhmYP04nWJMW1STuNw=w408-h306-k-no",
+	"comentarios":[
+		"Uno de los mejores sitios (o el mejor) de L’Eliana para almorzar. Bocatas riquísimos. Mucho producto. Bueno y contundente. Precios acordes con lo que se sirve. Eso si.. ten paciencia porque siempre están llenos, incluso a la hora “habitual” de almuerzo de 9 a 10:30 la cola es larga!"
+	]
+},
+{
+	"nombre":"Heladería El Sueño de Yanini",
+	"categoria":"Heladería",
+	"rating":"4,9",
+	"reviews":"175",
+	"horario":"",
+	"direccion":"C. Italia, 1, 38870 Valle Gran Rey (La Gomera), Santa Cruz de Tenerife",
+	"ciudad":"Valle Gran Rey",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"922 80 60 42",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.092736514396!2d-17.337283603210448!3d28.082714000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6b1d1c1cee85c1%3A0x16e81c5217986358!2sHelader%C3%ADa%20El%20Sue%C3%B1o%20de%20Yanini!5e0!3m2!1ses!2ses!4v1748741693826!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr8wO6PflIQlvECTEViYI9wQnj5A7Rwh6aAZUBclo9IHRAxGqc7CJLvGotYS_B-IS8PMe4-3qjONPFmCrKpKRLt1Cwuq9W8QvKePrQEUPXOct69HJXbE08dOsyLzm4N7WrJdUQBhw=w408-h306-k-no",
+	"comentarios":[
+		"Empezamos a ver a mucha gente disfrutando de un helado y ahí fuimos. No tienen muuucha variedad pero todos los sabores son muy originales"
+	]
+},
+{
+	"nombre":"Bistro-Café der Anderen Art",
+	"categoria":"Cafetería",
+	"rating":"4,5",
+	"reviews":"164",
+	"horario":"",
+	"direccion":"Vueltas, Nº 21, 38870 Valle Gran Rey, Santa Cruz de Tenerife",
+	"ciudad":"Valle Gran Rey",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://www.gomeralive.de/bistro",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.092736514396!2d-17.337283603210448!3d28.082714000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6b1d1e8888482d%3A0x136f286b879a18e4!2sBistro-Caf%C3%A9%20der%20Anderen%20Art!5e0!3m2!1ses!2ses!4v1748741702372!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrRAlOb9iFYCbYimst8CScftSNj4V0Nge7tx3zLdcMHtkNjEdDLcz--QsQJ3v3pImDP3Dllz7wvHFTquXHWghqCvj6RyuTt80GryBY80Er5faLKTeyQyZhvsV5bBjoTsmGSL0he=w426-h240-k-no",
+	"comentarios":[
+		"Si tuviera que destacar algo de este lugar sería la decoración y la atención. Fui con mi pareja dos días; una a comer un crepe y otra a tomar una copa, y salimos satisfechos. Repetiremos cuando volvamos a Valle Gran Rey ☺️."
+	]
+},
+{
+	"nombre":"Restaurante El Tropico",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"103",
+	"horario":"",
+	"direccion":"C. República de Chile, n5, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife",
+	"ciudad":"San Sebastián de La Gomera",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"",
+	"telefono":"658 92 92 78",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.795162528217!2d-17.11595240321045!3d28.091790400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6ae582e22c1bbf%3A0x85a0829a701268cc!2sRestaurante%20El%20Tropico!5e0!3m2!1ses!2ses!4v1748741711248!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nowgQVtFkueLgc6bI2HbJQsutG-nsxc9RdQKQdwsDODrDFsa4rHzhx3C5YAua-5eB_5VTGkiFobg9f50T6nqR8phMskq1lgvnJq0AXCkDPPkkKuhk1NBOd84z9onfnwXfladL8W=w408-h310-k-no",
+	"comentarios":[
+		"Fuimos a tomar un cortado y salimos muy contentos. Por la hora (temprano) no comimos pero el ambiente es genial.",
+		"El trato muy bueno. La verdad es que en principio recomiendo al 100%.",
+		"El detalle de las magdalenas caseras, chapó."
+	]
+},
+{
+	"nombre":"Bar Terraza Pedro",
+	"categoria":"Bar de tapas",
+	"rating":"4,3",
+	"reviews":"1.190",
+	"horario":"",
+	"direccion":"Ctra. General, 156, 38820 Hermigua, Santa Cruz de Tenerife",
+	"ciudad":"Hermigua",
+	"provincia":"Santa Cruz de Tenerife",
+	"web":"https://barterrazapedro.es/",
+	"telefono":"620 10 15 26",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.2067236787198!2d-17.195479003210448!3d28.170627899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6afb7eb856db13%3A0xae01b87400276fd4!2sBar%20Terraza%20Pedro!5e0!3m2!1ses!2ses!4v1748741720170!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noc-insEqnHcj7l-33xzNcXMge4_nzRjiO2YFJZFgkQQQzE2iFA3MJXcQZWys8uL3QWoiRanhZkLqx_k9trhKVqAEeL686sXW0QSwHCpf279tdz75zqO8Zpeqr2n5RkSJgQWsdMaA=w408-h306-k-no",
+	"comentarios":[
+		"Bar de tapas. Pedimos raciones de Salpicón de Pulpo, carne en salsa,  y almogrote (riquísimo todo), con un vino excelente, y un barraquito. Un día soleado y con buenas vistas....todo 46€"
+	]
+},
+{
+	"nombre":"DOLCE CAPRICCIO",
+	"categoria":"Heladería",
+	"rating":"2,3",
+	"reviews":"10",
+	"horario":"lunes, De 15:00 a 24:00; martes, De 15:00 a 24:00; miércoles, De 15:00 a 24:00; jueves, De 15:00 a 24:00; viernes, De 15:00 a 2:00; sábado, De 15:00 a 2:00; domingo, De 15:00 a 24:00",
+	"direccion":"Pob. Marinero, local 4, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.365448340183!2d-5.316954903210425!3d35.889064300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca35e316f62d7%3A0x276098fdbbadccf5!2sDOLCE%20CAPRICCIO!5e0!3m2!1ses!2ses!4v1748741853792!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no3lzZQYTa5YnsDKtZVzd81WIQYffUA7uqI27bWsamxtjts1N8tb2sfbkKTpmdpKVbnxJCPoD3DQiXmA7LWGBRW_QX5zPXFfmn5oY1HtelDbX5WuzdL5ILgNmHGuau5VOY4hWrzzg=w408-h544-k-no",
+	"comentarios":[
+		"Quería pedir unos buñuelos y la máquina no funcionaba,Pedí un crepp de los de forma de gofre y no quedaba por lo que lo pedí normal,uno de los toppins hello panda y me pusieron cookies sin haberlas pedido y un gofre les dije que me lo cambiaran y la empleada me insistió en que las cookies eran hello panda y su amiga la delató y sacó del almacén 8 cajas,entraron a cocina a hacerme mi crepp y la empleada comiéndose las galletas del gofre, después de otros 15 minutos de espera me traen el crep CRUDO (xq también estaba rota) y sin nada de Kinder bueno por dentro y una vez más cobrando los precios de más,he estado a nada de pedir una hoja de reclamaciones"
+	]
+},
+{
+	"nombre":"Cafeteria Correos",
+	"categoria":"Cafetería",
+	"rating":"3,7",
+	"reviews":"182",
+	"horario":"lunes, De 8:00 a 24:00; martes, De 8:00 a 24:00; miércoles, De 8:00 a 24:00; jueves, De 8:00 a 24:00; viernes, De 8:00 a 24:00; sábado, De 8:00 a 24:00; domingo, De 8:00 a 24:00",
+	"direccion":"Pl. de España, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.365448340183!2d-5.316954903210425!3d35.889064300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca5d59201110f%3A0xef4adbc9d03f98ba!2sCafeteria%20Correos!5e0!3m2!1ses!2ses!4v1748741863139!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq9Um9LJBMgLyJkmEkTekkP52UEnzaPYh8gqEbNTy8zOYy-gXSFFRUlDAtW2ftX7JHm0l6rhQ_n_SGFLtSq0bRfx2QL0j24hd3PKUFtfmyThlvgBmmMSyvtXWMnVWs84V9Vxh0c=w408-h306-k-no",
+	"comentarios":[
+		"Cafetería en el centro de Ceuta en la plaza de correos. Ofrecen todo tipo de comidas desde desayunos a almuerzos. Tienen una variedad de montaditos y tapas que puedes ver en el expositor. También tienen dulces y tartas de multitud de sabores. Pedimos una porción de tarta de manzana rellena de crema que estaba muy buena.",
+		"El precio es correcto en cuanto a la calidad de la comida que no está nada mal.",
+		"Hay mesas fuera en la terraza y dentro del local."
+	]
+},
+{
+	"nombre":"Cafeteria monalisa",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"572",
+	"horario":"lunes, De 7:00 a 23:30; martes, De 7:00 a 23:30; miércoles, De 7:00 a 23:30; jueves, De 7:00 a 23:30; viernes, Cerrado; sábado, De 7:00 a 23:30; domingo, De 7:00 a 23:30",
+	"direccion":"Av. Cañonero Dato, 21, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 75 77 00",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.365448340183!2d-5.316954903210425!3d35.889064300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fb7750da2b%3A0x6e9fdc7a6dae9990!2sCafeteria%20monalisa!5e0!3m2!1ses!2ses!4v1748741872311!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npN8UWq_uBq9djgJXalErEZ9Yg-kn_fczhpXc0GpaI0K7nDmAYOx6EKIvvEsDM7IZsFEUlfP2ZknDlvD8XXM6hgYQVBx2qASc1b68gvBqO55eqR6VqNeLVuQRzQuO-i6JIsyTuL=w426-h240-k-no",
+	"comentarios":[
+		"El ambiente era inexistente, cero acogedor, y lo peor: los camareros estaban discutiendo entre ellos en plena sala, delante de todos los clientes. Muy incómodo y poco profesional.",
+		"",
+		"Además, pedí algo al camarero —de forma educada— y simplemente se negó a traerlo, sin explicación ni disculpa. Un trato totalmente inaceptable para cualquier establecimiento que pretenda ofrecer un buen servicio. No pienso volver y no lo recomendaría en absoluto."
+	]
+},
+{
+	"nombre":"Charlotte",
+	"categoria":"Cafetería",
+	"rating":"3,6",
+	"reviews":"105",
+	"horario":"lunes, De 8:00 a 23:00; martes, De 8:00 a 23:00; miércoles, De 8:00 a 23:00; jueves, De 8:00 a 23:00; viernes, De 8:00 a 1:00; sábado, De 9:00 a 1:00; domingo, De 9:00 a 23:00",
+	"direccion":"Plaza de los Reyes, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"856 36 38 22",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.365448340183!2d-5.316954903210425!3d35.889064300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca4005bacbaf7%3A0xc1b556ed2f6768d6!2sCharlotte!5e0!3m2!1ses!2ses!4v1748741881873!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noIcYNw7kxCJpbbKg0XWUrPwb4ovwnlckpz4pEhIvHaL21HT4redC301Pe8i7jLQZWDkLz651NaXLk1BkJ-qrp5zsQLZdqpvdA5W5TqlxtnAM0EA9vuDbSP18V2OKX8sfv7mETEhg=w408-h306-k-no",
+	"comentarios":[
+		"Situada en el centro de la ciudad y con una terraza muy agradable, en esta cafetería puedes desayunar, comer, merendar, cenar y hasta tomar una copa. El amable servicio a veces puede ser lento (en Ceuta se va a otro ritmo), pero la comida está rica, aunque alguna no sea casera (como las tortitas). Los precios son más que razonables.",
+		"Me encantó el café en tubo, algo que en el resto de España no había visto nunca. Es uno de los locales más emblemáticos de la ciudad en el que hay que hacer una parada.",
+		"Por cierto, si pides una tostada entera te servirán un bocadillo y no 2 mitades separadas."
+	]
+},
+{
+	"nombre":"La Columna",
+	"categoria":"Cafetería",
+	"rating":"3,6",
+	"reviews":"219",
+	"horario":"lunes, De 8:00 a 22:00; martes, De 8:00 a 22:00; miércoles, De 8:00 a 22:00; jueves, De 8:00 a 22:00; viernes, De 8:00 a 22:00; sábado, De 8:00 a 22:00; domingo, De 10:30 a 16:00",
+	"direccion":"C. Camoens, 5, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://mesonlacolumna.com/",
+	"telefono":"956 51 06 27",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.365448340183!2d-5.316954903210425!3d35.889064300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca5f274181353%3A0xc2b46534f73d104c!2sLa%20Columna!5e0!3m2!1ses!2ses!4v1748741891296!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npeOedqYsar_37fIsAkdotfkGZ3owHYtcefzIzF_l5iw-HNqVm1XrT6Sz3NCK5LCTepOPyyuoJ8YFXZbvjag_AjuMBDPJ2R5--_Rs2ZiGza3RzvBa84MwYZUi6taUwBqPo_4Wv1zw=w408-h306-k-no",
+	"comentarios":[
+		"En este local, situado en el centro de Ceuta, uno puede desayunar, comer, merendar, cenar y tomarse una copa. El servicio es muy rápido, las tapas estupendas y variadas, y los precios más que aceptables. Si vais por Ceuta, reparar en este bar es una parada muy recomendable."
+	]
+},
+{
+	"nombre":"Abaris cafe",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"159",
+	"horario":"",
+	"direccion":"Av. España, 34, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 61 38 44",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.275140507872!2d-5.328719003210424!3d35.891276500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3469061be53%3A0xd78216eb66031799!2sAbaris%20cafe!5e0!3m2!1ses!2ses!4v1748741901092!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBNi008xLNq6OXHXWBN4CPvu7e1paaVtVXTEgzz5NUjTHDCPqowfS4CS7MoJ8Mh_VqqT6jWlQ1UrqwC8uknGuY1wjhqC8XJ1kqoS6RmRLNeH46_UoKyMG6W91BdftA7rF5k-gS=w507-h240-k-no",
+	"comentarios":[
+		"Tienen mucha variedad de comida, el sitio es amplio y perfecto. Si es verdad que tardan en atenderte y en traerte lo que has pedido por lo demás me encanta la cafetería/pastelería todo súper bueno!"
+	]
+},
+{
+	"nombre":"Terrazas El Cielo",
+	"categoria":"Restaurante",
+	"rating":"4,2",
+	"reviews":"174",
+	"horario":"lunes, Abierto 24 horas; martes, Abierto 24 horas; miércoles, Abierto 24 horas; jueves, Abierto 24 horas; viernes, Abierto 24 horas; sábado, Abierto 24 horas; domingo, Abierto 24 horas",
+	"direccion":"Avenida compañia del mar s/n, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://cafeycopasceuta.es/",
+	"telefono":"638 95 99 71",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3453436095956!2d-5.314605703210453!3d35.889556800000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca400988c084b%3A0xe0be52f0728eb860!2sTerrazas%20El%20Cielo!5e0!3m2!1ses!2ses!4v1748741910576!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noJbOervnljRjI0Z6NqUpI_dGj1nuoHnlUMkp1yrpUnZbj_7l4TJudgI6IyH_KEFVh6MTZbJHdaZxGsbRszIFaJW3reasP6VFV77kHQsvL482lrOc6dnJERJNQLYR7mzpaZpSdLjw=w480-h240-k-no",
+	"comentarios":[
+		"Es un sitio perfecto para pasarlo bien con amigos, disfrutando de unas vistas impresionantes.",
+		"Sea para celebrar un cumple o solo para despejar de la semana con gente bonita y…"
+	]
+},
+{
+	"nombre":"Cafetería Manhattan",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"1.008",
+	"horario":"lunes, De 6:00 a 23:00; martes, Cerrado; miércoles, De 6:00 a 23:00; jueves, De 6:00 a 23:00; viernes, De 6:00 a 23:00; sábado, De 6:00 a 23:00; domingo, De 6:00 a 23:00",
+	"direccion":"Av. Juan de Borbón, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 50 21 43",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2701477590995!2d-5.32361860321042!3d35.8913988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fb717ebdcb%3A0x84fc61e59b76f6d!2sCafeter%C3%ADa%20Manhattan!5e0!3m2!1ses!2ses!4v1748741920702!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrG3YQgtNt8oebWk5dZCyMbnw13NU_IkF-te1RMJJjyrvji6NDair5WAVGzA3ZFqyBU9XNhcem0YV-fo0BusX9Bl1rg4podgahi-uBjGk-vjYEVyCUiGUf1_eB0Rtuxbpv8qbqjCA=w408-h306-k-no",
+	"comentarios":[
+		"Our experience at the Manhattan restaurant in Ceuta, near the Lidl store, was extremely disappointing.",
+		"The cups we were served were dirty, and there was no menu available, either in paper or electronic form.",
+		"Additionally, the quality of the foods were poor. The minced meat in the panini had a greasy taste, and the tacos lacked cheese sauce, resulting in a dry flavor.",
+		"based to this bad experience there, we are asking the restaurant supervisors to take care of it and provide a good experience for customers in future.",
+		"",
+		"Nuestra experiencia en el restaurante Manhattan de Ceuta, cerca de la tienda Lidl, fue tremendamente decepcionante.  Las tazas que nos sirvieron estaban sucias y no había ningún menú disponible, ni en papel ni en formato electrónico.  Además, la calidad de los alimentos era mala.  La carne picada del panini tenía un sabor grasoso y los tacos carecían de salsa de queso, lo que daba como resultado un sabor seco.  Debido a esta mala experiencia allí, pedimos a los supervisores del restaurante que se encarguen de ello y brinden una buena experiencia a los clientes en el futuro."
+	]
+},
+{
+	"nombre":"Restaurante Rigoletto está abierto. En horarios normales de comida y cenas.",
+	"categoria":"Restaurante mediterráneo",
+	"rating":"3,6",
+	"reviews":"224",
+	"horario":"lunes, De 12:00 a 16:00, De 20:00 a 24:00; martes, De 12:00 a 16:00, De 20:00 a 24:00; miércoles, De 12:00 a 16:00, De 20:00 a 24:00; jueves, De 12:00 a 16:00, De 20:00 a 24:00; viernes, De 12:00 a 16:00, De 20:00 a 24:00; sábado, De 12:00 a 16:00, De 20:00 a 24:00; domingo, De 12:00 a 16:00, De 20:00 a 24:00",
+	"direccion":"Compañía del Mar, Pob. Marinero, n1, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 51 34 63",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2701477590995!2d-5.32361860321042!3d35.8913988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fe968361b3%3A0x3f7bde26f4f0b4!2sRestaurante%20Rigoletto%20est%C3%A1%20abierto.%20En%20horarios%20normales%20de%20comida%20y%20cenas.!5e0!3m2!1ses!2ses!4v1748741932483!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noOTN152Ia_QGvVTFhsIzVMbhBbA3XNd9iZI6ZayztwB_jZRTcKbnkBZn9KdQN7K3FDkDcaR-5mC5E1GlpuW-tiUC-f-xSNoUP0E0ghc8StobP-8gIfpXlBhf3n_g7FofqeEvtezQ=w426-h240-k-no",
+	"comentarios":[
+		"Me lo he pasado muy bien sobretodo he estado muy cómoda deberían de valorar más sitios así donde hay calidad y precio bueno hemos ido mi pareja y yo desde luego que vamos a repetirlo!"
+	]
+},
+{
+	"nombre":"Salvador Gutiérrez Vera",
+	"categoria":"Tetería tradicional",
+	"rating":"4,2",
+	"reviews":"91",
+	"horario":"lunes, De 8:00 a 21:30; martes, De 8:00 a 21:30; miércoles, De 8:00 a 21:30; jueves, De 8:00 a 21:30; viernes, De 8:00 a 21:30; sábado, De 8:00 a 21:30; domingo, De 8:00 a 21:30",
+	"direccion":"Lugar Barriada de Benzu, 1, 51004 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.2609674652354!2d-5.3778507032104494!3d35.91611180000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca25d413752dd%3A0x393751f69a2bf06!2sSalvador%20Guti%C3%A9rrez%20Vera!5e0!3m2!1ses!2ses!4v1748741943060!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npszcAtux1SJJwaH76JJf-_JjEIqL-hn2_zTrqAAFiFUPxyG2eXT-GwFd6TytPG4DWGi41glgZw2cja5G2oQZhhXL4ghttCAFI_P2CKkyK9lm7DCMzOJfHdhhzZL60vjw2REYk=w426-h240-k-no",
+	"comentarios":[
+		"La verdad , me gusta mucho , precios muy accesibles.....",
+		"",
+		"Es muy bueno para merendar un esquisto té o tomar un , como llamanos aquí…"
+	]
+},
+{
+	"nombre":"Café Teatro Cervantes oficial",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"892",
+	"horario":"lunes, De 7:00 a 24:00; martes, De 7:00 a 24:00; miércoles, De 7:00 a 24:00; jueves, De 7:00 a 24:00; viernes, De 7:00 a 1:00; sábado, De 8:00 a 1:00; domingo, De 9:00 a 19:00",
+	"direccion":"C. Padilla, 4, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://cafeteatrocervantes.com/",
+	"telefono":"655 01 83 76",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.436202845953!2d-5.3161973032104495!3d35.88733099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3ff984d157d%3A0x8f333e0b9d1ac734!2sCaf%C3%A9%20Teatro%20Cervantes%20oficial!5e0!3m2!1ses!2ses!4v1748741952419!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no9ps-dXwAxXcDlBSwdz-0UcGWG1i1EQ-1wcfaqdLVcqIcaHLVsFM7FhpYLBJkDGARr0dk82yMOQse-NlisdlYVm5hbaW31ftje-opSEHLNfaxRavcVj94WR459AIOYM3H0986Huw=w426-h240-k-no",
+	"comentarios":[
+		"Si estás en Ceuta, no puedes perderte este restaurante de tapas, para mí el mejor de la ciudad. La calidad de la comida es excelente, el ambiente acogedor y el servicio impecable. Las tapas no solo son deliciosas, sino también muy generosas…"
+	]
+},
+{
+	"nombre":"Hamburguesería Impacto Ceuta",
+	"categoria":"Hamburguesería",
+	"rating":"3,9",
+	"reviews":"501",
+	"horario":"lunes, De 13:00 a 16:00, De 19:00 a 1:00; martes, De 13:00 a 16:00, De 19:00 a 1:00; miércoles, De 13:00 a 16:00, De 19:00 a 1:00; jueves, De 13:00 a 16:00, De 19:00 a 1:00; viernes, De 13:00 a 16:00, De 19:00 a 1:00; sábado, De 13:00 a 16:00, De 19:00 a 1:00; domingo, De 13:00 a 16:00, De 19:00 a 1:00",
+	"direccion":"Centro Comercial Polígono Virgen de África, 51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://www.impactoceuta.es/",
+	"telefono":"956 51 71 66",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4519837220655!2d-5.329208003210448!3d35.886944400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e249a398f1%3A0x8b3f0839fdb8bab1!2sHamburgueser%C3%ADa%20Impacto%20Ceuta!5e0!3m2!1ses!2ses!4v1748741962357!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOI-KuQXbF3mfFg_E45daUTj0kSbZ_9ytHVkMhw=w426-h240-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Pastelería La Africana",
+	"categoria":"Pastelería",
+	"rating":"4,3",
+	"reviews":"78",
+	"horario":"lunes, Cerrado; martes, De 10:00 a 14:00, De 17:00 a 21:00; miércoles, De 10:00 a 14:00, De 17:00 a 21:00; jueves, De 10:00 a 14:00, De 17:00 a 21:00; viernes, De 10:00 a 14:00, De 17:00 a 21:00; sábado, De 10:00 a 18:30; domingo, De 10:00 a 18:30",
+	"direccion":"C. Real, 56, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 51 11 19",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3932720768944!2d-5.310011203210415!3d35.8883827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca4017944e49f%3A0xae96695aae860517!2sPasteler%C3%ADa%20La%20Africana!5e0!3m2!1ses!2ses!4v1748741972466!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nouLWj8xFZkeovKjoTY7yPbn25eJ-EFpD2Q48Zl-P8cLvKucf0bOCNOstQmS7zk_Oa-ljnYwXhJJkujGlNLuprTG8HZhEBJv4SUeuI4-6x2U4elHsAjfzxMIng_I9nWRjg3405k=w408-h725-k-no",
+	"comentarios":[
+		"Llegar a Ceuta y encontrar un reportaje en el periódico que cita a La Africana por su calidad. ¿Cómo no pasar por allí para incluirla en la sección de Facebook &quot;La Merienda de JManu&quot;?",
+		"No conozco todas las pastelerías de Ceuta pero esta es exquisita y quizá se pueda decir que la mejor o de las mejores. No sabes qué escoger... ¿Una milhoja de chocolate? ¿Una calatrava? ¿Algo de rico hojaldre? ¿Tal vez una tartita Sara? ¿Pastel de chocolate belga?",
+		"¿Todo? Sí, no se puede elegir... Mejor ir probando todo.",
+		"Destaca la profesionalidad y amabilidad de sus dependientas que tienen décadas de &quot;dulce&quot; experiencia."
+	]
+},
+{
+	"nombre":"Cafeteria Carlis",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"35",
+	"horario":"lunes, De 8:00 a 13:00, De 17:00 a 21:00; martes, De 8:00 a 13:00, De 17:00 a 21:00; miércoles, De 8:00 a 13:00, De 17:00 a 21:00; jueves, De 8:00 a 13:00, De 17:00 a 21:00; viernes, De 9:00 a 13:00, De 17:30 a 21:00; sábado, De 9:00 a 13:00; domingo, Cerrado",
+	"direccion":"Edf. Florencia, C. Real, 40, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"856 20 03 41",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3932720768944!2d-5.310011203210415!3d35.8883827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca401763bfe03%3A0x5771c496ae12e69!2sCafeteria%20Carlis!5e0!3m2!1ses!2ses!4v1748741981217!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMB4sbNkJC7vPhjQyVPkHJ8wcVLwIFlpyI41sDV=w533-h240-k-no",
+	"comentarios":[
+		"Buen servicio muy amables muy recomendable mi mujer y yo vamos todas las mañanas a desayunar y de lujo"
+	]
+},
+{
+	"nombre":"Vintage Cafe Bar",
+	"categoria":"Cafetería",
+	"rating":"4,7",
+	"reviews":"14",
+	"horario":"lunes, De 8:00 a 23:00; martes, De 8:00 a 23:00; miércoles, De 8:00 a 23:00; jueves, De 8:00 a 23:00; viernes, De 9:00 a 24:00; sábado, De 9:00 a 24:00; domingo, Cerrado",
+	"direccion":"Pl. de España, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 61 39 86",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3932720768944!2d-5.310011203210415!3d35.8883827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca323eaa0b3fb%3A0xf34ac8ece757b74a!2sVintage%20Cafe%20Bar!5e0!3m2!1ses!2ses!4v1748741990186!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodXzlSoa_PpbcJhGaMV08TlH4009cNDMfNov3SHDQoK5zwLJQUnNqC47zaXb4KFF2MqCp6jeXNFwcdAILZnZtCAB86KCKbH8Ysb1ybBvmmaVUB-j9L6_u64v3eq5PZm4omvhuu=w408-h306-k-no",
+	"comentarios":[
+		"Es mi café favorito en la ciudad, es la arepera caballa! Me hacen sentir en casa con una ricas arepitas venezolanas, smoothies, cocktails y tapitas"
+	]
+},
+{
+	"nombre":"El restaurante Ceuta",
+	"categoria":"Bar",
+	"rating":"4,2",
+	"reviews":"172",
+	"horario":"lunes, Cerrado; martes, De 12:00 a 18:30, De 20:30 a 1:30; miércoles, De 12:00 a 18:30, De 20:30 a 1:30; jueves, De 12:00 a 18:30, De 20:30 a 1:30; viernes, De 12:00 a 18:30, De 20:30 a 1:30; sábado, De 12:00 a 18:30, De 20:30 a 1:30; domingo, De 12:00 a 18:30",
+	"direccion":"Pl. de África, 12, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://www.elrestauranteceuta.com/",
+	"telefono":"661 32 77 32",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4059795673843!2d-5.321114903210461!3d35.88807140000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fc33adbc47%3A0xe57f37b405fcd394!2sEl%20restaurante%20Ceuta!5e0!3m2!1ses!2ses!4v1748742000053!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noc1usp_tWb7scy9ZcBZoIXpxrQBJUKovNc3h09wm7iTZaWpS_T85BRfnejWVHiJevTywVXCIv6Pvr32-DcRRrjiVeD0Aadc-wXs_3-X2syML6w_6Z5Pp7mF8nji-4yl7cQbiQh=w426-h240-k-no",
+	"comentarios":[
+		"Estuvimos de cena el viernes noche. Fantástico, la comida estaba muy buena. Pedimos calamares, presa y unas de tapas de escalibada de bacalao y presa, todo estaba genial. Pedimos vino blanco, Albariño por copa ♥️ algo que en la mayoría de los locales no ofrecen. Finalmente, nos ofrecieron un licor casero que estaba delicioso, llevaba zumo de naranja y miel. El servicio efectivo y atento, el ambiente inmejorable. Mil gracias! Repetiremos."
+	]
+},
+{
+	"nombre":"Taperia el Rincon de Rosi",
+	"categoria":"Bar",
+	"rating":"4,1",
+	"reviews":"319",
+	"horario":"",
+	"direccion":"C. Daoiz, 5, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://el-rincon-de-rosi.makro.bar/",
+	"telefono":"690 87 42 73",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4059795673843!2d-5.321114903210461!3d35.88807140000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca4007e0d1543%3A0xafbf75b044f2e4fb!2sTaperia%20el%20Rincon%20de%20Rosi!5e0!3m2!1ses!2ses!4v1748742010203!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqXsxbJ3xFO3fyS_84XS7D_o6a106tVD0bDf65zhyq-GNgBMyhzZjw2V9E2i4QYUs_THPFzqFGtcjkg9BTcQdlkrNCL46DpOj_S5ui0gD-EztyskZlR0-t9hJdDiDRiW9xwSU4E=w408-h306-k-no",
+	"comentarios":[
+		"Todo brutal, muy buen trato por parte de Rafa (creo que se llama) éramos muchos en el cumpleaños y estuvo pendiente a nosotros en todo momento y con una cercanía que te sentías como en casa. Yo aprecio mucho ese detalle y profesionalidad la verdad! La comida brutal y no tardó mucho en llegar excepto un plato, eso sí un poco caro pero bueno es lo que hay si lo quieres bien y sino pues nada!!! Gracias por vuestra atención, volveré."
+	]
+},
+{
+	"nombre":"Restaurante Al Andalus",
+	"categoria":"Restaurante marroquí",
+	"rating":"4,3",
+	"reviews":"429",
+	"horario":"lunes, De 13:00 a 17:00; martes, De 13:00 a 17:00; miércoles, De 13:00 a 17:00; jueves, De 13:00 a 17:00; viernes, De 13:00 a 17:00; sábado, De 13:00 a 17:00; domingo, De 13:00 a 17:00",
+	"direccion":"Pino Gordo, s/n, 51005 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 51 39 21",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.879197985485!2d-5.302292903210449!3d35.900974200000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca41182b1722f%3A0x3b4bb359be1df3df!2sRestaurante%20Al%20Andalus!5e0!3m2!1ses!2ses!4v1748742020015!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqrUEbW6pgs9haiKvQFtZjvSOf1JajIliDQqJy8vEyC8DS02HgHzaXjm_sfK7jVne_wvvA9GOUlOhUyWr7dskq2BSh4TlfLTUWx-sYFLixd_7JgaEu7VlC1w7X5grQawjQX6r0wfA=w408-h306-k-no",
+	"comentarios":[
+		"En nuestro viaje a Ceuta, no podíamos faltar a visitar este estupendo restaurante, en el cual se come lo mejorcito de la gastronomía Marroquí.",
+		"El lugar donde se encuentra, hace que la comida sea un placer y las mejores vistas.",
+		"Sales de allí, muy bien comido con los sabores Marroquíes y su pastelería."
+	]
+},
+{
+	"nombre":"Carrefour",
+	"categoria":"Hipermercado",
+	"rating":"4,0",
+	"reviews":"1.538",
+	"horario":"lunes, Cerrado; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, De 10:00 a 22:00",
+	"direccion":"Av. Teniente General Muslera, s/n, 51002 Ceuta, Ceuta,CE",
+	"ciudad":"Ceuta",
+	"provincia":"CE",
+	"web":"https://www.carrefour.es/tiendas-carrefour/hipermercados/carrefour/ceuta.aspx",
+	"telefono":"956 75 46 00",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.1736292751502!2d-5.333696303210429!3d35.893763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e7b67aabe5%3A0xe7e75f0af7b07801!2sCarrefour!5e0!3m2!1ses!2ses!4v1748742031591!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMNekNWfhpY7b6HKpSxpiqR0Iuovh0AapC3dR6Y=w426-h240-k-no",
+	"comentarios":[
+		"Carrefour muy completo, con mucha variedad de productos, incluidos frescos, carnes, pescados, etc… y con una gran atención al cliente por parte de sus trabajadores… buen sitio para ir de compras tanto a diario como en fin de semana",
+		"… 👍…"
+	]
+},
+{
+	"nombre":"Cafetería NooRayan",
+	"categoria":"Cafetería",
+	"rating":"4,8",
+	"reviews":"4",
+	"horario":"lunes, De 8:00 a 21:00; martes, De 8:00 a 21:00; miércoles, De 8:00 a 21:00; jueves, De 8:00 a 21:00; viernes, De 8:00 a 21:00; sábado, De 9:00 a 20:00; domingo, Cerrado",
+	"direccion":"C. Real, 45, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3817809617317!2d-5.310093003210438!3d35.88866419999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca500004ecedb%3A0x9b6e31581607c8b6!2sCafeter%C3%ADa%20NooRayan!5e0!3m2!1ses!2ses!4v1748742043013!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noRkT6oQ-gkMDh6xtpz5kWYbOQJxsNo4WqumnrKkv-6zQBO0xMmlMRZM_uuRRcmG6sDD7j4XQt2DFXxGQnJZTsIXJOENWU1o-0Me77AimA9SEvbAB4ddtZAwEh1A9mLNSU1Y8F6Ww=w408-h906-k-no",
+	"comentarios":[
+		"Pasé por ahí a tomarme un café rápido. La atención fue buena, el café a 1&apos;40."
+	]
+},
+{
+	"nombre":"Plaza de España",
+	"categoria":"Plaza",
+	"rating":"4,3",
+	"reviews":"317",
+	"horario":"lunes, Abierto 24 horas; martes, Abierto 24 horas; miércoles, Abierto 24 horas; jueves, Abierto 24 horas; viernes, Abierto 24 horas; sábado, Abierto 24 horas; domingo, Abierto 24 horas",
+	"direccion":"C. Ingenieros, 1Z, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"856 20 05 60",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3817809617317!2d-5.310093003210438!3d35.88866419999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca400714e2ead%3A0xae6c61f0b54edeed!2sPlaza%20de%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1748742053311!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no1H_DxhBOtzuksPtopJ0qXdnAmAr8vDlRdY7NwCEPw5AbyE7cxtolrSMqTvVgv6ZJqd1G2t94O57SA49oyvmYGfvU8ZQ-o8Z8lbVTktcAbFQ6IhdNojqeXztzijZSkjLCG8a7I=w408-h544-k-no",
+	"comentarios":[
+		"Es una plaza muy bonita y tranquila, hay cafeterías con terraza donde disfrutar un rato. Esta rodeada de edificios de gran belleza y valor histórico. Para mi, una de las plazas más bellas de la ciudad."
+	]
+},
+{
+	"nombre":"Bar El Espigón",
+	"categoria":"Restaurante",
+	"rating":"3,7",
+	"reviews":"23",
+	"horario":"",
+	"direccion":"51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 52 49 09",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4668541853307!2d-5.3291332032104535!3d35.886580099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca366144fea2b%3A0xf129224e95e6ad90!2sBar%20El%20Espig%C3%B3n!5e0!3m2!1ses!2ses!4v1748742062366!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nruwSD7NIOmk8TIVt9fYOxVdxhsjSvtEuyLyc6uXSyBXxuHweiWDvFHREljELvoiHBAvuD8rp35xaTY7kY6StPXlmotDcBQ1_t2h7qqhQooFr2JSuTtmJBr2nVTmE_Ep4KYiO3JjQ=w408-h544-k-no",
+	"comentarios":[
+		"Las tapas buenísimas,cada vez k vengo a Ceuta voy a cenar. Trato muy amable"
+	]
+},
+{
+	"nombre":"Mesón Pacho",
+	"categoria":"Bar de tapas",
+	"rating":"4,0",
+	"reviews":"343",
+	"horario":"lunes, De 12:30 a 16:00, De 20:30 a 24:00; martes, De 12:30 a 16:00, De 20:30 a 24:00; miércoles, De 12:30 a 16:00, De 20:30 a 24:00; jueves, De 12:30 a 16:00, De 20:30 a 24:00; viernes, De 12:30 a 16:00, De 20:30 a 24:00; sábado, De 12:30 a 16:00, De 20:30 a 24:00; domingo, Cerrado",
+	"direccion":"C. Beatriz de Silva, 7, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 51 75 36",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4501550093432!2d-5.312445603210438!3d35.8869892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca4004b5a8cf9%3A0x347633724de4df50!2sMes%C3%B3n%20Pacho!5e0!3m2!1ses!2ses!4v1748742071483!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no4FWM7B1jNvnEK0hdYAtPGzT4XcdKXKEx-0TJbKCFIFyYE-lDCBk1eEZIABIBJ3TDE_cQfX_bo-e5SBdpmZrij_eOTJSwz0TGwclD1H4pX2gWFRRazn3J05IVNYfE45GS1YGY4=w408-h306-k-no",
+	"comentarios":[
+		"Después de la experiencia comiendo en este sitio, si pudiera darle 0 estrellas se lo concedería gustosamente. Primero nos deleitan con un “no se ponen tapas si comes sentado, aunque una por cortesía nos podían poner”. Luego nos llega la comida a cada uno con 10 min de diferencia entre los comensales, es decir que el último ha comido aproximadamente 45 min más tarde que el resto. Continúan con que de los 4 o 5 postres que tienen en carta, solo les queda uno porque “el fin de semana ha sido muy duro” y lo rematan con la cuenta. Lo de la cuenta es de tener la cara muy dura, jamás he visto algo así. Pedimos un chuletón de ternera cuyo precio en carta es de 19€. Cuando llega la cuenta comprobamos que han puesto 55€ su precio, con lo que le decimos que se han equivocado. Su respuesta ha sido que como no tenían chuletón de ternera, han puesto uno de vaca gourmet edición limitada premium plus recién matada sin sufrimiento, que vale 55€, que en ningún momento nos han informado y que ni siquiera aparece en la carta, el único que hay es el chuletón de ternera de 19€. Jamás he visto algo similar y encima se indigna porque no le van a perder dinero. Finalmente, después de flipar con la situación, nos baja como favor a 40€ para que no le pierdan dinero ellos.",
+		"No vuelvo ni aunque me inviten."
+	]
+},
+{
+	"nombre":"Abaris Café",
+	"categoria":"Cafetería",
+	"rating":"3,8",
+	"reviews":"50",
+	"horario":"lunes, De 7:00 a 22:00; martes, De 7:00 a 22:00; miércoles, De 7:00 a 22:00; jueves, De 7:00 a 22:00; viernes, De 7:00 a 22:00; sábado, De 7:00 a 22:00; domingo, De 7:00 a 13:00",
+	"direccion":"Av. Teniente General Muslera, 51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"856 20 84 18",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.177168900545!2d-5.334290103210415!3d35.89367630000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e7b92ca19d%3A0x78edcfc1dd688e9c!2sAbaris%20Caf%C3%A9!5e0!3m2!1ses!2ses!4v1748742081091!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrhMbXXbegpOBGIymZLAD1S5vBjGSz71rniM6geEPrhThxpege7Tb8OKJ0ImoNWcGshb266wINMbwuhaIk4y31mDJiKFJBZkgpAqX_Y9-Oy4PDOECXtTVxT4IDWY4ptSRA1d7KyEA=w408-h306-k-no",
+	"comentarios":[
+		"Es un buen local; he leído un comentario muy desafortunado que lo describe desagradecido y sucio y es como poco muy poco objetivo. Un problema con un camarero no justifica el mentir. El local es muy muy limpio y agradable, los camareros…"
+	]
+},
+{
+	"nombre":"Supeco",
+	"categoria":"Supermercado",
+	"rating":"4,3",
+	"reviews":"98",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, De 10:00 a 21:00",
+	"direccion":"Av. Juan de Borbón Muelle, Av. Cañonero Dato, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://www.supeco.es/tiendas/?id=43",
+	"telefono":"605 45 59 86",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2818070088174!2d-5.324176303210418!3d35.8911132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3b7316fd96f%3A0xc9a3ab2398aafc9d!2sSupeco!5e0!3m2!1ses!2ses!4v1748742090588!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMUU3VQPHIAszO7ZgMr_8g85a0sa1DfkhU1I2Pl=w408-h306-k-no",
+	"comentarios":[
+		"Tres estrellas por el tiempo de espera en carniceria y charcuteria. Cada vez que vengo a comprar espero casi 40 minutos para que me atiendan. Creo q debería haber alguien mas cuando vean que hay cola."
+	]
+},
+{
+	"nombre":"Piscolabis Gastrobar Ceuta",
+	"categoria":"Bar de tapas",
+	"rating":"4,2",
+	"reviews":"402",
+	"horario":"lunes, Cerrado; martes, De 13:30 a 15:30, De 20:30 a 23:30; miércoles, De 13:30 a 15:30, De 20:30 a 23:30; jueves, De 13:30 a 15:30, De 20:30 a 23:30; viernes, De 13:30 a 15:30, De 20:30 a 23:30; sábado, De 13:30 a 15:30, De 20:30 a 23:30; domingo, De 13:30 a 15:30",
+	"direccion":"Calle Independencia, 3, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://www.piscolabisgastrobar.com/",
+	"telefono":"956 51 34 83",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.429643085129!2d-5.320174103210425!3d35.8874917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3759679995f%3A0x981ede7959b065ac!2sPiscolabis%20Gastrobar%20Ceuta!5e0!3m2!1ses!2ses!4v1748742100607!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPdAtd5jd82UE_LSNMEEK57l5qpizE1m3-BMdPN=w408-h273-k-no",
+	"comentarios":[
+		"Buen restaurante de comida de autor, con especialidad en platos con atún. Bonita decoración, aunque yo pondría una música lenta y que acompañe a los platos exquisitos. Los precios son adecuados a la calidad. Para venir de vez en cuando e ir probando toda la carta."
+	]
+},
+{
+	"nombre":"Bar Camarón",
+	"categoria":"Marisquería",
+	"rating":"4,4",
+	"reviews":"889",
+	"horario":"lunes, Cerrado; martes, De 12:00 a 18:00; miércoles, De 12:00 a 18:00; jueves, De 12:00 a 18:00; viernes, De 12:00 a 23:55; sábado, De 12:00 a 23:55; domingo, De 12:00 a 18:00",
+	"direccion":"C. 110 Bda. Juan Carlos I, 42, 51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://www.barcamaron.es/",
+	"telefono":"620 14 41 27",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4497917157346!2d-5.346900103210429!3d35.88699809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca35a847954a7%3A0x63278e9b6e6ea205!2sBar%20Camar%C3%B3n!5e0!3m2!1ses!2ses!4v1748742110716!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noZlG9IBTWMWoaREHflqFqaDrUD_G1LjflYeYT94ko6mBK8NKma8Ru1W044WyHoGzWkjszcWA7TrwergnstHpyK-KVvqUy8K7F5BlrXG9ohKDb08a8bYGw2sE_hhBpthB5TKgWSEg=w408-h306-k-no",
+	"comentarios":[
+		"El mejor sitio de Ceuta para pescado. Fresco y espectacular. Calidad precio lo mejor de la zona. Todo espectacular."
+	]
+},
+{
+	"nombre":"Las chinchetas cuadradas son anuncios",
+	"categoria":"Bar",
+	"rating":"4,2",
+	"reviews":"408",
+	"horario":"lunes, Cerrado; martes, De 11:00 a 23:30; miércoles, De 11:00 a 23:30; jueves, De 11:00 a 23:30; viernes, De 11:00 a 23:30; sábado, De 11:30 a 23:30; domingo, De 11:00 a 17:00",
+	"direccion":"Pje. Eduardo Gallardo, 13, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"659 67 18 14",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.413947723468!2d-5.319659303210471!3d35.8878762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fe87d173f7%3A0x7cdf7cad54c57e33!2sBar%20La%20Terraza%20de%20Menchu!5e0!3m2!1ses!2ses!4v1748742121646!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrPLuvB3P_igTWJM8cTxxxUU1OeUqHbypcqsIx08NU-cKQ6YMAO5FFX4dRIVI_CPgbZ-oGSYo966UJqAI2mrVSFLgArXk_CxkXgRl6HPO7vqsMJhsUXSEQ_GJoH1mJJI3f4HbF_=w408-h306-k-no",
+	"comentarios":[
+		"De Tenerife. Fuimos con reserva por recomendación de mi hija conocedora de los  lugares del buen comer. Su papás bravas , su pulpo con mahonesa, sus tomates aliñados, el cazón y por supuesto , estoy de acuerdo en donde saboreas unos pinchos morunos exquisitos exquisitos para mi y según mi hija donde más le han gustado de todos los lugares donde los ha probado. Muy sabroso todo, nada picante.Fabuloso todo hasta el lugar extraño por la ubicación entre edificios pero muy céntrico. Ambiente agradable y buen tiempo. Servicio rápido , a pesar de la gente que se fue acumulando. Felicidades a todos los componentes de la terraza de Menchu!"
+	]
+},
+{
+	"nombre":"Carrefour Express",
+	"categoria":"Supermercado",
+	"rating":"3,8",
+	"reviews":"148",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 14:00; sábado, De 9:00 a 22:00; domingo, De 9:00 a 22:00",
+	"direccion":"Paseo de Colón, 11, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-express/paseo-de-colon-ceuta-s.aspx",
+	"telefono":"652 33 88 35",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.413947723468!2d-5.319659303210471!3d35.8878762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3ffb98ee403%3A0xe3567cf10324a52a!2sCarrefour%20Express!5e0!3m2!1ses!2ses!4v1748742132419!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipNl3syIhX4Zly9deMZHsl5hNXiM5tsg-8vq0iGV=w408-h306-k-no",
+	"comentarios":[
+		"Un supermercado caro,algunas dependientas son mal educadas con otros trabajadores.",
+		"Tengo claro que no volveré!!!"
+	]
+},
+{
+	"nombre":"Restaurante Pesquero (Antiguo Asador Tapi)",
+	"categoria":"Parrilla",
+	"rating":"4,2",
+	"reviews":"294",
+	"horario":"lunes, Cerrado; martes, Abierto 24 horas; miércoles, De 8:00 a 1:00; jueves, De 8:00 a 1:00; viernes, De 8:00 a 24:00; sábado, Abierto 24 horas; domingo, De 10:00 a 18:00",
+	"direccion":"Av. de Africa, 31, 51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"675 75 43 85",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.541771901948!2d-5.331146203210449!3d35.8847447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e1fc61010b%3A0xec3dfb4f8a3ef2e4!2sRestaurante%20Pesquero%20(Antiguo%20Asador%20Tapi)!5e0!3m2!1ses!2ses!4v1748742141575!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr9vpqc1MM50t0W0NRrD1qF1jdiKKOxUTu7hFsElQ14Mvxo1IeNZ_lNcekUy7h5Bgav05C86Wr3EsEQ_0_QmwikyNyGyNTew93uuE0icL4OG2UZGekBOy4Syr6BIbdR_3JlVKbaow=w408-h408-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Cash Carry",
+	"categoria":"Supermercado",
+	"rating":"4,2",
+	"reviews":"244",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 9:00 a 21:00",
+	"direccion":"Mlle. de la Puntilla, 6, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://en.cashdiplo.es/",
+	"telefono":"856 58 80 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.0671676019965!2d-5.3309931032104485!3d35.89637059999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e8b3f987fd%3A0x4ceb761bbcda268e!2sCash%20Carry!5e0!3m2!1ses!2ses!4v1748742151107!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noGRj51wNCVFsaYihLCudyk47Mv8vwm_Qo3ZwkX7yNfbUhcaeDTgJjvIUmbrV2hFfmw19rKInm6kenvXatqo_Ar8_fKKiV3egNc7USIlPNa5z3ISCkhLs2ivUFH7zxfo30NAFA=w408-h544-k-no",
+	"comentarios":[
+		"Esta súper bien, hay variedad de productos y al mejor precio. Es grande espacioso y puedes encontrar de todo en él"
+	]
+},
+{
+	"nombre":"Restaurante El Lucas",
+	"categoria":"Restaurante",
+	"rating":"4,2",
+	"reviews":"150",
+	"horario":"lunes, De 13:30 a 16:30; martes, De 13:30 a 16:30, De 20:30 a 23:00; miércoles, De 13:30 a 16:30, De 20:30 a 23:00; jueves, De 13:30 a 16:30, De 20:30 a 23:00; viernes, De 13:30 a 16:30, De 20:30 a 24:00; sábado, De 13:30 a 16:30, De 20:30 a 23:00; domingo, De 13:30 a 16:30",
+	"direccion":"Pob. Marinero, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"680 34 80 77",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.328357477476!2d-5.321465203210414!3d35.889972900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3671f469f05%3A0xa8187c97e849dd54!2sRestaurante%20El%20Lucas!5e0!3m2!1ses!2ses!4v1748742160872!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqC6qQbs0tOFTJIMxKx0YrxLsgNHNjdKr-Vxkkgb-gLLaU82KOE5HkTM6cpRF5Izv22xW89logtMIeNxPSZx9JHJ8NrHZyMllyuNBDKMPI9bUTH3i2_3nZ2y5aRFItvIPzACBJ9=w408-h544-k-no",
+	"comentarios":[
+		"Pagas por lo que pides, y la calidad es incuestionable. Comida muy satisfactoria: entrantes de cortesía de la casa (aceitunas aliñadas y tomate aderezado); ensaladilla rusa de marisco (media); ración de cañaílla; casi medio kilo de langostino tigre (¡extraordinaria frescura y elaboración!); ración de atún de almadraba (casi 300 gramos de exquisitez a la plancha); una buena botella de blanco Ribera del Duero burgalesa; un postre y licor cortesía de la casa.",
+		"Servicio profesional, y buen asesor de vino.",
+		"En el ticket te indican el peso de lo que has pedido, y por lo que te cobran."
+	]
+},
+{
+	"nombre":"La terraza del Estrecho",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"322",
+	"horario":"",
+	"direccion":"Carr. Benzu, 44, 51004 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://instagram.com/laterrazadelestrecho?igshid=MzRlODBiNWFlZA==",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.2610409919375!2d-5.376473603210449!3d35.91611000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca25d40aa80f1%3A0x4618b171d857dc3e!2sLa%20terraza%20del%20Estrecho!5e0!3m2!1ses!2ses!4v1748742171357!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrCIAuzf9ge2LpiTUv2LQOhroOtvAwK3Khv8PyK67wuqbKDVrI6cL0zgnZGlQzjdZnMC063vWiX5rSZxugQAHcdGC394siZdG7vhhUNfv0efGQP-8WseQYaTDk9-FSrZ2FA9skT=w408-h544-k-no",
+	"comentarios":[
+		"El mejor sitio de ceuta para comer/ tapear/ merendar / desayunar, para cualquier hora del día que vayas saldrás satisfecho, cuenta con un salón interior amplio, una terraza antes de entrar al salón, y otra terraza mas pequeñita con pocas mesas pero con unas vistas increíbles al estrecho en la cuál en verano estás muy agusto.",
+		"El servicio es amable y simpático aunque cuando hay mucha gente los tiempos de espera son bastante amplios.",
+		"Respecto a la comida, tienen, a mi gusto, los mejores pinchitos de todo Ceuta, grandes sabrosos y sabor exquisito, también recomiendo la ensalada de la casa."
+	]
+},
+{
+	"nombre":"Meson Baco Restaurante",
+	"categoria":"Restaurante",
+	"rating":"4,1",
+	"reviews":"222",
+	"horario":"lunes, Cerrado; martes, De 12:00 a 17:00, De 20:00 a 23:30; miércoles, De 12:00 a 17:00, De 20:00 a 23:30; jueves, De 12:00 a 17:00, De 20:00 a 23:30; viernes, De 12:00 a 17:00, De 20:00 a 23:30; sábado, De 12:00 a 17:00, De 20:00 a 23:30; domingo, De 12:00 a 17:00",
+	"direccion":"Paseo Alcalde Sánchez Prados, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"622 15 36 86",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.395174328565!2d-5.319653103210449!3d35.88833609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fc72e4810f%3A0x134df6c20595cc35!2sMeson%20Baco%20Restaurante!5e0!3m2!1ses!2ses!4v1748742183076!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPnr6wx0UZLLNMOBDnzcjuSsd0Pqe970eoXFwuW=w506-h240-k-no",
+	"comentarios":[
+		"Me llevo un amigo que fui a visitar, todo buenísimo y fresco, regado con buen vino, un acierto Jose el dueño pendiente en todo momento un saludo."
+	]
+},
+{
+	"nombre":"Cafe Bar Lusitano",
+	"categoria":"Bar",
+	"rating":"4,3",
+	"reviews":"51",
+	"horario":"lunes, De 7:00 a 20:00; martes, Cerrado; miércoles, De 7:00 a 20:00; jueves, De 7:00 a 20:00; viernes, De 7:00 a 20:00; sábado, De 7:00 a 20:00; domingo, De 7:00 a 20:00",
+	"direccion":"Residencial Weil, C. Ruiz de Alarcón, 9, Local Bajo B-1, 51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 50 00 36",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.16715831453!2d-5.335931603210455!3d35.893921500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3dd61e140e3%3A0x8601281e9b0abad6!2sCafe%20Bar%20Lusitano!5e0!3m2!1ses!2ses!4v1748742193654!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nohwcDdIjQyus8b6ClVgjJTbMj69BPzdZAlFmSAyeh9SYdBUWauvdmbw99F5M3x37MNU7Hx69Mw_2tG0OcgHVjct03mvBd_T0vXBiYfkAtbiZaxrBLd3InuftGeBmSWvbIB2VsCmg=w408-h544-k-no",
+	"comentarios":[
+		"Excelente.",
+		"Vine de viaje a Ceuta y en este bar me trataron perfectamente. Con una gran amabilidad y la comida exquisita. Las tapas y menús son de 10/10. Local limpio, familiar, comida de campo y mar. Postres deliciosos y la paella 🥘 un manjar.",
+		"Lo recomiendo 100% me voy de Ceuta con una grata impresión y atención gracias al Lusitano. No duden en ir a comer, merendar o lo que sea. Visita obligada."
+	]
+},
+{
+	"nombre":"Misoot",
+	"categoria":"Hipermercado",
+	"rating":"",
+	"reviews":"",
+	"horario":"lunes, Abierto 24 horas; martes, Abierto 24 horas; miércoles, Abierto 24 horas; jueves, Abierto 24 horas; viernes, Abierto 24 horas; sábado, Abierto 24 horas; domingo, Abierto 24 horas",
+	"direccion":"C. San Daniel, 23A, 51003 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.799770577!2d-5.350886303210449!3d35.878423399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca1005065b36b%3A0xda8b41298f14b855!2sMisoot!5e0!3m2!1ses!2ses!4v1748742204341!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rWDXki8U0eFFFvdfsieMQA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=236.53023&pitch=0&thumbfov=100",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Dos Hermanos",
+	"categoria":"Supermercado",
+	"rating":"4,7",
+	"reviews":"13",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 12:00 a 14:00",
+	"direccion":"C. Real, 98, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"632 36 88 47",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.327198119778!2d-5.307321803210448!3d35.8900013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca5c3671e64fb%3A0x913073fa6803925d!2sDos%20Hermanos!5e0!3m2!1ses!2ses!4v1748742212607!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"",
+	"comentarios":[
+		"Es la Mejor Tienda y el Trato especial de a familia más que de cliente. Todo muy bien ordenado y una carnicería sin igual. Con profesionales y gente muy buena que te ayuda más que querer vender por vender. El lugar ideal para comprar siempre. Unos Buenos Amigos"
+	]
+},
+{
+	"nombre":"Elite",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"747",
+	"horario":"lunes, De 9:00 a 23:30; martes, De 9:00 a 23:30; miércoles, De 9:00 a 23:30; jueves, De 9:00 a 23:30; viernes (Eid al-Adha), De 9:00 a 23:30, El horario podría cambiar; sábado (Eid al-Adha), De 9:00 a 23:30, El horario podría cambiar; domingo, De 9:00 a 23:30",
+	"direccion":"Café Elite, Fnideq, Marruecos",
+	"ciudad":"Castillejos, Marruecos",
+	"provincia":"Marruecos",
+	"web":"",
+	"telefono":"+212 5396-77779",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.675463517042!2d-5.353209103210449!3d35.85696060000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca10bdcbb5dc7%3A0x12bbf3594cdee9db!2sElite!5e0!3m2!1ses!2ses!4v1748742222693!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npAqIkb8yr6V9hsLSF6RYvzlj0c2MoX6Puo5jkfHyBf8TGow0LVPTGBga6EkA0W94SHTpzSwQpuEBZ9EgvEYDEr4hligcrdw8IrZw3mP2TfB3qwm6wXLeBZg1f6G8TIl2oxrKM=w408-h306-k-no",
+	"comentarios":[
+		"Ubicado en plena localidad fronteriza con Ceuta, Castillejos para los españoles (en árabe: الفنيدق‎, en bereber ⴼⵏⵉⴷⴰⵇ, en francés: Fnideq). Situado junto a escasa distancia del puesto fronterizo de Bab Sebta, se encuentra esta cafetería…"
+	]
+},
+{
+	"nombre":"El Madroño",
+	"categoria":"Restaurante",
+	"rating":"4,7",
+	"reviews":"35",
+	"horario":"lunes, De 7:00 a 24:00; martes, De 7:00 a 24:00; miércoles, De 7:00 a 24:00; jueves, De 7:00 a 24:00; viernes (Eid al-Adha), De 7:00 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 24:00, El horario podría cambiar; domingo, De 7:00 a 24:00",
+	"direccion":"N°32, HAY BAB SEBTA, RUE ABI RABIE SEBTI, Fnideq 93100, Marruecos",
+	"ciudad":"Castillejos, Marruecos",
+	"provincia":"Marruecos",
+	"web":"",
+	"telefono":"+212 5396-76730",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.8461811353527!2d-5.3546857032104365!3d35.85277510000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca1f5f4545375%3A0x837f643c754567f9!2sEl%20Madro%C3%B1o!5e0!3m2!1ses!2ses!4v1748742232528!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTgNMj14e6KMOWNt6c0IEuHwddHwARc540TET2D86XvUGXWlspFeXj5De0tOWXIkFYJCspkSEImcHdqMt4Wul6NwCZFrfGXPFpbi3sb9Zmzzz0ui8Z2O052P6F-YCOTfgQ4sky=w408-h306-k-no",
+	"comentarios":[
+		"Buen sitio para comer en Castillejos. Tiene unas vistas al mar impresionantes, y una zona de juegos para los más pequeños.",
+		"La comida no está mal, y el servicio es bueno, atento."
+	]
+},
+{
+	"nombre":"Cash Diplo",
+	"categoria":"Autoservicio mayorista",
+	"rating":"",
+	"reviews":"",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 9:00 a 21:00",
+	"direccion":"Mlle. de la Puntilla, 6, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://www.cashdiplo.es/tiendas/51001-cashdiplo-ceuta/",
+	"telefono":"856 58 80 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.0610922746982!2d-5.33098540321045!3d35.8965194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3a774c062c9%3A0x81684cc229090aa9!2sCash%20Diplo!5e0!3m2!1ses!2ses!4v1748742242685!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipObhGWIvSnHr8t3lrPyrtlq31bncd7f33s_d-WV=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Lidl",
+	"categoria":"Supermercado de descuentos",
+	"rating":"4,1",
+	"reviews":"1.700",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, De 9:00 a 22:00",
+	"direccion":"Avenida del, Av. Cañonero Dato, s/n, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://www.lidl.es/",
+	"telefono":"900 958 311",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2864282298306!2d-5.323483603210446!3d35.89100000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e34f8b38c1%3A0x94489891589c8e5f!2sLidl!5e0!3m2!1ses!2ses!4v1748742252028!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nreZxOi-M-pPp519xlzqLFqXogPcmEo0M_FqyDkmutwvMISpKw2De-rNe8IU0TTGxiW3PvZVpBsMt2CH9uPCPhU8w4YzJYQqp5_oq6-kuh5vPg3XBc0BwrbpKXlAKSgt3qsDPtdtg=w426-h240-k-no",
+	"comentarios":[
+		"Todos los comentarios están bien y son objetivos, para resumir, veo 2 cosas que están mal ahí. Que haya personas ahí fuera que no tienen recursos, y hay que darles una ubicación digna o trabajo. Y la segunda es que el volumen de reposición de los productos sea mayor, es una asignatura pendiente de la franquicia, ya que el volumen de ingresos sería mayor. Que conste que estas opiniones se hacen para que mejore el servicio al consumidor y que la empresa obtenga más volumen de ventas. También debería coordinar el problema de los parking de gente que les da un uso diferente al propósito de la compra. Gracias"
+	]
+},
+{
+	"nombre":"Mercadona",
+	"categoria":"Supermercado",
+	"rating":"4,3",
+	"reviews":"1.204",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes, Cerrado; sábado, De 9:00 a 21:30; domingo, Cerrado",
+	"direccion":"Av. España, 30, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://www.mercadona.es/",
+	"telefono":"956 77 11 47",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2864282298306!2d-5.323483603210446!3d35.89100000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3d0ceb23431%3A0x143b3a8f86bc4c37!2sMercadona!5e0!3m2!1ses!2ses!4v1748742263075!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noOxsWfLJxbTVct8szl_xwwA8QybWJ3RRHHZfuaGQy0xoib6cqNZdNeL3PWyHsV0UsqTt9Fco4RWouRVxvYhmqhBHPe1OOikQAsX21auriHIgRwTQZNciwOHM8ImfhASfnVJjV8=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Weil 2000 Ceuta S. A. L.",
+	"categoria":"Supermercado",
+	"rating":"4,4",
+	"reviews":"36",
+	"horario":"lunes, De 9:30 a 13:30, De 16:00 a 19:00; martes, De 9:30 a 13:30, De 16:00 a 19:00; miércoles, De 9:30 a 13:30, De 16:00 a 19:00; jueves, De 9:30 a 13:30, De 16:00 a 19:00; viernes, De 9:30 a 13:30, De 16:00 a 19:00; sábado, De 9:00 a 13:30; domingo, Cerrado",
+	"direccion":"51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 50 19 44",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.1645372622465!2d-5.335534503210464!3d35.8939857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3dd20ee2a5f%3A0xe0cf45d4f4f5c704!2sWeil%202000%20Ceuta%20S.%20A.%20L.!5e0!3m2!1ses!2ses!4v1748742275311!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nob94igwoO7JbNCIdELPQGTBj7GoX1TWdYdENC6VHKk3tkMoZSQPJ4cKQZWw9Za1rkc9dCjerETP5zu7X6tqtrSgBcXIAWY6Yzf871FXu7qCpQDegt55ylNI0yJ7Vzho3m9DAGm=w408-h306-k-no",
+	"comentarios":[
+		"Muy agradable, personal muy atento. Obtienes a buen precio los productos que ellos traen."
+	]
+},
+{
+	"nombre":"Las chinchetas cuadradas son anuncios",
+	"categoria":"Supermercado",
+	"rating":"3,9",
+	"reviews":"434",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 9:30 a 14:30",
+	"direccion":"C. Real, 40, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://www.eroski.es/",
+	"telefono":"956 51 88 84",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4090574353954!2d-5.3108256032104455!3d35.88799600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca40177970991%3A0x595735f6c4e82183!2sEROSKI!5e0!3m2!1ses!2ses!4v1748742286375!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nom_Xk72QjG2QoxFC7GcCMbJ5XLn_szq6107fkUiBNdKIKCT0zsEkriDTK-sCk1zLeIZUbHrsElcBWhMqzNMrZo70PUJ0iLlgSxA9DwF7t4FflLk81d7LiIaGXPZSph2CfTGLMs=w426-h240-k-no",
+	"comentarios":[
+		"Bastante variedad de productos. Pero como casi todas las dependientas de supermercado en Ceuta, unas rancias que rozan la mala educación."
+	]
+},
+{
+	"nombre":"Imprenta Olimpia",
+	"categoria":"Papelería",
+	"rating":"4,4",
+	"reviews":"64",
+	"horario":"lunes, De 8:00 a 13:00, De 15:00 a 18:30; martes, De 8:00 a 13:00, De 15:00 a 18:30; miércoles, De 8:00 a 13:00, De 15:00 a 18:30; jueves, De 8:00 a 13:00, De 15:00 a 18:30; viernes, De 8:00 a 14:00; sábado, Cerrado; domingo, Cerrado",
+	"direccion":"Carretera de Servicio, Edificio Luvalsa, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"http://www.imprentaolimpia.com/",
+	"telefono":"956 51 11 13",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.109665703299!2d-5.334710003210424!3d35.89532969999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e80af60599%3A0x29131d29dcb29d3b!2sImprenta%20Olimpia!5e0!3m2!1ses!2ses!4v1748742300139!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMskIdV2GnbUDgeZmYzU75XAXDXAl0_hNUQVa1L=w408-h272-k-no",
+	"comentarios":[
+		"Muy mal, no me funciona correctamente el sello que compré, nada lo voy a devolver puesto que arreglarlo me cuesta más dinero. Además trabajan solo 4 días a la semana con el viernes a medias y cierran a las 13 horas"
+	]
+},
+{
+	"nombre":"Bar La Riquísima",
+	"categoria":"Bar",
+	"rating":"3,6",
+	"reviews":"286",
+	"horario":"",
+	"direccion":"C. María Salud Tejero, 6, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"856 20 09 61",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.3650156317385!2d-5.30904820321045!3d35.88907489999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca403c4d6c8fd%3A0xe928751d2040bfd4!2sBar%20La%20Riqu%C3%ADsima!5e0!3m2!1ses!2ses!4v1748742309718!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npQjwCgBOMAlVKwxK-owqXoCsnRqxWS1GPPkXy9HHWlIcGhse-jZk0NH5aLv5A5-TsOTCYauXAGXxevR0Qz7ndzMEAbcj2nZW9sY5n_XvZ0TmI3-m3fSoeZ8NxL0XO0QhUcusw=w408-h306-k-no",
+	"comentarios":[
+		"Muy mala experiencia, mal servicio, mala predisposición para la atención, no recomendable."
+	]
+},
+{
+	"nombre":"Europapel Ceuta",
+	"categoria":"Papelería",
+	"rating":"5,0",
+	"reviews":"2",
+	"horario":"lunes, De 9:30 a 14:00, De 17:00 a 20:00; martes, De 9:30 a 14:00, De 17:00 a 20:00; miércoles, De 9:30 a 14:00, De 17:00 a 20:00; jueves, De 9:30 a 14:00, De 17:00 a 20:00; viernes, De 9:30 a 14:00, De 17:00 a 20:00; sábado, De 10:00 a 13:30; domingo, Cerrado",
+	"direccion":"C. Espino, 20, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 51 20 38",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.515301680911!2d-5.314153903210443!3d35.8853932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca4001df47f37%3A0x7601dff61a0cae33!2sEuropapel%20Ceuta!5e0!3m2!1ses!2ses!4v1748742319279!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yndBXuOlSAP_jzbe8cvlXw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=323.85635&pitch=0&thumbfov=100",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Café Snack Troya Fnideq",
+	"categoria":"Cafetería",
+	"rating":"3,9",
+	"reviews":"602",
+	"horario":"lunes, De 7:00 a 23:00; martes, De 7:00 a 23:00; miércoles, De 7:00 a 23:00; jueves, De 7:00 a 23:00; viernes (Eid al-Adha), De 7:00 a 23:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 23:00, El horario podría cambiar; domingo, De 7:00 a 23:00",
+	"direccion":"Av. Hassan II, Fnideq, Marruecos",
+	"ciudad":"Castillejos, Marruecos",
+	"provincia":"Marruecos",
+	"web":"",
+	"telefono":"+212 5396-75381",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.1736349279627!2d-5.35911830321045!3d35.844745700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca108e1ad376b%3A0x4943a0c4c8d232ea!2sCaf%C3%A9%20Snack%20Troya%20Fnideq!5e0!3m2!1ses!2ses!4v1748742327998!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBSzvNH8INiumqxiljRklVcHA8ZPQrKapEIF84ekae-hcVahJvXFZh1L2Ncc-zE7I8ud73hdkcEokd05ghXIXNuERbh7sf8P7pjQO-pr35for-KSDHCYSeW9Rt9kjjhcJDsk2SZA=w426-h240-k-no",
+	"comentarios":[
+		"Vistas al mar desde la mesa y muy buena atención. No es comida típica marroquí pero se come bien y a buen precio. La presentación de los platos es excelente y tienen surtido variado en pastelería, pan, zumos y batidos de frutas. En la carta también habían pizzas, hamburguesas y pasta en diferentes formas."
+	]
+},
+{
+	"nombre":"Cafe Cantera",
+	"categoria":"Panadería",
+	"rating":"4,2",
+	"reviews":"75",
+	"horario":"lunes, De 7:00 a 22:30; martes, De 7:00 a 22:30; miércoles, De 7:00 a 22:30; jueves, De 7:00 a 22:30; viernes (Eid al-Adha), De 7:00 a 22:30, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 22:30, El horario podría cambiar; domingo, De 7:00 a 22:30",
+	"direccion":"VJ4V+MW3, Rte de Ceuta, Fnideq, Marruecos",
+	"ciudad":"",
+	"provincia":"Marruecos",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.6884917700245!2d-5.35998060321045!3d35.856641200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca1a12faf8a73%3A0xa6d100e1bd9cebb6!2sCafe%20Cantera!5e0!3m2!1ses!2ses!4v1748742338280!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmauTxC1mhAXmGg5w63Wmjs2P73SlMC5qoDRE_SICOxDcoVlI2tNZ9saeKWgKYUYOcKxuJWTdz993cyVg4wQc-MTA_DwNDDAIz_fqCWF74Z4qMuedenwhgjYpW1DbXpeT_o4V9mA=w426-h240-k-no",
+	"comentarios":[
+		"Nos gustó mucho"
+	]
+},
+{
+	"nombre":"Ciudad Autónoma de Ceuta.",
+	"categoria":"Papelería",
+	"rating":"5,0",
+	"reviews":"1",
+	"horario":"lunes, De 9:00 a 3:00; martes, De 9:00 a 3:00; miércoles, De 9:00 a 3:00; jueves, De 9:00 a 3:00; viernes, De 9:00 a 3:00; sábado, De 9:00 a 21:00; domingo, De 10:00 a 14:00, De 17:00 a 21:00",
+	"direccion":"C. Real, 90, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"856 20 58 29",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.358178007301!2d-5.307981203210449!3d35.88924240000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca40104b62b63%3A0x7fe02432410613b7!2sCiudad%20Aut%C3%B3noma%20de%20Ceuta.!5e0!3m2!1ses!2ses!4v1748742347137!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=CxcjzS1Q0Xi6Cb-oyA2gyg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=136.84042&pitch=0&thumbfov=100",
+	"comentarios":[
+		"Muy bonita"
+	]
+},
+{
+	"nombre":"Mi Electro",
+	"categoria":"Tienda de electrodomésticos",
+	"rating":"",
+	"reviews":"",
+	"horario":"",
+	"direccion":"C. Teniente Coronel Gautier, 38, 51002 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"https://www.mielectro.es/",
+	"telefono":"956 50 42 14",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.522085607402!2d-5.337215803210439!3d35.885227000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3e3ba31e4df%3A0xdf220e830d637ba!2sMi%20Electro!5e0!3m2!1ses!2ses!4v1748742356716!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=WfNrZ7gMNEYh6xiVE_Lmtw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=22.871002&pitch=0&thumbfov=100",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Papelería Centro",
+	"categoria":"Papelería",
+	"rating":"5,0",
+	"reviews":"5",
+	"horario":"lunes, De 9:30 a 13:30, De 17:00 a 20:30; martes, De 9:30 a 13:30, De 17:00 a 20:30; miércoles, De 9:30 a 13:30, De 17:00 a 20:30; jueves, De 9:30 a 13:30, De 17:00 a 20:30; viernes, De 9:30 a 13:30; sábado, Cerrado; domingo, Cerrado",
+	"direccion":"C. Sgto. Coriat, 4, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"689 85 97 21",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.4407746617194!2d-5.311766203210433!3d35.887219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca401ba9b2a07%3A0x31c96c7cf9c6c8e5!2sPapeler%C3%ADa%20Centro!5e0!3m2!1ses!2ses!4v1748742365170!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrZydx_2t6hJe1MiNBcrCzs-3VZYG4iJgYEV6qJgY1FHZ-wNNqYFxOcdFX2zEffNYaG9ca7x9qgv3r-xPG-whK3qQbdNXQuqtkxo9ZkUEzVTIpc_tTuWcUAU5eQjvlQXHVO3dqb=w408-h725-k-no",
+	"comentarios":[
+		"El mejor servicio de toda Ceuta. Estaba buscando un sitio para hacer una fotocopia y todas las copisterías da la casualidad que tienen las máquinas estropeadas. Aquí, aún teniendo cola y mucho estrés, me recibieron con una sonrisa. Me ayudaron con todo los que necesité, la atención siempre en mi no importaba cuánta gente había esperando por mi. Experiencia super satisfactoria y el mejor servicio al cliente. Seguro que vuelvo. No pongo más estrellas porque no puedo pero se merecen el doble."
+	]
+},
+{
+	"nombre":"Café California",
+	"categoria":"Cafetería",
+	"rating":"4,0",
+	"reviews":"574",
+	"horario":"lunes, De 7:00 a 22:00; martes, De 7:00 a 22:00; miércoles, De 7:00 a 22:00; jueves, De 7:00 a 22:00; viernes (Eid al-Adha), De 7:00 a 22:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 22:00, El horario podría cambiar; domingo, De 7:00 a 22:00",
+	"direccion":"VM32+RQ7, Fnideq, Marruecos",
+	"ciudad":"",
+	"provincia":"Marruecos",
+	"web":"",
+	"telefono":"+212 5399-76573",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.7738378021913!2d-5.352833403210449!3d35.85454879999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca1093d9faa79%3A0xa83579b58230a671!2sCaf%C3%A9%20California!5e0!3m2!1ses!2ses!4v1748742374809!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4non8FhunTI1c5z7bieR25g_P9lPkImK5kdeoeXG5xyhY07EUAYw96wtcGwRdQFcw17a_AX7PUOuqQ0I8nzbpNffvndEv49Ck8CF2k3C_TruC26y8n-A7SJ5C5C0_vHVae-hjYed=w408-h306-k-no",
+	"comentarios":[
+		"Servicio excelente!!!",
+		"Recomendadisimo 100% 🔝"
+	]
+},
+{
+	"nombre":"Papelería Imperial",
+	"categoria":"Papelería",
+	"rating":"4,2",
+	"reviews":"18",
+	"horario":"lunes, De 10:30 a 14:00, De 17:00 a 20:30; martes, De 10:00 a 13:30, De 17:00 a 20:30; miércoles, De 10:00 a 13:30, De 17:00 a 20:30; jueves, De 10:00 a 13:30, De 17:00 a 20:30; viernes, De 10:00 a 13:30, De 17:00 a 20:30; sábado, De 10:00 a 13:30; domingo, Cerrado",
+	"direccion":"C. Antioco, 3, 51001 Ceuta",
+	"ciudad":"Ceuta",
+	"provincia":"Ceuta",
+	"web":"",
+	"telefono":"956 51 27 12",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.40055858728!2d-5.315044303210448!3d35.888204200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3ff78aa668b%3A0x9e78f3d9fae2493c!2sPapeler%C3%ADa%20Imperial!5e0!3m2!1ses!2ses!4v1748742384481!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noY0ZGZHTNtmjWCs4pBlL0oe5QK5BkpM42VChEhSFBQYAvncD-7eihcYqawLZ03ouD3yOiNxUEzWEScVnqgrIAeJcv3UYEC4SMx9XFktM_F2EEzrxdKc5fBV6wQNEkGtphli2_m=w408-h544-k-no",
+	"comentarios":[
+		"Maravillosa papelería, llena de corazón, que ha patrocinado los calendarios solidarios de la ONG &quot;Dar Es Salaam&quot; de ayuda a niñ@s de la calle en Tanzania."
+	]
+},
+{
+	"nombre":"PAPELERIA LIBRERIA LA RIBERA",
+	"categoria":"Papelería",
+	"rating":"4,3",
+	"reviews":"70",
+	"horario":"lunes, De 9:00 a 13:00, De 17:00 a 20:30; martes, De 9:00 a 13:00, De 17:00 a 20:30; miércoles, De 9:00 a 13:00, De 17:00 a 20:30; jueves, De 9:00 a 13:00, De 17:00 a 20:30; viernes, De 9:00 a 13:00, De 17:00 a 20:30; sábado, De 10:00 a 14:00; domingo, Cerrado",
+	"direccion":"Calle Independencia, 1, 51001 Ceuta, Cáceres",
+	"ciudad":"Ceuta",
+	"provincia":"Cáceres",
+	"web":"",
+	"telefono":"856 66 86 85",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.40055858728!2d-5.315044303210448!3d35.888204200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0ca3fdd36c0c53%3A0x3461d732ffca8977!2sPAPELERIA%20LIBRERIA%20LA%20RIBERA!5e0!3m2!1ses!2ses!4v1748742393154!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nosrahjGPVBDmSw0QjACSApZcx739vZMpkVB4B1-VeTTC2oN_F4iRm-OTHnleeFnUF3hAoyxFmjBq2b5PdDUptd2RDaIur0hP_6bei-zV_ZyqZFHongzTbX7fZvQHmYqCuAuQkS=w426-h240-k-no",
+	"comentarios":[
+		"No contestan el teléfono. Acudo en Sábado 12:50 y está cerrada cuando dicen estar abiertos en su propio cartel."
+	]
+},
+{
+	"nombre":"Coffee La Ideal",
+	"categoria":"Restaurante de desayunos",
+	"rating":"4,4",
+	"reviews":"468",
+	"horario":"lunes, De 7:00 a 13:30, De 16:00 a 22:00; martes, De 7:00 a 13:30, De 16:00 a 22:00; miércoles, De 7:00 a 13:30, De 16:00 a 22:00; jueves, De 7:00 a 13:30, De 16:00 a 22:00; viernes (Eid al-Adha), De 7:00 a 13:00, De 16:00 a 22:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 13:30, De 16:00 a 22:00, El horario podría cambiar; domingo, De 7:00 a 13:30, De 16:00 a 22:00",
+	"direccion":"General Villalba 24, C. Valladolid, 25, L2, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.1827064314803!2d-2.9442483032104185!3d35.276583399999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f8550186f7%3A0xd1ba76c64e6b55ed!2sCoffee%20La%20Ideal!5e0!3m2!1ses!2ses!4v1748742547998!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrWEWJUfilzkwCG79mYciHM5mfuPAvsO9Ny90rjoOLYvmhGPgY7EHAUY5kbEOxqHrBUyoXHegobUy3_VPAlNhrS6MF7zN9MD0b6evV5Aa10mV_PO94SkwUCO-_d6baqll-RQzWb3g=w408-h306-k-no",
+	"comentarios":[
+		"Atención: 10/10",
+		"Servicio de los camareros: 10/10…"
+	]
+},
+{
+	"nombre":"El detalle cafetería",
+	"categoria":"Cafetería",
+	"rating":"4,3",
+	"reviews":"131",
+	"horario":"lunes, De 7:30 a 13:00, De 16:00 a 21:00; martes, De 7:00 a 13:00, De 16:00 a 21:00; miércoles, De 7:00 a 13:00, De 16:00 a 21:00; jueves, De 7:00 a 13:00, De 16:00 a 21:00; viernes (Eid al-Adha), De 7:00 a 13:00, De 16:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 13:00, De 16:00 a 21:00, El horario podría cambiar; domingo, De 7:30 a 13:00, De 16:00 a 21:00",
+	"direccion":"C. la Legión, 21, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"951 48 94 58",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.1827064314803!2d-2.9442483032104185!3d35.276583399999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705220c9d1423%3A0xd9f9148ad65e966a!2sEl%20detalle%20cafeter%C3%ADa!5e0!3m2!1ses!2ses!4v1748742556811!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZyhoVnpdvMsmL75IkOSnT-MxOqRbix8H6k45-m3vmdGTmV7s7PjV1UkBMx3h5cdMZChXxunK8pVtjv86-EgTrp4P6d0ZY3TOUkjTqIxoyPumnauuqJ_1U4ISL2SPiYTD7Dp1o=w426-h240-k-no",
+	"comentarios":[
+		"¡Una experiencia excelente! La comida estaba deliciosa, el servicio fue impecable, con un personal muy amable y educado. Además, los precios son muy convenientes y el ambiente es acogedor y agradable. Sin duda, un lugar al que volveré y que recomiendo totalmente. ¡Gracias por tan buen servicio!"
+	]
+},
+{
+	"nombre":"Tetería Nazarí",
+	"categoria":"Salón de té",
+	"rating":"4,3",
+	"reviews":"418",
+	"horario":"lunes, Cerrado; martes, De 16:30 a 24:00; miércoles, De 16:30 a 24:00; jueves, De 16:30 a 24:00; viernes (Eid al-Adha), De 16:30 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 16:30 a 24:00, El horario podría cambiar; domingo, De 16:30 a 24:00",
+	"direccion":"C. Actor Tallaví, 10, 52004 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"660 12 56 69",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.704747817636!2d-2.945548403210449!3d35.2884664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f4cfa79f6b%3A0x5544064a2f45c55f!2zVGV0ZXLDrWEgTmF6YXLDrQ!5e0!3m2!1ses!2ses!4v1748742565655!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrTz14l4d-FIhu69V8wW0VBdNv-caauvE_9NIC19SBPeYPhrDg74n9RFfFAtDWc35iS6Lel-Llcn8Ne4eT03cV6JPcgwkhQeYh1LCGaGPYBcl3HX-9yhE7VvEx3UVw0PRzm885flg=w408-h306-k-no",
+	"comentarios":[
+		"Me encanta el sitio, el ambiente, el personal y sobre todo esos tes fríos, limonadas y cócteles...y la comida impresionante llena de sabor que el paladar lo disfruta. El servicio se puede mejorar pero es comprensible por las horas puntas. Y el ambiente esta muy logrado y ambientado a las tradiciones de la zona."
+	]
+},
+{
+	"nombre":"Cafeteria El Bombon(industrial)",
+	"categoria":"Churrería",
+	"rating":"4,2",
+	"reviews":"566",
+	"horario":"lunes, De 7:30 a 13:00, De 17:00 a 21:00; martes, De 7:30 a 13:00, De 17:00 a 21:00; miércoles, Cerrado; jueves, De 7:30 a 13:00, De 17:00 a 21:00; viernes (Eid al-Adha), De 7:30 a 13:00, De 17:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 13:00, De 17:00 a 21:00, El horario podría cambiar; domingo, De 8:00 a 13:00, De 17:00 a 21:00",
+	"direccion":"C. de Carlos V, 41, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"619 96 86 03",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.971397060805!2d-2.944246403210434!3d35.28183740000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f64525a157%3A0xbae71ae2fd4927cd!2sCafeteria%20El%20Bombon(industrial)!5e0!3m2!1ses!2ses!4v1748742574420!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPiUuYUqxmIcu30nzk_NEt8bkAEJximER7Y7ihe=w408-h402-k-no",
+	"comentarios":[
+		"Este lugar ofrece, sin duda, el mejor desayuno de Melilla. La churrería es fantástica, con churros y porras que están siempre en su punto. Además, el té moruno es delicioso, perfecto para acompañar el desayuno.…"
+	]
+},
+{
+	"nombre":"Teteria Reino de Granada",
+	"categoria":"Cafetería",
+	"rating":"4,2",
+	"reviews":"71",
+	"horario":"lunes, De 17:15 a 2:00; martes, De 17:10 a 2:30; miércoles, De 17:15 a 2:30; jueves, De 17:15 a 3:00; viernes (Eid al-Adha), De 17:15 a 2:30, El horario podría cambiar; sábado (Eid al-Adha), De 17:00 a 3:00, El horario podría cambiar; domingo, De 17:15 a 3:00",
+	"direccion":"C. Marqués de Montemar, 34, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://menusview.com/pages/reino-de-granada",
+	"telefono":"952 15 62 01",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.971397060805!2d-2.944246403210434!3d35.28183740000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f66826c0b5%3A0x84476bb4ab0ae37b!2sTeteria%20Reino%20de%20Granada!5e0!3m2!1ses!2ses!4v1748742583420!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npVROqOgGHSqrCwkCrRI3uhV396DrqRohtwqBEDf0a125CKT-sClQfLQ8llSn-oc22P3wuEhga5mPotyG5ZHRQwjHJ7IUx_v2ULaCB4x6L2XHYI_z1ui3d0QbIYMl14vfPmV00=w408-h306-k-no",
+	"comentarios":[
+		"Gran variedad de comida árabe de Té, pañuelos, y muchas cosas más. Súper rico. El personal tiene gran profesionalidad en su trabajo, además de ser un lugar acogedor.…"
+	]
+},
+{
+	"nombre":"Café Restaurante La Selecta",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"414",
+	"horario":"lunes, De 7:30 a 24:00; martes, De 7:30 a 24:00; miércoles, De 7:30 a 24:00; jueves, De 7:30 a 24:00; viernes (Eid al-Adha), De 7:30 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 24:00, El horario podría cambiar; domingo, De 8:00 a 24:00",
+	"direccion":"Pl. Héroes de España, 1, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://laselectam.wixsite.com/my-site",
+	"telefono":"952 15 65 97",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5358943529504!2d-2.9438596032104485!3d35.292663600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058a44708563%3A0x59af78ed1aff4d49!2sCaf%C3%A9%20Restaurante%20La%20Selecta!5e0!3m2!1ses!2ses!4v1748742591951!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrGmkHIXM2ZnbGLH3Yk2rWGmXpNe5DQdtlBO_HeEPRJ5mT4jQfbrCuzDUGEPLYYFoEyqxM1YUD09XpPTryqklfEsW_Fj_KzW0lP4U88jjqccBgqxfz8Wgjmf2X3bs45bDYQL0w2=w426-h240-k-no",
+	"comentarios":[
+		"El sitio no está nada mal, se come bien. Los churros mejorables, y la tarta de pistacho no estaba mal. El chocolate caliente muy bueno. Precio total 15,30€. Para mí un poco caro en relación a la calidad ofrecida."
+	]
+},
+{
+	"nombre":"La taza dorada",
+	"categoria":"Cafetería",
+	"rating":"3,9",
+	"reviews":"141",
+	"horario":"lunes, De 7:30 a 13:00, De 16:30 a 21:30; martes, De 7:30 a 13:00, De 16:30 a 21:30; miércoles, De 7:30 a 13:00, De 16:30 a 21:30; jueves, De 7:30 a 13:00, De 16:30 a 21:30; viernes (Eid al-Adha), De 7:30 a 13:00, De 16:30 a 21:30, El horario podría cambiar; sábado (Eid al-Adha), De 7:30 a 13:00, De 16:30 a 21:30, El horario podría cambiar; domingo, De 7:30 a 13:00, De 16:30 a 21:30",
+	"direccion":"52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"615 81 32 52",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2917167165333!2d-2.948127603210449!3d35.2738727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705482a95b987%3A0x56c6a48eb07e2127!2sLa%20taza%20dorada!5e0!3m2!1ses!2ses!4v1748742601139!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrFaRLMPIJ57T-N8PFi6AwESBmXrHOX85zA1oD8_RYRACXINWcV4Ak0kVTEguhl7OiXCrqHSW175Tpe4mF8mtOCX2jqS5QlHtCMcHWmS6sqntXlQMV9fHDJNtaIdRYzVRG3WOMT=w408-h306-k-no",
+	"comentarios":[
+		"Hemos ido a romper el ayuno y la verdad q deja mucho q desear se suponía q era un menú económico cuando en realidad se a vuelto en una supuesta comída de lujo (pequeño tazón de barres, un par de dátiles y un par de chebakias Para una mesa llena) para después cobrarnos un ojo de la cara. La comida estaba fría y sosa, los precios eran absurdos para lo q es la calidad y cantidad de comida. Nos hemos arrepentido de haber ido. No lo recomiendo. No volveré jamás."
+	]
+},
+{
+	"nombre":"Cafetería Playing",
+	"categoria":"Cafetería",
+	"rating":"4,4",
+	"reviews":"300",
+	"horario":"lunes, De 6:30 a 21:00; martes, De 6:30 a 21:00; miércoles, De 6:30 a 21:00; jueves, De 6:30 a 21:00; viernes (Eid al-Adha), De 6:30 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 6:30 a 14:15, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. la Legión, 39, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 62 06 44",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2917167165333!2d-2.948127603210449!3d35.2738727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705fa33fa221d%3A0xbb3fef985534e4f2!2sCafeter%C3%ADa%20Playing!5e0!3m2!1ses!2ses!4v1748742610357!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nptkC3aVTcQlWfagMNfJVy6iJYWD8Vc-6zS-9uD3soBRNmzwr4DvpzgqY4Do8y5tQlMa78S8RHornLWZBGuBTT6wuxeJpJk9UF0JQc0dE2sm66PR6xrgUxmz_mhq7bDZ_z_sj0=w408-h306-k-no",
+	"comentarios":[
+		"El mejor sitio de Melilla para desayunar buen trato y servicio rápido inmejorable"
+	]
+},
+{
+	"nombre":"Cafeteria Churreria Lepanto",
+	"categoria":"Cafetería",
+	"rating":"4,2",
+	"reviews":"323",
+	"horario":"lunes, De 7:00 a 13:30, De 17:00 a 21:30; martes, De 7:00 a 13:30, De 17:00 a 21:30; miércoles, De 7:00 a 13:30, De 17:00 a 21:30; jueves, De 7:00 a 13:30, De 17:00 a 21:30; viernes (Eid al-Adha), De 7:00 a 13:30, De 17:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 13:30, De 17:00 a 21:30, El horario podría cambiar; domingo, De 7:00 a 13:30, De 18:30 a 21:30",
+	"direccion":"Pl. Torres Quevedo, 2, 52002 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"681 19 64 11",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.4927810567337!2d-2.947349403210449!3d35.2937352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058c080f140d%3A0xe6371ea779a05fce!2sCafeteria%20Churreria%20Lepanto!5e0!3m2!1ses!2ses!4v1748742619889!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipO7qeA1ZQ3XMPJz1cu-r-S2htURm518PHflUeMa=w408-h306-k-no",
+	"comentarios":[
+		"Mi experiencia soy cliente hace años, y hoy el amabilidad del dueño no es como antes, me hablo en árabe. Pensó que no lo entendí y a parte de eso unos meses pedí churo y chocolate , en el chocolate encontré un pelo, les dije al mesero y me dijo que era mío. Ya dejare de ir ya que son 2 veces y la verdad que mal me pase ese día y"
+	]
+},
+{
+	"nombre":"Cafetería Dalila",
+	"categoria":"Cafetería",
+	"rating":"4,0",
+	"reviews":"703",
+	"horario":"lunes, De 7:30 a 24:00; martes, De 7:30 a 24:00; miércoles, De 7:30 a 24:00; jueves, De 7:30 a 24:00; viernes (Eid al-Adha), De 7:30 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 7:30 a 24:00, El horario podría cambiar; domingo, De 7:30 a 24:00",
+	"direccion":"P.º Marítimo Francisco Mir Berlanga, 21, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://menusview.com/pages/dalila",
+	"telefono":"952 98 83 43",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.011070934998!2d-2.942106603210449!3d35.280851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770f587e15f6a7%3A0x22bb0b6a73b23a24!2sCafeter%C3%ADa%20Dalila!5e0!3m2!1ses!2ses!4v1748742628638!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqVUcIsro7Mx9TmvPA364P_jqp4kE2CxKawBCuIxrDeTDG9VDBt5rC6KhQ209AR5RhSP27X7Gp945ATH0hUEmdFqGQmtXKYqyqNlYEJPiIdWHhcMJjj9zsmqGIjBNgKaETI-iDo=w426-h240-k-no",
+	"comentarios":[
+		"Variedad de pastelitos. Calidad precio estupenda (7€ por tres dulces, un café y un té).",
+		"El dueño un poco antipático, por lo demás, todo bien."
+	]
+},
+{
+	"nombre":"El Rincón de Sara",
+	"categoria":"Restaurante",
+	"rating":"4,4",
+	"reviews":"135",
+	"horario":"lunes, De 7:30 a 23:30; martes, De 7:30 a 23:30; miércoles, De 7:30 a 23:30; jueves, De 7:30 a 23:30; viernes (Eid al-Adha), De 7:30 a 23:30, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 24:00, El horario podría cambiar; domingo, De 9:00 a 17:00",
+	"direccion":"C. de Antonio Calduch, 1, 52004 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"660 91 15 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.6059892485905!2d-2.9501069032104494!3d35.290921300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705aee7e50a23%3A0x1fc277f42572078!2sEl%20Rinc%C3%B3n%20de%20Sara!5e0!3m2!1ses!2ses!4v1748742637139!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npAG4MeWLwXhhW1LQGmx31kUIth0xBYOlHgzJSZE81OVIUCGfsL_2E2odOCf94VgEk-PRqJ8yIxjWO_41h3ASuAqabI8kfga-ntiDWhLPLpcbKuZeHevWBvQFr_xhmyLMQXl_dlSw=w408-h279-k-no",
+	"comentarios":[
+		"Una experiencia increíble. La comida estaba deliciosa, fue todo un acierto. El personal muy atento y el ambiente acogedor. Sin duda, un lugar al que volveré."
+	]
+},
+{
+	"nombre":"Kursaal Lounge café bar restaurante",
+	"categoria":"Restaurante",
+	"rating":"3,8",
+	"reviews":"581",
+	"horario":"lunes, De 8:30 a 0:30; martes, De 8:30 a 0:30; miércoles, De 8:30 a 0:30; jueves, De 8:30 a 0:30; viernes (Eid al-Adha), De 8:30 a 1:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:30 a 1:00, El horario podría cambiar; domingo, De 10:00 a 0:30",
+	"direccion":"Av. Cándido Lobera, 5, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.kursaalmelilla.com/",
+	"telefono":"952 68 26 10",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.4730787540734!2d-2.9445606032104497!3d35.29422490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770501daafb44b%3A0xf5e51d69a3979f6b!2sKursaal%20Lounge%20caf%C3%A9%20bar%20restaurante!5e0!3m2!1ses!2ses!4v1748742646832!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npwaiezN8oYEBjBGFLI5qN9H3OgJe8H9Z-HdW5Q0j-DDkN-1k5t-ahzXStGPXjcpPJVM0JQOzkDp1RSWbi6_nCrspm_vp8mFHneevcYkQ1PRnN2yeypej9pQ3sOLSecFMErzX0n=w408-h306-k-no",
+	"comentarios":[
+		"Toda la comida espectacular y la atención inmejorable. Los dueños super atentos y procurando el bienestar del cliente siempre. Repetiré sin duda."
+	]
+},
+{
+	"nombre":"CAFETERÍA ZAFIRO",
+	"categoria":"Cafetería",
+	"rating":"4,4",
+	"reviews":"318",
+	"horario":"lunes, De 7:00 a 13:30, De 16:30 a 21:30; martes, De 7:00 a 13:30, De 16:30 a 21:30; miércoles, De 7:00 a 13:30, De 16:30 a 21:30; jueves, De 7:00 a 13:30, De 16:30 a 21:30; viernes (Eid al-Adha), De 7:00 a 13:30, De 16:30 a 21:30, El horario podría cambiar; sábado (Eid al-Adha), De 7:00 a 13:30, De 16:30 a 21:30, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Gral. Villalba, 3, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.140977615329!2d-2.944450203210449!3d35.277621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f82db82e95%3A0xf3d8f9a9224755d1!2sCAFETER%C3%8DA%20ZAFIRO!5e0!3m2!1ses!2ses!4v1748742656498!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqmgo6N2eXn28kcrb60YUAKfhG8MQp56l-6uzXGIg7chvA3qWVH9vjAlbgeBctNRON_krBWJOjvsFrM8_yA1mYLilD6YS2_ve3CKujXQo1B-vcgip4KWNyCQy7VglV30Rj5sd-x=w408-h408-k-no",
+	"comentarios":[
+		"Uno de los clásicos lugares de Melilla para desayunar o picar algo.",
+		"El servicio es rápido y te atienden con profesionalidad, además también te ayudarán con sus recomendaciones.",
+		"Pedí un té que estaba muy bueno, y ademas un pañuelo que no tardaron mucho en traerme.",
+		"El pañuelo estaba muy bueno, lo cierto es que para uno es bastante contundente, pero se come perfectamente. Estaba muy bien hecho y tenía buen sabor.",
+		"El establecimiento está limpio y aunque no es muy grande tampoco es difícil encontrar sitio libre.",
+		"Nos atendieron nada más sentarnos, cuando nos pidieron las bebidas, mientras íbamos pensando que queríamos de comer, y ya al poco vinieron con las bebidas y nos tomaron nota de la comida.",
+		"En mi caso pedí un pañuelo de pavo y queso, y desde luego fue una decisión acertada, estaba muy bueno y era bastante grande, me quedé lleno con él. El menú es muy completo y puedes elegir entre hamburguesas, sándwiches, baguettes o bocadillos, bollería, etc.",
+		"Un punto a destacar con los zumos que tienen, desde luego están muy bien hechos y son completamente naturales, un acierto en todo caso.",
+		"El tema de aparcamiento está bastante bien, es fácil aparcar en las inmediaciones para disfrutar de este local."
+	]
+},
+{
+	"nombre":"Cafetería brisamar centro",
+	"categoria":"Cafetería",
+	"rating":"4,4",
+	"reviews":"179",
+	"horario":"lunes, De 8:00 a 13:00, De 16:00 a 21:00; martes, De 8:00 a 13:00, De 16:00 a 21:00; miércoles, De 8:00 a 13:00, De 16:00 a 21:00; jueves, De 8:00 a 13:00, De 16:00 a 21:00; viernes (Eid al-Adha), De 8:00 a 13:00, De 16:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 13:00, De 16:00 a 21:00, El horario podría cambiar; domingo, De 8:00 a 13:00, De 16:00 a 21:00",
+	"direccion":"Pl. Héroes de España, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 74 39 59",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5314808847625!2d-2.9442052032104495!3d35.29277330000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705d378c481cb%3A0x58a7a25132fbd61c!2sCafeter%C3%ADa%20brisamar%20centro!5e0!3m2!1ses!2ses!4v1748742666545!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr4BhXp-kMlr2VHtPuaNqv7CdVfsP-lk2IhM3jY9dxQ---Ip_VuTWrTXZZ5PHjFQ-27A-xMKIqD7DlUf_aiQ2cGXHK2PGLBNzu2qlvUMu9KHgsDzX8IFR5rQILpH7RQlxwR-0g=w408-h544-k-no",
+	"comentarios":[
+		"Fuimos a desayunar y la verdad que nos sorprendimos. Pedimos tostadas y porras. Estaba buenísimo todo. El café también no estaba nada mal. Y el trato por parte del camarero muy amable. 9,60€ por 4 porras, una tostada completa integral con…"
+	]
+},
+{
+	"nombre":"Arábica",
+	"categoria":"Cafetería",
+	"rating":"4,2",
+	"reviews":"73",
+	"horario":"lunes, De 7:30 a 13:45, De 16:30 a 21:40; martes, De 7:30 a 13:45, De 16:30 a 21:40; miércoles, De 7:30 a 13:45, De 16:30 a 21:40; jueves, De 7:30 a 13:45, De 16:30 a 21:40; viernes (Eid al-Adha), De 7:30 a 13:45, De 16:30 a 21:40, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 13:45, De 16:30 a 21:40, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"Pl. Menéndez Pelayo, 2-1, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5314808847625!2d-2.9442052032104495!3d35.29277330000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77050b3d406395%3A0x9490896f379cccb5!2zQXLDoWJpY2E!5e0!3m2!1ses!2ses!4v1748803447800!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4now2bD4hj20KWi1CtcDaSXKOvKW48X6WNaVKj5Ohi8IYNoxXZck0Q6ZMCrHCdLuvDwPZTQ9DGWEP3p4dsqxYlRil0YDsqlpVeJvXyYI7WbD5d0zws80JES-5QXJ0bkX8VsTIB9c=w408-h544-k-no",
+	"comentarios":[
+		"Me encantó la nueva reforma del local se ve más amplio y bonito. Pedí un crep de pollo, queso y salsa gaucho y delicioso acompañado de un batido de mango, piña, leche y canela 😋 Recomendado…"
+	]
+},
+{
+	"nombre":"El Rincón del Pincho",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"22",
+	"horario":"",
+	"direccion":"C. López Moreno Melilla, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 99 23 78",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5314808847625!2d-2.9442052032104495!3d35.29277330000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058961e7ccbd%3A0x1e83f23c6f3b6712!2sEl%20Rinc%C3%B3n%20del%20Pincho!5e0!3m2!1ses!2ses!4v1748803456284!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noY0FC4sc9QqPrnNmuPtZ0tYbFMSBzBqRzvky8zrGch4SUfGF3AVT_I_ktrJKlAwZZ-79r-IgpKmov8evJiTX2ZqTjU5hkQrIHWmVJRPWZrMtg7qgLoaP0cA71uFaSdliRTV46o=w408-h306-k-no",
+	"comentarios":[
+		"Sitio recomendable. Los pinchos son lo mejor. Sobre todo el de hígado. Las tapas no están mal, aunque lo mejor son los platos típicos de Marruecos. Jarera, tajin y kefta son especialidades de aquí. En fotos algunas tapas que no hacen honor a las raciones"
+	]
+},
+{
+	"nombre":"Cafe Vista al Mar",
+	"categoria":"Cafetería",
+	"rating":"4,0",
+	"reviews":"286",
+	"horario":"lunes, De 8:00 a 21:00; martes, De 8:00 a 21:00; miércoles, De 8:00 a 21:00; jueves, De 8:00 a 21:00; viernes (Eid al-Adha), De 8:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 21:00, El horario podría cambiar; domingo, De 8:00 a 21:00",
+	"direccion":"P.º Marítimo, Alcalde Rafael Ginel, 10, 52004 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://menusview.com/pages/vista-al-mar",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.743502958521!2d-2.9426399032104555!3d35.287502999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705b7a644b017%3A0x36880326631b128d!2sCafe%20Vista%20al%20Mar!5e0!3m2!1ses!2ses!4v1748803465283!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no_eT_5Y9E9Grec5Y2F8kCx7HfGdJpR3whR8jo8UmId3j-rxKsffUXWa0fEnZpd_a6m6RsItJsSNzDd43kx_wiSYP-OfF6fUVotYauG_eLPE2BarFRVFpx5jfDXCoShKO4lFRGViA=w408-h306-k-no",
+	"comentarios":[
+		"Se desayuna muy bien,terraza soleada,y admiten mascotas en el exterior, tienen variedad de desayunos."
+	]
+},
+{
+	"nombre":"Alibaba Cafetería",
+	"categoria":"Cafetería",
+	"rating":"4,5",
+	"reviews":"29",
+	"horario":"lunes, De 7:30 a 13:00, De 16:30 a 21:00; martes, De 7:30 a 13:00, De 16:30 a 21:00; miércoles, De 7:30 a 13:00, De 16:30 a 21:00; jueves, De 7:30 a 13:00, De 16:30 a 21:00; viernes (Eid al-Adha), De 7:30 a 13:00, De 16:30 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 13:00, De 16:30 a 21:00, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Conde de Alcaudete, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"674 94 48 31",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.917246134677!2d-2.9432957032104077!3d35.283183699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705b9acb0822f%3A0x3dc50f863924d418!2sAlibaba%20Cafeter%C3%ADa!5e0!3m2!1ses!2ses!4v1748803473971!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no0pPnKWgqAtajss3_w2ftFMWAYHqnWd3xOlY6G5Pfb2qIXVEnj4Xf71_LpxfxqMTeMolEED53KLBKZM-Zt7jhOVbcmUPEnOUUk5ZZ2oGyKWS3SjS-og1ZEbWxRMmt5G8o303u3=w408-h544-k-no",
+	"comentarios":[
+		"Ante todo su personal, muy amable y profesional.",
+		"Mi chico dice que su café es de los mejores que ha probado .",
+		"Tienen desayunos para todos los gustos y la calidad  es excelente"
+	]
+},
+{
+	"nombre":"HELADERIA COCONUT",
+	"categoria":"Heladería",
+	"rating":"4,8",
+	"reviews":"38",
+	"horario":"",
+	"direccion":"C. Valencia, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"666 21 52 28",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2530630755705!2d-2.949908003210449!3d35.2748339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705cff53e95f9%3A0x77870e46ad248bc4!2sHELADERIA%20COCONUT!5e0!3m2!1ses!2ses!4v1748803482846!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPMRgxZKlM_mOncZCCVCw9Q1GPE3gZdxEKtUxPs=w426-h240-k-no",
+	"comentarios":[
+		"Helados de calidad por muy buen precio. Además, hacen cosas diferentes que no puedes probar en otro sitio de Melilla, como los bubble waffles.",
+		"Los dueños son súper atentos y agradables, y toman las sugerencias de los clientes en cuenta. Estábamos impacientes por que abriera de nuevo.",
+		"",
+		"Súper recomendada!"
+	]
+},
+{
+	"nombre":"Cafeteria Restaurante Casa del Mar",
+	"categoria":"Restaurante",
+	"rating":"4,3",
+	"reviews":"105",
+	"horario":"lunes, De 7:30 a 16:00; martes, De 7:30 a 16:00; miércoles, De 7:30 a 16:00; jueves, De 7:30 a 16:00; viernes (Eid al-Adha), De 7:30 a 16:00, El horario podría cambiar; sábado (Eid al-Adha), De 8:00 a 16:00, El horario podría cambiar; domingo, De 8:00 a 16:00",
+	"direccion":"Av. Marina Española, 7, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"951 48 10 90",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.6316198219533!2d-2.944061603210449!3d35.290284199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77054d08fe71ad%3A0x71ad32f35dcdd888!2sCafeteria%20Restaurante%20Casa%20del%20Mar!5e0!3m2!1ses!2ses!4v1748803491612!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noGv7volUCMWpIEWWA4Q3w9-pSecKqzLNdLCr9j0m7_cX8WOzznc7QKfG413r3_S667UJyWEvWyS_lybl2p2UqWvXqNOS752wBCX3Fa0919usv-8jSOuxZ7qH4vsRDw-f9vGyIB4w=w408-h306-k-no",
+	"comentarios":[
+		"Ya no es el asturiano que había antes. Lo han reformado y tiene nuevos dueños y nueva carta. Fuimos por el cachopo y, a pesar de tener en la carta, eran las 14:30h y nos dijeron que ya no tenían. Al igual que el cachopo, hubo 3 o 4 raciones que tampoco tenían. Para colmo, nos cobraron 30€ de más. Al reclamarlo nos lo corrigieron pero si no nos damos cuenta eso que se llevan. Sitio normalucho"
+	]
+},
+{
+	"nombre":"El Balcón de Rubí",
+	"categoria":"Restaurante",
+	"rating":"5,0",
+	"reviews":"3",
+	"horario":"",
+	"direccion":"P.º de las Rosas, 19A, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.421343686973!2d-2.943180903210449!3d35.270649100000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705bb848d584b%3A0x88c003305ef794ff!2zRWwgQmFsY8OzbiBkZSBSdWLDrQ!5e0!3m2!1ses!2ses!4v1748803501347!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=JCTMtbrxwpz1lpVmAlgW5w&cb_client=search.gws-prod.gps&w=408&h=240&yaw=166.33177&pitch=0&thumbfov=100",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Istanbul Kebab-Pizzeria",
+	"categoria":"Restaurante turco",
+	"rating":"3,8",
+	"reviews":"247",
+	"horario":"lunes, Abierto 24 horas; martes, Abierto 24 horas; miércoles, Abierto 24 horas; jueves, Abierto 24 horas; viernes (Eid al-Adha), Abierto 24 horas, El horario podría cambiar; sábado (Eid al-Adha), Abierto 24 horas, El horario podría cambiar; domingo, Abierto 24 horas",
+	"direccion":"C. Mar Chica, 22, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"951 19 30 53",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2479719222024!2d-2.945921903210405!3d35.2749605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f90dd46a9b%3A0x1195a5f2cedc4cb!2sIstanbul%20Kebab-Pizzeria!5e0!3m2!1ses!2ses!4v1748803509941!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrk9F9Sd2PFiVYgpOa5r1_c5Pg7JIIf1iOlTfmE34UCG0Ydcxlszlwm_8jeesddHrz78fRTWibZzx0tCnO3jWnydXLWjuzbJOeC6d5kqtg-9IyuTNfEQjrEqii_fg95ogLNdOYX=w408-h306-k-no",
+	"comentarios":[
+		"Abutalen el camarero amable ,súper atento un 10 como nos atendió,  la comida súper buena ,pedimos un creeps de pollo espectacular, piza de marisco buenísim y fritura de pescado te da la opción elegir para cuantas personas y lo que quieres de pescado, me he levantado he ido a la nevera y he elegido yo el pescado súper bueno todo, aconsejables 100%"
+	]
+},
+{
+	"nombre":"Restaurante Los Vélez",
+	"categoria":"Pizzería",
+	"rating":"4,6",
+	"reviews":"358",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 16:00, De 20:00 a 23:30; miércoles, De 13:00 a 16:00, De 20:00 a 23:30; jueves, De 13:00 a 16:00, De 20:00 a 23:30; viernes (Eid al-Adha), De 13:00 a 16:00, De 20:00 a 23:30, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 16:00, De 20:00 a 23:30, El horario podría cambiar; domingo, De 13:00 a 16:00, De 20:00 a 23:00",
+	"direccion":"C. de los Vélez, Marqués, 23, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.pizzerialosvelez.com/",
+	"telefono":"683 31 85 30",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.9594552930816!2d-2.943269603210434!3d35.28213429999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f63c55ba53%3A0x9003fe30e1f33c08!2sRestaurante%20Los%20V%C3%A9lez!5e0!3m2!1ses!2ses!4v1748803519988!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOKlrb_uUVzTRAuR0wubLi-pTdDD9CbKjxqDswm=w408-h408-k-no",
+	"comentarios":[
+		"Gran variedad de  pizzas. Ingredientes utilizados de calidad.  Platos combinados.",
+		"Portes desproporcionados a la distancia."
+	]
+},
+{
+	"nombre":"Bar La Cervecería",
+	"categoria":"Bar de tapas",
+	"rating":"4,3",
+	"reviews":"1.126",
+	"horario":"lunes, De 12:00 a 16:00, De 20:00 a 0:30; martes, De 12:00 a 16:00, De 20:00 a 0:30; miércoles, De 12:00 a 16:00, De 20:00 a 0:30; jueves, De 12:00 a 16:00, De 20:00 a 0:30; viernes (Eid al-Adha), De 12:00 a 16:00, De 20:00 a 0:30, El horario podría cambiar; sábado (Eid al-Adha), De 12:00 a 16:00, De 20:00 a 0:30, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Gral. O&apos;Donnell, 23, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 68 34 27",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5217607522914!2d-2.946323303210449!3d35.29301489999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058b94ec6b27%3A0xee8d39ea6dcd52d3!2sBar%20La%20Cervecer%C3%ADa!5e0!3m2!1ses!2ses!4v1748803528660!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npEja6i0QARW2zE5BVYhiAukvbSsOCDl0BvOhuNL6KCkuxBmN2xWKxxXlgAan-_iLTVfV8MqNNx9PRnO6G-H4DKQOZ8gfGEiEIQWq5_RSqfeDCM_6o2R9_a1-5u65MhYMgDUKIs=w408-h306-k-no",
+	"comentarios":[
+		"Muy buen servicio por parte de los camareros. Buen ambiente. Situado en el centro de la ciudad. Buenas tapas, con terraza exterior en calle peatonal. Fuimos un grupo de amistades de Sevilla, algunos que ya habíamos estado en otras ocasiones en esa bonita ciudad, volvemos a repetir yendo a La Cervecería. La recomiendo."
+	]
+},
+{
+	"nombre":"Restaurante La Almoraima",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"217",
+	"horario":"lunes, De 13:00 a 16:00, De 20:30 a 24:00; martes, De 13:00 a 16:00, De 20:30 a 24:00; miércoles, De 13:00 a 16:00, De 21:30 a 24:00; jueves, De 13:00 a 16:00, De 20:30 a 24:00; viernes (Eid al-Adha), De 13:00 a 16:00, De 20:30 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 16:00, De 20:30 a 24:00, El horario podría cambiar; domingo, De 13:00 a 16:00, De 20:30 a 24:00",
+	"direccion":"Pl. del Consejo de Europa, 1, 52004 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.melia.com/",
+	"telefono":"952 69 55 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.6811861406673!2d-2.9425717032103944!3d35.289052100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770f6001d619c5%3A0xc0e72983b678233f!2sRestaurante%20La%20Almoraima!5e0!3m2!1ses!2ses!4v1748803538659!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIa2lfvRlsU92usDxzK9EiIK6i6LVScubv3cpCoQA2YSQTOqdcUWhTBR5aJgYbbHlnRbJSn9tSSE5sS7PMUFw6J5R6ZauwrhmDlVCxEeWRbab8AE8drHqxPdx2I44qP-5Du3L85g=w426-h240-k-no",
+	"comentarios":[
+		"Estuvimos una semana comiendo y cenando.",
+		"El trato fue excepcional, sintiéndonos como en casa, gracias a:",
+		"Yamal…"
+	]
+},
+{
+	"nombre":"Restaurante Nuevo Milenio",
+	"categoria":"Pizzería",
+	"rating":"4,6",
+	"reviews":"20",
+	"horario":"",
+	"direccion":"C. la Legión, 85, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 63 32 20",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.268798901672!2d-2.951434403210449!3d35.274442600000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705c3a9f66369%3A0x73c904b42b67db84!2sRestaurante%20Nuevo%20Milenio!5e0!3m2!1ses!2ses!4v1748803547582!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrZviIkthNpctPDD1RBWe4psd30Ca_-BBw8r4rYgh6LckxeqABnBM4Vuh65CV7aKvh8mSQK4qYSw9KUEVGx1F-Ateva_zhbjP5y1cxqDyveMlcNCvgg0D9EbUCZc8Yj_8PNt_Mgmw=w408-h544-k-no",
+	"comentarios":[
+		"La comida es buena acompañada con un precio razonable . Con un servicio excelente, con un personal que hace que sea único."
+	]
+},
+{
+	"nombre":"Cafetería Bar Hanna",
+	"categoria":"Cafetería",
+	"rating":"3,9",
+	"reviews":"302",
+	"horario":"lunes, De 7:30 a 13:30, De 16:00 a 21:00; martes, De 7:30 a 13:00, De 16:00 a 21:30; miércoles, De 7:30 a 13:00, De 16:00 a 21:30; jueves, De 7:30 a 13:00, De 16:00 a 21:00; viernes (Eid al-Adha), De 7:30 a 21:30, El horario podría cambiar; sábado (Eid al-Adha), De 8:30 a 21:30, El horario podría cambiar; domingo, De 8:30 a 21:30",
+	"direccion":"C. Mar Chica, 42, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"951 19 49 52",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.268798901672!2d-2.951434403210449!3d35.274442600000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705fbdb5fc8a5%3A0xf7cf544f58705ce1!2sCafeter%C3%ADa%20Bar%20Hanna!5e0!3m2!1ses!2ses!4v1748803556300!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipP7UGCVOdXTNS9Kl756jBs3By24tE3wBGcktZke=w408-h408-k-no",
+	"comentarios":[
+		"Un sitio de 10. Para mi el Hanna es uno de esos lugares que te hacen sentir como en casa. El trato del personal es cercano, amable y siempre con buena energía. La comida es casera, sabrosa y con precios muy razonables.",
+		"",
+		"Ideal tanto para desayunar como para merendar. El ambiente es tranquilo, familiar y acogedor. Se nota que hay muchos clientes habituales, y eso siempre es buena señal. Sin duda, uno de mis sitios favoritos en Melilla. ¡Recomendadísimo! 👌🏻"
+	]
+},
+{
+	"nombre":"Restaurante La Posada de Paco Benítez",
+	"categoria":"Restaurante mediterráneo",
+	"rating":"4,5",
+	"reviews":"510",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 16:00, De 21:00 a 23:45; miércoles, De 13:00 a 16:00, De 21:00 a 23:45; jueves, De 13:00 a 16:00, De 21:00 a 23:45; viernes (Eid al-Adha), De 13:00 a 16:00, De 21:00 a 23:45, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 16:00, De 21:00 a 23:45, El horario podría cambiar; domingo, De 13:00 a 16:00",
+	"direccion":"Guerrero Romero 5, Calle Alférez Díaz Otero, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://www.laposadadepacobenitez.com/",
+	"telefono":"952 68 16 29",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.6128082836426!2d-2.950637603210449!3d35.290751799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f256778a73%3A0xe0b51b20cce15802!2sRestaurante%20La%20Posada%20de%20Paco%20Ben%C3%ADtez!5e0!3m2!1ses!2ses!4v1748803565066!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr-luXf6cyGkgXIFFvpTUIiYL311KhWN9eCjiXExVIKDQuza_I_6NEvBiJt0jPugmtcjFRw0ow861WzGX2EqHdoMLaUYtTiia8req8nkxH3DmOccOOdd5-OtjvEPfLRAnOq9sON=w408-h306-k-no",
+	"comentarios":[
+		"Increíble en el trato y con una calidad de producto de categoría.",
+		"Se puede mejorar en ciertos platos como los arroces, pero de sabor están correctos.…"
+	]
+},
+{
+	"nombre":"Casa Martín",
+	"categoria":"Bar",
+	"rating":"4,3",
+	"reviews":"226",
+	"horario":"lunes, De 13:00 a 17:00; martes, Cerrado; miércoles, De 13:00 a 17:00, De 21:00 a 0:30; jueves, De 13:00 a 17:00, De 21:00 a 0:30; viernes (Eid al-Adha), De 13:00 a 17:00, De 21:00 a 0:30, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 17:00, De 21:00 a 0:30, El horario podría cambiar; domingo, De 13:00 a 17:00, De 21:00 a 23:30",
+	"direccion":"C. Gral. Polavieja, 11, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 67 62 34",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.821903474424!2d-2.946867303210469!3d35.285554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f470b8620f%3A0x97c5e086318b0322!2sCasa%20Mart%C3%ADn!5e0!3m2!1ses!2ses!4v1748803574284!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4kMYjuzBtemL_2MWnFT76Y9OZyyKGwQUX4vudAy-3dacsGWOLNB7DJe0OsW-woO2svP2SNeZVitGAbt4nNjxhK282bLYOmx0kSatXVrG8uPqTvchh6myAqbnkl5LrjMWuKowXxw=w408-h306-k-no",
+	"comentarios":[
+		"Gran variedad de carnes, aunque las porciones son escuetas  a la vez que la guarnición ( al menos esa vez que fuimos, porque antes no era asi).  Servicio muy atento y efectivo. Variedad de vinos."
+	]
+},
+{
+	"nombre":"Restaurante La Traviata",
+	"categoria":"Restaurante",
+	"rating":"4,3",
+	"reviews":"413",
+	"horario":"lunes, De 13:00 a 16:30, De 20:30 a 23:30; martes, De 13:00 a 16:30, De 20:30 a 23:30; miércoles, De 13:00 a 16:30, De 20:30 a 23:30; jueves, De 13:00 a 16:30, De 20:30 a 23:30; viernes (Eid al-Adha), De 13:00 a 16:30, De 20:30 a 23:30, El horario podría cambiar; sábado (Eid al-Adha), Cerrado, Horario en festivo; domingo, Cerrado",
+	"direccion":"C. Ejército Español, 5, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://opossum.es/wp-content/uploads/2020/05/traviata_carta.pdf.",
+	"telefono":"952 68 19 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5214670553337!2d-2.9433551032104286!3d35.2930222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058a6b6c88c9%3A0x2ec1b6c7c57df28f!2sRestaurante%20La%20Traviata!5e0!3m2!1ses!2ses!4v1748803583487!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipNPVbgr_3TMWyGKpgK9Qy_9qBwGmx7U-3U-oAYw=w408-h544-k-no",
+	"comentarios":[
+		"Un lugar muy agradable y con un decorado muy refinado.",
+		"Con un servicio muy atento sobre todo a los gustos del comensal.",
+		"La comida buenísima y con buena cantidad.…"
+	]
+},
+{
+	"nombre":"Restaurante Aladino",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"145",
+	"horario":"lunes, De 13:00 a 17:00, De 21:00 a 23:30; martes, De 13:00 a 17:00, De 21:00 a 23:30; miércoles, De 13:00 a 17:00, De 21:00 a 23:30; jueves, De 13:00 a 17:00, De 21:00 a 23:30; viernes (Eid al-Adha), De 13:00 a 17:00, De 21:00 a 23:30, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 17:00, De 21:00 a 23:00, El horario podría cambiar; domingo, De 13:00 a 17:00",
+	"direccion":"C. Gran Capitán, 34, 52002 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"605 42 39 69",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.3950879706476!2d-2.949205903210439!3d35.2961633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058ef2071849%3A0xa101f959b2adb4b3!2sRestaurante%20Aladino!5e0!3m2!1ses!2ses!4v1748803592659!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npvp5TAzZLItjGQLouuH9xddFc6GKpGAA4e-2W_RfU0vWIl1BecbOKSXYU7AO7tHKky3an3ljxZdCxFfqKc7pFG4FJEaVuy2g88HsyaDl4yTdjxXxZNpLxJt83l--XvOuuvqsGp=w408-h408-k-no",
+	"comentarios":[
+		"La comida es típica tradicional y hogareña. Está todo en su punto. El servicio está muy  bien también , éramos pocos comensales. El ambiente es humilde. Acorde a la relación precio y calidad . Conclusión buena , barata y saludable. Recomendable y volvería a ir."
+	]
+},
+{
+	"nombre":"Restaurante Brabo",
+	"categoria":"Restaurante",
+	"rating":"4,4",
+	"reviews":"96",
+	"horario":"lunes, Cerrado; martes, Cerrado; miércoles, Cerrado; jueves, De 13:00 a 16:00, De 21:00 a 24:00; viernes (Eid al-Adha), De 13:00 a 16:00, De 21:00 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 16:00, De 21:00 a 24:00, El horario podría cambiar; domingo, De 13:00 a 16:00",
+	"direccion":"C. Farhana-C, 5, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://www.restaurantebrabo.es/",
+	"telefono":"952 69 16 95",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5845945925703!2d-2.9584312032104716!3d35.29145310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705948a6c1781%3A0x56515408f6e19887!2sRestaurante%20Brabo!5e0!3m2!1ses!2ses!4v1748803601391!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nol08QMbq9zS-m-SP_j7rRyxmvv9waQhDWTg3jJBcGnrHYW8ozkCTvUIFRJxdycSfRyc9Yt0l0CtBQf4H5KhRGu9cJkSHiSEMEc3RZLNsSI1x4RS1Yi2J3ITcURsXk9yuayUgfoFg=w426-h240-k-no",
+	"comentarios":[
+		"Histórico restaurante situado cerca de la Carretera Hidum de Melilla.",
+		"Lo recomiendo encarecidamente, el servicio es muy lento, hay que ir sin prisa ninguna, pero la calidad de los productos es fantástica, una locura.…"
+	]
+},
+{
+	"nombre":"Restaurante Mar de Alborán",
+	"categoria":"Restaurante",
+	"rating":"4,5",
+	"reviews":"582",
+	"horario":"lunes, De 13:00 a 16:00; martes, De 13:00 a 16:00; miércoles, De 13:00 a 16:00; jueves, De 13:00 a 16:00; viernes (Eid al-Adha), De 13:00 a 16:00, El horario podría cambiar; sábado (Eid al-Adha), Cerrado, El horario podría cambiar; domingo, De 13:00 a 16:00",
+	"direccion":"C. Gral. Prim, 24, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"656 89 58 27",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.492507471149!2d-2.9471061032104515!3d35.29374200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058bf76acd33%3A0xfd4782d84acfce0!2sRestaurante%20Mar%20de%20Albor%C3%A1n!5e0!3m2!1ses!2ses!4v1748803611409!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nopO63MQLiMcsaZKHxk2ItkkcwLytAjJqjKU5ezEb5zPlxmp2eWrdOh89O1jbWEe91jsZEf4cm_HNnRMvugZ3GSiR-GcWhG6mFYi2epHP161SAPcWm1JbppNOejwK03Q1MbEZ4U=w426-h240-k-no",
+	"comentarios":[
+		"Nos atendieron muy bien. No habíamos reservado, e igualmente nos consiguieron mesas para sentarnos. La comida calidad precio está muy bien, buenas cantidades y de sabor genial. La atención inmejorable, fueron muy atentos en todo momento. Para volver!"
+	]
+},
+{
+	"nombre":"Restaurante Don Quijote II",
+	"categoria":"Restaurante",
+	"rating":"4,6",
+	"reviews":"562",
+	"horario":"lunes, De 1:30 a 16:00; martes, De 1:30 a 16:00; miércoles, Cerrado; jueves, De 1:30 a 16:00; viernes (Eid al-Adha), De 13:30 a 16:00, El horario podría cambiar; sábado (Eid al-Adha), De 13:30 a 16:00, El horario podría cambiar; domingo, De 13:30 a 16:00",
+	"direccion":"C. Teniente Bragado, 5, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 67 22 11",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.992299971491!2d-2.942381403210449!3d35.281317699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f62bd6a375%3A0x99d1ef3050055cef!2sRestaurante%20Don%20Quijote%20II!5e0!3m2!1ses!2ses!4v1748803621488!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6yO5r8D1hzC0alJdDpzwYT396t7Gtu10n32buxNA02qgAg7K--I5ZLmiK2PgQKLB9Fzhp9TmJOoW0TsYc_xORvvc_i3VJMdziS1jWu46VvkORWaoCQoUUOfn_CCDDtUFiPTsjIA=w408-h544-k-no",
+	"comentarios":[
+		"Buena atención, calidad y buen sazón.",
+		"A tener en cuenta las recomendaciones fuera de carta, muy muy ricas.",
+		"100% recomendable"
+	]
+},
+{
+	"nombre":"Bar Los Polillas - Hermanos Felices",
+	"categoria":"Bar restaurante",
+	"rating":"4,0",
+	"reviews":"295",
+	"horario":"lunes, Cerrado; martes, Cerrado; miércoles, De 13:00 a 17:00, De 21:00 a 24:00; jueves, De 13:30 a 16:00, De 21:30 a 24:00; viernes (Eid al-Adha), De 13:30 a 16:00, De 21:30 a 24:00, El horario podría cambiar; sábado (Eid al-Adha), De 13:30 a 16:00, De 21:30 a 24:00, El horario podría cambiar; domingo, De 13:30 a 17:00",
+	"direccion":"Av. General Macías, 15, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"669 74 44 06",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5087736637383!2d-2.938934303210449!3d35.293337699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770f6116183f47%3A0xa761f8ac7ad3a3be!2sBar%20Los%20Polillas%20-%20Hermanos%20Felices!5e0!3m2!1ses!2ses!4v1748803630222!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEt5YZ1ZfeiG_njY4Kmh7I1ZIe2SDvJzm93aqNWTzRwyR-QEcI8bRvLQ9OcWVS3ZH-sJqQitapDjZrzAmiBacY01E6vN6ti4bLuPjH4VgtmmJpudQ3NORA2S0-2hUXhsZ_Pe-hxA=w408-h306-k-no",
+	"comentarios":[
+		"Fuimos a comer antes de ir en barco a Motril en plena Africana y nos trataron muy bien.",
+		"Excelente bar muy cerca del puerto y de gran sabor y variedad en toda su carta.",
+		"Agradecer al camarero su simpatia y al bar por la calidad de la comida.",
+		"Sin duda, volveremos!"
+	]
+},
+{
+	"nombre":"Esmeralda",
+	"categoria":"Cafetería",
+	"rating":"4,3",
+	"reviews":"275",
+	"horario":"",
+	"direccion":"C. Castilla, 30, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 69 10 06",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.224498523619!2d-2.944951403210449!3d35.275544200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f9ab1d33d1%3A0xe90e7acbac38d955!2sEsmeralda!5e0!3m2!1ses!2ses!4v1748803639175!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np8GLq2QqNHSbVRTvbaOHxAh9AgJML5LVoC8Z665vDIZl9u-pY91CT8OUykzEZrz7asK8KQsy8VKeM-luw0n9cAQqpLzhstkjYM_ni6Gl-1HI06-7tgyqB2TqPK5D7r9FKwZ9eF=w426-h240-k-no",
+	"comentarios":[
+		"Es un sitio muy agradable para comer, el personal es muy amable y los dulces están muy buenos"
+	]
+},
+{
+	"nombre":"Restaurante Miguel Benítez",
+	"categoria":"Restaurante",
+	"rating":"4,4",
+	"reviews":"747",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 16:30, De 20:30 a 0:30; miércoles, De 13:00 a 16:30, De 20:30 a 0:30; jueves, De 13:00 a 16:30, De 20:30 a 0:30; viernes (Eid al-Adha), De 13:00 a 16:30, De 20:30 a 0:30, El horario podría cambiar; sábado (Eid al-Adha), De 13:00 a 16:30, De 20:30 a 0:30, El horario podría cambiar; domingo, De 13:00 a 16:30",
+	"direccion":"Paseo Marítimo De, P.º Marítimo Francisco Mir Berlanga, 25, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://restaurantemiguelbenitez.es/",
+	"telefono":"952 67 01 87",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0712797453402!2d-2.9412836032104437!3d35.27935400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770f5815c1e90f%3A0x81b32ac29d2cdd77!2sRestaurante%20Miguel%20Ben%C3%ADtez!5e0!3m2!1ses!2ses!4v1748803649068!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np2WJDOIIMfdIQ-DY_NxypFAj6HEcwA9kAbK3qAEqzw-fTcUV2Q4BBO6pxXDyOed147cC57x0PgfZ5mePSMnWq_k9dB-E1bh3zT48mkkyaZgk6kN5nJ0CVrluy8tafIcRYDyTrjxw=w408-h306-k-no",
+	"comentarios":[
+		"Fuimos 4 personas y nos atendieron de maravilla.",
+		"La comida estaba muy buena y pedimos un poco de todo y compartimos los platos. Te tapa nos pusieron ensaladilla rusa y estaba muy buena. Pedimos también unas…"
+	]
+},
+{
+	"nombre":"Pizzería Willy",
+	"categoria":"Pizzería",
+	"rating":"4,1",
+	"reviews":"103",
+	"horario":"",
+	"direccion":"C. Mar Chica, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 67 96 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.286139099387!2d-2.948055603210453!3d35.2740114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770540f0900b3f%3A0xd3a7801b97e0a67e!2sPizzer%C3%ADa%20Willy!5e0!3m2!1ses!2ses!4v1748803658632!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrkUeGA9tfIkwrQgOfoj1HSr7BWaVXuhvHa_UZybv1n52CWSYQENVKt_umjVf4iB0iBvG_f5JsQtkA64j_xF6vezlan4vOaomXXYoRL_gcDm8IDFNoTZQBPUuXPELyTTDy8dU5j=w408-h306-k-no",
+	"comentarios":[
+		"Uno de mis pocos restaurantes de confianza; el personal es un amor y la comida está buenísima; cuando vivía en Melilla pedía muy a menudo; incluso he celebrado algún que otro cumpleaños en el Willy, además, siempre que vuelvo reservo un hueco para comer aquí; si piensas en pedir o venir a comer no dudes en hacerlo!"
+	]
+},
+{
+	"nombre":"ALDI",
+	"categoria":"Supermercado de descuentos",
+	"rating":"4,2",
+	"reviews":"88",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes (Eid al-Adha), De 9:00 a 22:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:00 a 22:00, El horario podría cambiar; domingo, De 9:00 a 22:00",
+	"direccion":"C. Gral. Polavieja, 2, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.aldi.es/",
+	"telefono":"900 902 466",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.8130539383765!2d-2.947143703210449!3d35.285774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770535e0af7cff%3A0xae8ec1c209ee0d7d!2sALDI!5e0!3m2!1ses!2ses!4v1748803667409!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMYny35bEKyIcf7yuxOi-dXpLWAPrSWvKb3oyEY=w426-h240-k-no",
+	"comentarios":[
+		"Súper tipo Lidl pero menos masificado al menos en mi ciudad, lo cual se agradece y mucho. Mucho del contenido va variando según la semana y las ofertas están bastante bien."
+	]
+},
+{
+	"nombre":"Supermercado ekom",
+	"categoria":"Supermercado",
+	"rating":"4,5",
+	"reviews":"11",
+	"horario":"lunes, De 9:30 a 22:20; martes, De 9:30 a 22:20; miércoles, De 9:30 a 22:20; jueves, De 9:30 a 22:20; viernes (Eid al-Adha), De 9:30 a 22:20, El horario podría cambiar; sábado (Eid al-Adha), De 9:30 a 22:20, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"Calle es Remontapaldas, 4, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.8130539383765!2d-2.947143703210449!3d35.285774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f261635a4f%3A0xa0d873665540184!2sSupermercado%20ekom!5e0!3m2!1ses!2ses!4v1748803675675!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noPXVKBoE1hfujVbvT1RLZAN44KqWwwViSG0eZNgYJLCC5uYKMIDwNQaApxEByzhUwnYZMekSAlqk0xc5Ut-ceorC6XP2t9cXSVkjS_ohiSLY2oumN1XCC7PLwthcV4abioM-fA=w408-h306-k-no",
+	"comentarios":[
+		"Me encanta comprar aqui. Tienen productos de calidad y muy baratos"
+	]
+},
+{
+	"nombre":"Mercadona",
+	"categoria":"Supermercado",
+	"rating":"4,2",
+	"reviews":"1.777",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes (Eid al-Adha), Cerrado, Horario en festivo; sábado (Eid al-Adha), De 9:00 a 21:30, Horario en festivo; domingo, Cerrado",
+	"direccion":"C. de los Vélez, Marqués, 9, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.mercadona.es/",
+	"telefono":"951 28 12 00",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.9680224845847!2d-2.944730203210469!3d35.2819213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f65f163c59%3A0x42d59874d7601e69!2sMercadona!5e0!3m2!1ses!2ses!4v1748803684456!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrI27wTXETxtiup9sML_0D-IiQ4_bB-qyVvT6HZi_eQweNDFKjGEB06if6pvWoPZxnx3J79POaMI1ZOAs6BQ84TvFgIvwD6pKRVVBm1fDDHEJbh5j-MDpWe9EGtX93PO6rKucqU=w493-h240-k-no",
+	"comentarios":[
+		"El Mercadona de Melilla se encuentra ubicado dentro de un edificio Modernista que ha sido acondicionado para supermercado. Variedad de productos y una muy buena atención por parte de su personal."
+	]
+},
+{
+	"nombre":"El Pizarrin",
+	"categoria":"Papelería",
+	"rating":"4,6",
+	"reviews":"19",
+	"horario":"",
+	"direccion":"C. Juan de Lanuza, 11, 52002 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.472752861422!2d-2.9484629032104492!3d35.29423300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058c1f183275%3A0xf8749dd65dd8cb7!2sEl%20Pizarrin!5e0!3m2!1ses!2ses!4v1748803693489!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqQwCLgvWqXwEVnJaf96AfCApnzsQqTtsOPjkAmRzZU0ROcWfG7VlbVAsitrQyOFA7dEaApgB4IPGmouO1UZkw4X_W-P8T0cAbkLo1JOv5LQB76f_sDQO-2Fhl42iEcBu7sz6Hi=w408-h725-k-no",
+	"comentarios":[
+		"Una papelería fantástica, en constante renovación e innovadora. Se personalizan desde cuadernos, plumas...Además ofrece la posibilidad de hacer pedidos por whatsapp y facebook. La atención es inmejorable."
+	]
+},
+{
+	"nombre":"Oasis",
+	"categoria":"Papelería",
+	"rating":"5,0",
+	"reviews":"2",
+	"horario":"",
+	"direccion":"Ctra. Huerta Cabo, 89, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 67 74 11",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3602792322126!2d-2.9444895032104497!3d35.2721677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77054b76370f9f%3A0x22de3d41e3bbbf94!2sOasis!5e0!3m2!1ses!2ses!4v1748803701753!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noKxtQmPnfOJeqKoFM4qUXYLwogYo5MrwS_zR81o-m1QBaOMwqq5SvtEzQY9kTKi9flGi9VM96IfP-HBD63hd2xxapPDzDyFJr0oWtj7pYDRNgctlxlkmoM1FD3rYSUCZbkT6YZ=w426-h240-k-no",
+	"comentarios":[
+		"Tratan muy bien a la gente, hasta regalos nos hacen"
+	]
+},
+{
+	"nombre":"PAPELERÍA Hindi",
+	"categoria":"Papelería",
+	"rating":"4,6",
+	"reviews":"75",
+	"horario":"lunes, De 9:30 a 14:00, De 17:00 a 21:00; martes, De 9:30 a 14:00, De 17:00 a 21:00; miércoles, De 9:30 a 14:00, De 17:00 a 21:00; jueves, De 9:30 a 14:00, De 17:00 a 21:00; viernes (Eid al-Adha), De 9:30 a 14:00, De 17:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 10:00 a 14:00, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. la Legión, 42, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 67 95 47",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2050543954138!2d-2.9476087032104643!3d35.27602769999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705fa36695f67%3A0x15265b33f681e238!2sPAPELER%C3%8DA%20Hindi!5e0!3m2!1ses!2ses!4v1748803710222!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqMtj2-GNUJFV9ILcvbihlY8es2swVovD_rdJ57PZHh55xIJMI0-o-dy3-CWXqHrVjXlVo8vClpaeiAbv0bb-61nyOq97xJm0rTd7pV0k61JJC-XNjiBJdsjYVe1vJkvICImZc=w426-h240-k-no",
+	"comentarios":[
+		"Cordialidad y un amplio surtido de productos."
+	]
+},
+{
+	"nombre":"▷ Melilla General de Hostelería - Artículos de Hostelería",
+	"categoria":"Tienda de artículos de hostelería",
+	"rating":"4,8",
+	"reviews":"16",
+	"horario":"lunes, De 9:30 a 13:30, De 16:30 a 20:00; martes, De 9:30 a 13:30, De 16:30 a 20:00; miércoles, De 9:30 a 13:30, De 16:30 a 20:00; jueves, De 9:30 a 13:30, De 16:30 a 20:00; viernes (Eid al-Adha), De 9:30 a 13:30, De 16:30 a 20:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:30 a 13:30, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. el Ficus, 24, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 69 14 61",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.419666918!2d-2.9474582032104415!3d35.27069080000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705fc279c85ab%3A0x5747ba61dfd5a043!2s%E2%96%B7%20Melilla%20General%20de%20Hosteler%C3%ADa%20-%20Art%C3%ADculos%20de%20Hosteler%C3%ADa!5e0!3m2!1ses!2ses!4v1748803719411!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrG5yd2QROVLawB2s534-7Q0GXbsL2-GkV2a6hrn6YugJz9WaF8hIPlkU0ja-wrPJfuYxvQ9CLHeSvMW8L4izZJQmuWDZhrA6XXJ9dLYuSzVDQ5EYLKcO83y5OEIAQDGPXJzuS6=w408-h306-k-no",
+	"comentarios":[
+		"Formidable relación calidad/precio/variedad/atención."
+	]
+},
+{
+	"nombre":"Papelería la Española",
+	"categoria":"Papelería",
+	"rating":"4,2",
+	"reviews":"27",
+	"horario":"lunes, De 9:00 a 14:00, De 17:00 a 20:00; martes, De 9:00 a 14:00, De 17:00 a 20:00; miércoles, De 9:00 a 14:00, De 17:00 a 20:00; jueves, De 9:00 a 14:00, De 17:00 a 20:00; viernes (Eid al-Adha), De 9:00 a 14:00, De 17:00 a 20:00, El horario podría cambiar; sábado (Eid al-Adha), Cerrado, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"Av. Reyes Católicos, 8, 52002 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 68 21 14",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.482107161623!2d-2.9476825032104492!3d35.294000499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058c042b8f53%3A0x3a816269e9495689!2sPapeler%C3%ADa%20la%20Espa%C3%B1ola!5e0!3m2!1ses!2ses!4v1748803727909!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrRTsp6q9WiplYy2lBnZ3UQdiAD4OSw8ZWKoZKu1YS36yfCeQ2REev9b3QojGVxvWqoNyYRNomNMxzXQz9rDKqeRiR4mDNx4GOc535HzW8vUwaIMSn3jr0TXSm8h0Gh_OJW6X_lKg=w408-h306-k-no",
+	"comentarios":[
+		"Acaban de perder un cliente de por vida, hace unas de 2 semanas les encargué 1 libro de comunión aparte del que ellos ya tenían allí, a 2 días de una comunión los llamo yo porque no recibo su llamada y me dicen que no va a llegar el libro que les encargué porque esta descatalogado, ahora pues nada simplemente tengo que buscar 2 libros en otra papelería,  a falta de 2 días de la comunión, si esque tenia que haberlo comprado por Internet como todo lo demás y les pongo una estrella de 5 porque google me obliga."
+	]
+},
+{
+	"nombre":"Lidl",
+	"categoria":"Supermercado de descuentos",
+	"rating":"4,0",
+	"reviews":"1.431",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes (Eid al-Adha), Cerrado, Horario en festivo; sábado (Eid al-Adha), De 9:00 a 22:00, Horario en festivo; domingo, De 9:00 a 22:00",
+	"direccion":"Calle Maanan Benaisa Mimun, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.lidl.es/",
+	"telefono":"900 958 311",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.609622047803!2d-2.9605216032104575!3d35.290831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705ebffffffff%3A0x8233395bbaddabd5!2sLidl!5e0!3m2!1ses!2ses!4v1748803736331!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npKxL_uqCfbiX7I7pP0PRdCfq4UjCp_kVYdT4WdhuEKxax8SsucHKGJ1WFEkYggPL9qEg9uf03ZpxMy5Om5Xo9qcvoS7CMzQ8aOa-RkG3XVsklgUk7goHVQfX1VKA6A3pvARJwujA=w493-h240-k-no",
+	"comentarios":[
+		"Esta muy bien siempre y cuando no halla mucha gente entonces es complicado moverse por los pasillos. Deberían poner carros de compra más pequeños. Cuidado con algunos de los electromesticos que venden, compré un planchadora de camisas se me…"
+	]
+},
+{
+	"nombre":"Family Cash",
+	"categoria":"Hipermercado",
+	"rating":"4,1",
+	"reviews":"538",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes (Eid al-Adha), De 9:00 a 22:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:00 a 22:00, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C.C. Parque, Ctra. Cuartel de Valenzuela, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.familycash.es/",
+	"telefono":"663 67 77 85",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.428963514647!2d-2.9440349032104494!3d35.270459599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770523a22245a7%3A0x8c277041e4dd1a2c!2sFamily%20Cash!5e0!3m2!1ses!2ses!4v1748803745378!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPREbVYrISscYHnRolh2v7fRfVHTa1K1gNrCjzU=w426-h240-k-no",
+	"comentarios":[
+		"Hoy he sido atendida por Sana en la sección de charcutería y al finalizar la compra le he pedido su nombre para ponerle una reseña porque su trato, cercanía y profesionalidad lo merecen cuanto menos.…"
+	]
+},
+{
+	"nombre":"Papelería Esparza",
+	"categoria":"Papelería",
+	"rating":"4,5",
+	"reviews":"52",
+	"horario":"lunes, De 9:30 a 13:30, De 17:00 a 20:00; martes, De 9:30 a 13:30, De 17:00 a 20:00; miércoles, De 9:30 a 13:30, De 17:00 a 20:00; jueves, De 9:30 a 13:30, De 17:00 a 20:00; viernes (Eid al-Adha), De 9:30 a 13:30, De 17:00 a 20:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:30 a 13:30, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. de Carlos V, 21, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 67 03 95",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.8968128734623!2d-2.9449232032104495!3d35.28369170000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f660a015a7%3A0x5b3d953d16596b69!2sPapeler%C3%ADa%20Esparza!5e0!3m2!1ses!2ses!4v1748803756040!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nraucorMsksQIZqqnWvz3ncWdzUgoQ2oIZWeNYp4EFxNHWd0rnt-bbArIbi5Xf3sDvAvnjU8p_zQ0PDkklfujdy9fOnjkEgcSh95oRyk6r9hjCZwlO-XpCf8SuGrR5TU4-wxzKO=w408-h306-k-no",
+	"comentarios":[
+		"Desastroso. Se le piden unas fotocopias a color y en vez de sacar varias en una pagina, saca 80 de la misma en folios individuales. Alegando que no saben utilizar el programa (Word?, libre office?).",
+		"Así se cobra mejor."
+	]
+},
+{
+	"nombre":"Leroy Merlin Compact Melilla",
+	"categoria":"Tienda de bricolaje",
+	"rating":"4,5",
+	"reviews":"993",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes (Eid al-Adha), De 9:00 a 22:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:00 a 22:00, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"CC Parque Melilla, P.º de las Rosas, 19, A, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"https://www.leroymerlin.es/tiendas/compact-melilla.html?utm_source=gmb&amp;utm_medium=site_organic&amp;utm_campaign=seo_local&amp;utm_content=melilla",
+	"telefono":"951 95 75 10",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.4230526224!2d-2.9444369032104496!3d35.270606600000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77054a2122d2dd%3A0xad1a0f4f78bde21b!2sLeroy%20Merlin%20Compact%20Melilla!5e0!3m2!1ses!2ses!4v1748803767740!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no2Cn50v1FlQQmR1ccxbT0ENe9qZjm0ydB9buaS79eaPvzDFZZTAMSMXUQctGNcGxTS9GAgq1brdEbWm1n1cZiv7Ns3u1iYZlQ7QOAk-g4iNKNuXT10bMJdW0ZnRKVBG5BYWLKm=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Papelería, Librería LBM",
+	"categoria":"Papelería",
+	"rating":"4,8",
+	"reviews":"27",
+	"horario":"lunes, De 10:00 a 13:30, De 17:00 a 21:00; martes, De 10:00 a 13:30, De 17:00 a 21:00; miércoles, De 10:00 a 13:30, De 17:00 a 21:00; jueves, De 10:00 a 13:30, De 17:00 a 21:00; viernes (Eid al-Adha), De 10:00 a 13:30, De 17:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 10:00 a 14:00, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Luis de Cappa, 6, local 2, 52005 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"722 30 10 57",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.6655854440546!2d-2.952619003210449!3d35.28943989999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770592a8729ea1%3A0xaa40f2fb26fa423d!2zUGFwZWxlcsOtYSwgTGlicmVyw61hIExCTQ!5e0!3m2!1ses!2ses!4v1748803778895!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMGSiT1OCLT4ufxEEBkKkqqnX1MRL_Yvu9S6KKb=w408-h306-k-no",
+	"comentarios":[
+		"Buen dependiente pero me parece muy caro, una calculadora me costo 25€ y la devolbi, dias despues la encontre a 12€ la misma y otros productos igual, todo caro menos los boligrafos y lapices...etc"
+	]
+},
+{
+	"nombre":"Papelería Dispamel",
+	"categoria":"Papelería",
+	"rating":"4,8",
+	"reviews":"6",
+	"horario":"",
+	"direccion":"C. Conde del Serrallo, 13, local 2, 52001 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"653 41 71 05",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.482738826413!2d-2.9470733032104692!3d35.293984800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd770591053ea6c5%3A0xd76776b7ca79c78d!2sPapeler%C3%ADa%20Dispamel!5e0!3m2!1ses!2ses!4v1748803789658!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipO-IzeIDGQfueP20XHiOc8_22ATf3_bCwwBTRNs=w408-h257-k-no",
+	"comentarios":[
+		"Da muchísimo gusto que se encarguen de traerte cualquier material que les pidas. Sin pedido mínimo y listo en 24h o incluso menos. Mil gracias Sufien y compañía por cuidarnos en estos tiempos de confinamiento. Cabe mencionar que el repartidor mantiene una higiene totalmente pulcra. Lleva su mascarilla y sus guantes puestos.",
+		"",
+		"ENCANTADO CON USTEDES.",
+		"",
+		"Desde hoy, mi distribuidor de material escolar de confianza."
+	]
+},
+{
+	"nombre":"Expert Botello",
+	"categoria":"Tienda de electrodomésticos",
+	"rating":"4,4",
+	"reviews":"46",
+	"horario":"lunes, De 10:00 a 13:30, De 17:00 a 20:30; martes, De 10:00 a 13:30, De 17:00 a 20:30; miércoles, De 10:00 a 13:30, De 17:00 a 20:30; jueves, De 10:00 a 13:30, De 17:00 a 20:30; viernes (Eid al-Adha), De 10:00 a 13:30, De 17:00 a 20:30, El horario podría cambiar; sábado (Eid al-Adha), Cerrado, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Castilla, 34, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://comercial.botello.es/",
+	"telefono":"952 69 60 20",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2245467817665!2d-2.944955203210449!3d35.275543000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f90001e0af%3A0x98507a84904be1ad!2sExpert%20Botello!5e0!3m2!1ses!2ses!4v1748803799206!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noDhDyrNCHQqQVUO32xUVE9jhC1SMTh1Jm3fuNJZ31KEGEN9DJBMWyn8WcOhwzVrv5EQZQBsWFH0NuBzly2QPc5RbLjObdIaOwM3AFgs2ewApEymU9wTG0AQb16JXu7TPvlOw8M=w408-h306-k-no",
+	"comentarios":[
+		"Me vendieron una lavadora/secadora de media 150€ más caro que en cualquier otra tienda y ni lava ni seca.…"
+	]
+},
+{
+	"nombre":"Codex",
+	"categoria":"Papelería",
+	"rating":"4,0",
+	"reviews":"2",
+	"horario":"lunes, De 9:00 a 14:00, De 17:00 a 21:00; martes, De 9:00 a 14:00, De 17:00 a 21:00; miércoles, De 9:00 a 14:00, De 17:00 a 21:00; jueves, De 9:00 a 14:00, De 17:00 a 21:00; viernes (Eid al-Adha), De 9:00 a 14:00, De 17:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 10:00 a 14:00, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Querol, 46, 52004 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"952 69 47 27",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.6631877992695!2d-2.9481198032104494!3d35.28949950000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058cae427273%3A0xa8fc092f7c9a90f3!2sCodex!5e0!3m2!1ses!2ses!4v1748803808269!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9a96IoSpfcSlgJA6jiVNvQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=339.76163&pitch=0&thumbfov=100",
+	"comentarios":[
+		"Ambiente muy agradable, oferta variada y un personal muy atento. Un diez"
+	]
+},
+{
+	"nombre":"Supermercados Dia",
+	"categoria":"Supermercado",
+	"rating":"3,8",
+	"reviews":"250",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes (Eid al-Adha), Cerrado, Horario en festivo; sábado (Eid al-Adha), De 9:00 a 21:30, El horario podría cambiar; domingo, De 9:00 a 15:00",
+	"direccion":"C. Marqués de Montemar, 5, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://www.dia.es/compra-online/",
+	"telefono":"912 17 04 53",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.834855890612!2d-2.9449146032104756!3d35.28523200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f44947e393%3A0x7392d9d8da927b61!2sSupermercados%20Dia!5e0!3m2!1ses!2ses!4v1748803816644!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipO0nef5huWKz0L0jrqDiLztdmTLDpYCEmyPApUs=w408-h524-k-no",
+	"comentarios":[
+		"Excelente personal muy amable y siempre dispuestos a ayudar, lugar muy limpio y organizado, en general todo estaba perfecto, muy buen super para hacer tus compras ya que no está tan masificado como otros y tiene todo lo que necesitas incluso las frutas son de buena calidad ya que no te las encuentras en mal estado como otros supermercados, 10/10."
+	]
+},
+{
+	"nombre":"Ati Supermercado",
+	"categoria":"Supermercado",
+	"rating":"4,2",
+	"reviews":"291",
+	"horario":"lunes, De 10:00 a 21:00; martes, De 10:00 a 21:00; miércoles, De 10:00 a 21:00; jueves, De 10:00 a 21:00; viernes (Eid al-Adha), De 10:00 a 21:00, El horario podría cambiar; sábado (Eid al-Adha), De 9:00 a 21:30, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"Calle Villalba General, 44, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3042914185426!2d-2.9428536032104495!3d35.273559999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f8a4e4f9ef%3A0x8436f8546d4a1413!2sAti%20Supermercado!5e0!3m2!1ses!2ses!4v1748803825644!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr4gN8rlGF9cjDbbEpLDSdoY2dTb8s_o_UfZgN_haNSDyGb1ZZTCBSqE1JhRSxwnrnv2FlMg09VnUpt1nc6DFX55D_xHIkh2686rBnoJiviwxYUDdk0wd2jB_-AezVLa6mt6Ro=w533-h240-k-no",
+	"comentarios":[
+		"Buenos precios en gran variedad de productos de hogar y belleza. La mayoría de los productos son de marcas reconocidas y los precios son inferiores a otros establecimientos de la ciudad.  También tienen congelados de todo tipo.",
+		"No hay mucho aparcamiento en la zona, es el único inconveniente."
+	]
+},
+{
+	"nombre":"Supermercados Dia",
+	"categoria":"Supermercado",
+	"rating":"3,9",
+	"reviews":"349",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes (Eid al-Adha), Cerrado, Horario en festivo; sábado (Eid al-Adha), De 9:00 a 21:30, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Gral. Villalba, 50, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://www.dia.es/compra-online/",
+	"telefono":"912 17 04 53",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3042914185426!2d-2.9428536032104495!3d35.273559999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f8a8fa4d39%3A0x45f6daaaac9dc280!2sSupermercados%20Dia!5e0!3m2!1ses!2ses!4v1748803834878!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMgruvPQ8X35gVkYzIrQMtEyRQAtxWbmFDHcjYN=w408-h306-k-no",
+	"comentarios":[
+		"Esta mañana me ha sorprendido la mejoría este supermercado, con accesibilidad para personas con movilidad reducida y con parking. Cuenta con toda una gran variedad de mercancía y una excelencia gama de productos frescos, desde que entras,ya el olor a pan caliente te invita a comprar y la frutería que tienen es todo un escaparate para la vista, frescura ,calidad, variedad y buenos precios.",
+		"Las ofertas son lo más! El personal amable",
+		"Lo recomiendo bastante ."
+	]
+},
+{
+	"nombre":"Expert Botello",
+	"categoria":"Tienda de electrodomésticos",
+	"rating":"4,4",
+	"reviews":"46",
+	"horario":"lunes, De 10:00 a 13:30, De 17:00 a 20:30; martes, De 10:00 a 13:30, De 17:00 a 20:30; miércoles, De 10:00 a 13:30, De 17:00 a 20:30; jueves, De 10:00 a 13:30, De 17:00 a 20:30; viernes (Eid al-Adha), De 10:00 a 13:30, De 17:00 a 20:30, El horario podría cambiar; sábado (Eid al-Adha), Cerrado, El horario podría cambiar; domingo, Cerrado",
+	"direccion":"C. Castilla, 34, 52006 Melilla",
+	"ciudad":"Melilla",
+	"provincia":"Melilla",
+	"web":"http://comercial.botello.es/",
+	"telefono":"952 69 60 20",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.2245467817665!2d-2.944955203210449!3d35.275543000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7705f90001e0af%3A0x98507a84904be1ad!2sExpert%20Botello!5e0!3m2!1ses!2ses!4v1748803799206!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noDhDyrNCHQqQVUO32xUVE9jhC1SMTh1Jm3fuNJZ31KEGEN9DJBMWyn8WcOhwzVrv5EQZQBsWFH0NuBzly2QPc5RbLjObdIaOwM3AFgs2ewApEymU9wTG0AQb16JXu7TPvlOw8M=w408-h306-k-no",
+	"comentarios":[
+		"Me vendieron una lavadora/secadora de media 150€ más caro que en cualquier otra tienda y ni lava ni seca.…"
+	]
+}
+]}

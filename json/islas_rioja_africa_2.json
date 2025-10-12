@@ -1,0 +1,2089 @@
+{ "creperias": [
+    {
+	"nombre":"Crepecatessen",
+	"categoria":"Crepería",
+	"rating":"3,6",
+	"reviews":"747",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 23:00; domingo, De 9:00 a 22:00",
+	"direccion":"Gran Vía Juan Carlos I, 26001 Logroño, La Rioja",
+	"ciudad":"Logroño",
+	"provincia":"La Rioja",
+	"web":"http://www.crepecatessen.com/",
+	"telefono":"941 21 20 78",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.262127086532!2d-2.4565184032104495!3d42.46471340000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5aab8095e8350b%3A0xb8fac993988cc5d1!2sCrepecatessen!5e0!3m2!1ses!2ses!4v1748733680714!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noqFD71W9Hsuto43CF-oibTWSXpn-CczheNgtjIB_7fYXKpp4a_vp3Ioyg1T6qxnxE_D1gcMiJ1mS2tCJYPnLJ0vMOiXd0XRgCgBiOVKUZX9C31Wihahese14SdLbsXSxBk1kdR=w426-h240-k-no",
+	"comentarios":[
+		"Ubicación excelente con oferta de crepes dulces y saladas sin gluten. El café es correcto y el personal muy amable con un",
+		"servicio rápido. El lugar es bonito y limpio. El precio quizá es un poco elevado pero es un sitio al que sin duda volveremos."
+	]
+},
+{
+	"nombre":"Delicious waffle",
+	"categoria":"Heladería",
+	"rating":"4,8",
+	"reviews":"96",
+	"horario":"lunes, De 17:00 a 21:30; martes, De 17:00 a 21:30; miércoles, De 17:00 a 21:30; jueves, De 17:00 a 21:30; viernes, De 17:00 a 21:30; sábado, De 17:00 a 22:00; domingo, De 17:00 a 21:30",
+	"direccion":"Av. del Pilar, 1, p4, 26500 Calahorra, La Rioja",
+	"ciudad":"Calahorra",
+	"provincia":"La Rioja",
+	"web":"https://www.instagram.com/deliciouswaffle_official?igsh=YWw5OGF3bTZ3MTln",
+	"telefono":"624 81 27 48",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.771455917002!2d-1.9703363032104493!3d42.30474179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5a8fd3177c846f%3A0x9395d1f77db7e7c7!2sDelicious%20waffle!5e0!3m2!1ses!2ses!4v1748733688751!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipM1jSci-4OeUNykZrOZFMRMh0sJDkxdkMZyTv7L=w408-h544-k-no",
+	"comentarios":[
+		"Una atencion top!!! muy agradable y muy cortez muchas Gracias los mejores sundae de calahorra !!"
+	]
+},
+{
+	"nombre":"La Crepé &amp; Co",
+	"categoria":"Crepería",
+	"rating":"4,4",
+	"reviews":"325",
+	"horario":"lunes, De 8:00 a 21:00; martes, De 8:00 a 21:00; miércoles, De 8:00 a 21:00; jueves, De 8:00 a 21:00; viernes, De 8:00 a 21:00; sábado, De 8:00 a 21:00; domingo, De 8:00 a 21:00",
+	"direccion":"Gran Vía de Ramón y Cajal, 47, Extramurs, 46007 Valencia",
+	"ciudad":"Valencia",
+	"provincia":"Valencia",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0810123768842!2d-0.3881834032104492!3d39.46749850000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f579f8d9b01%3A0xaaca825655e0b4ae!2zTGEgQ3JlcMOpICYgQ28!5e0!3m2!1ses!2ses!4v1748733696329!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_nv0uIOQNlhOA8CZLBaPfxQtMWeX3oklHQMgRPUVVdsjN2ROvc6ny4iJdGpDppPMeZ8aNq7BLISHLPwwM_b1N8fDZ72BQU5t0emRoKw0voLKsfV2of_awD8LncpDZony0ZDQ=w408-h306-k-no",
+	"comentarios":[
+		"Probamos el gofre de nutella y las tortitas de lotus, espectaculares, el",
+		"Gofre crujiente y las tortitas suaves y con el toque caramelizada, servicio atento, volveremos!"
+	]
+},
+{
+	"nombre":"Aromas y Semillas- Obrador-Café-Zumos",
+	"categoria":"Cafetería",
+	"rating":"4,1",
+	"reviews":"853",
+	"horario":"lunes, De 8:00 a 13:30, De 16:00 a 20:00; martes, Cerrado; miércoles, De 8:00 a 13:30, De 16:00 a 20:00; jueves, De 8:00 a 13:30, De 16:00 a 20:00; viernes, De 8:00 a 13:30, De 16:00 a 20:00; sábado, De 8:00 a 13:30, De 17:00 a 20:00; domingo, De 8:00 a 13:30, De 17:00 a 20:00",
+	"direccion":"Parque de los Picos de Urbión, 4, 26008 Logroño, La Rioja",
+	"ciudad":"Logroño",
+	"provincia":"La Rioja",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.759032256979!2d-2.466161103210449!3d42.45414290000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4554ad240a2383%3A0x4c168ca890ac365f!2sAromas%20y%20Semillas-%20Obrador-Caf%C3%A9-Zumos!5e0!3m2!1ses!2ses!4v1748733704299!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no0tWlbw-AoV5KKMr14WXK5JqZiyUJSmWu3jYQ8fLnvHxRZlLvCw4k0wOUI3zJ5ItSNrSEqAqQdn5_XzPpLVKuZ9VlwXy2LTiB8WV8Z9K1H5FAq70LFdQnq7BMkmTxqoVitN_o=w408-h305-k-no",
+	"comentarios":[
+		"El local estaba lleno pero conseguimos sitio. La verdad que el servicio fue muy bueno, por parte de las camareras que había y de los dueños. La tostada y la tarta de red velvet estaban muy buenas. Hacía tiempo que no iba porque he estado más de una vez (nunca había puesto una reseña), me ha sorprendido ver las reseñas de que mal servicio porque yo no viví eso. Al contrario, estaban muy pendientes de que no nos faltase nada."
+	]
+},
+{
+	"nombre":"Cafetería El Tostadero",
+	"categoria":"Cafetería",
+	"rating":"3,9",
+	"reviews":"338",
+	"horario":"lunes, De 8:00 a 24:00; martes, De 8:00 a 24:00; miércoles, De 8:00 a 24:00; jueves, De 8:00 a 24:00; viernes, De 8:00 a 24:00; sábado, De 8:00 a 24:00; domingo, De 8:00 a 24:00",
+	"direccion":"P.º del Mercadal, 9, 26500 Calahorra, La Rioja",
+	"ciudad":"Calahorra",
+	"provincia":"La Rioja",
+	"web":"https://eltostadero.tucartadigital.com/",
+	"telefono":"670 54 19 00",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.7995729497957!2d-1.968893103210449!3d42.30414190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5a8e73e431f351%3A0xed59301c2853d63e!2sCafeter%C3%ADa%20El%20Tostadero!5e0!3m2!1ses!2ses!4v1748733712892!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipO62cEPVMBvJlMG2mtL-z0wgtDJrt-TOIRe1rTo=w408-h544-k-no",
+	"comentarios":[
+		"Ayer 20-07-22 de camino desde Bilbao a Tarragona, nos desviamos a desayunar. Mereció la pena. Estupendo lugar, fantástica y agradable camarera. El desayuno, lo que buscábamos. Y de precio igualmente correcto. Muchas gracias al Tostadero. Muy recomendable. 👏👏👏👏…"
+	]
+},
+{
+	"nombre":"llaollao",
+	"categoria":"Yogurtería",
+	"rating":"4,1",
+	"reviews":"553",
+	"horario":"lunes, De 13:00 a 23:00; martes, De 13:00 a 23:00; miércoles, De 13:00 a 23:00; jueves, De 13:00 a 23:00; viernes, De 12:00 a 0:30; sábado, De 12:00 a 0:30; domingo, De 12:00 a 23:00",
+	"direccion":"C. Portales, 47, 26001 Logroño, La Rioja",
+	"ciudad":"Logroño",
+	"provincia":"La Rioja",
+	"web":"https://www.llaollaoweb.com/es/?s=logro%C3%B1o&amp;utm_campaign=google-local&amp;utm_source=G",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.1836322456693!2d-2.4510646032104497!3d42.466383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5aab38a4048131%3A0x22754d2a0e9ad358!2sllaollao!5e0!3m2!1ses!2ses!4v1748733721158!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqfgGqCN-c7jsDI1LpSkRr2kgu27JPg7Gz3HxAtqSW5d53iyeZEokaZ31_nAiGUXqhXaWFJjhbArTfNnA7hGpOriz4J4U3XGBoZ5QKRNeNjpZ_sB_rcxOYUm21LLWnCsbq4ztkuJQ=w408-h306-k-no",
+	"comentarios":[
+		"Los helados están muy buenos, la atención recibida hoy por Diana y Fredy ha sido excelente, dos chicos muy amables."
+	]
+},
+{
+	"nombre":"Creperie la Chaumiere",
+	"categoria":"Restaurante francés",
+	"rating":"4,7",
+	"reviews":"465",
+	"horario":"lunes, De 13:30 a 15:00, De 19:30 a 23:30; martes, De 13:30 a 15:00, De 19:30 a 23:00; miércoles, De 13:30 a 15:00, De 19:30 a 23:00; jueves, De 13:30 a 15:00, De 19:30 a 23:00; viernes, De 13:30 a 15:00, De 19:30 a 23:00; sábado, De 13:30 a 15:00, De 19:30 a 23:00; domingo, De 13:30 a 15:00, De 19:30 a 23:30",
+	"direccion":"Carrer de la Pursiana, 28, Ponent, 07013 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 28 37 52",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4500813992595!2d2.633644696789551!3d39.57200559999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792678e6b9d3d%3A0xd7717c1e182a8474!2sCreperie%20la%20Chaumiere!5e0!3m2!1ses!2ses!4v1748733977355!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npHr-t3Xt5u419GPatDGn-8lz1WDiNTBJYu5-rVeBQwvROSdD_CQ1_ydnHYMBWMKh_fNZzKphA65Ld5lnxi44U9bPN8nwW3v0y0zEjHoW6F3lY2YNRsRSHcQMKK9TAX9-hEabT3=w426-h240-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Happy Crepes Mallorca",
+	"categoria":"Crepería",
+	"rating":"4,9",
+	"reviews":"193",
+	"horario":"lunes, Cerrado; martes, De 11:00 a 22:00; miércoles, De 11:00 a 22:00; jueves, De 11:00 a 22:00; viernes, De 11:00 a 22:00; sábado, De 11:00 a 22:00; domingo, De 11:00 a 22:00",
+	"direccion":"Carretera de l&apos;Arenal, 8, Platja de Palma, 07610 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.429050374593!2d2.7279547967895508!3d39.52737410000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297970f450ff47b%3A0xa330de884a279050!2sHappy%20Crepes%20Mallorca!5e0!3m2!1ses!2ses!4v1748733985910!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPOW_Z4Sn0yKWV4wLZNVnVimbx8miyLgWxaZs2X=w408-h270-k-no",
+	"comentarios":[
+		"Crepes súper ricos tanto salada como dulce. Personal muy amable.  Sitio es muy limpio. La única pena es que no tienen terraza con sillas para sentarse solo hay dos mesas altas."
+	]
+},
+{
+	"nombre":"Crepes Suzette",
+	"categoria":"Restaurante de brunch",
+	"rating":"4,3",
+	"reviews":"173",
+	"horario":"lunes, De 8:00 a 16:00; martes, De 8:00 a 16:00; miércoles, De 8:00 a 16:00; jueves, De 8:00 a 16:00; viernes, De 8:00 a 16:00; sábado, De 8:00 a 16:00; domingo, De 8:00 a 16:00",
+	"direccion":"Av. de Gabriel Roca, 27, Ponent, 07014 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 45 38 85",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.754048248044!2d2.6233789967895507!3d39.565153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979272035aa9a1%3A0x49a50c358a2abb88!2sCrepes%20Suzette!5e0!3m2!1ses!2ses!4v1748733994437!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqDeoNVf1rDaHN0CrOMsnGeqj5L_bJo_HsCkj7Aj-dsMlXj7m9IYBBdvof3VBVeovZ0LnfEcrnPctwk__NCKgX6gfppO9tB5vieN6ikuxuUf6gVv3xE9LaxjhhIWyx4INeL6vJZ=w408-h306-k-no",
+	"comentarios":[
+		"Muy sabrosas crepes, variadas y servidas con esmero. Desayunamos sandwiches y zumos, y todo estaba muy muy bueno. La dueña atiende con esmero y cariño.",
+		"La comida que sirven es de calidad... un oasis diferente a los locales despersonalizados y de comida basura de alrededor."
+	]
+},
+{
+	"nombre":"Oh, CRÊPES",
+	"categoria":"Crepería",
+	"rating":"4,9",
+	"reviews":"140",
+	"horario":"lunes, De 10:00 a 22:30; martes, De 10:00 a 22:30; miércoles, De 10:00 a 22:30; jueves, De 10:00 a 22:30; viernes, De 10:00 a 22:30; sábado, De 11:00 a 22:30; domingo, De 11:00 a 22:30",
+	"direccion":"Bulevar de Peguera, 57, 07160 Peguera, Illes Balears",
+	"ciudad":"Peguera",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.9838381790382!2d2.44921899678955!3d39.53741859999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129827dc1fcb6379%3A0x161a192c97ac17ea!2zT2gsIENSw4pQRVM!5e0!3m2!1ses!2ses!4v1748734002458!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOIWhSxavFKivscm7Bo44PQRzNNIOp12i18UhT6=w426-h240-k-no",
+	"comentarios":[
+		"Servicio excelente, rápido y super amable, hay un amplio menú para hacer la crepe a tu gusto, mi chico se la pido de nutella y se la sirvieron como un canoli super fácil de comer y la mía fue de Ferrero Rocher con helado de vainilla, nunca…"
+	]
+},
+{
+	"nombre":"Gelateria Carte D&apos;Or Es Trasto Mallorca",
+	"categoria":"Heladería",
+	"rating":"4,2",
+	"reviews":"27",
+	"horario":"lunes, De 12:30 a 19:30; martes, De 12:30 a 19:30; miércoles, De 12:30 a 19:30; jueves, De 12:30 a 19:30; viernes, De 12:30 a 19:30; sábado, De 12:30 a 19:30; domingo, De 12:30 a 19:30",
+	"direccion":"Plaça de la Porta Pintada, 7, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.frigo.es/marcas/gelateria-cartedor/tiendas-cerca-de-ti.html",
+	"telefono":"871 80 44 25",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.310428027566!2d2.6482316967895505!3d39.575153599999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297931717f8a5d5%3A0x6ad990711fc15447!2sGelateria%20Carte%20D&#39;Or%20Es%20Trasto%20Mallorca!5e0!3m2!1ses!2ses!4v1748734011830!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr_bkfGBYtNsd5vVlxKHur_g64k-E1QjxEIwI7rOBC-pCcl3_Bpp3EHNHCl36-9mJh9lggmc4rkgkdM40RlO__QmNmYfFgTEVZ1h70cc6kLu4pVUyl4iNOeBI_ZFr8EerkwnKkz=w408-h306-k-no",
+	"comentarios":[
+		"Recomendaría: sí.",
+		"",
+		"Los helados, que es lo que probé, no es tan mal, no entiendo ciertas reseñas que…"
+	]
+},
+{
+	"nombre":"Sa Creperia Sa Bassa",
+	"categoria":"Crepería",
+	"rating":"4,7",
+	"reviews":"901",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 15:00, De 20:00 a 22:30; miércoles, De 13:00 a 15:00, De 20:00 a 22:30; jueves, De 13:00 a 15:00, De 20:00 a 22:30; viernes, De 13:00 a 15:00, De 20:00 a 22:30; sábado, De 13:00 a 15:00, De 20:00 a 22:30; domingo, Cerrado",
+	"direccion":"Carrer D&apos;En Francesc Gomila, 2, 07500 Manacor, Illes Balears",
+	"ciudad":"Manacor",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 55 96 97",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5369962961836!2d3.204799996789551!3d39.5700463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129649a8eba54fbb%3A0x6db89408f1607eba!2sSa%20Creperia%20Sa%20Bassa!5e0!3m2!1ses!2ses!4v1748734019776!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np7cG0lqp4G1yfZeyb2WAbolr7iV8SbdU-ufJk-2RMfSbf11kiTw4GHAxBgnSd05fRSEPWl1eMO7FENHJInibMaowN-Ac6d7OMyPLosK1aZry2UYh13TnYkg-Xte9wICyK9ifrF_w=w408-h306-k-no",
+	"comentarios":[
+		"Muy buen sitio para ir a comer tanto crepes dulces como saladas. Tienen opcion sin gluten!! Muy buenas con mucha cantidad de relleno. El dueño es muy amable y muy atento. Volveremos seguro!"
+	]
+},
+{
+	"nombre":"Crepes &amp; Cia Pizza",
+	"categoria":"Pizzería",
+	"rating":"4,7",
+	"reviews":"250",
+	"horario":"lunes, De 18:00 a 23:00; martes, De 18:00 a 23:00; miércoles, Cerrado; jueves, De 18:00 a 23:00; viernes, De 18:00 a 23:00; sábado, De 18:00 a 23:00; domingo, De 18:00 a 23:00",
+	"direccion":"Carrer de la Creu, 6, 07530 Sant Llorenç des Cardassar, Illes Balears",
+	"ciudad":"San Lorenzo de Cardessar",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 83 81 63",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.691027054387!2d3.28099159678955!3d39.611642100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129639b80652e8a7%3A0x3d08669f2c2eee4b!2sCrepes%20%26%20Cia%20Pizza!5e0!3m2!1ses!2ses!4v1748734028126!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np8_OYzFvrhB0LZoZmYLpa69fkL45pUvslkBqxqgcH_bE6Zfq9cSypLRdpDbdI5qMD3qWX848LMa-qQ7J1bBxAt6T8sQXnED6oCpBHPAvAg0kMH88MtWaeiJMUj3T5mZYG58SMyFQ=w408-h544-k-no",
+	"comentarios":[
+		"Fuimos a cenar y la experiencia fue muy buena las pizzas estan geniales lo recomiendo"
+	]
+},
+{
+	"nombre":"Carmela Gelato Mallorca",
+	"categoria":"Heladería",
+	"rating":"4,9",
+	"reviews":"35",
+	"horario":"lunes, De 12:00 a 22:30; martes, De 12:00 a 22:30; miércoles, De 12:00 a 22:30; jueves, De 10:00 a 22:00; viernes, De 12:00 a 0:30; sábado, De 12:00 a 0:30; domingo, De 12:00 a 22:30",
+	"direccion":"C/ dels Oms, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.intagram.com/carmela.gelato.mallorca",
+	"telefono":"971 38 90 64",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3115726196143!2d2.64733489678955!3d39.57512779999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979338c5b28435%3A0x4842878767e5b7bf!2sCarmela%20Gelato%20Mallorca!5e0!3m2!1ses!2ses!4v1748734036440!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4notgsOSksUVL2SI7ozhN1DDbHraTkY4lZbC9RKd6rwD_tOUmuWQe2WmvBeTJndjyU6XSmjrNJOF6kgUU79pme0lGemqhy9wIuTMVNFAK9g7FsMULXzpThr3RANdEXp4OQRpenhdwA=w408-h306-k-no",
+	"comentarios":[
+		"Helados artesanales de la mejor calidad de Mallorca !! Un lugar muy acogedor los trabajadores son encantadores y la calidad del producto es riquísimo 🤤 volveremos sin duda…"
+	]
+},
+{
+	"nombre":"GULA",
+	"categoria":"Cafetería",
+	"rating":"4,6",
+	"reviews":"211",
+	"horario":"lunes, De 8:00 a 20:00; martes, De 8:00 a 20:00; miércoles, De 8:00 a 20:00; jueves, De 8:00 a 20:00; viernes, De 8:00 a 20:00; sábado, De 9:00 a 13:30; domingo, De 9:00 a 13:30",
+	"direccion":"Camí de Son Rapinya, Ponent, 07013 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"666 87 65 62",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.874022404913!2d2.6131694967895505!3d39.5849895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793af8811af2d%3A0x599144a56567976d!2sGULA!5e0!3m2!1ses!2ses!4v1748734045099!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr0HKkdovFNfctDx12U5RZ6CWWPX9Of6iFlsOlN7HnQqOAJwIKDrUbu8EdR09RXuRLYUSn0Tvupv9Wnk536BJe0PzUiOmsOYZY6xdvoK_V0Un6z5fpC5UXhzVaXZGvRkgK85g=w408-h241-k-no",
+	"comentarios":[
+		"Había visto que abrieron este nuevo lugar para desayunos y meriendas pero no había tenido el placer de visitarlo, fue un gran acierto!!…"
+	]
+},
+{
+	"nombre":"Rolling",
+	"categoria":"Restaurante de brunch",
+	"rating":"4,3",
+	"reviews":"1.514",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, Cerrado; viernes, De 9:00 a 21:30; sábado, De 9:00 a 21:30; domingo, De 9:00 a 21:30",
+	"direccion":"Carrer del Vaixell, 1, Platja de Palma, 07610 Can Pastilla, Illes Balears",
+	"ciudad":"Can Pastilla",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 23 41 27",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.109297903239!2d2.7168644967895506!3d39.5345883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129796a02c900e03%3A0xaceabd266ed3e294!2sRolling!5e0!3m2!1ses!2ses!4v1748734053865!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrqvjggcLHCewAx-G8k_c2XLS1pUEewYCU0gKB9pinak6Ugsuhi-vsBdCqan5CoVaIATayYBUjuoN0h0n8xi8EcB4F3LRRZyE3iUX6zUUCz4CnyxuK6t404rS2KnwK0aHoAK2_WIw=w408-h306-k-no",
+	"comentarios":[
+		"Sitio con muy bonitas vistas, la atención es muy agradable.",
+		"",
+		"Hay varios tipos de hamburguesas, están bien sin más…"
+	]
+},
+{
+	"nombre":"CREPERIA SA FONT",
+	"categoria":"Restaurante",
+	"rating":"4,3",
+	"reviews":"586",
+	"horario":"lunes, De 10:00 a 16:00; martes, De 10:00 a 16:00; miércoles, De 9:00 a 15:30; jueves, De 10:00 a 16:00; viernes, De 10:00 a 16:00; sábado, De 9:00 a 15:30; domingo, Cerrado",
+	"direccion":"Plaça Major, 27, 07650 Santanyí, Illes Balears",
+	"ciudad":"Santanyí",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 16 34 92",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3085.084712520696!2d3.1242071967895506!3d39.354318200000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12965484dd94bc0d%3A0xb1bc0de2daf6836!2sCREPERIA%20SA%20FONT!5e0!3m2!1ses!2ses!4v1748734062491!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPrlIOEwVauVlrDQ5abJGXSrGgIZPwGI9faNS-b=w408-h544-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Gelateria La Romana",
+	"categoria":"Heladería",
+	"rating":"4,7",
+	"reviews":"217",
+	"horario":"lunes, De 13:00 a 22:30; martes, De 13:00 a 22:30; miércoles, De 13:00 a 22:30; jueves, De 13:00 a 22:30; viernes, De 13:00 a 22:30; sábado, De 13:00 a 22:30; domingo, De 13:00 a 22:30",
+	"direccion":"Plaça de la Porta Pintada, 1, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.gelateriaromana.com/102-gelateria-palma-di-maiorca.php",
+	"telefono":"971 53 67 01",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3026421232485!2d2.6476109967895507!3d39.575329100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297939796b81eb9%3A0x17d8342c9d7f792b!2sGelateria%20La%20Romana!5e0!3m2!1ses!2ses!4v1748734070523!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipM4kZrmZ9qNAH18v8JpgUnV_k143D8RXDG5kIXK=w408-h272-k-no",
+	"comentarios":[
+		"Desde que probé hace unos 20 días los helados, es mi heladería preferida, el helado de café con salsa de pistacho es brutal, nunca comí  un helado tan rico. Ayer por la tarde, decidí probar otra cosa, y pedí un crepe con helado y fruta, y…"
+	]
+},
+{
+	"nombre":"Café Weyler",
+	"categoria":"Heladería",
+	"rating":"3,6",
+	"reviews":"177",
+	"horario":"lunes, De 10:00 a 0:30; martes, De 10:00 a 0:30; miércoles, De 10:00 a 0:30; jueves, De 10:00 a 0:30; viernes, De 10:00 a 0:30; sábado, De 10:00 a 0:30; domingo, De 10:00 a 0:30",
+	"direccion":"Plaça de Weyler, 11, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.instagram.com/gelateriademallorca/",
+	"telefono":"871 00 61 33",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4759836834314!2d2.645115796789541!3d39.571421700000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979350789b87b7%3A0x95f36bd0799ed6c7!2sCaf%C3%A9%20Weyler!5e0!3m2!1ses!2ses!4v1748734080798!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noEpvNBgDDt-fLQ6Ml2QTRQL6-srCBwXq8zeTlmYEAUx9wExlWrD-X6nME1UCap2sz4RBfkD36et1wKdc0oNFlhtrjdqY4derl3mZ7wOSWMCy45I_GJN3NkGLVBZHqm-yWoYPfz=w426-h240-k-no",
+	"comentarios":[
+		"Para un café ☕ solo y unos churros con chocolate no hemos tenido q esperar.",
+		"La chica nos ha traído muchas servilletas, siempre son pocas.",
+		"El café y el chocolate estaban calentitos.…"
+	]
+},
+{
+	"nombre":"Amorino Gelato - Mallorca Fashion Outlet",
+	"categoria":"Heladería",
+	"rating":"4,2",
+	"reviews":"839",
+	"horario":"lunes, De 10:00 a 21:00; martes, De 10:00 a 21:00; miércoles, De 10:00 a 21:00; jueves, De 10:00 a 21:00; viernes, De 10:00 a 21:00; sábado, De 10:00 a 21:00; domingo, De 10:00 a 21:00",
+	"direccion":"C.C Festival Park Outlets, Ma-13, Km. 7,1, 07141 Inca, Illes Balears",
+	"ciudad":"Es Caulls",
+	"provincia":"Illes Balears",
+	"web":"http://www.amorino.com/es?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=mybusiness-products",
+	"telefono":"971 22 61 93",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.739109524086!2d2.7265478967895502!3d39.633077700000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297eb2646a0cb6d%3A0xab353eed88c8cab4!2sAmorino%20Gelato%20-%20Mallorca%20Fashion%20Outlet!5e0!3m2!1ses!2ses!4v1748734094441!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipNf9nOZk1Txyyz6Q7arVsvRUw74XS4JVGEEK_T3=w408-h289-k-no",
+	"comentarios":[
+		"Excelente servicio al cliente, me atendió Elizabeth y muy amablemente me explicó sobre los sabores y las mejores combinaciones, ¡mil gracias!"
+	]
+},
+{
+	"nombre":"Crêperie",
+	"categoria":"Crepería",
+	"rating":"4,6",
+	"reviews":"14",
+	"horario":"lunes, De 14:00 a 24:00; martes, De 14:00 a 24:00; miércoles, De 14:00 a 24:00; jueves, De 14:00 a 24:00; viernes, De 14:00 a 24:00; sábado, De 14:00 a 24:00; domingo, De 14:00 a 24:00",
+	"direccion":"Bulevar de Peguera, 44, 07160 Peguera, Illes Balears",
+	"ciudad":"Peguera",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.982353167549!2d2.4441505967895507!3d39.53745210000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1298271e85fb5d01%3A0x8d9cfd059b24e565!2zQ3LDqnBlcmll!5e0!3m2!1ses!2ses!4v1748734105438!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipM7VFJBOsdIfR-XujFt1tdnYs-m00i2MxyfZr5o=w408-h544-k-no",
+	"comentarios":[
+		"Hola",
+		"Me he comido la mejor crep de Mallorca con vistas al mar.",
+		"Con la mejor compañía y super agradables",
+		"La recomiendo al 100%"
+	]
+},
+{
+	"nombre":"Gelateria Carte D&apos;Or CC Fan Mallorca",
+	"categoria":"Heladería",
+	"rating":"5,0",
+	"reviews":"2",
+	"horario":"",
+	"direccion":"Centro Comercial Fan Mallorca, 07007 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"http://www.gelateriacartedor.com/",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.282689417253!2d2.7006537967895508!3d39.55323300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129795faf9d91e61%3A0x2ff838a6a263764f!2sGelateria%20Carte%20D&#39;Or%20CC%20Fan%20Mallorca!5e0!3m2!1ses!2ses!4v1748734115438!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipODto8ikiK1wEsTRvQpG35iiVTwqObDebJiK8bU=w426-h240-k-no",
+	"comentarios":[
+		"M encanto"
+	]
+},
+{
+	"nombre":"Gelatty (Palma)",
+	"categoria":"Cafetería",
+	"rating":"4,3",
+	"reviews":"93",
+	"horario":"",
+	"direccion":"C/ dels Oms, 52, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.gelatty.com/",
+	"telefono":"971 15 89 01",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3179211013967!2d2.6437039967895504!3d39.5749847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925a014dfecd%3A0x565dfdf0fc4db603!2sGelatty%20(Palma)!5e0!3m2!1ses!2ses!4v1748734126226!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcUgWIHEnWeMKTst_fRRgIWABlsFFxMW20hrUzP6HZIvVBPVAOMc35NJJXGC4ARBw2RRTb4iTmnwPCRyLdqqGXM3nhmRn90WGLK6XFpjFXVnqsbCMEUVqda_sFHEQNeqv2zx1N=w408-h306-k-no",
+	"comentarios":[
+		"Excelente servicio y atención cordial y personalizada. Calidad de primera, tanto el helado, como cafetería. Un lugar cálido, limpio y bonito con buenos precios. BBB !!! 👏👏…"
+	]
+},
+{
+	"nombre":"Grill Express DelSol",
+	"categoria":"Restaurante de comida rápida",
+	"rating":"4,0",
+	"reviews":"244",
+	"horario":"lunes, De 10:00 a 5:00; martes, De 10:00 a 5:00; miércoles, De 10:00 a 5:00; jueves, De 10:00 a 5:00; viernes, De 10:00 a 5:00; sábado, De 10:00 a 5:00; domingo, De 10:00 a 5:00",
+	"direccion":"Av. Miramar, 2, 07600 S&apos;Arenal, Illes Balears",
+	"ciudad":"El Arenal",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.5190783187795!2d2.7469253967895506!3d39.50277279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297964ee6d78b5b%3A0x4f31d9c1176b2e64!2sGrill%20Express%20DelSol!5e0!3m2!1ses!2ses!4v1748734136860!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr6zUOUc1ojD_FOq4cyk5DspyH5cQ-W2JpNCgsFok5ukllbPPWNs-PowXPJia7SW8eJtrPA5CRG6MBevwkgeuxjnT4-l3vLoOP-B4U95ZqT-FqgxuqdTmn9NJw63j-OcSAshqPA=w493-h240-k-no",
+	"comentarios":[
+		"Nada recomendable, restaurante para extranjeros que saben que no van a volver. Comida sin sabor ni gracia ninguna sin ser precisamente económico."
+	]
+},
+{
+	"nombre":"La cabra feliz. Bar ético",
+	"categoria":"Cafetería",
+	"rating":"4,4",
+	"reviews":"105",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:30 a 22:00; domingo, De 9:30 a 22:00",
+	"direccion":"Carrer de Ticià 41 Esquina, blanquerna, 47, 07003 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"https://instagram.com/lacabrafelizbar?igshid=YmMyMTA2M2Y=",
+	"telefono":"683 56 45 35",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.037309653796!2d2.64417249678955!3d39.5813095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793e503400a99%3A0x7c495bf69f656e86!2sLa%20cabra%20feliz.%20Bar%20%C3%A9tico!5e0!3m2!1ses!2ses!4v1748734147485!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npICFTGfs3D_MEEf96hTqXQ85s-Hp4xcmbxLlTKyDtsaXpdkw7uIAnT49YwiJjjXYYHPgSwT6OKkcmBw2ADWFGh9vX66lLVkAvlnfpqy5HI8-6tN34QqXVhX6NWFdCuVhrHPj0D=w408-h545-k-no",
+	"comentarios":[
+		"Acudí al restaurante a recoger un pedido de Too Good To Go, una muy buena iniciativa, que recomiendo a todos.",
+		"La aplicación funciona muy bien y se evita el lamentable desperdicio…"
+	]
+},
+{
+	"nombre":"llaollao",
+	"categoria":"Yogurtería",
+	"rating":"4,6",
+	"reviews":"139",
+	"horario":"lunes, De 11:00 a 21:15; martes, De 11:00 a 21:15; miércoles, De 11:00 a 21:15; jueves, De 11:00 a 21:15; viernes, De 11:00 a 23:15; sábado, De 10:30 a 21:15; domingo, Cerrado",
+	"direccion":"Avinguda d&apos;Alexandre Rosselló, 12-16, Llevant, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.llaollaoweb.com/es/tienda/palma-el-corte-ingles-alexandre-rosello/?utm_campaign=google-local&amp;utm_source=G",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.377625171806!2d2.6518589967895583!3d39.5736389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979357dede2a9f%3A0xfbee5f4c345c5f7b!2sllaollao!5e0!3m2!1ses!2ses!4v1748734157470!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPw0qyHzR5LMpHvAECCcJvBwaOCvWdwqKqo5UHj=w408-h408-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"llaollao",
+	"categoria":"Heladería",
+	"rating":"4,4",
+	"reviews":"62",
+	"horario":"lunes, De 11:00 a 22:30; martes, De 11:00 a 22:30; miércoles, De 11:00 a 22:30; jueves, De 12:00 a 22:30; viernes, De 11:00 a 22:30; sábado, De 10:00 a 23:00; domingo, De 12:00 a 22:00",
+	"direccion":"C.C. Fan Mallorca Shopping, Playa de Palma, 07007 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"https://www.llaollaoweb.com/es/tienda/mallorca-primark-fan-mallorca/?utm_campaign=google-local&amp;utm_source=G",
+	"telefono":"918 63 46 57",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.2104969466236!2d2.7025293967895503!3d39.554860999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129795be33176383%3A0x6c4636b9ccd5aebc!2sllaollao!5e0!3m2!1ses!2ses!4v1748734171751!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOJiGrV-5NeKEEWk833XV-GBHDjrp-VHzJ7__Nr=w408-h272-k-no",
+	"comentarios":[
+		"La comida está muy rica y el servicio es rápido! La atención al cliente es excelente! El nuevo helado con chocolate al estilo Dubái está exquisito, se ha convertido en mi favorito!"
+	]
+},
+{
+	"nombre":"LIVE CONCEPT BAR",
+	"categoria":"Bar",
+	"rating":"4,0",
+	"reviews":"6",
+	"horario":"lunes, De 8:00 a 1:00; martes, De 8:00 a 1:00; miércoles, De 8:00 a 1:00; jueves, De 8:00 a 1:00; viernes, De 8:00 a 1:00; sábado, De 8:00 a 13:00, De 19:00 a 1:00; domingo, Cerrado",
+	"direccion":"Carrer de Francisco, C/ Francesc Sancho, 16, 16, 07004 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"",
+	"telefono":"625 82 42 91",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.107013471745!2d2.6515098967895505!3d39.579738500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979302fe2d88ef%3A0xe4682aa22c3f76de!2sLIVE%20CONCEPT%20BAR!5e0!3m2!1ses!2ses!4v1748734182438!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr4OJGXtr-N53H18jZQUCUMiFPpJoeWVWlmLxzi3R9KiuMeqf7LsepFVjxaN-7oOV8vRR7nn3dZ2oYxUg2vmKNq54ApGQU7ELiJIq-gs3YZYjIVCYUitylWZpMxaZe4z0gDWR-7Kw=w408-h544-k-no",
+	"comentarios":[
+		"Pondría 0 estrellas si fuera posible! Muy mal servicio... El otro día fui a tomar algo con mi novia y el camarero nos quería enviar a la otra punta del bar si quería estar con ella porque había gente al lado, simplemente le había dado un beso... No lo recomiendo para nada.. A no ser que quieran recibir un trato nefasto... Sin palabras... Tiene suerte de que no haya pedido la hoja de reclamaciones pues no tiene reservado el derecho de admisión..... Lo siento mucho por los dueños no saben a quien tienen allí trabajando..."
+	]
+},
+{
+	"nombre":"Giovanni L. Gelato Deluxe",
+	"categoria":"Heladería",
+	"rating":"4,6",
+	"reviews":"1.323",
+	"horario":"lunes, De 11:30 a 20:30; martes, De 11:30 a 20:30; miércoles, De 11:30 a 20:30; jueves, De 11:30 a 20:30; viernes, De 11:30 a 20:30; sábado, De 11:30 a 20:30; domingo, De 11:00 a 18:00",
+	"direccion":"Carrer de Jaume II, 1, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://giovanni-l.es/",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.541481012612!2d2.6448343967895505!3d39.56994519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297924fe3cfa67b%3A0x559b2acc7bec1a15!2sGiovanni%20L.%20Gelato%20Deluxe!5e0!3m2!1ses!2ses!4v1748734190580!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npEyYdRB2FMq4jL9bQFo6rtyn5Oujd-uEHqYNjrGZ9snzU23EvyxGd-TIBI_iUC1Ezl-xuh9_XbK7_9hH66DSqLF0Fa2u9y4WE04L3PZMD03mMcl78XdFwv-MAIOarKVjzvg5pGTQ=w408-h306-k-no",
+	"comentarios":[
+		"Compre 4 trozos de tarta para llevar, y me los pusieron en unos recipientes que al llegar a casa los trocitos de tarta que valían 4 euros cada uno estaban pegajosos. No me dieron ni bolsa para llevar adecuadamente,  me querían dar una bolsa…"
+	]
+},
+{
+	"nombre":"Heladería Antiuxixona Palmanova",
+	"categoria":"Heladería",
+	"rating":"4,5",
+	"reviews":"347",
+	"horario":"lunes, De 11:00 a 23:00; martes, Cerrado; miércoles, De 11:00 a 23:00; jueves, De 12:00 a 23:00; viernes, De 11:00 a 23:00; sábado, De 11:00 a 23:00; domingo, De 11:00 a 23:00",
+	"direccion":"Paseo del mar 44 local 3, 07181 Palma Nova, Balearic Islands",
+	"ciudad":"Palmanova",
+	"provincia":"Balearic Islands",
+	"web":"http://www.antiuxixonahelados.com/",
+	"telefono":"683 27 64 38",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.754133588677!2d2.5317485967895506!3d39.5200385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129789359a0bb90f%3A0x13b9a03cbf9df4c7!2sHelader%C3%ADa%20Antiuxixona%20Palmanova!5e0!3m2!1ses!2ses!4v1748734200422!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOry3SRNGRSYoNSD5PI-3je4VwseETvCi-c38YY=w426-h240-k-no",
+	"comentarios":[
+		"Cada año necesitamos comer mínimo un helado de aquí. Hay muchísima variedas en sabores, y el orecio no es excesivamente caro.",
+		"El chico que atiende es muy simpatico y el lugar es bastante acogedor.",
+		"No he probado la comida, pero es algo que queda pendiente 😉…"
+	]
+},
+{
+	"nombre":"Avocado Mallorca | Brunch en Cala Major",
+	"categoria":"Restaurante",
+	"rating":"4,8",
+	"reviews":"957",
+	"horario":"lunes, De 9:00 a 17:00; martes, De 9:00 a 17:00; miércoles, De 9:00 a 17:00; jueves, De 9:00 a 17:00; viernes, De 9:00 a 17:00; sábado, De 9:00 a 17:00; domingo, De 9:00 a 17:00",
+	"direccion":"Avinguda de Joan Miró, 279, Ponent, 07015 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.avocadomallorca.es/",
+	"telefono":"871 53 20 73",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.2633112153735!2d2.60077639678955!3d39.55366999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793ccd61f6537%3A0x8fc753b6783c8a2!2sAvocado%20Mallorca%20%7C%20Brunch%20en%20Cala%20Major!5e0!3m2!1ses!2ses!4v1748734210797!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipO99eQPkbdvc9WjnGNLRAP_yL70oTdnFISgW_q0=w408-h272-k-no",
+	"comentarios":[
+		"Maravilloso lugar.  La mejor tostada con aguacate que he probado, perfecta.  El acai es súper saludable y muy bueno. La dueña muy amable y el servicio excelente, acogedor y perfecto para intolerantes.  Me encantó, impecable!  nota 1000.."
+	]
+},
+{
+	"nombre":"Sa Gelateria de Mallorca - Cort",
+	"categoria":"Heladería",
+	"rating":"4,0",
+	"reviews":"155",
+	"horario":"lunes, De 10:00 a 23:00; martes, De 10:00 a 23:00; miércoles, De 10:00 a 23:00; jueves, De 10:00 a 23:00; viernes, De 10:00 a 23:00; sábado, De 10:00 a 23:00; domingo, De 11:00 a 20:00",
+	"direccion":"Plaça de Cort, 9, Distrito Centro, 07001 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"http://www.sagelateria.es/",
+	"telefono":"971 78 19 01",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5471545422274!2d2.6449014967895508!3d39.56981729999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297924fe3e20587%3A0x56144073fec1fefc!2sSa%20Gelateria%20de%20Mallorca%20-%20Cort!5e0!3m2!1ses!2ses!4v1748734220100!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqgHLNREz-jIzTSL6NddIcfUd2YbCOFm3GD8DC9j2Nd4UOhSmH9AfMMzWlYWkT5n_Cjt-Rl42NuVETJrnNNK7Z5gujdB2Q6T4G2astaMubOzcEo_llujqj72bSfcKzr5vaxIIhN=w426-h240-k-no",
+	"comentarios":[
+		"Nunca más vuelvo....Por poco acabamos en el hospital,mi hija pidió un smoothie de cerezas y menos mal que olió que llevaba plátano porque es muy alérgica a esta fruta.  Preguntamos y la camarera, de malas, nos dijo que teníamos que saber que todos los smoothies llevan plátano, porque hay un QR en un cartel que lo informa. En realidad, pedimos un smoothie que indicaba en letras bien claras que era sólo de cerezas, y así se lo dije a la camarera que me siguió discutiendo hasta que nos fuimos.",
+		"Un cero en amabilidad y empatía. Se notaba que le importaba muy poco lo que podría haber pasado. Una verdadera lástima. Nunca más vuelvo. Fué en la heladería de calle San Miguel"
+	]
+},
+{
+	"nombre":"Bombon Boss",
+	"categoria":"Cafetería",
+	"rating":"4,0",
+	"reviews":"341",
+	"horario":"lunes, De 7:00 a 21:00; martes, De 7:00 a 21:00; miércoles, De 7:00 a 21:00; jueves, De 7:00 a 21:00; viernes, De 7:00 a 21:00; sábado, De 7:00 a 21:00; domingo, De 7:00 a 21:00",
+	"direccion":"C/ dels Oms, 52, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://bombonboss.com/es/",
+	"telefono":"636 78 59 41",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3160045806158!2d2.6435938967895516!3d39.575027899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297931e4158513f%3A0xda1c359ba1bc6085!2sBombon%20Boss!5e0!3m2!1ses!2ses!4v1748734229070!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMNoVUn2-ZBepBrVyrIxXPwuGtDz7ID3LiwLt8X=w408-h272-k-no",
+	"comentarios":[
+		"Después de haber tomado al menos 6-8 cafés puedo decir que es mi cafetería favorita de Palma. El café no tiene ese típico sabor a “quemado” de cafetería. No se que tipo de máquina o café usan pero me encanta! Las chicas son muy majas. Café con leche para llevar pequeño 2.15 euros."
+	]
+},
+{
+	"nombre":"Gelats i Granissats Rosaleda",
+	"categoria":"Tienda de postres",
+	"rating":"4,3",
+	"reviews":"13",
+	"horario":"lunes, De 12:00 a 20:00; martes, De 12:00 a 20:00; miércoles, De 12:00 a 20:00; jueves, De 12:00 a 20:00; viernes, De 12:00 a 20:00; sábado, De 12:00 a 20:00; domingo, Cerrado",
+	"direccion":"C. del Sindicat, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4591931485807!2d2.6498339967895412!3d39.57180019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792523797c6d5%3A0xd7ae3914753b9eed!2sGelats%20i%20Granissats%20Rosaleda!5e0!3m2!1ses!2ses!4v1748734239172!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrkH5vXkcqDY1QXJf2CoteJAWZl9j2W8glYEeOnwh_Srid0Q9Lr7bcaMBgKMofrkmHjMzSmKfbpgjOjgnR5RhtBUec2hR9ClxSqRa7vnGevcy_pbbTKSU_b_ip8F6QzVZoE7GIV2oFP9AjW=w408-h724-k-no",
+	"comentarios":[
+		"Lugar perfecto para hacer una parada y probar unos churros buenísimos, los buñuelos también son muy buenos y en verano tienen helados soft, para recordar nuestra niñez 😜…"
+	]
+},
+{
+	"nombre":"Bo&amp;Go Palma Specialty Coffee",
+	"categoria":"Cafetería",
+	"rating":"4,7",
+	"reviews":"102",
+	"horario":"lunes, De 7:30 a 22:00; martes, De 7:30 a 22:00; miércoles, De 7:30 a 22:00; jueves, De 7:30 a 22:00; viernes, De 7:30 a 22:00; sábado, De 7:30 a 22:00; domingo, De 7:30 a 22:00",
+	"direccion":"C/ Aragó, 4, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://boandgopalma.com/",
+	"telefono":"695 74 83 44",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4591931485807!2d2.6498339967895412!3d39.57180019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793005336f777%3A0xc4d32eef59ebed72!2sBo%26Go%20Palma%20Specialty%20Coffee!5e0!3m2!1ses!2ses!4v1748734247314!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPcBcMvROFcmDer55Bu67BgD_Mdq0E07SvD9eba=w408-h272-k-no",
+	"comentarios":[
+		"Hemos ido dos parejas a &quot;tomar café&quot; y hemos acabado casi probando toda la carta. Vaya espectáculo todo. El brioche de pollo con huevo insuperable, las tostadas, el Açai con granola casera, el café, los gofres caseros, creps... Un…"
+	]
+},
+{
+	"nombre":"Heladeria Filippo",
+	"categoria":"Heladería",
+	"rating":"3,8",
+	"reviews":"931",
+	"horario":"lunes, De 7:00 a 23:00; martes, De 7:00 a 23:00; miércoles, Cerrado; jueves, De 7:00 a 23:00; viernes, De 7:00 a 23:00; sábado, De 8:00 a 23:00; domingo, De 8:00 a 23:00",
+	"direccion":"Avinguda de l&apos;Argentina, 4b, Ponent, 07011 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 59 55 07",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4159008968004!2d2.635815196789549!3d39.57277610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925d088f24a9%3A0xb2c22a63f0f5ea21!2sHeladeria%20Filippo!5e0!3m2!1ses!2ses!4v1748734257376!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPWcNqN8YJtZllxqhTNTA8vndV2ogVGycbXaN_8=w408-h306-k-no",
+	"comentarios":[
+		"Siempre que paseamos por palma es parada obligada, su personal es excelente tanto Lourdes como Abi te atienden siempre con una gran sonrisa. Los helados son excelentes y los dulces una autentica delicatessen. Siempre nos llevamos unos cuantos para casa. Son 5 estrellas en todo."
+	]
+},
+{
+	"nombre":"DOCTA GELATERIA",
+	"categoria":"Heladería",
+	"rating":"5,0",
+	"reviews":"371",
+	"horario":"lunes, De 12:00 a 19:00; martes, De 12:00 a 19:00; miércoles, De 12:00 a 19:00; jueves, De 12:00 a 19:00; viernes, De 12:00 a 14:30, De 16:00 a 23:00; sábado, De 12:00 a 14:30, De 16:00 a 23:00; domingo, Cerrado",
+	"direccion":"C/ dels Oms, 49, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.instagram.com/docta.gelateria?igsh=MWh6amRqMHo1OXA5Yw==",
+	"telefono":"674 00 73 98",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3238259264167!2d2.644008696789543!3d39.57485159999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297930074d14e9b%3A0xb6fe8cb1b2cfb3b2!2sDOCTA%20GELATERIA!5e0!3m2!1ses!2ses!4v1748734269652!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nof6E8FUFYqEgL84PK0JUMXF95M7q3KjSnhGdxx2QgNeghYlfNDHXtWVSi_j6oFRyOL9xzJZge1-73bDI7qs3R70tnu91lnYUVdnImTkfJkqSQ5zTG_DTE6thajX6F3jRiJFQgZ5Q=w408-h306-k-no",
+	"comentarios":[
+		"Un imprescindible de los helados, sabores tradicionales y algunas innovaciones. Helados sencillamente espectaculares, hemos tomado (en diferentes ocasiones): pistacho, mango, chocolate belga, oreo, limón, chocolate negro, y algún sabor más,…"
+	]
+},
+{
+	"nombre":"Heladeria Palma",
+	"categoria":"Heladería",
+	"rating":"4,5",
+	"reviews":"297",
+	"horario":"lunes, De 6:00 a 1:00; martes, De 6:00 a 1:00; miércoles, De 6:00 a 1:00; jueves, Cerrado; viernes, De 6:00 a 1:00; sábado, De 6:00 a 1:00; domingo, De 6:00 a 1:00",
+	"direccion":"Carrer de les Illes Pitiüses, 12, Platja de Palma, 07007 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://heladospalma.com/",
+	"telefono":"971 49 05 09",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.2604377276307!2d2.6909568967895505!3d39.55373480000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793f42bebb2eb%3A0x231b4aee15c4cf16!2sHeladeria%20Palma!5e0!3m2!1ses!2ses!4v1748734279954!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOirmbk3PKL3uaMTsBtdmzFUjhNu2kXoGeAXj_C=w408-h544-k-no",
+	"comentarios":[
+		"Los helados son naturales , el ambiente agradable. El servicio muy bien, sobre todo Raquel.",
+		"Es mi heladería favorita"
+	]
+},
+{
+	"nombre":"La Boutique del Gelato Paseo Marítimo",
+	"categoria":"Heladería",
+	"rating":"4,1",
+	"reviews":"2.214",
+	"horario":"lunes, De 10:00 a 20:00; martes, De 10:00 a 20:00; miércoles, De 10:00 a 20:00; jueves, De 10:00 a 20:00; viernes, De 10:00 a 20:00; sábado, De 9:30 a 21:00; domingo, De 9:30 a 20:30",
+	"direccion":"Avenida Ingeniero, Av. de Gabriel Roca, 31, 07011 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"http://www.laboutiquedelgelato.com/",
+	"telefono":"971 77 38 51",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.809286834662!2d2.6227101967895505!3d39.5639076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297927244ed14bf%3A0xc5dad06291beb1b2!2sLa%20Boutique%20del%20Gelato%20Paseo%20Mar%C3%ADtimo!5e0!3m2!1ses!2ses!4v1748734291743!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrMxNtE2HvuHlgqsIecv0RD6cmy2fPerobnWtgVtzqyvdI9LA80BrWHgTdWl9ioeAyVa4ashRqsCN6coxAZ2rFN0zTDDOjb_hNaw-pWF4zAJKQV8iyzKZlYdFq-PIieZaWacsMw=w408-h306-k-no",
+	"comentarios":[
+		"Bueno, que puedo decir además de que estoy súper sorprendido, he podido comprobar que los variados que ofrecen saben bastante bien, además de ser una reacción generosa, si buscas donde tomar una merienda o almuerzo a buen precio en paseo marítimo, te lo recomiendo, además, te puedes permitir un helado como postre (por separado) y si quieres un café y por menos de 10€.",
+		"Os dejo imagen de la ración pequeña del variado.",
+		"100x100 recomendable"
+	]
+},
+{
+	"nombre":"La Boutique del Gelato Blanquerna",
+	"categoria":"Heladería",
+	"rating":"4,1",
+	"reviews":"757",
+	"horario":"lunes, De 8:00 a 21:30; martes, De 8:00 a 21:30; miércoles, De 8:00 a 21:30; jueves, De 8:00 a 21:30; viernes, De 8:00 a 21:30; sábado, De 8:00 a 21:30; domingo, De 8:00 a 21:30",
+	"direccion":"C. de Blanquerna, 50, Nord, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://laboutiquedelgelato.es/Inicio/",
+	"telefono":"971 66 60 17",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.0196326465452!2d2.6443921967895507!3d39.58170790000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792f818a5f9c9%3A0x6f8368805d23e29!2sLa%20Boutique%20del%20Gelato%20Blanquerna!5e0!3m2!1ses!2ses!4v1748734304567!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr2Gx9oJJ8kz1WopfbA7m0mfJsHppojJSeH-IqDFs4fOMVZ6_TXkzhmE7UxnZGKwtXEEJBi7kUaNcrNdUmXFRBIhUVgu_V6CDddjFCTluJmsgrvtJKD5FHoae6HlfzIeZa0-FA=w408-h246-k-no",
+	"comentarios":[
+		"Es mi lugar favorito para un brunch, nos tratan genial siempre que vamos",
+		"Las tostadas son brutales y el ambiente tranquilo. Lo recomiendo 100%"
+	]
+},
+{
+	"nombre":"Travellers Inn",
+	"categoria":"Restaurante",
+	"rating":"3,8",
+	"reviews":"38",
+	"horario":"",
+	"direccion":"07689 Cales de Mallorca, Balearic Islands",
+	"ciudad":"Cales de Mallorca",
+	"provincia":"Balearic Islands",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.330849440693!2d3.2734157967895507!3d39.46185380000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129645a8033069a7%3A0x1a829bd99df54a09!2sTravellers%20Inn!5e0!3m2!1ses!2ses!4v1748734318111!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nql_szMNuT7ogCawjIYJn5PzKvNXgLNkUh221Wb4Gab3dyrJ4TG7AApXB6FU5cmhwlEp0O2R8q9lE2bASetemDEO5T2N-czuyhcErvLqtgVdJ6MJ2pJDCB2Pqft0peMUmwP8-2qaw=w408-h544-k-no",
+	"comentarios":[
+		"Parece mentira q estando en Mallorca, este bar q tanto promociona, no disponga d un camarero q hable español. Señores pónganse las pilas pq la mejor propaganda es el boca a boca...."
+	]
+},
+{
+	"nombre":"La Molienda Bisbe",
+	"categoria":"Cafetería",
+	"rating":"4,3",
+	"reviews":"1.819",
+	"horario":"lunes, De 8:00 a 17:00; martes, De 8:00 a 17:00; miércoles, De 8:00 a 17:00; jueves, De 8:00 a 17:00; viernes, De 8:00 a 17:00; sábado, De 9:00 a 14:00; domingo, De 9:00 a 14:00",
+	"direccion":"Carrer del Bisbe Campins, 11, Centre, 07012 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://lamolienda.es/",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3172423338137!2d2.6410696967895504!3d39.57499999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792507844b711%3A0xcafcbdb455fe6473!2sLa%20Molienda%20Bisbe!5e0!3m2!1ses!2ses!4v1748734329174!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nosluuPFiVcaB3UfjQmd_Sh1u5YPRvjpLL7wKlvD0RJ-PZjH73jDx41x8JMSmnG0HEMMk3pIz_PriqAw3vuV3tldNPJFijG_r3jWgtj8QjzGWxqj5C3Ktl4QBroQCXLOswpz57JVA=w408-h709-k-no",
+	"comentarios":[
+		"Un buen lugar para ir a tomar un buen café y algo más.",
+		"",
+		"Me quedé muy contento ya que fueron muy amables y lo que quiero destacar es el…"
+	]
+},
+{
+	"nombre":"Cafetería El Perro Lechero",
+	"categoria":"Hamburguesería",
+	"rating":"4,6",
+	"reviews":"2.077",
+	"horario":"lunes, De 19:30 a 23:00; martes, De 19:30 a 23:00; miércoles, De 19:30 a 23:00; jueves, De 13:00 a 16:00, De 19:30 a 23:00; viernes, De 13:00 a 16:00, De 19:30 a 23:30; sábado, De 13:00 a 16:00, De 19:30 a 23:30; domingo, Cerrado",
+	"direccion":"C/ Francesc Sancho, 21, Nord, 07004 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 75 24 20",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.1197427099087!2d2.6511338967895437!3d39.57945160000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792559cce71c3%3A0xf7764a30cd617606!2sCafeter%C3%ADa%20El%20Perro%20Lechero!5e0!3m2!1ses!2ses!4v1748734340207!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqs-RORt8az8xLYpQfltuPUP-mJY_z-A9jYG2WS38Mz58MKwmSvw75mB_w6sZT-cPoUmsQz47FzmmV6-wQruRXmU24eNzNn6bXsSHCBqBYzlanVVA9jnJvO1yPbka2pg2K2zujvUg=w408-h306-k-no",
+	"comentarios":[
+		"La atención es muy buena y el producto espectacular. El escalope está delicioso, los peritos y hamburguesas también. Te atienden con muy buena disposición. Los postres 🤤🤤🤤 todo es muy bueno. Y los precios están muy bien.…"
+	]
+},
+{
+	"nombre":"La Boutique del Gelato Aragó",
+	"categoria":"Heladería",
+	"rating":"4,1",
+	"reviews":"1.410",
+	"horario":"lunes, De 8:00 a 22:00; martes, De 8:00 a 22:00; miércoles, De 8:00 a 22:00; jueves, De 8:00 a 22:00; viernes, De 8:00 a 22:00; sábado, De 8:00 a 22:00; domingo, De 8:00 a 22:00",
+	"direccion":"C/ Aragó, 14, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.laboutiquedelgelato.com/tiendas-la-boutique-del-gelato/la-boutique-del-gelato-aragon/",
+	"telefono":"971 93 72 67",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3624797166935!2d2.6534650967895455!3d39.57398030000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925349723297%3A0x85426f163258d7b8!2sLa%20Boutique%20del%20Gelato%20Arag%C3%B3!5e0!3m2!1ses!2ses!4v1748734349510!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrhErlIeF4f9cgGjd24ei-DX16Hdx7kFjsbElJ7bxKbEQLYE1S6QdsS-MWfx4VdwZuQ28osKqXDGIv9bbGmMuyVi8R_ya3FFK6uU35CIkKqEC7jIM20JyxcGuZe6l_cyzEk_Vj1Lw=w408-h306-k-no",
+	"comentarios":[
+		"en este momebto me encuentro en al puerta del negocio 22.20hs.Consumimos en las mesas y mi hijo de 3 años me pide ir al baño... los empleados recogiendo la terraza me diven que no puede ingresar aun cuando le pregunto si dejo que se haga…"
+	]
+},
+{
+	"nombre":"Boutique del Gelato Plaza España",
+	"categoria":"Heladería",
+	"rating":"4,6",
+	"reviews":"52",
+	"horario":"lunes, De 12:00 a 20:00; martes, De 12:00 a 20:00; miércoles, De 12:00 a 20:00; jueves, De 12:00 a 20:00; viernes, De 12:00 a 20:00; sábado, De 12:00 a 20:00; domingo, De 15:00 a 20:00",
+	"direccion":"Carrer Marie Curie, 3, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.laboutiquedelgelato.com/",
+	"telefono":"971 79 91 02",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3624797166935!2d2.6534650967895455!3d39.57398030000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793cc0eb55797%3A0xea7d614e4b198ce6!2sBoutique%20del%20Gelato%20Plaza%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1748734360165!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMevl1PnkTHsi0UHDVil9_GFgIrDyXDczeMahyz=w408-h306-k-no",
+	"comentarios":[
+		"Acabo de comprarme mi helado favorito de Amarena en la Plaza de España en Palma. Lo he probado miles de veces y esta vez tuve muy mala experiencia. El sabor no era en absoluto el del amarena si no del helado de crema que te hechan de las…"
+	]
+},
+{
+	"nombre":"La Boutique del Gelato Via Roma",
+	"categoria":"Heladería",
+	"rating":"4,2",
+	"reviews":"948",
+	"horario":"lunes, De 8:00 a 21:00; martes, De 8:00 a 21:00; miércoles, De 8:00 a 21:00; jueves, De 8:00 a 21:00; viernes, De 8:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 9:00 a 21:00",
+	"direccion":"Via Roma, 5B, Centre, 07012 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.laboutiquedelgelato.es/",
+	"telefono":"971 71 97 07",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.272727123896!2d2.6420279967895404!3d39.57600340000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792599b1044a1%3A0x13d4f22766cf136c!2sLa%20Boutique%20del%20Gelato%20Via%20Roma!5e0!3m2!1ses!2ses!4v1748734370798!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqh-PJhGi-4xYr0NFLnDyPUbAh4mFKTPvITa-kLfkG8c9lwqguNv6onrNGUWwK45uiFGMF9GYypeM9mPWyikv2UY3Be98REYu3IJyDl6MeamdCuBfJnAmrdXR9ZIYuQ49SSk2_Y=w426-h240-k-no",
+	"comentarios":[
+		"Los desayunos son excelentes. El llonguet está crujiente y viene acompañado con aceitunas verdes. El croissant estaba recién hecho. El camarero es sumamente amable y atento."
+	]
+},
+{
+	"nombre":"La Boutique Del Gelato s&apos;Escorxador",
+	"categoria":"Heladería",
+	"rating":"4,1",
+	"reviews":"401",
+	"horario":"lunes, De 7:30 a 21:00; martes, De 7:30 a 21:00; miércoles, De 7:30 a 21:00; jueves, De 7:30 a 21:00; viernes, De 7:30 a 21:00; sábado, De 7:30 a 21:00; domingo, De 7:30 a 21:00",
+	"direccion":"Carrer de l&apos;Emperadriu Eugènia, 1, Nord, 07010 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.laboutiquedelgelato.com/tiendas/",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.8878934397503!2d2.646543696789551!3d39.5846769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297937b7b71e979%3A0x95f52490df644cb4!2sLa%20Boutique%20Del%20Gelato%20s&#39;Escorxador!5e0!3m2!1ses!2ses!4v1748734383613!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npt60zSR2DqCKHLOBCKiYnm6ilKvXk4Kr4yFFZBk6x7j_daNr4fiJmfMNwTRvVh2o-O7rIpPATbrG97tK53kUlYrVlCMdUwJf7o2kcj7wjLWLiGtieHubfC9x71w9zORFxaP3U=w408-h306-k-no",
+	"comentarios":[
+		"Es la segunda vez (antes no nos pasaba) que nos sirven un batido para llevar con más leche q helado d vainilla, es casi &quot;aguado&quot; pedimos un batido simple con helado y un poco d leche pk el completo a mi hijo no le gusta. Informe a la chica q no sé porque le ponen tanta leche, q ni en ocimax ni en portopi los hacen así, y q no volveremos a pedir, eso sin contar que en otro sitio nos llenan el batido hasta arriba del todo y aquí siempre le faltan dos dedos. Y ni me respondió, ni un simplemente nosotros ahora los hacemos así.... Así q un 0."
+	]
+},
+{
+	"nombre":"Piano 89",
+	"categoria":"Restaurante",
+	"rating":"4,9",
+	"reviews":"259",
+	"horario":"lunes, Cerrado; martes, De 19:00 a 0:30; miércoles, De 19:00 a 0:30; jueves, De 19:00 a 0:30; viernes, De 19:00 a 0:30; sábado, De 19:00 a 0:30; domingo, Cerrado",
+	"direccion":"Avinguda de l&apos;Argentina, 89, 07011 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"610 06 50 38",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.2494531993843!2d2.635908496789551!3d39.57652799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297939941f6a531%3A0x7fa82160e590c01f!2sPiano%2089!5e0!3m2!1ses!2ses!4v1748734397239!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no2i_K3SW301T_d0YOC32hcZkLemkV-F8E3kK1GL7kvfhnsyo6TQ-8S91KcSXS_OW_jFMtXYQty4soXvRlG_y6AUcoWGbulW9_91ANzMiyupBK3jCXj2y9TNfFuOegBhkYMoF0=w408-h306-k-no",
+	"comentarios":[
+		"Todo un descubrimiento.",
+		"Empiezo con la atención al cliente, que es sencillamente exquisita.",
+		"Y la comida de muy buena calidad, buena presentación, y buenas porciones.",
+		"Buena relación calidad / precio.",
+		"",
+		"En las fotos, una crema de batata, zanahoria y jengibre buenísima.",
+		"Y la hamburguesa no le fue a la zaga.",
+		"",
+		"Tienen un piano, y en ocasiones hay algún músico tocando, si bien en ocasiones se improvisan &quot;actuaciones&quot; por parte de clientes, en la mayoría de casos músicos.",
+		"",
+		"Muy recomendable.",
+		"Y que no cambien está dinámica, que para mí gusto es ejemplar."
+	]
+},
+{
+	"nombre":"La Boutique del Gelato General Riera",
+	"categoria":"Heladería",
+	"rating":"5,0",
+	"reviews":"5",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, Cerrado",
+	"direccion":"C/ del General Riera, 152 Dentro del centro comercial Carrefour, 07010 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"https://www.laboutiquedelgelato.com/",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.458465710596!2d2.6389703967895506!3d39.594353600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793d49a53ef97%3A0xf506d70d82df68fd!2sLa%20Boutique%20del%20Gelato%20General%20Riera!5e0!3m2!1ses!2ses!4v1748734409001!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPy0s_gTyLIKImZYz2clP3qbJ6pP0BqwhaNM_oL=w408-h725-k-no",
+	"comentarios":[
+		"Me encanta venir a comprar a Carrefour, solo por disfrutar de un buen helado de dulce de leche que está maravilloso, el servicio es de lo mejor que hay! Cada día que paso por aquí me voy un poco más feliz! Muchísimas gracias Sheila! Buen trabajo, calidad excelente del helado y buen precio!!!",
+		"QUE MÁS SE PUEDE PEDIR?????????",
+		"Gracias!!!"
+	]
+},
+{
+	"nombre":"Bar Cafeteria Bocaditos",
+	"categoria":"Cafetería",
+	"rating":"4,5",
+	"reviews":"228",
+	"horario":"lunes, De 6:30 a 16:00; martes, De 6:30 a 16:00; miércoles, De 6:30 a 16:00; jueves, De 6:30 a 16:00; viernes, De 6:30 a 16:00; sábado, Cerrado; domingo, Cerrado",
+	"direccion":"Calle de, Carrer de Vicenç Joan i Rosselló, 55, Poniente, 07013 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"",
+	"telefono":"971 51 24 36",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.1536840102535!2d2.62811469678955!3d39.57868659999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297926237003a9b%3A0x429fa668ce7d3775!2sBar%20Cafeteria%20Bocaditos!5e0!3m2!1ses!2ses!4v1748734419782!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrCNCRiMGCNtIGcekkVOB1E0da3sN6h3Dn2ANTBQ2HTz0amUreJVlEuEbTjvCdXnF0OwpieRlhpSihbjCeSMZA_ehGKgGn_29hMRSlF5IpPjN5AhaSHqMiBUGRtzuDz2Mpe9x8=w408-h408-k-no",
+	"comentarios":[
+		"Solo puedo valorar el bocata de calamares, que está muy rico, elaborado, a mi criterio, con calamar fresco y un buen rebozado. Existe una amplia carta y dispone de una terraza, que a primeras horas de la mañana es algo fresca, pero nada que…"
+	]
+},
+{
+	"nombre":"JK Rollin Olmos",
+	"categoria":"Heladería",
+	"rating":"4,7",
+	"reviews":"290",
+	"horario":"lunes, De 11:00 a 20:00; martes, De 11:00 a 20:00; miércoles, De 11:00 a 20:00; jueves, De 11:00 a 20:00; viernes, De 11:00 a 20:00; sábado, De 10:00 a 21:00; domingo, De 10:00 a 21:00",
+	"direccion":"C/ dels Oms, 28, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://jk-rollin.com/",
+	"telefono":"637 95 51 99",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.313422598458!2d2.6451290967895607!3d39.575086100000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979362bad1a4bb%3A0xd8e9fef8fa5c32a8!2sJK%20Rollin%20Olmos!5e0!3m2!1ses!2ses!4v1748734430798!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrRcDgodcwj0f9FI8pX92zx20o3XH2hPA2pzMqx5Ehg6MiO_6l4AjFhepOsyzJVJE5LrbxjP9QobqNUW0MOvEjOhGYSssvwVft_OffOI2TMFt36rFIFhwlnSn_igMxfpEyymhdJPA=w408-h544-k-no",
+	"comentarios":[
+		"Esquistos helados enrollados, al gusto, original y fresco. Con muy grata compañia en la producción y buen asesoramiento. Gracias por la recomendación, muy rico todo😋 mantienen el local muy limpio y son muy simpáticos. Si no han probado ese tipo de helado se lo recomiendo 100%…"
+	]
+},
+{
+	"nombre":"Gelateria I Tre Santi",
+	"categoria":"Heladería",
+	"rating":"4,6",
+	"reviews":"129",
+	"horario":"lunes, De 12:00 a 21:00; martes, De 12:00 a 21:00; miércoles, De 12:00 a 21:00; jueves, De 12:00 a 21:00; viernes, De 12:00 a 21:00; sábado, De 12:00 a 21:00; domingo, De 12:00 a 21:00",
+	"direccion":"C. del Sindicat, 11, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.instagram.com/gelateriaitresantimallorca",
+	"telefono":"602 42 04 85",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4875928069782!2d2.648213596789556!3d39.571159999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979338e6ed8e41%3A0x6da128adfcdab531!2sGelateria%20I%20Tre%20Santi!5e0!3m2!1ses!2ses!4v1748734443063!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipP0gm7puxGDBvK3ksko0yY2LsKA5XIL8Z3eBdKj=w408-h408-k-no",
+	"comentarios":[
+		"Los mejores helados italianos de palma, sin duda! Gran producto, gran sabor y el mejor servicio! En el centro de palma, ideal! 🔝…"
+	]
+},
+{
+	"nombre":"Iceberg",
+	"categoria":"Heladería",
+	"rating":"4,5",
+	"reviews":"911",
+	"horario":"lunes, De 10:30 a 16:00; martes, De 10:30 a 16:00; miércoles, De 10:30 a 16:00; jueves, De 10:30 a 16:00; viernes, De 10:30 a 16:00; sábado, De 11:00 a 16:30; domingo, Cerrado",
+	"direccion":"Carrer del Palau Reial, 3, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.iceberg-mallorca.com/",
+	"telefono":"971 21 33 22",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4875928069782!2d2.648213596789556!3d39.571159999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297924feebf9e1b%3A0x7532ffb632f252b5!2sIceberg!5e0!3m2!1ses!2ses!4v1748734454521!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrbLC8xJhqgfpqrI3dlOabLbDSBmOv1aFjGZJS-DxXoQk5qJK16pj_3JUndPFCAUxUCbBFiL6Bx8Z4PQC1EMvdrMWnJrUgfCQluZ5bfUipNA4uSj2lO4jiHEbuWOzVnS7fft31nZg=w425-h240-k-no",
+	"comentarios":[
+		"Mi rutina es pasar por este agradable lugar antes de ir a mi trabajo para disfrutar un rico café que con mucho cariño me preparan las mozas de este establecimiento.  Honestamente siempre quedo muy satisfecho por la calidad del café, a buena temperatura, con un rico sabor tostado y en especial la forma en que preparan el estilo cortado con espuma. Los invito a que pasen por este lugar a disfrutar de su rico café"
+	]
+},
+{
+	"nombre":"Trasto Burger",
+	"categoria":"Hamburguesería",
+	"rating":"4,3",
+	"reviews":"1.160",
+	"horario":"lunes, De 12:00 a 24:00; martes, De 12:00 a 24:00; miércoles, De 12:00 a 24:00; jueves, De 12:00 a 24:00; viernes, De 11:00 a 24:00; sábado, De 11:00 a 24:00; domingo, De 11:00 a 24:00",
+	"direccion":"Plaça de la Porta Pintada, 8, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://estrasto.es/",
+	"telefono":"661 94 44 10",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3088131757004!2d2.6480113967895504!3d39.57519000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792514ca8c2ed%3A0xc15a1d1a6a923725!2sTrasto%20Burger!5e0!3m2!1ses!2ses!4v1748734470695!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no4QgGEf_xjabflJu7kLZB9hwFpJ-9xdK90ED9ipg2NeKQFbIiF2BLS7s-SBmhSxx-fJwijXCx5ufsrnFhXZf_pJlg3vbiE0mqeODtsAz6TarB0lNFID39wIv69FJKxRp5JHuy7=w425-h240-k-no",
+	"comentarios":[
+		"Comimos 2 pollo hermanos y unas patatas para compartir.",
+		"Estaba todo riquísimo y la atención de las dos camareras, genial.",
+		"Volveremos para probar las otras burguers"
+	]
+},
+{
+	"nombre":"Cuco cocina",
+	"categoria":"Bar de tapas",
+	"rating":"4,4",
+	"reviews":"462",
+	"horario":"lunes, De 12:00 a 22:45; martes, De 12:00 a 22:45; miércoles, De 12:00 a 22:45; jueves, De 12:00 a 22:45; viernes, De 12:00 a 22:45; sábado, De 12:00 a 22:45; domingo, De 12:00 a 22:45",
+	"direccion":"Plaça d&apos;En Coll, 1, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"660 48 45 57",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5223266375674!2d2.6470482967895617!3d39.57037699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979251d0aa0809%3A0x8a0cd8946f684aa1!2sCuco%20cocina!5e0!3m2!1ses!2ses!4v1748734489844!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nojgvVsIvkMi9f6VYtF2T2Mg-L9Ud4uuTSNRR3D8OIMYz0D__uY1Icsq1ykMx0XBCi4noVSkEQiOnMMu6Iet-gsHGazx05EJoQkfkYikHwIBxeBFolTwUsecD_kyQKeQ0aSgg42=w426-h240-k-no",
+	"comentarios":[
+		"Hemos pedido cochinillo y pulpo y estaban muy buenos. Personal muy amable. Recomendable"
+	]
+},
+{
+	"nombre":"Cappuccino Palau March",
+	"categoria":"Cafetería",
+	"rating":"4,0",
+	"reviews":"1.280",
+	"horario":"lunes, De 8:30 a 22:30; martes, De 8:30 a 22:30; miércoles, De 8:30 a 22:30; jueves, De 8:30 a 22:30; viernes, De 8:30 a 23:30; sábado, De 8:30 a 23:30; domingo, De 8:30 a 22:30",
+	"direccion":"C. del Conquistador, 13, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.cappuccino.com/",
+	"telefono":"971 71 72 72",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5223266375674!2d2.6470482967895617!3d39.57037699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979245404fd2b3%3A0xcfde37dedb68e997!2sCappuccino%20Palau%20March!5e0!3m2!1ses!2ses!4v1748734500823!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npWjlhv_jvALRt7DuoqhMt_HJonmnI6sKTAEBG2Jo09QJ5PjhpjFZIprgxMRjji9SZRGVXofxwk1B599O1zQVmislQHVGBY-9jQpm3-hbo3u-efOOoV-y2agXaiXPOXvZ2PCIxi=w408-h306-k-no",
+	"comentarios":[
+		"Estuvimos este invierno en la isla y paramos a media tarde para una tomar una copa en este local. Nos decantamos por él por su maravillosa terraza, muy acogedora y en el centro de la ciudad.…"
+	]
+},
+{
+	"nombre":"Pastelería Pomar",
+	"categoria":"Pastelería",
+	"rating":"4,3",
+	"reviews":"491",
+	"horario":"lunes, De 7:00 a 20:00; martes, De 7:00 a 20:00; miércoles, De 7:00 a 20:00; jueves, De 7:00 a 20:00; viernes, De 7:00 a 20:00; sábado, De 7:00 a 20:00; domingo, De 7:00 a 14:00",
+	"direccion":"C. de Manacor, 3, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.pastisseriespomar.es/",
+	"telefono":"971 46 79 51",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5223266375674!2d2.6470482967895617!3d39.57037699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979252e9f97587%3A0x6592e49a14ee2b85!2sPasteler%C3%ADa%20Pomar!5e0!3m2!1ses!2ses!4v1748734509973!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqHf44wFwQz9exJfEoguJKNQ9a8PQq2s0yQxwBoyhXZkMUO5fJ4EBIBsAeAc-3ajwJvuYVxHOWxGBKcuwcLssFPdZOfvH0wmUsi4_dVN6yrEl9LfaUfx6HmcvdFqKUI9gW0ezjB=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Gelato &amp; Coffee",
+	"categoria":"Heladería",
+	"rating":"4,8",
+	"reviews":"275",
+	"horario":"",
+	"direccion":"Avinguda del Rei Jaume I, 86, 07180 Santa Ponça, Illes Balears",
+	"ciudad":"Santa Ponsa",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"641 56 57 75",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.0492067491327!2d2.4746806967895507!3d39.51337910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129789888189b537%3A0x2c18f438d50837df!2sGelato%20%26%20Coffee!5e0!3m2!1ses!2ses!4v1748734519625!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noprPOjTI-QW4SNToRvwAJOqCgp3MUf6hKOePqt4JwVZVJTDFIRe3HsygRYo4aFFHdmzRFpWsk4dgKNjjxkjE1a51jx6_gq16NUzYvHpubVipmsJfNsX7FhjXbEKEx8ozv6CSeprQ=w426-h240-k-no",
+	"comentarios":[
+		"El propietario es muy servicial y amable, nos lo pasamos genial aquí, nos encantó el lugar y lo recomendamos a todo el mundo. Tanto la comida como la gente son 5 estrellas.",
+		"¡Gracias por todo y hasta pronto!",
+		"Portugal ❤️"
+	]
+},
+{
+	"nombre":"Panadería &quot;El Rebost&quot;. Producto tradicional mallorquín",
+	"categoria":"Panadería",
+	"rating":"5,0",
+	"reviews":"28",
+	"horario":"lunes, De 6:30 a 13:00; martes, De 6:30 a 13:00; miércoles, De 6:30 a 13:00; jueves, De 6:30 a 13:00; viernes, De 6:30 a 13:00; sábado, De 6:30 a 13:00; domingo, Cerrado",
+	"direccion":"Carrer d&apos;Antoni Frontera, 2b, Nord, 07004 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"663 04 85 12",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.0866704894247!2d2.6494068967895505!3d39.580197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793cf5f9e1433%3A0xde349a2a3aa9c0cd!2sPanader%C3%ADa%20%22El%20Rebost%22.%20Producto%20tradicional%20mallorqu%C3%ADn!5e0!3m2!1ses!2ses!4v1748734530868!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOZn8jUmDssLmE3Z4qg_67ubTZ49x3Utdqt_Dkc=w408-h544-k-no",
+	"comentarios":[
+		"Sin duda estamos ante el mejor sitio de Palma con la mejor coca de Trampó. Llevo años probando cocas por toda Mallorca y hasta ahora había probado muy buenas pero ésta es espectacular. La masa crujiente y fina, mucha verdura y el aceite…"
+	]
+},
+{
+	"nombre":"OLULA CAFÉ",
+	"categoria":"Cafetería",
+	"rating":"4,8",
+	"reviews":"755",
+	"horario":"",
+	"direccion":"Carrer de Santiago Rusiñol, 1, bajos, Centre, 07012 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 06 22 02",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.271755533652!2d2.643578996789541!3d39.57602530000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297d6a0993e0ff7%3A0x3da8c74400846b4!2sOLULA%20CAF%C3%89!5e0!3m2!1ses!2ses!4v1748734539224!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIfs3Wu-hp0xCsUK_asvGXtpKiPUu_-3NVUyE6DbJyoGiOnKciAszwdigpF3k64vmxo1lxWPCkM9oIpDPF4EiNnIPKth6eKiGwcUYGugFwvQegIn1JHNsWiaxI8MwHT8DEoFNT=w408-h544-k-no",
+	"comentarios":[
+		"Lo encontramos paseando por Palma.",
+		"El sitio es muy acogedor, cómodo y bonito. La comida es increíble. Las tostadas son increíbles.",
+		"Recomendamos 10/10"
+	]
+},
+{
+	"nombre":"llaollao",
+	"categoria":"Yogurtería",
+	"rating":"4,2",
+	"reviews":"440",
+	"horario":"lunes, De 11:00 a 21:00; martes, De 11:00 a 21:00; miércoles, De 11:00 a 21:00; jueves, De 11:00 a 21:00; viernes, De 11:00 a 21:00; sábado, De 11:00 a 21:00; domingo, De 11:00 a 21:00",
+	"direccion":"C/ dels Oms, 7, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.llaollaoweb.com/es/tienda/mallorca-olmos/?utm_campaign=google-local&amp;utm_source=G",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.271755533652!2d2.643578996789541!3d39.57602530000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792512c99e27b%3A0x75193b72c40cd86d!2sllaollao!5e0!3m2!1ses!2ses!4v1748734548111!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4huE47e5WQxsEiuOnftgygjdw6hee6pcpVsaZS74N-lQy5-eWUFHqTOUIALZ8Wt1phnzi45djTK4Gw3rKo9As5IrPwzh7xjzWYvhvRYFvjts9FQR5zJoAbcaADNdWez6xsSBaiA=w408-h418-k-no",
+	"comentarios":[
+		"Venimos al llao llao de olmos muy a menudo mi hija y yo!!! Nos gusta muchisimos el helado con salsa de pistacho!!! Nos reciben siempre muy bien y tienen detalles con mi pequeña.. nos encanta!!!"
+	]
+},
+{
+	"nombre":"S&apos;Àngel",
+	"categoria":"Restaurante de fusión",
+	"rating":"4,4",
+	"reviews":"1.882",
+	"horario":"lunes, De 13:00 a 16:00, De 19:00 a 22:30; martes, Cerrado; miércoles, De 13:00 a 16:00, De 19:00 a 23:00; jueves, De 13:00 a 16:00, De 19:00 a 23:00; viernes, De 13:00 a 16:00, De 19:00 a 23:00; sábado, De 13:00 a 16:00, De 19:00 a 23:00; domingo, De 13:00 a 16:00, De 19:00 a 22:30",
+	"direccion":"Plaça de la Porta de Santa Catalina, 7A, Centre, 07012 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://restaurantesangel.es/",
+	"telefono":"971 77 36 61",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.51596546558!2d2.6373356967895436!3d39.57052039999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925cc9514c8d%3A0x3c73b20ca3714d80!2zUyfDgG5nZWw!5e0!3m2!1ses!2ses!4v1748734558755!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqwcgIuGt9GPtf59WDI2_t0RImeT3ENG3Qq9LpeMW91TVzHUuLbAFrISEgURoig04I0W96Zo370Jay7it2X5f_FmzOQSZ5BWZBX90aAylJclLrm9tL_8dY7auCIJpwmCS5onzty=w408-h306-k-no",
+	"comentarios":[
+		"Muy buen restaurante, el personal muy amable y servicial. La comida todos los platos son realmente buenos y muy bien presentados. Los postres muy buenos, en cuanto al precio es asequible por la calidad y lugar."
+	]
+},
+{
+	"nombre":"LA CREU",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"499",
+	"horario":"lunes, De 13:00 a 24:00; martes, De 13:00 a 24:00; miércoles, De 13:00 a 24:00; jueves, De 13:00 a 24:00; viernes, De 13:00 a 24:00; sábado, De 13:00 a 24:00; domingo, De 13:00 a 24:00",
+	"direccion":"Av. d&apos;Antoni Maura, 24, Centre, 07012 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://linktr.ee/mallorcalacreu",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.6357110741583!2d2.6407886967895586!3d39.56782090000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979370e761a2ed%3A0xd52a30b071f904d1!2sLA%20CREU!5e0!3m2!1ses!2ses!4v1748734569470!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMf0l9SbmZQEK_MwIWQqlGZPC8ZFWkSRDaoskwA=w408-h510-k-no",
+	"comentarios":[
+		"Muy sin más. Fuimos un domingo en agosto (el local estaba bastante lleno pero había algunos sitios) y el servicio fue bastante lento. Y las hamburguesas que pedimos muy meh. Ni te preguntan el punto que la quieres y sinceramente, no sabía prácticamente a nada (porque estaba bastante pasada)."
+	]
+},
+{
+	"nombre":"Hiper Centro Palma",
+	"categoria":"Supermercado",
+	"rating":"4,1",
+	"reviews":"1.834",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, Cerrado",
+	"direccion":"Carrer de Can Nofre Serra, 4, Llevant, 07007 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.hipercentro.com/",
+	"telefono":"871 11 62 00",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5672757089933!2d2.6811440967895503!3d39.5693637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793908fcb3e15%3A0x237140f6276d8b30!2sHiper%20Centro%20Palma!5e0!3m2!1ses!2ses!4v1748734581222!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsDLfdnHnPORjmvwCZ-g86vqZ8gmYSyRCGccq0GXkrryZRGNYLuONL8JGVohO55iwTGJjYHLnB0xhZujTM68JQcD1LQl8MSBZXujyl4MBAgF38KPvBGBLCRYb6Hb22_BiTfiQk=w408-h306-k-no",
+	"comentarios":[
+		"Productos de calidad, amabilidad y frescura  en productos. Sección panadería con muy buenos productos. Algún proceso en carnicería debería cambiar pero el 99% es estupendo y su personal muy agradable."
+	]
+},
+{
+	"nombre":"Gelats Paco Blanquerna Helados",
+	"categoria":"Heladería",
+	"rating":"4,2",
+	"reviews":"536",
+	"horario":"lunes, De 14:00 a 22:00; martes, Cerrado; miércoles, De 14:00 a 22:00; jueves, De 14:00 a 22:00; viernes, De 13:00 a 22:30; sábado, De 12:00 a 22:30; domingo, De 12:00 a 22:30",
+	"direccion":"C. de Blanquerna, 10, Nord, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.gelatspaco.es/",
+	"telefono":"971 76 14 32",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.1443402246086!2d2.6460254967895507!3d39.57889719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979257b6f272c5%3A0x4bf574adc406cc9!2sGelats%20Paco%20Blanquerna%20Helados!5e0!3m2!1ses!2ses!4v1748734593865!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npgQy7uJmNtY75R3WzuQKqfaeuV5ytato_aXO0L58H1h_dg2HFxhvhR2qdcMwoQAqAVWUFMegB3mqWpc-e45vR35s9KD0vzrWA8izhtbRLGmFRslhMCx8yYfJaSOhd8moprRY9dbA=w408-h306-k-no",
+	"comentarios":[
+		"Voy a Gelats Paco desde hace unos años. Van a mejor en calidad y servicio.",
+		"La atención es excelente, la chica siempre nos ha atendido bien. Hay un chico y otra chica en temporada alta que suelen ser también muy majos. He leído críticas sobre la atención, las personas son a veces algo impacientes y estar de cara al público no es fácil. Siempre me han atendido bien y el dueño es encantador.",
+		"",
+		"El local está bien, algo pequeño pero suficiente. Sólo hay un baño y eso sí que me parece algo mejorable, suele estar saturado, especialmente en verano.",
+		"La terraza tiene unas cuantas mesitas, insuficientes en verano, pero como todo el conjunto del local, le confieren un encanto y un lugar digno de visitar.",
+		"Sus productos son realmente diferentes. De entrada la cantidad de sabores asusta. Jamás he constatado que se mezclen sabores, cuando pido dos sabores limpian la cuchara para que no haya transferencia de un sabor a otro. Tienen helados sin azúcar, el de almendra es espectacular. También hacen sin azúcar de avellana, cookies, yogur, yogur con fruta  y de chocolate. Además tienen granizados, alfajores, cocas, refrescos, café etc.",
+		"Respecto a la calidad y el precio, sí, es más caro que las heladerías habituales con floripondios y con siropes. Si quieres calidad la pagas y si no vete a otro sitio.",
+		"Dicho esto, resumo:",
+		"+Calidad, variedad, atención.",
+		"-Espacio reducido, pocas mesas, un sólo aseo.",
+		"Nosotros somos clientes habituales y lo seguiremos siendo."
+	]
+},
+{
+	"nombre":"Cafetería Arrebol",
+	"categoria":"Cafetería",
+	"rating":"4,3",
+	"reviews":"251",
+	"horario":"lunes, De 8:30 a 15:00, De 17:00 a 22:30; martes, Cerrado; miércoles, De 8:30 a 15:00, De 17:00 a 22:30; jueves, De 8:30 a 15:00, De 17:00 a 22:30; viernes, De 8:30 a 15:00, De 17:00 a 22:30; sábado, De 9:00 a 22:30; domingo, De 9:00 a 22:30",
+	"direccion":"Carrer Jacint Verdaguer, 13, Nord, 07004 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 68 42 52",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.0843854965588!2d2.6550179967895557!3d39.58024849999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297935d56e89f11%3A0x4a46d5045abb04d3!2sCafeter%C3%ADa%20Arrebol!5e0!3m2!1ses!2ses!4v1748734612954!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipOQECXWUPFXuoAJMRFpB_HdwX4JxqyKvzAXJpxC=w408-h408-k-no",
+	"comentarios":[
+		"La chica que nos atendió muy amable",
+		"Precios bastante bien",
+		"Los batidos no están mal pero se podría mejorar ..…"
+	]
+},
+{
+	"nombre":"Café-Bar Tsampa",
+	"categoria":"Bar restaurante",
+	"rating":"4,6",
+	"reviews":"13",
+	"horario":"lunes, De 18:00 a 23:00; martes, De 18:00 a 23:00; miércoles, De 18:00 a 23:00; jueves, De 18:00 a 23:00; viernes, De 18:00 a 23:00; sábado, Cerrado; domingo, Cerrado",
+	"direccion":"Carrer de Vallseca, 7, Centre, 07012 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"660 76 35 21",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.6174447099024!2d2.6405773967895505!3d39.5682327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979307b3964205%3A0xea287dffd6acc84f!2sCaf%C3%A9-Bar%20Tsampa!5e0!3m2!1ses!2ses!4v1748734622407!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrwFMOzyKmXBQwSIpFNOP0hXzjku8W9fE5z_6S0aGRqZHh38ANuWmA5zrrLHsLJI-1SF0C7dqa21f3KWOJWK9IbO2KVhplWqHte2jR8SPxQ-PMK_ehHNkZlOPdjqtoNJBqrc4yhSg=w408-h544-k-no",
+	"comentarios":[
+		"Un gusto descubrir lugares como este.",
+		"",
+		"Ademas de recibir un trato estupendo, la comida está espectacular. Muy buena la fusión cántabro-mallorquina. Precios muy buenos y ganas de agradar al cliente."
+	]
+},
+{
+	"nombre":"Hungry Gastro Food Bar",
+	"categoria":"Restaurante",
+	"rating":"4,8",
+	"reviews":"499",
+	"horario":"",
+	"direccion":"Carrer d&apos;Enric Alzamora, 3, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"871 04 93 01",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.349121991243!2d2.6503824967895597!3d39.57428140000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297933bf67419b3%3A0x93650e3ff29b059b!2sHungry%20Gastro%20Food%20Bar!5e0!3m2!1ses!2ses!4v1748734634823!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq8nw3-N3gn6tE65CSZ2XG6akI-R6UHY2n5TF3ihfq7HSiZpGGTQfliROAibvIxiZ1rUzmMeczHSjCT-DIa-XzrUgOhEWYTEVk1hhsKRxAKCSCZ0B8xBKRj_VCn9L6MF0eQkzI3=w408-h544-k-no",
+	"comentarios":[
+		"El descubrimiento del año en Mallorca.",
+		"El steak tartar es de otro nivel, es un plato muy top.",
+		"Sitio pequeño con pocas mesas que cuida mucho la experiencia antes que la cantidad de comida servida."
+	]
+},
+{
+	"nombre":"Cappuccino Sant Miquel",
+	"categoria":"Cafetería",
+	"rating":"4,3",
+	"reviews":"3.120",
+	"horario":"lunes, De 9:00 a 22:30; martes, De 9:00 a 22:30; miércoles, De 9:00 a 22:30; jueves, De 9:00 a 22:30; viernes, De 9:00 a 23:00; sábado, De 9:00 a 23:00; domingo, De 9:00 a 22:30",
+	"direccion":"Carrer de Sant Miquel, 53, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.cappuccino.com/",
+	"telefono":"971 71 97 64",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.349121991243!2d2.6503824967895597!3d39.57428140000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979251395ff0a1%3A0xb5aef89140fe1538!2sCappuccino%20Sant%20Miquel!5e0!3m2!1ses!2ses!4v1748734644996!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrAfgypRpIOnebxbp3nB_cfMI8ShUVEWSlwqNwKlOhbuLFsMYNYuPm5h5_2VgN9QY4LgFWu2a7ynt2XZ1CaHZhyqkO_VgPmuOC0aqHcqC3x8laj3B_LMCW64AQokKaAR9lkrM4n=w426-h240-k-no",
+	"comentarios":[
+		"Si quieres tomar una taza de cafe 100% bueno, ve al capuchino. Servicio agradable, aun que podrian estar un pelin mas atentos. Variedad de cafés, comida, postres… esta genial, cuando paso por ahi, siempre me paro y tomo un cafe. Tiene una terraza muy amplia, con un ambiente maravilloso. Me encanta!"
+	]
+},
+{
+	"nombre":"Merca Centro",
+	"categoria":"Basar",
+	"rating":"4,5",
+	"reviews":"67",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, De 10:00 a 20:00",
+	"direccion":"Carrer del 31 de Desembre, 19, Nord, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"871 61 14 88",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.117821571549!2d2.6473142967895447!3d39.5794949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979349afcb328f%3A0xdfc6e0d6c7c5a01e!2sMerca%20Centro!5e0!3m2!1ses!2ses!4v1748734653863!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npN3iURlPzz8wdtwt-KIyKilIpbdpc0eVDN1jUeAQmTgBSjO1QyNF4LSfDnjCLhdCx4UCiiS9aBF4hrypX6rqfHfWDSnqMLZte-W7DOvMAhPVNbzTFXVoFhxbnA-bPiyPyPoo6q=w408-h275-k-no",
+	"comentarios":[
+		"Se encuentra de todo.muy bueno."
+	]
+},
+{
+	"nombre":"OpenCor",
+	"categoria":"Supermercado",
+	"rating":"4,1",
+	"reviews":"1.219",
+	"horario":"lunes, De 8:00 a 2:00; martes, De 8:00 a 2:00; miércoles, De 8:00 a 2:00; jueves, De 8:00 a 2:00; viernes, De 8:00 a 2:00; sábado, De 8:00 a 2:00; domingo, De 8:00 a 2:00",
+	"direccion":"Carrer de Ramon y Cajal, 17, 07011 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.opencor.es/",
+	"telefono":"971 45 18 34",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.316838622275!2d2.636827696789545!3d39.57500909999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925c2bffdf69%3A0xf6b61fe6f493ced2!2sOpenCor!5e0!3m2!1ses!2ses!4v1748734663403!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np5yOmwvl8guGhGafhv79Yxb7YBdYplyiGRR-0XX7yV30n1arYMn17qhW8TmCNmOkJyTKtkpagVo_q2-7osvc11-IMuaKRalsPBpToj94aVwyIIs_wYUim5UI-6Hj8BXhAoMyk=w408-h306-k-no",
+	"comentarios":[
+		"Buen supermercado, en el que además encuentras de todo incluso artículos de regalo revistas sartenes etc... Buenas calidades, ordenado y muy limpio. Tienen horario hasta las 2 de la mañana, personal muy agradable Lo recomiendo 100x100."
+	]
+},
+{
+	"nombre":"TORONTO",
+	"categoria":"Cafetería",
+	"rating":"3,3",
+	"reviews":"140",
+	"horario":"lunes, De 8:30 a 20:30; martes, De 8:30 a 20:30; miércoles, De 8:30 a 20:30; jueves, De 8:30 a 20:30; viernes, De 8:30 a 20:30; sábado, De 8:30 a 20:30; domingo, Cerrado",
+	"direccion":"Carrer de Sant Miquel, 1, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 71 93 04",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4624093116167!2d2.6470556967895553!3d39.571727700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979251ba15f999%3A0x1c6e602183552565!2sTORONTO!5e0!3m2!1ses!2ses!4v1748734673976!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrSRaEC_KfgStdA6c5j6qXyYIuYIKI8fIO2LE7UkFUraSj_2kAANxSPI4Dr0wujXWGPWIayfsgc_ExhgAAN8nHsoPHYzO0OryQ2PqWByQzntrMOX4rsSXGlVhlbh5ZJplPV4WvV=w408-h544-k-no",
+	"comentarios":[
+		"Lo peor de todo la atención de la camarera, demasiado borde y eso que entramos a primera hora no me imagino ya por la tarde. Pongo una estrella por que no se puede poner menos, los frapé solo tienen hielo y nada se sabor"
+	]
+},
+{
+	"nombre":"La Margarita Café",
+	"categoria":"Cafetería",
+	"rating":"4,6",
+	"reviews":"160",
+	"horario":"lunes, De 6:15 a 21:00; martes, De 6:15 a 21:00; miércoles, De 6:15 a 21:00; jueves, De 6:15 a 21:00; viernes, De 6:15 a 21:00; sábado, De 6:15 a 21:00; domingo, De 7:00 a 19:00",
+	"direccion":"C/ del General Riera, 31, Nord, 07010 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 96 50 39",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.973567015984!2d2.64179549678955!3d39.58274610000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792f7a953445b%3A0x7de12785bb32ac5a!2sLa%20Margarita%20Caf%C3%A9!5e0!3m2!1ses!2ses!4v1748734683048!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPgEMSHRBpeYWipLNiByb3jFayAo1V6ACk06oiF=w408-h306-k-no",
+	"comentarios":[
+		"Todo estuvo delicioso, buena atención, y una relación calidad precio muy buena"
+	]
+},
+{
+	"nombre":"Les Artistes y más",
+	"categoria":"Restaurante",
+	"rating":"4,8",
+	"reviews":"500",
+	"horario":"lunes, Cerrado; martes, De 12:30 a 15:30, De 19:30 a 21:30; miércoles, De 12:30 a 15:30, De 19:30 a 21:30; jueves, De 12:30 a 15:30, De 19:30 a 21:30; viernes, De 12:30 a 15:30, De 19:30 a 21:30; sábado, De 12:30 a 15:30, De 19:30 a 21:30; domingo, De 12:30 a 15:00",
+	"direccion":"Plaça del Comtat del Rosselló, 4, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://lesartistesymas.com/",
+	"telefono":"871 50 48 83",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3469082650067!2d2.6497451967895507!3d39.5743313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297936ccaa62673%3A0xf6ad56e6ed06c179!2sLes%20Artistes%20y%20m%C3%A1s!5e0!3m2!1ses!2ses!4v1748734693018!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no7kCBSxMcTrwjaJymiwkuwe-X5PU6bkD5NZlte6u9Yx4jsHdcOarTXVMt7JZ2N7FKP-uOmyqZIGqcVAXEdZeTKzEdkSXWgL1SPxbfXFZgz90kwEhCcZjYDpf1q9ZhO4paOo0U=w408-h544-k-no",
+	"comentarios":[
+		"Comida con sabor!",
+		"",
+		"Un local bonito, con un personal muy amable, que nos recomendó y aconsejó sobre…"
+	]
+},
+{
+	"nombre":"Mercadona",
+	"categoria":"Supermercado",
+	"rating":"4,2",
+	"reviews":"2.817",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes, De 9:00 a 21:30; sábado, De 9:00 a 21:30; domingo, Cerrado",
+	"direccion":"C. de Manacor, 22, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.mercadona.es/",
+	"telefono":"971 46 39 53",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.480663716114!2d2.6563259967895627!3d39.57131620000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793ad0c468c91%3A0xac1843a7a902da3f!2sMercadona!5e0!3m2!1ses!2ses!4v1748734703811!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noA0fyP1onKsAy9Empo0jBqNpLcN1c3uOjcgQJFySS4qnpEp-FfH__8UPYKbxlk7SDGTgrehWwpFt2srYMmSb2Q9I65_wpzI-AwTucYh2odWrVdUq2KlxNqjQ15Ql13NbZDJy6u=w408-h543-k-no",
+	"comentarios":[
+		"Buenos días quisiera compartir una buena experiencia en el mercadona calle manacor fui a pescaderia y había un chico de nombre Samuel fue muy simpatico y amable. Y la verdad que hace mucho tiempo no iba ya que había tenido una mala experiencia comprando pescado, pero esta vez me han atendido súper y el pescado listo como lo quería. Enhorabuena Samuel sigue así eres un excelente pescadero, animos"
+	]
+},
+{
+	"nombre":"Pura Louzao",
+	"categoria":"Restaurante gallego",
+	"rating":"4,4",
+	"reviews":"204",
+	"horario":"lunes, De 13:00 a 16:00; martes, De 13:00 a 16:00, De 19:30 a 23:30; miércoles, De 13:00 a 16:00, De 19:30 a 23:30; jueves, De 13:00 a 16:00, De 19:30 a 23:30; viernes, De 13:00 a 16:00, De 19:30 a 23:30; sábado, De 13:00 a 16:00, De 19:30 a 23:30; domingo, Cerrado",
+	"direccion":"Avinguda de l&apos;Argentina, 59, 07011 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.puralouzao.com/",
+	"telefono":"971 28 83 60",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3850159722856!2d2.6356751967895553!3d39.57347230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925dbb222d59%3A0xf023f5993825e50a!2sPura%20Louzao!5e0!3m2!1ses!2ses!4v1748734721579!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrkcYersB7Rf3mI0Z223DBxWYy9miKPW1lcA7t6uZEztf6lLKIHV1U664BoQesyqem2HihvtkwF34ReBrV2OGFLX4JrM8Xu7iOFo2qFuzGpw05moTjlYm5kFDpbu76Nip7tP9MeaA=w426-h240-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Hiper Chino",
+	"categoria":"Bazar",
+	"rating":"3,9",
+	"reviews":"1.320",
+	"horario":"lunes, De 9:00 a 21:00; martes, De 9:00 a 21:00; miércoles, De 9:00 a 21:00; jueves, De 9:00 a 21:00; viernes, De 9:00 a 21:00; sábado, De 9:00 a 21:00; domingo, Cerrado",
+	"direccion":"Carrer de Gabriel Alzamora, 9, Llevant, 07009 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 47 03 69",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.754832453785!2d2.66777309678955!3d39.58767549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297930e8a0ecc77%3A0xd6cd2fcabf1d07cc!2sHiper%20Chino!5e0!3m2!1ses!2ses!4v1748734733173!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqti5WLz47pi7aPKjsLSyin3xZbilXIP5MpWOnr1Y5s5GtF1o-fDOaW3hpS83bFx_NsmRPBOHx-dbzWGfJxwHR-lnOKCbksYh2Co9oebuSkdZBRALRrIyonqSmz5X5Q-GRs7SJ7=w408-h726-k-no",
+	"comentarios":[
+		"Me encanta este sitio, encuentras de todo. Obviamente que la calidad depende mucho de lo que compres, pero si tienes buen ojo hay cosas impresionantes a buen precio y de buena calidad. A eso súmale el personal que te ayuda con todo ya que es un sitio muy grande. Sin duda este verano me pasaré varias veces."
+	]
+},
+{
+	"nombre":"Mercadona",
+	"categoria":"Supermercado",
+	"rating":"4,1",
+	"reviews":"1.684",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes, De 9:00 a 21:30; sábado, De 9:00 a 21:30; domingo, Cerrado",
+	"direccion":"C/ del General Riera, 20, Nord, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.mercadona.es/",
+	"telefono":"971 75 09 14",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.0904817632613!2d2.6431829967895526!3d39.58011109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792f7a5dc2a19%3A0x400658a2743f96bb!2sMercadona!5e0!3m2!1ses!2ses!4v1748734743621!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomvRsU3HJWHNjD0SQIxTAFxp8Yh5O4eMZRSAZjnK-dOe4l2ohDYqZu2l0ynTyk3uc4qXKjKfYIcwM4HCgRdpmOLukhuhUO4Ct67vVP2b1AHtW3VkuREBCpB53B6rq6WrdbpvT2HQ=w408-h479-k-no",
+	"comentarios":[
+		"Acabo de entrar en este establecimiento y una cajera me dice que &quot;debo dejar la mochila en las taquillas o enseñarla a algún empleado al salir. (Mochila donde llevo mis documentos, etc.,…"
+	]
+},
+{
+	"nombre":"Mercadona",
+	"categoria":"Supermercado",
+	"rating":"4,2",
+	"reviews":"2.125",
+	"horario":"lunes, De 9:00 a 21:30; martes, De 9:00 a 21:30; miércoles, De 9:00 a 21:30; jueves, De 9:00 a 21:30; viernes, De 9:00 a 21:30; sábado, De 9:00 a 21:30; domingo, Cerrado",
+	"direccion":"C/ Aragó, 26, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://mercadona.es/",
+	"telefono":"971 77 10 70",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3079702580303!2d2.654475396789563!3d39.575208999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793ab57be3f83%3A0x6bc2a24c6d463611!2sMercadona!5e0!3m2!1ses!2ses!4v1748734756674!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npQaohwrJuJpOpvVyV546YWer4Gkv8PvjVCKcSvrctH6c73hHSSyc7Mrw0687gXzlEVql-y2HdQcfHGltEyWIKtCi72yUm5SfPUo4_th_Myvid-9ZT_vhO-c_knocMVa9_GCvEtuw=w426-h240-k-no",
+	"comentarios":[
+		"Cuando abrieron Mercadona a principio 2003 en la plaza del Olivar ya habían desaparecido las tiendas de barrio",
+		"Por lo que fue un repulsivo con los grandes comercios dando una gran competencia…"
+	]
+},
+{
+	"nombre":"Al Faro Beach",
+	"categoria":"Restaurante",
+	"rating":"4,7",
+	"reviews":"1.545",
+	"horario":"lunes, De 12:00 a 24:00; martes, De 12:00 a 24:00; miércoles, De 12:00 a 24:00; jueves, De 12:00 a 24:00; viernes, De 12:00 a 24:00; sábado, De 12:00 a 24:00; domingo, De 12:00 a 24:00",
+	"direccion":"Carretera de l&apos;Arenal, 16, Platja de Palma, 07610 Playa de Palma, Illes Balears",
+	"ciudad":"Can Pastilla",
+	"provincia":"Illes Balears",
+	"web":"https://www.alfarobeachmallorca.com.es/es",
+	"telefono":"675 99 28 12",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.595728518961!2d2.7322949967895505!3d39.52361309999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129797bd88ec6047%3A0x43871c12570b1025!2sAl%20Faro%20Beach!5e0!3m2!1ses!2ses!4v1748734766099!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noZUwWZ3hnvM1BeocLSPzaYca8KCmPc5va0xkJJCt2vTDeOpYGb_AXet1tZzaTkM0XxdpKjMDFEjfwyCjjiR_QDZ_OyZW6JmgEUOOTiJWPAfEZ6PvU0TfPNFcDraLj2vesKiCWc=w426-h240-k-no",
+	"comentarios":[
+		"Junto a la playa 🏖️ del arenal un lugar maravilloso donde comer y disfrutar todo muy bueno.",
+		"El personal muy atento y amable pero en algunos momentos un poquito despistados cosa que se entiende por la cantidad de trabajo que hay…"
+	]
+},
+{
+	"nombre":"Es Rebost de Cort",
+	"categoria":"Restaurante",
+	"rating":"4,3",
+	"reviews":"560",
+	"horario":"lunes, De 12:30 a 23:00; martes, De 12:30 a 23:00; miércoles, De 12:30 a 23:00; jueves, De 12:30 a 23:00; viernes, De 12:30 a 23:00; sábado, De 12:30 a 23:00; domingo, Cerrado",
+	"direccion":"Carrer dels Llums, 3, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"603 45 15 41",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5574546873886!2d2.6460061967895507!3d39.56958509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297924fd0f82e3b%3A0xeb936ff12cfda79e!2sEs%20Rebost%20de%20Cort!5e0!3m2!1ses!2ses!4v1748734775151!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqS8eZCqp1Autwd9_khr9mQQGi10nPNV6u84ze3s4z5pdWZo2aXJBIBoG3nFK85mWOp08lT1JzF9dLx6bjmByDxX88OBo2XmhysRYa4LPfqW6IlZWzeJAdzB0XveVoT99SeSnx5_w=w426-h240-k-no",
+	"comentarios":[
+		"Una atención muy profesional y respetuosa. Una comida muy rica. El espacio es muy agradable y con muchos detalles. Me sentí cuidado."
+	]
+},
+{
+	"nombre":"Bibap, comida corea y asíatica",
+	"categoria":"Restaurante coreano",
+	"rating":"4,3",
+	"reviews":"1.405",
+	"horario":"lunes, De 12:30 a 22:30; martes, De 12:30 a 22:30; miércoles, De 12:30 a 22:30; jueves, De 12:30 a 22:30; viernes, De 12:30 a 22:30; sábado, De 12:30 a 22:30; domingo, Cerrado",
+	"direccion":"Plaça del Mercat, 2 - 3, Centre, 07001 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.bibap-mallorca.com/",
+	"telefono":"971 77 30 89",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5574546873886!2d2.6460061967895507!3d39.56958509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925aa031be91%3A0x809ba696073843e3!2sBibap%2C%20comida%20corea%20y%20as%C3%ADatica!5e0!3m2!1ses!2ses!4v1748734787217!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noekWlNGj6f1cuCG9ThxT1PboFD4-4SJK39ysauTgxeSw4zEYGcrFRD7SQHHuP-qSJMXQFu2MrlFon_C1TI45RZbQKvBFoalnHWULgQmeNuWMH8Vupyibuft2k57s5Xctpk_aE6=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Horno Santo Cristo (C/ Sant Miquel)",
+	"categoria":"Pastelería",
+	"rating":"4,1",
+	"reviews":"791",
+	"horario":"lunes, De 8:15 a 21:00; martes, De 8:15 a 21:00; miércoles, De 8:15 a 21:00; jueves, De 8:15 a 21:00; viernes, De 8:15 a 21:00; sábado, De 8:15 a 21:00; domingo, De 8:30 a 21:00",
+	"direccion":"Carrer de Sant Miquel, 47, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.hornosantocristo.com/",
+	"telefono":"971 72 55 28",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3602660045326!2d2.6472893967895454!3d39.57403019999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12978d950bab2375%3A0xc8985b5f521c12d8!2sHorno%20Santo%20Cristo%20(C%2F%20Sant%20Miquel)!5e0!3m2!1ses!2ses!4v1748734799080!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTruKbI_bW4jQ0kCaM2UIbwIPyZppVjhX6AjdxTH3lBAd9HUaEGzwsFf4IT__yuac5XxHndSxIuNFI03RpmF0ZartggT0Nr_ZAoJJVRFTzn13W2GYhgaM3JnTuGW1gaDSIpjvZ=w408-h288-k-no",
+	"comentarios":[
+		"Primera vez que probaba la coca de patata mallorquina y la verdad que estaba muy buena.",
+		"",
+		"Esta cafetería es la típica de toda la vida, así que el flujo de clientes es continuo. Si buscas una cafetería tranquila… este no es tu sitio.",
+		"",
+		"Los dulces proyectaban ser todos bastante frescos y los cafés estaban buenos.",
+		"",
+		"En lo que estuvimos allí, varias personas se llevaron ensaimadas, así que sospechamos que es un sitio bastante fiable en este sentido."
+	]
+},
+{
+	"nombre":"Cafetería París",
+	"categoria":"Restaurante",
+	"rating":"2,3",
+	"reviews":"495",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, Cerrado",
+	"direccion":"Pl. Major, 1, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4806149196256!2d2.6466830967895505!3d39.57131730000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979251c9ec5463%3A0xdf796449ceb86a5!2zQ2FmZXRlcsOtYSBQYXLDrXM!5e0!3m2!1ses!2ses!4v1748736951657!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npotb1y63ukuAdUoUN7GZoWKTOr6u6LbDhjNwE_a_QSmtLvUqBk_EJ504B1q_H0FA9okhVzdetQy0AoeOWE277t_Y0PNHPAmWo8ddWekHzmB_dbAt4b3B-ALwng7MySimWiGfT8Rw=w426-h240-k-no",
+	"comentarios":[
+		"5 Estrellas!!!",
+		"El servicio excelente, las chicas muy atentas.",
+		"Pedimos dos paellas (Mariscos y Ciega), dos jarras de sangria (cava y rojo), y…"
+	]
+},
+{
+	"nombre":"Aromata",
+	"categoria":"Restaurante mallorquín",
+	"rating":"4,2",
+	"reviews":"1.079",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 14:30, De 19:30 a 21:00; miércoles, De 13:00 a 14:30, De 19:30 a 21:00; jueves, De 13:00 a 14:30, De 19:30 a 21:00; viernes, De 13:00 a 14:30, De 19:30 a 21:00; sábado, De 13:00 a 14:30, De 19:30 a 21:00; domingo, Cerrado",
+	"direccion":"Carrer de Ramon y Cajal, 12, 07011 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://aromatarestaurant.com/",
+	"telefono":"971 00 70 14",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.2909299393305!2d2.6372810967895464!3d39.575593100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925afda883af%3A0xb953db3d334790e0!2sAromata!5e0!3m2!1ses!2ses!4v1748736969584!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq0SZ8g8xNzySUxxeT3p2XaRUtV7mWXSGnyukWUW5h7DnwpL9b0NkBo-on1ASRfgCZ12bJR73uOhN5Opb4oQgffPxR1ex6rQLPdgtA378OggfcUp0vUd9D0JExc0R65V-6AHbam=w408-h306-k-no",
+	"comentarios":[
+		"Hemos comido el menú mediodía y menú degustación por la noche y ha sido una gran experiencia. Alta gastronomía, buena materia prima muy bien elaborada. Muy buenos vinos y el vermut hecho por ellos. Sin duda un sitio muy recomendable si estás en Palma. ¡Volveremos!"
+	]
+},
+{
+	"nombre":"Restaurante Japones He",
+	"categoria":"Restaurante japonés",
+	"rating":"4,5",
+	"reviews":"755",
+	"horario":"lunes, De 13:00 a 15:30, De 20:00 a 22:30; martes, De 13:00 a 15:30, De 20:00 a 22:30; miércoles, Cerrado; jueves, De 13:00 a 15:30, De 20:00 a 22:30; viernes, De 13:00 a 15:30, De 20:00 a 22:30; sábado, De 13:00 a 15:30, De 20:00 a 22:30; domingo, De 13:00 a 15:30",
+	"direccion":"C. de Manacor, 35, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 46 99 38",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4661178742!2d2.655447796789556!3d39.571644100000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793ad114781d1%3A0xcec4201381d70d2f!2sRestaurante%20Japones%20He!5e0!3m2!1ses!2ses!4v1748736983533!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nryQq5wc-Hoi2IZKFSqArrEXI-0_TWXySmoiEM2CnI03xZhf7igoIRJ2OLKItBeErBcPbc0itLkMcyN1eEyJmMIAh59ICzAtmhMz9K7W4u0l38jfdWCUFh7eVwz_i4bcymAg1rk=w426-h240-k-no",
+	"comentarios":[
+		"Fuimos a comer un martes al medio día, había poca gente, la comida fabulosa, el cocinero todo un artista y muy divertido, nos hizo un espectáculo muy entretenido y es súper simpático, el servicio atento. Seguro q vuelvo en algún momento con amigos."
+	]
+},
+{
+	"nombre":"Restaurant La Tagliatella | Av. Comte de Sallent, Palma",
+	"categoria":"Restaurante italiano",
+	"rating":"4,3",
+	"reviews":"2.284",
+	"horario":"lunes, De 13:00 a 15:30, De 20:00 a 23:00; martes, De 13:00 a 15:30, De 20:00 a 23:00; miércoles, De 13:00 a 15:30, De 20:00 a 23:00; jueves, De 13:00 a 15:30, De 20:00 a 23:00; viernes, De 13:00 a 15:30, De 20:00 a 23:00; sábado, De 13:00 a 15:30, De 20:00 a 23:00; domingo, De 13:00 a 15:30, De 20:00 a 23:00",
+	"direccion":"Avinguda del Comte de Sallent, 21, Centre, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://www.latagliatella.es/restaurantes/islas-baleares/comte-sallent-palma-de-mallorca?utm_source=gmb&amp;utm_medium=organic&amp;utm_campaign=gmb&amp;utm_content=web",
+	"telefono":"971 44 60 70",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.1833833075284!2d2.645076696789542!3d39.5780172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792579f0c2ff9%3A0xee825e58b517586c!2sRestaurant%20La%20Tagliatella%20%7C%20Av.%20Comte%20de%20Sallent%2C%20Palma!5e0!3m2!1ses!2ses!4v1748736998581!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcbpA3ju3TJkJ1aDyiM_UKk5IsC85ik0RVbW3aQp3L3c30-T4MrsEYvYxgQ9l5_I9q6C_RkzwVxsIBaWdm1JEArBbhUEVsoiQxfn4cmgyIdqKTtWyh_H8fVKKaisr_17RBePDFqg=w408-h544-k-no",
+	"comentarios":[
+		"Recomendaría: sí.",
+		"",
+		"Sin duda, es uno de los mejores sitios donde he probado la pasta, la disfruté muchísimo… rica, fresca, sabrosa y abundante.",
+		"",
+		"Me encantó la carta, amplia, ilustrada con fotos reales e incluso instructiva, explicando detalles y curiosidades.",
+		"",
+		"El servicio fue muy agradable, gracioso y muy servicial, no puedo decir nada malo, porque mentiría… nos trataron de 10, asesorando y ofreciendo una ayuda extra, sin pedirla, de qué quesos se pueden comer por ser pasteurizados y cuáles no (ya que mi mujer está embarazada).",
+		"",
+		"Las instalaciones muy bien, los aseos limpios y accesibles…",
+		"",
+		"Volveremos seguro…"
+	]
+},
+{
+	"nombre":"Restaurante El Fogón Mallorca",
+	"categoria":"Restaurante",
+	"rating":"4,5",
+	"reviews":"1.117",
+	"horario":"lunes, De 19:00 a 23:30; martes, De 12:00 a 16:00, De 19:00 a 23:30; miércoles, De 12:00 a 16:00, De 19:00 a 23:30; jueves, De 12:00 a 16:00, De 19:00 a 23:30; viernes, De 12:00 a 16:00, De 19:00 a 23:30; sábado, De 12:00 a 16:00, De 19:00 a 23:30; domingo, De 12:00 a 16:00, De 19:00 a 23:30",
+	"direccion":"Carrer de Monsenyor Palmer, 2, Ponent, 07014 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://elfogondesaby.es/",
+	"telefono":"971 10 71 76",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.5574369438646!2d2.6294868967895506!3d39.56958549999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979268b9b63fcf%3A0x852d6a38d6539717!2sRestaurante%20El%20Fog%C3%B3n%20Mallorca!5e0!3m2!1ses!2ses!4v1748737010108!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrByO8fEK8aTSguuhGctXdjB7_C7EnIdrNLBPE1aKNLp4xNUyi7yCA3ZiGbZT59N8j2ZaBHDyhEA-IEnSRmjqtO7eHjA5SDbJiwCHGo-nkerE6ieMQxNt0S2hJ8eG94FwlrNcXR=w408-h306-k-no",
+	"comentarios":[
+		"Sorprendida positivamente 👏👏👏",
+		"",
+		"Servicio y atención muy buena✅…"
+	]
+},
+{
+	"nombre":"Bodega del Sol",
+	"categoria":"Cafetería",
+	"rating":"4,0",
+	"reviews":"288",
+	"horario":"",
+	"direccion":"C. de Blanquerna, 31, Nord, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"666 68 27 46",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.0820162003665!2d2.6445900967895497!3d39.58030190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793329054059f%3A0x1c6422fa059b6db9!2sBodega%20del%20Sol!5e0!3m2!1ses!2ses!4v1748737027376!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrJFCVZD69qnC57QNYDIM6HlyiCm7JRuMoxhHdP5WbDw3Zp42Dz9GDOjnDxMwBAb9W6_Flz6hrE_fNbCXYQ9XMXCrskOoZ_P2dOjpYPY32cv7MTNuancRKbAuOUKpPx5ahtKcg=w426-h240-k-no",
+	"comentarios":[
+		"Empezar por decir que ahora se llama &quot;Bodega del Sol&quot;. Terraza pequeñita, por lo que en los desayunos se llena rápido. El servicio es rápido y el trato agradable. No estuvimos mal, precios de la zona."
+	]
+},
+{
+	"nombre":"Restaurant Toque",
+	"categoria":"Restaurante belga",
+	"rating":"4,7",
+	"reviews":"1.151",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 15:15, De 20:00 a 22:00; miércoles, De 13:00 a 15:15, De 20:00 a 22:00; jueves, De 13:00 a 15:15, De 20:00 a 22:00; viernes, De 13:00 a 15:15, De 20:00 a 22:00; sábado, De 13:00 a 15:15, De 20:00 a 22:00; domingo, Cerrado",
+	"direccion":"Carrer Federico García Lorca, 6, Ponent, 07014 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.restaurante-toque.com/",
+	"telefono":"971 28 70 68",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.6682379389686!2d2.6234579967895506!3d39.5670876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979271d76c1e21%3A0xe6e26e45af462cd!2sRestaurant%20Toque!5e0!3m2!1ses!2ses!4v1748737039873!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npQIfi5RwkG6OqhD0xTfnKYgj64s2cnQWNfxhWK9qtlYrfrEpDsqpNVyi9aMitXrEN6n_tO25bxKscFD_h3JucQ9LCFDE6zZtul4eW2VIT2UQWH7dumtp88lFLrbm1EwX7mraI=w408-h544-k-no",
+	"comentarios":[
+		"Después de muchísimas veces yendo a Toque escribo esta reseña. Desde que lo probamos por primera vez se ha convertido en nuestro restaurante favorito y es que hoy en día cuesta tanto encontrar un restaurante de calidad. Hemos probado casi…"
+	]
+},
+{
+	"nombre":"El Chingón Cantina Tex-Mex",
+	"categoria":"Restaurante mexicano",
+	"rating":"4,5",
+	"reviews":"403",
+	"horario":"lunes, De 20:00 a 24:00; martes, Cerrado; miércoles, De 20:00 a 24:00; jueves, De 0:00 a 17:00, De 20:00 a 24:00; viernes, De 13:00 a 16:00, De 20:00 a 24:00; sábado, De 13:00 a 16:00, De 20:00 a 24:00; domingo, Cerrado",
+	"direccion":"C. de Miquel Capllonch, 26, Bajos Local 17, Norte, 07010 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"",
+	"telefono":"644 89 93 06",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.6170278459576!2d2.6475602967895506!3d39.5907808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297938b1a365e09%3A0xb223a8d15e148412!2sEl%20Ching%C3%B3n%20Cantina%20Tex-Mex!5e0!3m2!1ses!2ses!4v1748737049409!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPcOISYTKB0AmytstNTW3uNnSKOU2VCteU7UPmK=w533-h240-k-no",
+	"comentarios":[
+		"Sencillez y un sabor auténtico.",
+		"Carta pequeña, pero cada plato está lleno de sabor.",
+		"Lo mejor: la atención del camarero, simplemente insuperable, amable y atento en…"
+	]
+},
+{
+	"nombre":"Osteria Casa Rosita",
+	"categoria":"Restaurante",
+	"rating":"4,4",
+	"reviews":"318",
+	"horario":"lunes, De 19:30 a 23:00; martes, De 19:30 a 23:00; miércoles, Cerrado; jueves, De 19:30 a 23:00; viernes, De 19:30 a 23:00; sábado, De 19:30 a 23:00; domingo, De 19:30 a 23:00",
+	"direccion":"Carrer de la Pursiana, 28, a, Poniente, 07013 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.osteriacasarosita.es/",
+	"telefono":"608 42 71 92",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.4502100464324!2d2.6335826967895506!3d39.5720027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792678e924b8d%3A0xd1a4168c434e98f6!2sOsteria%20Casa%20Rosita!5e0!3m2!1ses!2ses!4v1748737059014!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noVIGoTCUzQIRe6eGrePaDIGwtQMAlzpEDY2DpZqU2MCght_nxrLU4_zOhGRLbBMrlmWh49C5RTvLbH0mQIfMRQKNuk60fWHB0G3bW5tdx5U4mcd3fkfw0YxqxncHhM0g7IIUk=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Es Mercat Des Peix",
+	"categoria":"Restaurante",
+	"rating":"4,2",
+	"reviews":"500",
+	"horario":"lunes, Cerrado; martes, De 13:00 a 16:30; miércoles, De 13:00 a 16:30, De 19:30 a 23:00; jueves, De 13:00 a 16:30, De 19:30 a 23:00; viernes, De 13:00 a 16:30, De 19:30 a 23:00; sábado, De 13:00 a 16:30, De 19:30 a 23:00; domingo, De 13:00 a 16:30",
+	"direccion":"Carrer Pere d&apos;Alcàntara Penya, 17B, Llevant, 07006 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"http://www.mercatdespeixpalma.com/",
+	"telefono":"641 40 29 63",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.383960145244!2d2.6534351967895518!3d39.57349610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979306e519a177%3A0xbc0211a58b1d9730!2sEs%20Mercat%20Des%20Peix!5e0!3m2!1ses!2ses!4v1748737068678!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPJQTCLDsd7p_sxtycDHDe8xOzp6MO8_Z0J5Bab=w408-h306-k-no",
+	"comentarios":[
+		"Está todo ok, el tartar estaba insípido pero producto fresco, el entrecote estaba algo duro y seco, pero se podía comer. Me sorprendió que nos trajeron salsa picante y era del Mercadona. No creo que vuelva, pero cabe recalcar que la atención por parte de los camareros muy correcta."
+	]
+},
+{
+	"nombre":"Foster&apos;s Hollywood",
+	"categoria":"Hamburguesería",
+	"rating":"4,5",
+	"reviews":"1.956",
+	"horario":"lunes, De 13:00 a 17:00, De 19:30 a 23:00; martes, De 13:00 a 17:00, De 19:30 a 23:00; miércoles, De 13:00 a 17:00, De 19:30 a 23:00; jueves, De 13:00 a 17:00, De 19:30 a 23:00; viernes, De 12:00 a 23:30; sábado, De 12:00 a 23:30; domingo, De 13:00 a 23:00",
+	"direccion":"C. de Blanquerna, 13, Nord, 07003 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://fostershollywood.es/",
+	"telefono":"971 85 98 38",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.1431511738897!2d2.6456203967895617!3d39.578924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793e41a6bbcd7%3A0xc66d90f0f25f00f7!2sFoster&#39;s%20Hollywood!5e0!3m2!1ses!2ses!4v1748737084605!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipODT5hQMMzvDGKRmYmnphQ5IGZjtT9Jx5EuPLwx=w408-h507-k-no",
+	"comentarios":[
+		"Camareros 100% bien",
+		"Doy 3 estrellas por la comida mal preparada, una simples hamburguesa y patatas todo frío,  el queso duro y frio, la carne de cerdo igual. Creo que necesitaría un poco más de cariño, los demás restaurantes Foster’s están de super bien. 👌…"
+	]
+},
+{
+	"nombre":"Casa Gallega Aragón",
+	"categoria":"Restaurante gallego",
+	"rating":"4,0",
+	"reviews":"4.934",
+	"horario":"lunes, De 13:00 a 16:00, De 19:30 a 24:00; martes, De 13:00 a 16:00, De 19:30 a 24:00; miércoles, De 13:00 a 16:00, De 19:30 a 24:00; jueves, De 13:00 a 16:00, De 19:30 a 24:00; viernes, De 13:00 a 16:00, De 19:30 a 24:00; sábado, De 13:00 a 16:00, De 19:30 a 24:00; domingo, De 13:00 a 16:00, De 19:30 a 24:00",
+	"direccion":"C/ Aragó, 15, Llevant, 07005 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://casagallegamallorca.com/es",
+	"telefono":"971 91 00 76",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3564818378654!2d2.65318899678955!3d39.574115500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792534eb4270f%3A0x560538df37b6d8d4!2sCasa%20Gallega%20Arag%C3%B3n!5e0!3m2!1ses!2ses!4v1748737096764!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomgutn7_03KmJkt0crJa9-OWXiuLNHesocPl-kFjSvec31pr4Upd5EvDBbGU_UqgrQYTaASV2i9KK-uE7Aeq1GL70Cdu2J266wmZ-HM0akog9LiY4oz1QWKcaK4oCftV19uEAfSg=w425-h240-k-no",
+	"comentarios":[
+		"Fui con la familia. Comimos  menú de domingo que es variado, con una presentación exquisita y muy rico. De primero calabacin relleno de pescado y marisco, que estaba buenisimo y de segundo sepia, con verduras y patatas pochaditas, de 10.  De postre habia piña o panacota con helado. La atención es muy buena y el ambiente, aunque habia gente, era agradable. Volveremos...."
+	]
+},
+{
+	"nombre":"padthaiwok Mallorca Pza. España",
+	"categoria":"Restaurante tailandés",
+	"rating":"4,1",
+	"reviews":"1.008",
+	"horario":"lunes, De 12:00 a 24:00; martes, De 12:00 a 24:00; miércoles, De 12:00 a 24:00; jueves, De 12:00 a 24:00; viernes, De 12:00 a 24:00; sábado, De 12:00 a 24:00; domingo, De 12:00 a 24:00",
+	"direccion":"Pl. d&apos;Espanya, 11, Centre, 07002 Palma, Illes Balears",
+	"ciudad":"Palma",
+	"provincia":"Illes Balears",
+	"web":"https://padthaiwok.com/",
+	"telefono":"871 20 90 10",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3564818378654!2d2.65318899678955!3d39.574115500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792515351bccf%3A0x41ac4ede34031230!2spadthaiwok%20Mallorca%20Pza.%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1748737111530!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrA24RoJNiR95ciMSGxhR4J3Y3aaC9VxEowSn5NZ2mqAA47zZs9_Dt6eusb8WissUTXxymI_tryrsky4tTzic06cnIA1nKKD8ab2U4qctqJJzZxzY64zIUIqtaGQZQMMbirdkVQ=w426-h240-k-no",
+	"comentarios":[
+		"Mi familia y yo vinimos aquí para comer hace unos días, lo había planeado mi padre porque creo que vio alguna publicidad en algún sitio y decidió traernos a todos a comer.…"
+	]
+},
+{
+	"nombre":"GRIMAS SPAIN",
+	"categoria":"Tienda de cosméticos",
+	"rating":"4,8",
+	"reviews":"28",
+	"horario":"lunes, De 8:30 a 15:00; martes, De 8:30 a 15:00; miércoles, De 8:30 a 15:00; jueves, De 8:30 a 15:00; viernes, De 8:30 a 15:00; sábado, Cerrado; domingo, Cerrado",
+	"direccion":"Carrer Beatriu de Pinós, 22, bajos, Levante, 07005 Palma, Balearic Islands",
+	"ciudad":"Palma",
+	"provincia":"Balearic Islands",
+	"web":"http://www.grimasspain.com/",
+	"telefono":"971 77 55 55",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3564818378654!2d2.65318899678955!3d39.574115500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793ac4f71ee47%3A0xb0a0d47fa1c1f607!2sGRIMAS%20SPAIN!5e0!3m2!1ses!2ses!4v1748737123982!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMvqj62sG-Hv_SDDpcSctZn64Ht2iwvio0SCxff=w408-h349-k-no",
+	"comentarios":[
+		"Muy profesionales, forman un buen equipo de trabajadores. Es un buen lugar para maquillaje, en especial para carnaval. Venden productos de calidad a buen precio. Conviene pedir cita para según lo que uno necesite. El local está bien, no es demasiado amplio pero es suficiente."
+	]
+},
+{
+	"nombre":"La Petite Creperie Menorca",
+	"categoria":"",
+	"rating":"3,8",
+	"reviews":"71",
+	"horario":"",
+	"direccion":"Moll de Llevant, 256, 07701 Maó, Illes Balears",
+	"ciudad":"Maó-Mahón",
+	"provincia":"Illes Balears",
+	"web":"https://www.instagram.com/_lapetitecreperiemenorca",
+	"telefono":"628 50 22 41",
+	"mapa":"",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPImmH6dW38Zc3bUILUhjwV4FK1joeanoQ4ss1D=w408-h306-k-no",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"Lío Ibiza",
+	"categoria":"Restaurante",
+	"rating":"4,3",
+	"reviews":"2.489",
+	"horario":"lunes, Cerrado; martes, De 20:30 a 5:00; miércoles, De 20:30 a 5:00; jueves, De 20:30 a 5:00; viernes, De 20:30 a 5:00; sábado, De 20:30 a 5:00; domingo, De 20:30 a 5:00",
+	"direccion":"Passeig Joan Carles I, 1, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"http://www.lioibiza.com/",
+	"telefono":"971 31 00 22",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.4437848365333!2d1.4383613967895594!3d38.91383300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299414a96c7bd75%3A0x55ae6023eef82c8e!2sL%C3%ADo%20Ibiza!5e0!3m2!1ses!2ses!4v1748737294975!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipMs7P0VQ8vFw_Bg3jTx2_Ku45LzsSakq82RKsVO=w408-h272-k-no",
+	"comentarios":[
+		"Una experiencia única, vale mucho la pena! Buena cena con un espectáculo increíble.",
+		"El local está en el puerto con unas vistas brutales.",
+		"El servicio es muy atento y amable"
+	]
+},
+{
+	"nombre":"El Goloso",
+	"categoria":"Crepería",
+	"rating":"3,7",
+	"reviews":"3",
+	"horario":"lunes, De 17:00 a 3:00; martes, De 17:00 a 3:00; miércoles, De 17:00 a 3:00; jueves, De 17:00 a 3:00; viernes, De 17:00 a 3:00; sábado, De 17:00 a 3:00; domingo, De 17:00 a 3:00",
+	"direccion":"Carrer de la Mare de Déu, 11, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"631 52 71 18",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6416839491835!2d1.4331379967895517!3d38.90930850000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299470d7a577585%3A0xf086006c332a6cbc!2sEl%20Goloso!5e0!3m2!1ses!2ses!4v1748737303029!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KGylXloBF-ck6KtUu9J6qw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=59.13074&pitch=0&thumbfov=100",
+	"comentarios":[
+		"Buenísimos crepes en pleno centro!"
+	]
+},
+{
+	"nombre":"Gelato Ibiza",
+	"categoria":"Heladería",
+	"rating":"4,2",
+	"reviews":"758",
+	"horario":"lunes, De 10:00 a 23:45; martes, De 10:00 a 23:45; miércoles, De 10:00 a 23:45; jueves, De 10:00 a 23:45; viernes, De 10:00 a 23:45; sábado, De 10:00 a 23:45; domingo, De 10:00 a 23:45",
+	"direccion":"Passeig de Vara de Rey, 12, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 93 11 33",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6416839491835!2d1.4331379967895517!3d38.90930850000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946ba74331601%3A0x5f20fc14dfce40d9!2sGelato%20Ibiza!5e0!3m2!1ses!2ses!4v1748737311481!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4no12nGJuR6w93OFsYuxjg9vdCXJ04k5IhXli7q0WDFglc9evLfy6Jp4ZIhrxrwOp2iixjB_BSSCu4rayMgZjKnq9be9440ZbdQrGwuMquwYPgMllG0Q0i6ox55PZt0YMNZ03qE_=w408-h342-k-no",
+	"comentarios":[
+		"Excelente, exquisito y su atención es impecable. Los helados son una experiencia trascendental. Recomiendo el sabor pistacho. Yo elegí un croissant tibio relleno de Nutella acompañado con una bocha de helado de pistacho.",
+		"Sensaciones en el paladar.",
+		"El espacio es inmejorable dado  que pude disfrutar de estar fuera del local, en su espacio externo dónde distintas mesas se encuentran dispuestas frente al monumento de la calle Vara del Rey"
+	]
+},
+{
+	"nombre":"11C crêperie",
+	"categoria":"Crepería",
+	"rating":"",
+	"reviews":"",
+	"horario":"",
+	"direccion":"Carrer de la Mare de Déu, 11, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6416839491835!2d1.4331379967895517!3d38.90930850000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299479c6d496cd9%3A0xcd779d763623f655!2s11C%20cr%C3%AAperie!5e0!3m2!1ses!2ses!4v1748737320639!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KGylXloBF-ck6KtUu9J6qw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=61.166473&pitch=0&thumbfov=100",
+	"comentarios":[
+		""
+	]
+},
+{
+	"nombre":"il punto gelato",
+	"categoria":"Heladería",
+	"rating":"4,6",
+	"reviews":"528",
+	"horario":"lunes, De 9:00 a 22:00; martes, De 9:00 a 22:00; miércoles, De 9:00 a 22:00; jueves, De 9:00 a 22:00; viernes, De 9:00 a 22:00; sábado, De 9:00 a 22:00; domingo, De 9:00 a 22:00",
+	"direccion":"Carrer de la Ruda, 9, 07817 Sant Josep de sa Talaia, Illes Balears",
+	"ciudad":"San José",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"620 89 82 93",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.438661102587!2d1.4029863967895506!3d38.89108300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299442b85443b57%3A0x95bae775380ee94b!2sil%20punto%20gelato!5e0!3m2!1ses!2ses!4v1748737328934!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrElElfTnm4j4FXkAcrm15BjbJxlcEvX9AtJOK36MRYc8QF6qHSTisxMyvkE-1g_Xy2RsE5xalk1JzIMbuPt_pH2G1r7zhJsEffPcuRxZvxl3KDUDWc7S7ku8bY_7D9BDr_Xxe2lg=w408-h544-k-no",
+	"comentarios":[
+		"Me encanta el café aquí, las chicas son super amables, mi favorito para venir a diario, el pan de plátano es lo mejor, y tienen mucha variedad de opciones saladas y dulces Top!"
+	]
+},
+{
+	"nombre":"Cornetti Ibiza",
+	"categoria":"Cafetería",
+	"rating":"4,4",
+	"reviews":"188",
+	"horario":"lunes, De 7:00 a 20:00; martes, De 7:00 a 20:00; miércoles, De 7:00 a 20:00; jueves, De 7:00 a 20:00; viernes, De 7:00 a 20:00; sábado, De 7:00 a 20:00; domingo, De 8:00 a 20:00",
+	"direccion":"Carrer Gregal, 1, 11, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"https://www.cornetti-ibiza.com/",
+	"telefono":"695 27 78 81",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.324008088823!2d1.4420212967895505!3d38.91657119999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299473d10d8c223%3A0x67d9dffe3823cc0!2sCornetti%20Ibiza!5e0!3m2!1ses!2ses!4v1748737337816!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipPBdV2dT88KMWmVJUw9yYhZ4HB9hB1UM1ZObl5A=w408-h544-k-no",
+	"comentarios":[
+		"Lo han remodelado este año y es una cafetería encantadora, tienen un menú bastante amplio donde podrás conseguir desde ensaladas muy bien elaboradas bocadillos, tostadas y muchos dulces hechos de masa madre, zumos y smothies muy buenos y saludables.",
+		"Por no hablar del personal se nota la atención y el ambiente familiar tan acogedor, si describiría esta cafetería con una palabra sería encantadora."
+	]
+},
+{
+	"nombre":"El Charlotte",
+	"categoria":"Bar",
+	"rating":"3,9",
+	"reviews":"1.249",
+	"horario":"lunes, De 8:00 a 23:00; martes, De 8:00 a 23:00; miércoles, De 8:00 a 23:00; jueves, De 8:00 a 23:00; viernes, De 8:00 a 24:00; sábado, De 9:00 a 24:00; domingo, De 8:00 a 23:00",
+	"direccion":"Carrer de Canàries, 36, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"971 93 10 26",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.5167313594293!2d1.4202967967895443!3d38.9121653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946be16cbc57f%3A0x4b836020156b8f8e!2sEl%20Charlotte!5e0!3m2!1ses!2ses!4v1748737346623!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqtnol4gZMOW4-9A0tCSY-hKDHK845UwAV0QAuu0qQ1HoQRce8J0aolkL9ssiDvEUArBLuWARLtQWewBP34KA0jXrY6gafdt7sntreN8XeNd64ip911idZdPpJI4r74qInqO3NI=w408-h306-k-no",
+	"comentarios":[
+		"Uno de los mejores lugares de la isla donde tomar un cafe, te... o lo que tengas el gusto de probar, todo esta riquísimo.",
+		"Trato excelente por parte de todo el equipo, Anuska, Nayeli y Yasmina, las top 3.",
+		"",
+		"100% recomendado"
+	]
+},
+{
+	"nombre":"llaollao",
+	"categoria":"Yogurtería",
+	"rating":"4,2",
+	"reviews":"588",
+	"horario":"lunes, De 11:30 a 23:00; martes, De 11:30 a 23:00; miércoles, De 11:30 a 23:00; jueves, De 11:30 a 23:00; viernes, De 11:30 a 24:00; sábado, De 11:30 a 24:00; domingo, De 11:30 a 24:00",
+	"direccion":"Carrer de Castelar, 12, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"https://www.llaollaoweb.com/es/tienda/ibiza-castelar/?utm_campaign=google-local&amp;utm_source=G",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.637332082729!2d1.4313323967895522!3d38.909408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946b0e22c81e5%3A0xd34c678f6befb17a!2sllaollao!5e0!3m2!1ses!2ses!4v1748737355248!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrbdjv7d2FS8EFfCXcLlihFFrifituuhO1vIT8YWZWruRKpse3cCPn3fzgfnhfD0unF6RM8Bt2W0_xTjqx5CxJIaTA83g69kUa-dPtDpAYScJH2iBqER2BbdZoPuMJ2Kq4jc8EY=w408-h544-k-no",
+	"comentarios":[
+		"Me sorprendió para bien este local. El ambiente es muy agradable, los trabajadores se notan comprometidos, rápidos y atentos. Hay una sensación de orden y profesionalidad que no siempre encuentras en sitios tan turísticos. Da la impresión de que alguien del equipo tiene muchísima experiencia, porque todo fluye de forma muy natural. jUn placer pasar por aquí!"
+	]
+},
+{
+	"nombre":"Crazy Pizza Ibiza",
+	"categoria":"Restaurante",
+	"rating":"4,8",
+	"reviews":"39",
+	"horario":"lunes, De 18:00 a 24:00; martes, De 18:00 a 24:00; miércoles, De 18:00 a 24:00; jueves, De 18:00 a 24:00; viernes, De 18:00 a 2:00; sábado, De 18:00 a 2:00; domingo, De 18:00 a 24:00",
+	"direccion":"Marina, Carrer Botafoch, local 205, 07800 Ibiza, Balearic Islands",
+	"ciudad":"Ibiza",
+	"provincia":"Balearic Islands",
+	"web":"https://crazypizza.com/ibiza/",
+	"telefono":"603 10 81 64",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.491331378567!2d1.444169396789548!3d38.91274599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299410fe4ec5541%3A0xe50802520cbe250b!2sCrazy%20Pizza%20Ibiza!5e0!3m2!1ses!2ses!4v1748737441518!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipNTEUzRAbPa7FK1rkHSXjWhQcXZaAQABxYn864M=w408-h271-k-no",
+	"comentarios":[
+		"Fuimos a cenar a Crazy Pizza y la experiencia fue magnífica. Situado en Marina Botafoch en Ibiza con vistas al puerto.",
+		"",
+		"El servicio es impecable, la comida simple pero muy sabrosa. Las pizzas de masa fina brutales.",
+		"El show que hacen a medio servicio es increíble y súper divertido.",
+		"",
+		"El postre lo hacen delante tuyo en la mesa, en nuestro caso tiramisú y también buenísimo.",
+		"",
+		"Lo recomendaría y volvería."
+	]
+},
+{
+	"nombre":"Amorino Gelato - Ibiza Puerto",
+	"categoria":"Heladería",
+	"rating":"4,2",
+	"reviews":"561",
+	"horario":"lunes, De 12:00 a 0:30; martes, De 12:00 a 0:30; miércoles, De 12:00 a 0:30; jueves, De 12:00 a 0:30; viernes, De 12:00 a 1:00; sábado, De 12:00 a 1:00; domingo, De 12:00 a 1:00",
+	"direccion":"Carrer Lluís Tur i Palau, 3, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"http://www.amorino.com/es?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=mybusiness-products",
+	"telefono":"971 93 11 92",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.633920562792!2d1.4288853967895456!3d38.909486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946b13a30971f%3A0xf1e3fc4e9538dfd3!2sAmorino%20Gelato%20-%20Ibiza%20Puerto!5e0!3m2!1ses!2ses!4v1748737459858!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipN1HJ96GnbMJsxqQ0R4oyW9bVEYdTGxin8L1IZb=w408-h272-k-no",
+	"comentarios":[
+		"El sabor del helado es muy bueno, los gustos se sienten bien marcados.",
+		"El arte de cada flor deberían valorarlo más, Yas que es la chica que me atendió lo hizo de maravilla, súper amable y atenta, su compañera también simpática (Adri creo que se llama) ☺️"
+	]
+},
+{
+	"nombre":"Perdición",
+	"categoria":"Restaurante de brunch",
+	"rating":"4,4",
+	"reviews":"871",
+	"horario":"lunes, De 7:30 a 23:00; martes, De 7:30 a 23:00; miércoles, De 7:30 a 23:00; jueves, De 7:30 a 23:00; viernes, De 7:30 a 24:00; sábado, De 8:30 a 24:00; domingo, De 8:30 a 23:00",
+	"direccion":"Avinguda d&apos;Ignasi Wallis, 35, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6023112447638!2d1.4323092967895497!3d38.91020869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129947b3c5950393%3A0xdf43aa0e7506a57f!2sPerdici%C3%B3n!5e0!3m2!1ses!2ses!4v1748737469576!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np5g1g1ReY-4imYNnUOUyXU03As-I1GCEfWFKykUgYc9tvfz6TG52P0BMWcHQcSdXsPYWso_PqGDQ3MZKAdqOcuqhH8vxtWWk4r1-BFDXursIH3t6DSqT5wc_HuAG96TzkS6XE=w408-h306-k-no",
+	"comentarios":[
+		"Me encantó el lugar. Fui a visitar con  mi familia a desayunar allá y el lugar es excelente, la comida es espectacular, las atenciones y servicios brindadas por Yalkiris fueron excelentes. Ella conocia muy bien el menú y nos hizo buenas recomendaciones. Pedimos los panecillos de queso para compartir. Yo me pedí un bocadillo de salmon y queso de cabra. Los demás pidieron bocadillos de atun, pollo y bacon y huevos Benedict.",
+		"De tomar pedimos el jugo verde de limón, manzana y espinacas. Pedimos también otros zumos.",
+		"El lugar lo recomiendo 100 por ciento. Si estas en el centronde Ibiza no te puedes perder visitar este lugar."
+	]
+},
+{
+	"nombre":"Gelateria Ibiza &quot;ROMA&quot;",
+	"categoria":"Heladería",
+	"rating":"4,7",
+	"reviews":"126",
+	"horario":"lunes, De 15:00 a 24:00; martes, De 15:00 a 24:00; miércoles, De 15:00 a 24:00; jueves, De 15:00 a 24:00; viernes, De 15:00 a 24:00; sábado, De 15:00 a 24:00; domingo, De 15:00 a 24:00",
+	"direccion":"Av. d&apos;Espanya, 44, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"https://www.gelateriaibiza.es/",
+	"telefono":"971 72 68 21",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.700487899877!2d1.4228982967895383!3d38.907963999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946bc8d3a9dc3%3A0x46e25df966a81496!2sGelateria%20Ibiza%20%22ROMA%22!5e0!3m2!1ses!2ses!4v1748737484810!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/p/AF1QipP095wcDuH7c680LPNeZOxVMj98z41pPUUawuh-=w408-h306-k-no",
+	"comentarios":[
+		"Conozco este sitio por mi mujer, trabaja cerca y en dos ocasiones el verano pasado trajo tarrinas a casa que guardábamos en el congelador para degustarlas tras la cena poco a poco. Hoy estuvimos con mi madre y nuestra peque y hemos vuelto a revivir ese auténtico gelato italiano. Conocemos bien Italia, hemos viajado muchas veces y os puedo asegurar que esto es lo más cerca que podéis estar de comeros un helado de verdad artesanal, como los que se hacen allí. Volveremos una y mil veces."
+	]
+},
+{
+	"nombre":"Croissant Show",
+	"categoria":"Restaurante",
+	"rating":"4,0",
+	"reviews":"1.215",
+	"horario":"lunes, De 9:00 a 23:00; martes, De 9:00 a 23:00; miércoles, De 9:00 a 23:00; jueves, De 9:00 a 23:00; viernes, De 9:00 a 23:00; sábado, De 9:00 a 23:00; domingo, De 9:00 a 23:00",
+	"direccion":"Plaça de la Constitució, 2, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"https://croissant.show/",
+	"telefono":"971 31 76 65",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.637332082736!2d1.4313323967895506!3d38.909408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946b10ee418f5%3A0xe159d52a3cc3ac11!2sCroissant%20Show!5e0!3m2!1ses!2ses!4v1748737504297!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npLDWhkf8Lun1F95k8UzEclNjn3m1Kke8rkl9RdUf2jCOb0ccgRjuGNyMz4zc834EqWAVn8_mjQvGqFIUkXEXHqEqeyiDtKyWBorAU2Ynj3S1wCgnJQKkK5XG6aFs8YvgOrhUk=w426-h240-k-no",
+	"comentarios":[
+		"Fui a Croissant Show y pedí un café con leche de avena, que estaba muy bueno, pero sinceramente, 3,60 € por un café me parece excesivo. El trato del personal fue cordial y la decoración del local está bien, aunque no encontré sitio en la terraza y tuve que sentarme dentro.",
+		"",
+		"Lo peor fue cuando fui al baño: sucio, sin papel y en un estado lamentable, una de las peores experiencias que he tenido en una cafetería. Una pena, porque la ubicación es buena, pero los precios están inflados y la limpieza deja mucho que desear.",
+		"",
+		"No volvería."
+	]
+},
+{
+	"nombre":"Il Punto Gelato Vila",
+	"categoria":"Heladería",
+	"rating":"4,6",
+	"reviews":"177",
+	"horario":"lunes, De 10:00 a 1:00; martes, De 10:00 a 1:00; miércoles, De 10:00 a 1:00; jueves, De 10:00 a 1:00; viernes, De 10:00 a 1:00; sábado, De 10:00 a 21:00; domingo, De 10:00 a 1:00",
+	"direccion":"Plaça de Vila, 7, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"620 89 82 93",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6798137715828!2d1.4308918967895532!3d38.9084367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946b0564ad845%3A0x7b68ac80d3355b60!2sIl%20Punto%20Gelato%20Vila!5e0!3m2!1ses!2ses!4v1748737520957!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr3eWiCJKIKK3t1Vs53Sow7tMxVMPWNkK-7cBfLx3m_g0CoPJqRPO4lzE-p8RHidZnWBtQQ1Qit1rYMF7HShwAgmAstmxAtDviQFdnaheFAeEI9ATxEweAxG5Edu7-H16ZZjlrqIA=w408-h544-k-no",
+	"comentarios":[
+		"Es oficialmente el mejor helado que vas a probar",
+		"",
+		"Si eres fan del pistacho vas descubrir un nuevo nivel de sabor.",
+		"",
+		"NO TE LO PIERDAS!!!"
+	]
+},
+{
+	"nombre":"Cappuccino Marina Ibiza",
+	"categoria":"Cafetería",
+	"rating":"4,2",
+	"reviews":"1.821",
+	"horario":"lunes, De 9:00 a 24:00; martes, De 9:00 a 24:00; miércoles, De 9:00 a 24:00; jueves, De 9:00 a 24:00; viernes, De 9:00 a 24:00; sábado, De 9:00 a 24:00; domingo, De 9:00 a 24:00",
+	"direccion":"Passeig Joan Carles I, 20, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"http://www.cappuccino.com/",
+	"telefono":"971 31 26 28",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.450910327857!2d1.4389702967895523!3d38.913670100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299414a96c7bd75%3A0x8acad8ad1332b0ae!2sCappuccino%20Marina%20Ibiza!5e0!3m2!1ses!2ses!4v1748737530747!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4noZ-QKdJEFOl5s39fHY4BHSLVlxZt7uZhh7ZE8SUHPLgyuOCGcjLpW23oc3F9HyOxQW6NVgYLnjsxeVN3ZAYe0qFZuANgun80RGJyL0y1YzB_T6rmSYTHp7Ei74L5M8CyRc5Fp-=w408-h306-k-no",
+	"comentarios":[
+		"La mejor vista de Dalt Villa por lejos. La atención es sobresaliente y siempre están atentos a todo. Muy amables y serviciales. El ambiente es encantador y super acogedor. La comida muy rica y muy abundante. El precio es un poco alto pero todo lo que vivís vale la pena. Recomiendo vivir esta experiencia al atardecer y disfrutar del paisaje que es espectacular."
+	]
+},
+{
+	"nombre":"Harinus Forn Artesà",
+	"categoria":"Panadería",
+	"rating":"4,1",
+	"reviews":"928",
+	"horario":"lunes, De 7:30 a 21:00; martes, De 7:30 a 21:00; miércoles, De 7:30 a 21:00; jueves, De 7:30 a 21:00; viernes, De 7:30 a 21:00; sábado, De 7:30 a 21:00; domingo, De 7:30 a 21:00",
+	"direccion":"Av. d&apos;Espanya, 20, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"http://harinus.com/",
+	"telefono":"",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.679638825656!2d1.425417096789554!3d38.9084407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946bb75342195%3A0x11eaf133a36009ab!2sHarinus%20Forn%20Artes%C3%A0!5e0!3m2!1ses!2ses!4v1748737540546!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npPGximLqH2CnMwG0s-jW4q6MNq8ArD7rMpn3Y3QXVV21D2s2W32OasbEQUVVySWHKg70YNtSU9TMybk5UHGn8pXRaBXNLtoaeFlDUbtJhcmmjylZLG8RpJRcYYAfA-3wWWJS3lww=w408-h306-k-no",
+	"comentarios":[
+		"No destacaría mucho del lugar, solo la ubicación y disponibilidad para desayunar. Comida normal. El servicio es mejorable, no cuesta nada mostrar algo de simpatía, igual creo que es algo general de la isla."
+	]
+},
+{
+	"nombre":"Mil y Una Noche Ibiza Lounge /shisha/cachimba/hookah",
+	"categoria":"Bar con narguiles",
+	"rating":"4,8",
+	"reviews":"200",
+	"horario":"lunes, Cerrado; martes, De 19:00 a 2:00; miércoles, De 19:00 a 2:00; jueves, De 19:00 a 2:00; viernes, De 19:00 a 2:00; sábado, De 19:00 a 2:00; domingo, De 19:00 a 2:00",
+	"direccion":"Avenida Pedro, Av. Pere Matutes Noguera, 40, 07800 Ibiza, Balearic Islands",
+	"ciudad":"Ibiza",
+	"provincia":"Balearic Islands",
+	"web":"",
+	"telefono":"607 04 74 37",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.993677382425!2d1.4135311967895505!3d38.90125989999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299470e1fc68255%3A0xe47ba3afe75dc11d!2sMil%20y%20Una%20Noche%20Ibiza%20Lounge%20%2Fshisha%2Fcachimba%2Fhookah!5e0!3m2!1ses!2ses!4v1748737550435!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqbQ2LMMh6JFQ1Oq3uFwdqIr2w2D0ZzarJRKuZV0ZUxBEMTS_t0fJRNF69egeC_TxslyG2L06j2PyDXmy81a38WPCWBnn7Xau8RBr3p_0_sVk8T_qI_3IITPzCdIXDv51IMlc-O=w408-h271-k-no",
+	"comentarios":[
+		"Muy buen lugar para shishas, te dan la opción a elegir cuál quieres, el tipo de gestor de calor y la mezcla tienen una amplia carta de opciones. Aunque nosotros nos decantamos porque los sorprendieran ellos con una mezcla citrica y otra afrutada, acertaron con el fussion blend de las dos shishas que pedimos.",
+		"",
+		"Los precios son más asequibles que incluso en algunos sitios de Barcelona. Tanto de la shisha como de las bebidas o batidos (el batido de fresa y plátano espectacular)",
+		"",
+		"Sin lugar a duda repetiremos."
+	]
+},
+{
+	"nombre":"FEEL JUICE",
+	"categoria":"Tienda de zumos",
+	"rating":"4,8",
+	"reviews":"137",
+	"horario":"lunes, De 11:00 a 23:00; martes, De 11:00 a 23:00; miércoles, De 11:00 a 23:00; jueves, De 11:00 a 23:00; viernes, De 11:00 a 23:00; sábado, De 11:00 a 23:00; domingo, De 11:00 a 23:00",
+	"direccion":"Carrer de Castelar, 14, 07800 Eivissa, Illes Balears",
+	"ciudad":"Ibiza",
+	"provincia":"Illes Balears",
+	"web":"",
+	"telefono":"871 02 50 28",
+	"mapa":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.633303864342!2d1.4313981967895508!3d38.9095001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129946b0e1c14923%3A0xba77b709627a98eb!2sFEEL%20JUICE!5e0!3m2!1ses!2ses!4v1748737559607!5m2!1ses!2ses\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+	"imagen":"https://lh3.googleusercontent.com/gps-cs-s/AC9h4npcV_cmW1JEahM4-FGROUV4wgACPF1TIb81WOfzbe2kPqOByVebxmNZBUN7dYe2ZvV3mzlQcL3INamc3n7uDsB4CCcO_Ad0f89XtSHw8udSTkAajbTu2XLlfrwX3ogBF4HlnAM=w408-h544-k-no",
+	"comentarios":[
+		"Buen servicio de granizados, batidos y creps. Además son muy amables y si no te gusta un granizado ácido le añaden el azúcar que quieras. 1000/10 :)"
+	]
+}
+]
+}
