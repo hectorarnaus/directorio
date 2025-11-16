@@ -1,0 +1,99 @@
+.entry-meta {
+        display: none;
+    }
+
+.comments-area{
+	display:none !important;
+}
+.comment-respond{
+	display:none !important;
+}
+
+.migas{
+	color: #7a5c3d;
+  font-style: italic;
+  margin-bottom: 1rem;
+
+}
+
+.contenedor{
+	background-color:#D3C4B7;
+	border-radius:10px;
+	padding:1em;
+	margin-bottom:1em;
+	margin-top:1em;
+
+}
+
+.wp-block-button__link:hover {
+    background-color: accent !important;
+    color: #ffd700 !important;
+}
+
+
+/*
+.anuncio{
+	height:200px;
+	background-color:red;
+}*/
+
+/* ===== Estilos base para la ficha de creperías ===== */
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background-color: #faf7f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+/* Títulos */
+h1.wp-block-heading {
+  color: #4a3220;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h2.wp-block-heading {
+  color: #7a5c3d;
+  border-bottom: 2px solid #f1d9b5;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Bloques de información */
+.wp-block-group.has-white-background-color {
+  background-color: #fff8f0 !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+}
+
+/* Botones */
+.wp-block-button__link, .glsr-button {
+  font-weight: bold;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover, .glsr-button:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+/* Imagen del crepe */
+.wp-block-image img {
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+/* Reseñas */
+.wp-block-group h2 + p,
+.wp-block-group h2 + p + p {
+  background-color: #fff;
+  border-left: 4px solid #f2a65a;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-style: italic;
+}

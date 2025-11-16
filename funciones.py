@@ -47,8 +47,7 @@ def spinner(s):
         if n == 0: break
     return s.strip()
 
-def imprime_lista_negocios(lista_negocios):
-    import html
+
 
 def imprime_lista_negocios(lista_negocios):
     res = ""
@@ -63,7 +62,7 @@ def imprime_lista_negocios(lista_negocios):
 
         bloque = f"""
             <!-- wp:html -->
-            [su_box title="{nombre}" box_color="{color_contrast}" title_color="{color_base}" radius="6"]
+            [su_box title="{nombre}" box_color="{color_contrast}" title_color="{color_contrast3}" radius="6"]
             [su_row]
                 [su_column size="1/2" center="no"]
             
@@ -120,7 +119,7 @@ def imprime_lista_negocios(lista_negocios):
                 <!-- wp:buttons -->
                     <div class="wp-block-buttons">
                     <div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
-                        <a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color wp-element-button"
+                        <a class="wp-block-button__link has-base-3-color has-accent-background-color has-text-color has-background has-link-color wp-element-button"
                         href="tel:{telefono}" style="border-radius:15px">
                         ¡Llama ahora!
                         </a>
@@ -138,7 +137,7 @@ def imprime_lista_negocios(lista_negocios):
     return res
 
 
-
+'''
 def imprime_lista_negocios_old(lista_negocios):
     res=""
     for negocio in lista_negocios:
@@ -188,13 +187,6 @@ def imprime_lista_negocios_old(lista_negocios):
                     '\t<!-- /wp:buttons -->\n'
 
                 
-                #f'\t\t[su_button url="tel:+{negocio.telefono}" target="blank" background="{contrast}" color="contrast-3" size="15" center="yes"]'
-	            #  '\t\t\t¡LLAMA AHORA!\n'
-                #'\t[/su_button]\n'
-                
-                #'\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-                #f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
-                #'\t\t<!-- /wp:button -->\n'
 		            '[/su_column]\n'
 	              '[/su_row]\n'
                 '[/su_box]\n'
@@ -204,7 +196,7 @@ def imprime_lista_negocios_old(lista_negocios):
         res+=bloque
     return res
 
-
+'''
     
 	
 
@@ -406,11 +398,11 @@ def crea_negocio(negocio):
 
         '\t<!-- wp:buttons -->\n'
 
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
+        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
         f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
         '\t\t<!-- /wp:button -->\n'
 
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
+        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
         f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.web}" style="border-radius:15px">Visita web</a></div>\n'
         '\t\t<!-- /wp:button -->\n'
 
@@ -425,7 +417,7 @@ def crea_negocio(negocio):
         '\t\t<!-- /wp:heading -->\n'
 
         '\t<!-- wp:html -->\n'
-        f'\t\t[su_list icon="icon: clock-o" icon_color="#7B2C2C" indent="15" class="lista-bloque"]\n{negocio.obten_horario_html()}\n'
+        f'\t\t[su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="15" class="lista-bloque"]\n{negocio.obten_horario_html()}\n'
 		    '\t\t[/su_list]\n'
         '\t<!-- /wp:html --></div>\n'
         '\t<!-- /wp:column -->\n'
@@ -457,7 +449,7 @@ def crea_negocio(negocio):
         '<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->\n'
         #'\t<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
         #'\t\t<div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-text-align-center has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">DEJA UNA RESEÑA AHORA</a></div>\n'
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
+        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
         f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">¡DEJA UNA RESEÑA AHORA!</a></div>\n'
         '\t\t<!-- /wp:button -->\n'
         
