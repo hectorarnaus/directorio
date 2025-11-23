@@ -1,5 +1,6 @@
 
 import re,html
+from bs4 import BeautifulSoup
 
 
 def obten_horario_dia(horario,dia):
@@ -64,9 +65,36 @@ def obten_horario_semanal(horario):
     res+=f'{horario_dias[i]}\n'  
     return res
 
-    
+def limpia_comillas(texto):
+    if texto!=None:
+        if texto.startswith('"') and texto.endswith('"'):
+            texto=texto[1:-1]
+    return texto
 
 class Negocio:
+    def __init__(self,nombre,direccion,CP,ciudad,provincia,telefono,pagina_web,actividad,actividades_relacionadas,marcas,descripcion,mapa,imagen,facebook,instagram,x,youtube,horario,descripcion_seo):
+        self.nombre=html.escape(str(nombre))
+        self.direccion=html.escape(str(direccion))
+        self.CP=html.escape(str(CP))
+        self.ciudad=html.escape(str(ciudad))
+        self.provincia=html.escape(str(provincia))
+        self.telefono=html.escape(str(telefono))
+        self.web=html.escape(str(pagina_web))
+        self.actividad=html.escape(str(actividad))
+        self.actividades_relacionadas=html.escape(str(actividades_relacionadas))
+        self.marcas=html.escape(str(marcas))
+        self.descripcion=html.escape(str(descripcion))
+        self.mapa=mapa
+        self.imagen=html.escape(str(imagen))
+        self.facebook=html.escape(str(facebook))
+        self.instagram=html.escape(str(instagram))
+        self.x=x
+        self.youtube=html.escape(str(youtube))        
+        #self.horario=(horario[1:])[:-1] if horario.startswith("[") and horario.endswith("]") else html.escape(str(horario))
+        self.horario=limpia_comillas(horario)
+        self.descripcion_seo=html.escape(str(descripcion_seo))
+        
+    '''
     def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews):
 
         self.municipio=html.escape(str(municipio))
@@ -91,10 +119,102 @@ class Negocio:
         self.foto=foto
         self.rating=rating
         self.reviews=reviews
+        '''
     
     def __str__(self):
-        return f'nombre={self.nombre} municipio={self.municipio}'
+        return f'nombre={self.nombre} ciudad={self.ciudad}'
     
+    def obten_horario_lista_html(self):
+        dias=['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo']
+        soup = BeautifulSoup(self.horario, "html.parser")
+        soup.prettify()
+        if self.horario=="":
+            return ""
+        itemprops = soup.select('time[itemprop="openingHours"]')
+        horario_html=""
+        if len(itemprops) == 5:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[2].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[4].get_text(strip=True)}</li>\n'
+                        '</ul>\n')
+            return horario_html
+        elif len(itemprops) == 6:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[2].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[4].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> cerrado</li>\n'
+                        '</ul>\n')
+            return horario_html
+        elif len(itemprops) == 7:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[2].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[4].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> {itemprops[6].get_text(strip=True)}</li>\n'
+                        '</ul>\n')
+        elif len(itemprops) == 10:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)} y {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[2].get_text(strip=True)} y {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[4].get_text(strip=True)} y {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[6].get_text(strip=True)} y {itemprops[7].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[8].get_text(strip=True)} y {itemprops[9].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> cerrado</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> cerrado</li>\n'
+                        '</ul>\n')
+        elif len(itemprops) == 11:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)} y {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[2].get_text(strip=True)} y {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[4].get_text(strip=True)} y {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[6].get_text(strip=True)} y {itemprops[7].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[8].get_text(strip=True)} y {itemprops[9].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> {itemprops[10].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> cerrado</li>\n'
+                        '</ul>\n')
+        elif len(itemprops) == 12:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)} y {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[2].get_text(strip=True)} y {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[4].get_text(strip=True)} y {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[6].get_text(strip=True)} y {itemprops[7].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[8].get_text(strip=True)} y {itemprops[9].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> {itemprops[10].get_text(strip=True)} y {itemprops[11].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> cerrado</li>\n'
+                        '</ul>\n')
+        elif len(itemprops) == 13:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)} y {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[2].get_text(strip=True)} y {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[4].get_text(strip=True)} y {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[6].get_text(strip=True)} y {itemprops[7].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[8].get_text(strip=True)} y {itemprops[9].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> {itemprops[10].get_text(strip=True)} y {itemprops[11].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> {itemprops[12].get_text(strip=True)}</li>\n' 
+                        '</ul>\n')
+        elif len(itemprops) == 14:
+            horario_html=('<ul>\n'
+                        f'\t<li><strong>{dias[0]}:</strong> {itemprops[0].get_text(strip=True)} y {itemprops[1].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[1]}:</strong> {itemprops[2].get_text(strip=True)} y {itemprops[3].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[2]}:</strong> {itemprops[4].get_text(strip=True)} y {itemprops[5].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[3]}:</strong> {itemprops[6].get_text(strip=True)} y {itemprops[7].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[4]}:</strong> {itemprops[8].get_text(strip=True)} y {itemprops[9].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[5]}:</strong> {itemprops[10].get_text(strip=True)} y {itemprops[11].get_text(strip=True)}</li>\n'
+                        f'\t<li><strong>{dias[6]}:</strong> {itemprops[12].get_text(strip=True)} y {itemprops[13].get_text(strip=True)}</li>\n' 
+                        '</ul>\n')
+        return horario_html  
+
+    '''
     def obten_horario_html(self):
         if self.horario=="":
             return ""
@@ -151,3 +271,4 @@ class Negocio:
                       f'\t<li><strong>Domingo:</strong> {domingo}</li>\n'
 	    			'</ul>\n')
         return horario_html
+        '''

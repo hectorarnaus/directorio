@@ -14,7 +14,7 @@ wc.connect()
 
 
 
-excel_datos="castilla_leon_1.xlsx"
+excel_datos="empresas_con_descripcion_corto.xlsx"
 
 lista_provincias=obten_lista_provincias(excel_datos)
 lista_municipios=obten_lista_municipios(excel_datos)
@@ -46,7 +46,7 @@ for img in os.listdir(ruta):
         wp_img=Image(ruta+"/"+img,f"{tipo_negocio} en el municipio de {municipio}")
         wp_img.upload(wc)
         wp_article=WpPost(f"{tipo_negocio} en el municipio de {municipio}","Provincia de "+provincia)
-        wp_article.add_element(crea_municipio(municipio,provincia,obten_texto_municipio(municipio),wp_img))
+        wp_article.add_element(crea_ciudad(municipio,provincia,obten_texto_municipio(municipio),wp_img))
         wp_article.set_slug(sluguiza(municipio))
         wc.publica_post(wp_article)
 
