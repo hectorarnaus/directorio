@@ -375,6 +375,28 @@ def crea_lista_horario(horario):
         '<!-- /wp:shortcode -->\n'
     )
     return res
+
+def crea_mapa(negocio):
+    res=('<!-- wp:html -->\n'
+        f'\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:2px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+        '<!-- /wp:html -->\n'
+    )
+    return res
+
+def crea_imagen(negocio):
+    res=('<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
+        f't<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.imagen}" alt=""/></figure>\n'
+        '<!-- /wp:image --></div>\n'
+    )
+    return res
+
+def crea_reviews():
+    res=('<!-- wp:shortcode -->\n'
+        '\t[site_reviews_summary assigned_posts="post_id" schema="true" class="contenedor"]\n'
+        '\t<!-- /wp:shortcode -->\n'
+    )
+    return res
+
 def crea_provincia(provincia,texto,imagen):
 
     res=('<!-- wp:html -->\n'
@@ -448,6 +470,11 @@ def crea_negocio_temp(negocio):
         f'{crea_parrafo(negocio.descripcion_seo)}'
         f'{crea_heading("Horario",2)}'
         f'{crea_lista_horario(negocio.obten_horario_lista_html())}'
+        f'{crea_heading("Localización",2)}'
+        f'{crea_mapa(negocio)}'
+        f'{crea_heading("Fotografía",2)}'
+        #f'{crea_imagen(negocio)}'
+        #f'({crea_reviews()})'
     )
     return res
 

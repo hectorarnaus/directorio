@@ -84,7 +84,12 @@ class Negocio:
         self.actividades_relacionadas=html.escape(str(actividades_relacionadas))
         self.marcas=html.escape(str(marcas))
         self.descripcion=html.escape(str(descripcion))
-        self.mapa=mapa
+        if (mapa!=None):
+            inicio=mapa.find("src='")+5
+            final=mapa.find("'",inicio+1)+1
+            self.mapa=mapa[inicio:final-1]
+        else:
+            self.mapa=mapa
         self.imagen=html.escape(str(imagen))
         self.facebook=html.escape(str(facebook))
         self.instagram=html.escape(str(instagram))
