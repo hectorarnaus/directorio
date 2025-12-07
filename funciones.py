@@ -1,7 +1,7 @@
 import random, re, html
 from extraer_datos_excel import *
 from constantes_configuracion import *
-
+from random import randint
 from negocio import *
 
 def sluguiza(texto):
@@ -233,12 +233,13 @@ def obten_id_categoria_provincia(provincia,lista_categorias):
 
 
 def crea_schema_negocio(negocio):
-    res=('\t{\n'
+    res=(
+        '<script type="application/ld+json">\n'
+        '\t{\n'
         '\t"@context": "https://schema.org",\n'
-        '\t"@type": "Restaurant",\n'
+        '\t"@type": "HomeAndConstructionBusiness",\n'
         f'\t"name": "{negocio.nombre}",\n'
         f'\t"image": "{negocio.imagen}",\n'
-        '\t"servesCuisine": "Creperie",\n'
         '\t"address": {\n'
         '\t\t"@type": "PostalAddress",\n'
         f'\t\t"streetAddress": "{negocio.direccion}",\n'
@@ -248,15 +249,12 @@ def crea_schema_negocio(negocio):
         '\t\t},\n'
         f'\t\t"telephone": "{negocio.telefono}",\n'
         #'\t\t"openingHours": [\n'
-        #f'{obten_horario_semanal(negocio.horario)}'
+        f'{negocio.obten_horario_schema()}'
         #'\t\t],\n'
-        f'\t"url": "{negocio.web}",\n'
-        #'\t"aggregateRating": {\n'
-        #'\t\t"@type": "AggregateRating",\n'
-        #f'\t\t"ratingValue": "{negocio.rating}",\n'
-        #f'\t\t"reviewCount": "{negocio.reviews}"\n'
+        f'\t"url": "{negocio.web}"\n'
         '\t}\n'
         '}\n'
+        '</script>\n'
     )
     return res
 
@@ -332,30 +330,41 @@ def crea_lista_telefono(telefono):
     return res
     
 def crea_lista_web(web):
-
-    if web==None:
-        return ""
-    res=('<!-- wp:shortcode -->\n'
-        f'\t[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="20" class="lista"]\n'
-        '\t\t<ul>\n'
-        f'\t\t\t<li><strong>Sitio web:</strong> <a href="{web}">{web}</a></li>\n'
-        '\t\t</ul>\n'
-        '\t[/su_list]\n'
-        '<!-- /wp:shortcode -->\n'
-    )
-    return res
+    if web!=None:
+        res=('<!-- wp:shortcode -->\n'
+            f'\t[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="20" class="lista"]\n'
+            '\t\t<ul>\n'
+            f'\t\t\t<li><strong>Sitio web:</strong> <a href="{web}">{web}</a></li>\n'
+            '\t\t</ul>\n'
+            '\t[/su_list]\n'
+            '<!-- /wp:shortcode -->\n'
+        )
+        return res
 
 def crea_botones_datos_contacto(telefono,web):
-    res=(
-        '<!-- wp:shortcode -->\n'
-        f'\t[su_button url="tel:{telefono}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]¡Llama ahora![/su_button]\n'
-        '<!-- /wp:shortcode -->\n'
+    if web!=None:
+        res=(
+            '<!-- wp:shortcode -->\n'
+            f'\t[su_button url="tel:{telefono}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]¡Llama ahora![/su_button]\n'
+            '<!-- /wp:shortcode -->\n'
 
-        '<!-- wp:shortcode -->\n'
-        f'\t[su_button url="{web}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]Visitar web[/su_button]\n'
-        '<!-- /wp:shortcode -->\n'
-    )
+            '<!-- wp:shortcode -->\n'
+            f'\t[su_button url="{web}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]Visitar web[/su_button]\n'
+            '<!-- /wp:shortcode -->\n'
+        )
+        
+    else:
+        res=(
+            '<!-- wp:shortcode -->\n'
+            f'\t[su_button url="tel:{telefono}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]¡Llama ahora![/su_button]\n'
+            '<!-- /wp:shortcode -->\n'
+
+            '<!-- wp:shortcode -->\n'
+            f'\t[su_button url="{dominio}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]Visitar web[/su_button]\n'
+            '<!-- /wp:shortcode -->\n'
+        )
     return res
+
 def crea_parrafo(texto):
     res=('\t<!-- wp:paragraph -->\n'
         f'\t\t<p>{texto}</p>\n'
@@ -385,18 +394,89 @@ def crea_mapa(negocio):
 
 def crea_imagen(negocio):
     res=('<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
-        f't<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.imagen}" alt=""/></figure>\n'
-        '<!-- /wp:image --></div>\n'
+        f'\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.imagen}" alt="{negocio.nombre}"></figure>\n'
+        '<!-- /wp:image -->\n'
     )
     return res
 
-def crea_reviews():
-    res=('<!-- wp:shortcode -->\n'
-        '\t[site_reviews_summary assigned_posts="post_id" schema="true" class="contenedor"]\n'
-        '\t<!-- /wp:shortcode -->\n'
+
+
+
+def crea_reviews(negocio):
+    res=('[su_row]'
+         '\t[su_column size="1/1" center="no" class=""]\n'
+        '\t\t<!-- wp:shortcode -->\n'
+        f'\t\t\t[site_reviews_summary rate="4" assigned_terms="{sluguiza(negocio.nombre)}" hide="average,stars,percentage,bar"]'
+        '\t\t<!-- /wp:shortcode -->\n'        
+        '\t</su_column>\n'
+        '\t[su_column size="1/1" center="no" class=""]\n'
+        '\t\t<!-- wp:shortcode -->\n'
+        f'\t\t\t[site_reviews_form assigned_terms="{sluguiza(negocio.nombre)}" hide="content,email,terms,title,name"]'
+        '\t\t<!-- /wp:shortcode -->\n'
+        '\t</su_column>\n'
+        '</su_row>\n'
+    )
+    return res
+def crea_contenedor(contenido):
+    res=(
+        '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
+        '\t<div class="wp-block-group contenedor">'
+        f'\t\t{contenido}'
+        '</div>\n'
+        '<!-- /wp:group -->\n\n'
     )
     return res
 
+def crea_bloque_contacto(negocio):
+    res=(f'{crea_heading("Datos de contacto",2)}'    
+        f'{crea_lista_direccion(negocio.direccion)}'
+        f'{crea_lista_telefono(negocio.telefono)}'
+    )
+    if negocio.web!=None:
+        res+=f'{crea_lista_web(negocio.web)}'
+
+    res+='\t<!-- wp:shortcode -->\n'
+    res+='\t\t[adinserter name="anuncio_manual"]\n'
+    res+='\t<!-- /wp:shortcode -->\n'
+    res+=f'{crea_botones_datos_contacto(negocio.telefono,negocio.web)}'
+    return crea_contenedor(res)
+
+def crea_bloque_horario(negocio):
+    res=f'{crea_heading("Horario",2)}'
+    res+=f'{crea_lista_horario(negocio.obten_horario_lista_html())}'
+    return crea_contenedor(res)
+
+def crea_bloque_mapa(negocio):
+    res=f'{crea_heading("Localización",2)}'
+    res+=f'{crea_mapa(negocio)}'
+    return crea_contenedor(res)
+
+def crea_bloque_imagen(negocio):
+    res=f'{crea_heading("Fotografía",2)}'
+    res+=f'{crea_imagen(negocio)}'
+    return crea_contenedor(res)
+
+def crea_bloque_reviews(negocio):
+    res=f'{crea_heading(f"¿Qué opinan los usuarios de {negocio.nombre}?",2)}'
+    res+=f'{crea_parrafo("Aquí puedes leer las opiniones y valoraciones de otros usuarios que han visitado "+negocio.nombre+". Si has estado aquí, no dudes en dejar tu propia reseña más abajo para ayudar a otros usuarios a conocer mejor este negocio.")}'
+    res+=f'{crea_reviews(negocio)}'
+    return crea_contenedor(res)
+
+def crea_bloque_descripcion_seo(negocio):
+    res=f'{crea_heading("Información",2)}'
+    res+=f'{crea_parrafo(negocio.descripcion_seo)}'
+    return crea_contenedor(res)
+
+def crea_bloque_otros_negocios(negocio):
+    res=crea_heading(f'Todas las creperías en {negocio.ciudad}',2)
+    res+=(
+        '<!-- wp:dpt/display-post-types {"taxonomy":"category","terms":['
+        f'"{sluguiza(negocio.ciudad)}"'
+        '],"number":100,"orderBy":"title","order":"ASC","styles":"dpt-list2","styleSup":["title"],"imgAspect":"land1","textPosHor":"center"}\n'
+        '/-->'
+    
+        )
+    return crea_contenedor(res)
 def crea_provincia(provincia,texto,imagen):
 
     res=('<!-- wp:html -->\n'
@@ -458,24 +538,21 @@ def crea_negocio_temp(negocio):
         f'\t\t<p><a href="{dominio}">Inicio</a> &gt; <a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{dominio}/{sluguiza(negocio.ciudad)}">{negocio.ciudad}</a> &gt; {negocio.nombre}</p>'
         '\t</div>\n'
         '<!-- /wp:html -->\n'
-        f'{crea_heading("Datos de contacto",2)}'    
-        f'{crea_lista_direccion(negocio.direccion)}'
-        f'{crea_lista_telefono(negocio.telefono)}'
-        f'{crea_lista_web(negocio.web)}'
-
-        '\t<!-- wp:shortcode -->\n'
-        '\t\t[adinserter name="anuncio_manual"]\n'
-        '\t<!-- /wp:shortcode -->\n'
-        f'{crea_botones_datos_contacto(negocio.telefono,negocio.web)}'
-        f'{crea_parrafo(negocio.descripcion_seo)}'
-        f'{crea_heading("Horario",2)}'
-        f'{crea_lista_horario(negocio.obten_horario_lista_html())}'
-        f'{crea_heading("Localización",2)}'
-        f'{crea_mapa(negocio)}'
-        f'{crea_heading("Fotografía",2)}'
-        #f'{crea_imagen(negocio)}'
-        #f'({crea_reviews()})'
     )
+    res+=crea_bloque_contacto(negocio)
+    res+=crea_bloque_horario(negocio)       
+    if negocio.mapa!=None:
+        res+=crea_bloque_mapa(negocio)
+    if negocio.imagen!=None:                                    
+        res+=crea_bloque_imagen(negocio)
+    res+=crea_bloque_reviews(negocio)
+    res+=crea_bloque_descripcion_seo(negocio)
+
+    res+=crea_bloque_otros_negocios(negocio)
+   
+    res+=crea_schema_negocio(negocio)
+        
+    
     return res
 
 def nuevo_crea_negocio(negocio):

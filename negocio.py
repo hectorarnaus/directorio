@@ -79,7 +79,10 @@ class Negocio:
         self.ciudad=html.escape(str(ciudad))
         self.provincia=html.escape(str(provincia))
         self.telefono=html.escape(str(telefono))
-        self.web=html.escape(str(pagina_web))
+        if pagina_web!=None:
+            self.web=html.escape(str(pagina_web))
+        else:
+            self.web=None
         self.actividad=html.escape(str(actividad))
         self.actividades_relacionadas=html.escape(str(actividades_relacionadas))
         self.marcas=html.escape(str(marcas))
@@ -90,45 +93,147 @@ class Negocio:
             self.mapa=mapa[inicio:final-1]
         else:
             self.mapa=mapa
-        self.imagen=html.escape(str(imagen))
+        if (imagen!=None):
+            if (imagen=="//estaticos.paginasamarillas.es/paginasamarillas/9_11_2/ficha/images/empty.png"):
+                self.imagen=None
+            else:self.imagen=html.escape(str(imagen))
+        else:
+            self.imagen=None
         self.facebook=html.escape(str(facebook))
         self.instagram=html.escape(str(instagram))
         self.x=x
         self.youtube=html.escape(str(youtube))        
-        #self.horario=(horario[1:])[:-1] if horario.startswith("[") and horario.endswith("]") else html.escape(str(horario))
         self.horario=limpia_comillas(horario)
         self.descripcion_seo=html.escape(str(descripcion_seo))
         
-    '''
-    def __init__(self,municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews):
-
-        self.municipio=html.escape(str(municipio))
-        self.provincia=html.escape(str(provincia))
-        self.nombre=html.escape(str(nombre))
-        self.texto=html.escape(str(texto))
-        self.direccion=html.escape(str(direccion))
-        self.telefono=html.escape(str(telefono))
-        self.web=html.escape(str(web))
-        inicio=mapa.find('src="')+5
-        final=mapa.find('"',inicio+1)+1
-        self.mapa=mapa[inicio:final-1]
-        self.horario=horario
-        self.horario_html=self.obten_horario_html()
-        self.horario_lunes=obten_horario_dia(horario,"lunes")
-        self.horario_martes=obten_horario_dia(horario,"martes")
-        self.horario_miercoles=obten_horario_dia(horario,"miércoles")
-        self.horario_jueves=obten_horario_dia(horario,"jueves")
-        self.horario_viernes=obten_horario_dia(horario,"viernes")
-        self.horario_sabado=obten_horario_dia(horario,"sábado")
-        self.horario_domingo=obten_horario_dia(horario,"donmingo")
-        self.foto=foto
-        self.rating=rating
-        self.reviews=reviews
-        '''
-    
+   
     def __str__(self):
         return f'nombre={self.nombre} ciudad={self.ciudad}'
     
+    def obten_horario_schema(self):
+        dias=['Mo','Tu','We','Th','Fr','Sa','Su']
+        soup = BeautifulSoup(self.horario, "html.parser")
+        soup.prettify()
+        if self.horario=="":
+            return ""
+        datetimes = soup.select('time[datetime]')
+        horario_schema='\t\t"openingHours": [\n'
+                        
+        if len(datetimes) == 5:
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[2].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[4].get_text(strip=True)}",\n'
+                        '\t\t"Sa closed",\n'
+                        '\t\t"Su closed"\n'                        
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 6:   
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[2].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[4].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[5]} {datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[6]} closed"\n'                        
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 7:
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[2].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[4].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[5]} {datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[6]} {datetimes[6].get_text(strip=True)}"\n'                        
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 10:
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+                        f'{datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
+                        f'{datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[4].get_text(strip=True)} '
+                        f'{datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[6].get_text(strip=True)} '
+                        f'{datetimes[7].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[8].get_text(strip=True)} '
+                        f'{datetimes[9].get_text(strip=True)}"\n'
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 11:
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+                        f'{datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
+                        f'{datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[4].get_text(strip=True)} '
+                        f'{datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[6].get_text(strip=True)} '
+                        f'{datetimes[7].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[8].get_text(strip=True)} '
+                        f'{datetimes[9].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[5]} {datetimes[10].get_text(strip=True)}"\n '
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 12:
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+                        f'{datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
+                        f'{datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[4].get_text(strip=True)} '
+                        f'{datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[6].get_text(strip=True)} '
+                        f'{datetimes[7].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[8].get_text(strip=True)} '
+                        f'{datetimes[9].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[5]} {datetimes[10].get_text(strip=True)} '
+                        f'{datetimes[11].get_text(strip=True)}"\n'
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 13:  
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+                        f'{datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
+                        f'{datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[4].get_text(strip=True)} '
+                        f'{datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[6].get_text(strip=True)} '
+                        f'{datetimes[7].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[8].get_text(strip=True)} '
+                        f'{datetimes[9].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[5]} {datetimes[10].get_text(strip=True)} '
+                        f'{datetimes[11].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[6]} {datetimes[12].get_text(strip=True)}"\n'                                     
+                        '\t\t],\n'
+            )
+            return horario_schema
+        elif len(datetimes) == 14:  
+            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+                        f'{datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
+                        f'{datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[4].get_text(strip=True)} '
+                        f'{datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[6].get_text(strip=True)} '
+                        f'{datetimes[7].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[8].get_text(strip=True)} '
+                        f'{datetimes[9].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[5]} {datetimes[10].get_text(strip=True)} '
+                        f'{datetimes[11].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[6]} {datetimes[12].get_text(strip=True)} '
+                        f'{datetimes[13].get_text(strip=True)}"\n'                        
+                        '\t\t],\n'
+            )
+            return horario_schema
+
+        
     def obten_horario_lista_html(self):
         dias=['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo']
         soup = BeautifulSoup(self.horario, "html.parser")
@@ -136,6 +241,7 @@ class Negocio:
         if self.horario=="":
             return ""
         itemprops = soup.select('time[itemprop="openingHours"]')
+        print(f'{self.nombre} Itemprops length: {len(itemprops)}')
         horario_html=""
         if len(itemprops) == 5:
             horario_html=('<ul>\n'
@@ -219,61 +325,4 @@ class Negocio:
                         '</ul>\n')
         return horario_html  
 
-    '''
-    def obten_horario_html(self):
-        if self.horario=="":
-            return ""
-
-        inicio_lunes=self.horario.find("lunes,")
-        final_lunes=self.horario.find(";",inicio_lunes+6)
-        lunes=self.horario[inicio_lunes+6:final_lunes].lower()
-        if final_lunes==-1:
-            final_lunes=len(self.horario)
-
-        inicio_martes=self.horario.find("martes,")
-        final_martes=self.horario.find(";",inicio_martes+7)
-        martes=self.horario[inicio_martes+7:final_martes].lower()
-        if final_martes==-1:
-            final_martes=len(self.horario)
-
-        inicio_miercoles=self.horario.find("miércoles,")
-        final_miercoles=self.horario.find(";",inicio_miercoles+10)
-        miercoles=self.horario[inicio_miercoles+10:final_miercoles].lower()
-        if final_miercoles==-1:
-            final_miercoles=len(self.horario)
-
-        inicio_jueves=self.horario.find("jueves,")
-        final_jueves=self.horario.find(";",inicio_jueves+7)
-        jueves=self.horario[inicio_jueves+7:final_jueves].lower()
-        if final_jueves==-1:
-            final_jueves=len(self.horario)
-
-        inicio_viernes=self.horario.find("viernes,")
-        final_viernes=self.horario.find(";",inicio_viernes+8)
-        viernes=self.horario[inicio_viernes+8:final_viernes].lower()
-        if final_viernes==-1:
-            final_viernes=len(self.horario)
-
-        inicio_sabado=self.horario.find("sábado,")
-        final_sabado=self.horario.find(";",inicio_sabado+7)
-        sabado=self.horario[inicio_sabado+7:final_sabado].lower()
-        if final_sabado==-1:
-            final_sabado=len(self.horario)
-
-        inicio_domingo=self.horario.find("domingo,")
-        final_domingo=self.horario.find(";",inicio_domingo+9)
-        if final_domingo==-1:
-            final_domingo=len(self.horario)
-        domingo=self.horario[inicio_domingo+9:final_domingo].lower()
-
-        horario_html=('<ul>\n'
-                      f'\t<li><strong>Lunes:</strong> {lunes}</li>\n'
-                      f'\t<li><strong>Martes:</strong> {martes}</li>\n'
-                      f'\t<li><strong>Miércoles:</strong> {miercoles}</li>\n'
-                      f'\t<li><strong>Jueves:</strong> {jueves}</li>\n'
-                      f'\t<li><strong>Viernes:</strong> {viernes}</li>\n'
-                      f'\t<li><strong>Sábado:</strong> {sabado}</li>\n'
-                      f'\t<li><strong>Domingo:</strong> {domingo}</li>\n'
-	    			'</ul>\n')
-        return horario_html
-        '''
+    
