@@ -2,7 +2,7 @@
 import re,html
 from bs4 import BeautifulSoup
 
-
+'''
 def obten_horario_dia(horario,dia):
        
     horario_troceado=horario.split(";")
@@ -64,7 +64,7 @@ def obten_horario_semanal(horario):
         i+=1
     res+=f'{horario_dias[i]}\n'  
     return res
-
+'''
 def limpia_comillas(texto):
     if texto!=None:
         if texto.startswith('"') and texto.endswith('"'):
@@ -120,29 +120,32 @@ class Negocio:
         horario_schema='\t\t"openingHours": [\n'
                         
         if len(datetimes) == 5:
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[2]} {datetimes[2].get_text(strip=True)}",\n'
                         f'\t\t"{dias[3]} {datetimes[3].get_text(strip=True)}",\n'
-                        f'\t\t"{dias[4]} {datetimes[4].get_text(strip=True)}",\n'
-                        '\t\t"Sa closed",\n'
-                        '\t\t"Su closed"\n'                        
+                        f'\t\t"{dias[4]} {datetimes[4].get_text(strip=True)}"\n'
+                        #'\t\t"Sa closed",\n'
+                        #'\t\t"Su closed"\n'                        
                         '\t\t],\n'
             )
             return horario_schema
         elif len(datetimes) == 6:   
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[2]} {datetimes[2].get_text(strip=True)}",\n'
                         f'\t\t"{dias[3]} {datetimes[3].get_text(strip=True)}",\n'
                         f'\t\t"{dias[4]} {datetimes[4].get_text(strip=True)}",\n'
-                        f'\t\t"{dias[5]} {datetimes[5].get_text(strip=True)}",\n'
-                        f'\t\t"{dias[6]} closed"\n'                        
+                        f'\t\t"{dias[5]} {datetimes[5].get_text(strip=True)}"\n'
+                        #f'\t\t"{dias[6]} closed"\n'                        
                         '\t\t],\n'
             )
             return horario_schema
         elif len(datetimes) == 7:
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[2]} {datetimes[2].get_text(strip=True)}",\n'
                         f'\t\t"{dias[3]} {datetimes[3].get_text(strip=True)}",\n'
@@ -152,8 +155,25 @@ class Negocio:
                         '\t\t],\n'
             )
             return horario_schema
+        
+        elif len(datetimes) == 9:
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+                        f'{datetimes[1].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
+                        f'{datetimes[3].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[2]} {datetimes[4].get_text(strip=True)} '
+                        f'{datetimes[5].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[3]} {datetimes[6].get_text(strip=True)} '
+                        f'{datetimes[7].get_text(strip=True)}",\n'
+                        f'\t\t"{dias[4]} {datetimes[8].get_text(strip=True)}"\n'
+                        '\t\t],\n'
+            )
+            return horario_schema
+        
         elif len(datetimes) == 10:
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
                         f'{datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
                         f'{datetimes[3].get_text(strip=True)}",\n'
@@ -166,8 +186,10 @@ class Negocio:
                         '\t\t],\n'
             )
             return horario_schema
+        
         elif len(datetimes) == 11:
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
                         f'{datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
                         f'{datetimes[3].get_text(strip=True)}",\n'
@@ -182,7 +204,8 @@ class Negocio:
             )
             return horario_schema
         elif len(datetimes) == 12:
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
                         f'{datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
                         f'{datetimes[3].get_text(strip=True)}",\n'
@@ -198,7 +221,8 @@ class Negocio:
             )
             return horario_schema
         elif len(datetimes) == 13:  
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
                         f'{datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
                         f'{datetimes[3].get_text(strip=True)}",\n'
@@ -215,7 +239,8 @@ class Negocio:
             )
             return horario_schema
         elif len(datetimes) == 14:  
-            horario_schema+=(f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
+            horario_schema+=(
+                        f'\t\t"{dias[0]} {datetimes[0].get_text(strip=True)} '
                         f'{datetimes[1].get_text(strip=True)}",\n'
                         f'\t\t"{dias[1]} {datetimes[2].get_text(strip=True)} '
                         f'{datetimes[3].get_text(strip=True)}",\n'
