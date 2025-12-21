@@ -121,22 +121,31 @@ def obten_lista_negocios_municipio(fichero_excel,municipio):
         hoja_activa = datos.active
         fila=1
         while fila<hoja_activa.max_row:
-            if hoja_activa.cell(row=fila,column=7).value==municipio:
-                provincia=hoja_activa.cell(row=fila,column=8).value
-                nombre=hoja_activa.cell(row=fila,column=1).value
-                texto=hoja_activa.cell(row=fila,column=13).value
-                direccion=hoja_activa.cell(row=fila,column=6).value
-                telefono=hoja_activa.cell(row=fila,column=10).value
-                web=hoja_activa.cell(row=fila,column=9).value
-                mapa=hoja_activa.cell(row=fila,column=11).value
-                horario=hoja_activa.cell(row=fila,column=5).value
-                rating=hoja_activa.cell(row=fila,column=3).value
-                reviews=hoja_activa.cell(row=fila,column=4).value
-                if horario==None:
-                    horario=""
-                foto=hoja_activa.cell(row=fila,column=12).value
-                nuevo=Negocio(municipio,provincia,nombre,texto,direccion,telefono,web,mapa,horario,foto,rating,reviews)
+            print("Revisando fila:",fila)
+            print("Valor de la columna municipio:",hoja_activa.cell(row=fila,column=4).value)
+            if hoja_activa.cell(row=fila,column=4).value==municipio:
+                nombre=hoja_activa.cell(row=fila,column=1).value if hoja_activa.cell(row=fila,column=1).value!=None else None
+                direccion=hoja_activa.cell(row=fila,column=2).value if hoja_activa.cell(row=fila,column=2).value!=None else None
+                CP=hoja_activa.cell(row=fila,column=3).value if hoja_activa.cell(row=fila,column=3).value!=None else None
+                provincia=hoja_activa.cell(row=fila,column=5).value if hoja_activa.cell(row=fila,column=5).value!=None else None
+                telefono=hoja_activa.cell(row=fila,column=6).value if hoja_activa.cell(row=fila,column=6).value!=None else None
+                pagina_web=limpiar_web(hoja_activa.cell(row=fila,column=7).value if hoja_activa.cell(row=fila,column=7).value!=None else None)
+                actividad=hoja_activa.cell(row=fila,column=8).value if hoja_activa.cell(row=fila,column=8).value!=None else None
+                actividades_relacionadas=hoja_activa.cell(row=fila,column=9).value if hoja_activa.cell(row=fila,column=9).value!=None else None
+                marcas=hoja_activa.cell(row=fila,column=10).value if hoja_activa.cell(row=fila,column=10).value!=None else None
+                descripcion=hoja_activa.cell(row=fila,column=11).value if hoja_activa.cell(row=fila,column=11).value!=None else None
+                mapa=hoja_activa.cell(row=fila,column=12).value if hoja_activa.cell(row=fila,column=12).value!=None else None
+                imagen=hoja_activa.cell(row=fila,column=13).value if hoja_activa.cell(row=fila,column=13).value!=None else None
+                facebook=hoja_activa.cell(row=fila,column=14).value if hoja_activa.cell(row=fila,column=14).value!=None else None
+                instagram=hoja_activa.cell(row=fila,column=15).value if hoja_activa.cell(row=fila,column=15).value!=None else None
+                x=hoja_activa.cell(row=fila,column=16).value if hoja_activa.cell(row=fila,column=16).value!=None else None
+                youtube=hoja_activa.cell(row=fila,column=17).value if hoja_activa.cell(row=fila,column=17).value!=None else None
+                horario=hoja_activa.cell(row=fila,column=18).value if hoja_activa.cell(row=fila,column=18).value!=None else None
+                descripcion_seo=hoja_activa.cell(row=fila,column=19).value  if hoja_activa.cell(row=fila,column=19).value!=None else None
+
+                nuevo=Negocio(nombre,direccion,CP,municipio,provincia,telefono,pagina_web,actividad,actividades_relacionadas,marcas,descripcion,mapa,imagen,facebook,instagram,x,youtube,horario,descripcion_seo)
                 lista_negocios.append(nuevo)
+
             fila+=1
                   
         return lista_negocios

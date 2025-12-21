@@ -58,7 +58,7 @@ def imprime_lista_negocios(lista_negocios):
         telefono = html.escape(str(negocio.telefono))
         web = html.escape(str(negocio.web)) if negocio.web else None
         mapa = html.escape(str(negocio.mapa))
-        horario_html = negocio.obten_horario_html()  # devuelve HTML, no escapamos
+        #horario_html = negocio.obten_horario_html()  # devuelve HTML, no escapamos
 
         bloque = f"""
             <!-- wp:html -->
@@ -68,29 +68,18 @@ def imprime_lista_negocios(lista_negocios):
             
                 [su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
                     <ul>
-                    <li>Horario</li>
-                    </ul>
-                [/su_list]
-            
-                [su_list icon="icon: check" icon_color="{color_contrast}" indent="70" class="lista-bloque"]
-                    {horario_html}
-                [/su_list]
-            
-                [su_list icon="icon: envelope" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
-                    <ul>
-                    <li>Dirección: {direccion}</li>
-                    </ul>
-                [/su_list]
-            """
-            
+                        <li>Horario\n
+                
+                """
+                
+        bloque+=negocio.obten_horario_lista_html()
+        bloque += "[/su_list]\n"
+        bloque += f'[su_list icon="icon: envelope" icon_color="{color_contrast}" indent="40" class="lista-bloque"]'
+        bloque+=f"<ul>\n<li>Dirección: {direccion}</li>\n</ul>\n[/su_list]"
         if web:
-            bloque += f"""
-                [su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
-                    <ul>
-                    <li>Web: <a href="{web}">{web}</a></li>
-                    </ul>
-                [/su_list]
-            """
+            bloque +=f'[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="40" class="lista-bloque"]'
+            bloque+=f'<ul>\n<li>Web: <a href="{web}">{web}</a></li>\n</ul>\n[/su_list]\n'
+                    
             
         bloque += f"""
                 [su_list icon="icon: phone" icon_color="{color_contrast}" indent="40" class="lista-bloque"]
@@ -237,7 +226,16 @@ def crea_schema_negocio(negocio):
         '<script type="application/ld+json">\n'
         '\t{\n'
         '\t"@context": "https://schema.org",\n'
-        '\t"@type": "HomeAndConstructionBusiness",\n'
+        )
+    res+=obten_datos_chema_negocio(negocio)
+    res+='\t}\n'
+    res+='</script>\n'
+    
+    return res
+
+def obten_datos_chema_negocio(negocio):
+    res=(
+        f'\t"@type": "{tipo_negocio_schema}",\n'
         f'\t"name": "{negocio.nombre}",\n'
         f'\t"image": "{negocio.imagen}",\n'
         '\t"address": {\n'
@@ -247,19 +245,16 @@ def crea_schema_negocio(negocio):
         f'\t\t"addressRegion": "{negocio.provincia}",\n'
         '\t\t"addressCountry": "ES"\n'
         '\t\t},\n'
-        f'\t\t"telephone": "{negocio.telefono}",\n'
-        #'\t\t"openingHours": [\n'
-        f'{negocio.obten_horario_schema()}'
-        #'\t\t],\n'
-        f'\t"url": "{negocio.web}"\n'
-        '\t}\n'
-        '}\n'
-        '</script>\n'
-    )
+        f'\t"telephone": "{negocio.telefono}",\n'
+        )
+    res+=f'{negocio.obten_horario_schema()}'
+    res+=f'\t"url": "{negocio.web}"\n'
     return res
 
 def crear_schema_municipio(municipio):
     negocios=obten_lista_negocios_municipio(excel_datos,municipio)
+    print(f"Lista de negocios de {municipio}")
+    print(negocios)
     res=(
         '{\n'
         '\t"@context": "https://schema.org",\n'
@@ -270,39 +265,21 @@ def crear_schema_municipio(municipio):
         )
     i=0
     while i<len(negocios):
-      schema_negocio=(
-          '{\t\t\n'
-          '\t\t"@type": "ListItem",\n'
-          f'\t\t"position": {i},\n'
-          '\t\t"item": {\n'
-          '\t\t\t"@type": "Restaurant",\n'
-          f'\t\t\t"name": "{negocios[i].nombre}",\n'
-          f'\t\t\t"image": "{negocios[i].foto}",\n'
-          '\t\t\t"servesCuisine": "Creperie",\n'
-          '\t\t\t"address": {\n'
-          '\t\t\t\t"@type": "PostalAddress",\n'
-          f'\t\t\t\t"streetAddress": "{negocios[i].direccion}",\n'
-          f'\t\t\t\t"addressLocality": "{negocios[i].municipio}",\n'
-          f'\t\t\t\t"addressRegion": "{negocios[i].provincia}",\n'
-          '\t\t\t\t"addressCountry": "ES"\n'
-          '\t\t\t},\n'
-          f'\t\t\t"telephone": "{negocios[i].telefono}",\n'
-          '\t\t\t"openingHours": [\n'
-          f'{obten_horario_semanal(negocios[i].horario)}'
-          '\t\t\t],\n'
-          f'\t\t\t"url": "{negocios[i].web}",\n'
-          '\t\t\t"aggregateRating": {\n'
-          '\t\t\t\t"@type": "AggregateRating",\n'
-          f'\t\t\t\t"ratingValue": "{negocios[i].rating}",\n'
-          f'\t\t\t\t"reviewCount": "{negocios[i].reviews}"\n'
-          '\t\t\t}\n'
-          '\t\t}\n'
-          '\t}\n'
-      )
-      if i<len(negocios)-1:
-        schema_negocio+=","
-      i+=1  
-    res+=schema_negocio
+        schema_negocio=(
+            '{\t\t\n'
+            '\t\t"@type": "ListItem",\n'
+            f'\t\t"position": {i},\n'
+            '\t\t"item": {\n'
+        )
+        schema_negocio+=obten_datos_chema_negocio(negocios[i])
+        schema_negocio+='\t\t\t}\n'
+        schema_negocio+='\t\t}\n'
+        schema_negocio+='\t}\n'
+
+        if i<len(negocios)-1:
+          schema_negocio+=","
+        i+=1  
+        res+=schema_negocio
     res+=']\n}\n'
 
         

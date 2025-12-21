@@ -110,6 +110,18 @@ class Negocio:
     def __str__(self):
         return f'nombre={self.nombre} ciudad={self.ciudad}'
     
+    def obten_horario_lista(self):
+        soup = BeautifulSoup(self.horario, "html.parser")
+        soup.prettify()
+        if self.horario=="":
+            return ""
+        dias=soup.select('p')
+        res="\t\t<ul>\n"
+        for dia in dias:
+            res+=f'\t\t\t<li>{dia.get_text(strip=True)}</li>\n'
+        res+="\t\t</ul>\n"
+        return res
+
     def obten_horario_schema(self):
         dias=['Mo','Tu','We','Th','Fr','Sa','Su']
         soup = BeautifulSoup(self.horario, "html.parser")
@@ -117,7 +129,7 @@ class Negocio:
         if self.horario=="":
             return ""
         datetimes = soup.select('time[datetime]')
-        horario_schema='\t\t"openingHours": [\n'
+        horario_schema='\t"openingHours": [\n'
                         
         if len(datetimes) == 5:
             horario_schema+=(
