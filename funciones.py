@@ -1,8 +1,11 @@
-import random, re, html
+import html
 from extraer_datos_excel import *
-from constantes_configuracion import *
+from ficheros_datos.constantes_configuracion import *
 from random import randint
 from negocio import *
+from funciones_generar_texto import *
+from ficheros_datos.keywords import *
+from crea_elementos_web import *
 
 def sluguiza(texto):
     texto=texto.strip()
@@ -37,15 +40,6 @@ def sluguiza(texto):
         texto=texto.replace("--","-")
     
     return texto
-
-def spinner(s):
-     
-    while True:
-        s, n = re.subn('{([^{}]*)}',
-                    lambda m: random.choice(m.group(1).split("|")),
-                    s)
-        if n == 0: break
-    return s.strip()
 
 
 
@@ -126,69 +120,6 @@ def imprime_lista_negocios(lista_negocios):
     return res
 
 
-'''
-def imprime_lista_negocios_old(lista_negocios):
-    res=""
-    for negocio in lista_negocios:
-        bloque=('<!-- wp:html -->\t'
-                f'\t[su_box title="{negocio.nombre}" box_color="{color_contrast}" title_color="{color_base}" radius="6"]\n'
-                '\t[su_row]\n'
-		            '\t[su_column size="1/2" center="no" class=""]\n'
-			          f'\t[su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n'
-				        '\t<ul>\n'
-					      '\t<li>Horario</li>\n'
-				        '\t</ul>\n'
-			          '\t[/su_list]\n'
-			          f'\t[su_list icon="icon: check" icon_color="{color_contrast}" indent="70" class="lista-bloque"]\n'
-                f'\t\t{negocio.obten_horario_html()}\n'
-			          '\t[/su_list]\n'
-                f'\t[su_list icon="icon: envelope" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n'
-	              '\t\t<ul>\n'
-		            f'\t\t\t<li>Dirección: {negocio.direccion}</li>\n'
-  	            '\t\t</ul>\n'
-                '\t[/su_list]\n'
-                
-        )
-        if negocio.web!=None:
-                bloque+=f'\t[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n\t\t<ul>\n'
-                bloque+=f'\t\t\t<li>Web:<a href="{negocio.web}">{negocio.web}</a></li>\t\t\n</ul>\n\t[/su_list]\n'
-                
-
-        bloque+=(
-                
-                f'\t[su_list icon="icon: phone" icon_color="{color_contrast}" indent="40" class="lista-bloque"]\n'
-	              '\t\t<ul>\n'
-		            f'\t\t\t<li>Teléfono: <a href="tel:{negocio.telefono}">{negocio.telefono}</a></li>'
-	              '\t\t</ul>\n'
-                '\t[/su_list]\n'
-		            '[/su_column]\n'
-		            '[su_column size="1/2" center="no" class=""]\n'
-                f'\t<iframe src="{negocio.mapa}" width="600" height="450" style="border:1px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
-		            '[/su_column]\n'
-	              '[/su_row]\n'
-	              '[su_row]\n'
-		            '\t[su_column size="1/1" center="yes" class=""]\n'
-
-                    '\t<!-- wp:buttons -->\n'
-                    '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast-2","textColor":"contrast-3","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-                    f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="tel:{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
-                    '\t\t<!-- /wp:button -->\n'
-                    '\t<!-- /wp:buttons -->\n'
-
-                
-		            '[/su_column]\n'
-	              '[/su_row]\n'
-                '[/su_box]\n'
-                '<br>\n'
-                '<!-- /wp:html -->\n'
-            )
-        res+=bloque
-    return res
-
-'''
-    
-	
-
 def obten_nombre_provincia(imagen):
    return imagen.split(".")[0]
 
@@ -199,19 +130,7 @@ def obten_nombre_provincia_municipio(imagen):
     aux=imagen.split("_")[1]
     return aux.split(".")[0]
 
-def obten_texto_provincia(provincia):
-    with open('provincia.txt', 'r') as file :
-        texto_base = file.read()
-        texto=spinner(texto_base)
-        texto=texto.replace("*Provincia*",provincia)
-        return texto
-    
-def obten_texto_municipio(municipio):
-    with open('municipio.txt', 'r') as file :
-        texto_base = file.read()
-        texto=spinner(texto_base)
-        texto=texto.replace("*Municipio*",municipio)
-        return texto
+
 
 def obten_id_categoria_provincia(provincia,lista_categorias):
     for categoria in lista_categorias:
@@ -285,200 +204,46 @@ def crear_schema_municipio(municipio):
         
     return res
 
-def crea_lista_direccion(direccion):
-    res=('<!-- wp:shortcode -->\n'
-        f'\t[su_list icon="icon: map-marker" icon_color="{color_contrast}"  indent="20" class="lista"]\n'
-        '\t\t<ul>\n'
-        f'\t\t\t<li><strong>Dirección postal:</strong> {direccion}</li>\n'
-        '\t\t</ul>'
-        f'\t[/su_list]'
-        '<!-- /wp:shortcode -->\n'
-    )
-    return res
-def crea_lista_telefono(telefono):
-    res=('<!-- wp:shortcode -->\n'
-         f'\t[su_list icon="icon: phone" icon_color="{color_contrast}" indent="20" class="lista"]\n'
-         '\t\t<ul>\n'
-        f'\t\t\t<li><strong>Teléfono:</strong> <a href="tel:{telefono}">{telefono}</a></li>\n'
-        '\t\t</ul>\n'
-        '\t[/su_list]\n'
-        '<!-- /wp:shortcode -->\n'
-    )
-    return res
-    
-def crea_lista_web(web):
-    if web!=None:
-        res=('<!-- wp:shortcode -->\n'
-            f'\t[su_list icon="icon: dribbble" icon_color="{color_contrast}" indent="20" class="lista"]\n'
-            '\t\t<ul>\n'
-            f'\t\t\t<li><strong>Sitio web:</strong> <a href="{web}">{web}</a></li>\n'
-            '\t\t</ul>\n'
-            '\t[/su_list]\n'
-            '<!-- /wp:shortcode -->\n'
-        )
-        return res
 
-def crea_botones_datos_contacto(telefono,web):
-    if web!=None:
-        res=(
-            '<!-- wp:shortcode -->\n'
-            f'\t[su_button url="tel:{telefono}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]¡Llama ahora![/su_button]\n'
-            '<!-- /wp:shortcode -->\n'
-
-            '<!-- wp:shortcode -->\n'
-            f'\t[su_button url="{web}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]Visitar web[/su_button]\n'
-            '<!-- /wp:shortcode -->\n'
-        )
-        
-    else:
-        res=(
-            '<!-- wp:shortcode -->\n'
-            f'\t[su_button url="tel:{telefono}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]¡Llama ahora![/su_button]\n'
-            '<!-- /wp:shortcode -->\n'
-
-            '<!-- wp:shortcode -->\n'
-            f'\t[su_button url="{dominio}" color="{color_contrast}" background="{color_accent}" wide="yes" size="5" center="yes"]Visitar web[/su_button]\n'
-            '<!-- /wp:shortcode -->\n'
-        )
-    return res
-
-def crea_parrafo(texto):
-    res=('\t<!-- wp:paragraph -->\n'
-        f'\t\t<p>{texto}</p>\n'
-        '\t<!-- /wp:paragraph -->\n'
-    )
-    return res
-def crea_heading(texto,numero):
-    res=('<!-- wp:heading {"textAlign":"center"} -->\n'
-        f'\t<h{numero} class="wp-block-heading has-text-align-center">{texto}</h{numero}>\n'
-        '<!-- /wp:heading -->\n'
-    )
-    return res
-def crea_lista_horario(horario):
-    res=('<!-- wp:shortcode -->\n'
-        f'\t[su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="20" class="lista"]\n{horario}\n'
-            '\t[/su_list]\n'
-        '<!-- /wp:shortcode -->\n'
-    )
-    return res
-
-def crea_mapa(negocio):
-    res=('<!-- wp:html -->\n'
-        f'\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:2px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
-        '<!-- /wp:html -->\n'
-    )
-    return res
-
-def crea_imagen(negocio):
-    res=('<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
-        f'\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.imagen}" alt="{negocio.nombre}"></figure>\n'
-        '<!-- /wp:image -->\n'
-    )
-    return res
-
-
-
-
-def crea_reviews(negocio):
-    res=('[su_row]'
-         '\t[su_column size="1/1" center="no" class=""]\n'
-        '\t\t<!-- wp:shortcode -->\n'
-        f'\t\t\t[site_reviews_summary rate="4" assigned_terms="{sluguiza(negocio.nombre)}" hide="average,stars,percentage,bar"]'
-        '\t\t<!-- /wp:shortcode -->\n'        
-        '\t</su_column>\n'
-        '\t[su_column size="1/1" center="no" class=""]\n'
-        '\t\t<!-- wp:shortcode -->\n'
-        f'\t\t\t[site_reviews_form assigned_terms="{sluguiza(negocio.nombre)}" hide="content,email,terms,title,name"]'
-        '\t\t<!-- /wp:shortcode -->\n'
-        '\t</su_column>\n'
-        '</su_row>\n'
-    )
-    return res
-def crea_contenedor(contenido):
-    res=(
-        '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group contenedor">'
-        f'\t\t{contenido}'
-        '</div>\n'
-        '<!-- /wp:group -->\n\n'
-    )
-    return res
-
-def crea_bloque_contacto(negocio):
-    res=(f'{crea_heading("Datos de contacto",2)}'    
-        f'{crea_lista_direccion(negocio.direccion)}'
-        f'{crea_lista_telefono(negocio.telefono)}'
-    )
-    if negocio.web!=None:
-        res+=f'{crea_lista_web(negocio.web)}'
-
-    res+='\t<!-- wp:shortcode -->\n'
-    res+='\t\t[adinserter name="anuncio_manual"]\n'
-    res+='\t<!-- /wp:shortcode -->\n'
-    res+=f'{crea_botones_datos_contacto(negocio.telefono,negocio.web)}'
-    return crea_contenedor(res)
-
-def crea_bloque_horario(negocio):
-    res=f'{crea_heading("Horario",2)}'
-    res+=f'{crea_lista_horario(negocio.obten_horario_lista_html())}'
-    return crea_contenedor(res)
-
-def crea_bloque_mapa(negocio):
-    res=f'{crea_heading("Localización",2)}'
-    res+=f'{crea_mapa(negocio)}'
-    return crea_contenedor(res)
-
-def crea_bloque_imagen(negocio):
-    res=f'{crea_heading("Fotografía",2)}'
-    res+=f'{crea_imagen(negocio)}'
-    return crea_contenedor(res)
-
-def crea_bloque_reviews(negocio):
-    res=f'{crea_heading(f"¿Qué opinan los usuarios de {negocio.nombre}?",2)}'
-    res+=f'{crea_parrafo("Aquí puedes leer las opiniones y valoraciones de otros usuarios que han visitado "+negocio.nombre+". Si has estado aquí, no dudes en dejar tu propia reseña más abajo para ayudar a otros usuarios a conocer mejor este negocio.")}'
-    res+=f'{crea_reviews(negocio)}'
-    return crea_contenedor(res)
-
-def crea_bloque_descripcion_seo(negocio):
-    res=f'{crea_heading("Información",2)}'
-    res+=f'{crea_parrafo(negocio.descripcion_seo)}'
-    return crea_contenedor(res)
-
-def crea_bloque_otros_negocios(negocio):
-    res=crea_heading(f'Todas las creperías en {negocio.ciudad}',2)
-    res+=(
-        '<!-- wp:dpt/display-post-types {"taxonomy":"category","terms":['
-        f'"{sluguiza(negocio.ciudad)}"'
-        '],"number":100,"orderBy":"title","order":"ASC","styles":"dpt-list2","styleSup":["title"],"imgAspect":"land1","textPosHor":"center"}\n'
-        '/-->'
-    
-        )
-    return crea_contenedor(res)
-def crea_provincia(provincia,texto,imagen):
+def crea_provincia(provincia,imagen):
 
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
         f'\t\t<p><a href="{dominio}">Inicio</a> &gt; {provincia}</p>\n'
         '\t</div>\n'
         '<!-- /wp:html -->\n'
+        f'{crea_heading(f"{tipo_negocio} en la provincia de {provincia}",1)}'
+
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
         '<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Contenido…"} -->\n'
-        f'\t\t<p>{texto}</p>\n'
+        f'\t\t<p>{obten_texto_H1(provincia)}</p>\n'
         f'\t\t<!-- /wp:paragraph -->\n'
         '\t</div>\n'
+        
         f'<figure class="wp-block-media-text__media"><img src="{imagen.get_url()}" alt="" class="wp-image-178 size-full"/></figure></div>\n'
         '<!-- /wp:media-text -->\n'
+        f'{crea_heading(f"Encuentra las mejores {tipo_negocio.lower()} en {provincia}",2)}'
+        f'{crea_parrafo(obten_texto_H2_general("H2_transaccional.txt",keywords_transaccionales,provincia))}'
+        f'{crea_heading(f"Guía para {tipo_negocio.lower()} en {provincia}",2)}'
+        f'{crea_parrafo(obten_texto_H2_general('H2_informacional.txt',keywords_informacionales,provincia))}'
+        f'{crea_heading(f"Tipos de maquinaria disponible en {provincia}",2)}'
+        f'{crea_parrafo(obten_texto_H2_general('H2_tipo_maquinaria.txt',keywords_tipo_maquinaria,provincia))}'
+        f'{crea_heading(f"Maquinaria especializada según tu tipo de proyecto en {provincia}",2)}'
+        f'{crea_parrafo(obten_texto_H2_general('H2_proyecto_sector.txt',keywords_proyecto_sector,provincia))}'
+        f'{crea_heading(f"Alquiler flexible de maquinaria y servicios urgentes en {provincia}",2)}'
+        f'{crea_parrafo(obten_texto_H2_general('H2_urgencia_flexibilidad.txt',keywords_urgencia_flexibilidad,provincia))}'
+
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
         '\t<div class="wp-block-group">\n'
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
-        f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las creperias de {provincia} ordenadas por nombre de municipio</h2>\n'
+        f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las {tipo_negocio} de {provincia} ordenadas por nombre de municipio</h2>\n'
         '\t\t<!-- /wp:heading -->\n'
         f'\t\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["Provincia de {provincia}"],"number":100,"styleSup":["title"],"showPgnation":true}} /-->\n'
         '\t</div>\n'
         '\t<!-- /wp:group -->\n')
     return res
 
-def crea_ciudad(ciudad,provincia,texto,imagen):
+def crea_ciudad(ciudad,provincia,imagen):
     res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
         f'\t\t<p><a href="{dominio}">Inicio</a> &gt; <a href="{dominio}/{sluguiza("Provincia de "+provincia)}">{provincia}</a> &gt; {ciudad}</p>'
@@ -486,9 +251,11 @@ def crea_ciudad(ciudad,provincia,texto,imagen):
         '<!-- /wp:html -->'
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
         '<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Contenido…"} -->\n'
-        f'\t\t<p>{texto}</p>\n'
+        f'\t\t<p>{obten_texto_H1(ciudad)}</p>\n'
         f'<!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"><img src="{imagen.get_url()}" alt="" class="wp-image-{imagen.get_id()} size-full"/></figure></div>\n'
         '<!-- /wp:media-text -->\n'
+        f'{crea_texto_ciudad(ciudad)}'
+        f'{crea_texto_ciudad(ciudad)}'
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
         '\t<div class="wp-block-group">\n'
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'

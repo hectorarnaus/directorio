@@ -1,11 +1,11 @@
 from funciones import *
 from extraer_datos_excel import *
 from negocio import *
-from funciones import *
+from funciones_generar_texto import *
 from extraer_datos_excel import *
 from negocio import *
 from autowordpress import *
-from constantes_configuracion import *
+from ficheros_datos.constantes_configuracion import *
 import os
 
 
@@ -43,7 +43,7 @@ for img in os.listdir(ruta):
         wp_img.upload(wc)
         wp_article=WpPost(f"{tipo_negocio} en la provincia de {provincia}")
         print(f"sluguiza provincia de {provincia}={sluguiza("provincia de "+provincia)}")
-        wp_article.add_element(crea_provincia(provincia,obten_texto_provincia(provincia),wp_img))
+        wp_article.add_element(crea_provincia(provincia,wp_img))
         wp_article.set_slug(sluguiza("provincia de "+provincia))
         wp_article.add_category("provincia")
         wc.publica_post(wp_article)
@@ -58,7 +58,7 @@ for img in os.listdir(ruta):
         wp_img=Image(ruta+"/"+img,f"{tipo_negocio} en el municipio de {municipio}")
         wp_img.upload(wc)
         wp_article=WpPost(f"{tipo_negocio} en el municipio de {municipio}","Provincia de "+provincia)
-        wp_article.add_element(crea_ciudad(municipio,provincia,obten_texto_municipio(municipio),wp_img))
+        wp_article.add_element(crea_ciudad(municipio,provincia,wp_img))
         wp_article.set_slug(sluguiza(municipio))
         wc.publica_post(wp_article)
 

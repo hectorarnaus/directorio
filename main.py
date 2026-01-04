@@ -4,7 +4,7 @@ from funciones import *
 from extraer_datos_excel import *
 from negocio import *
 from autowordpress import *
-from constantes_configuracion import *
+from ficheros_datos.constantes_configuracion import *
 
 
 
@@ -31,7 +31,7 @@ for img in os.listdir(ruta):
         wp_img.upload(wc)
         wp_article=WpPost(f"{tipo_negocio} en la provincia de {provincia}")
         print(f"sluguiza provincia de {provincia}={sluguiza("provincia de "+provincia)}")
-        wp_article.add_element(crea_provincia(provincia,obten_texto_provincia(provincia),wp_img))
+        wp_article.add_element(crea_provincia(provincia,wp_img))
         wp_article.set_slug(sluguiza("provincia de "+provincia))
         wp_article.add_category("provincia")
         wc.publica_post(wp_article)
