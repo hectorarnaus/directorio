@@ -1,3 +1,39 @@
+from ficheros_datos.constantes_configuracion import *
+
+def sluguiza(texto):
+    texto=texto.strip()
+    texto=texto.lower()
+    texto=texto.replace("ñ","n")
+    texto=texto.replace("á","a")
+    texto=texto.replace("ä","a")
+    texto=texto.replace("à","a")
+    texto=texto.replace("â","a")
+    texto=texto.replace("é","e")
+    texto=texto.replace("ê","e")
+    texto=texto.replace("ë","e")
+    texto=texto.replace("è","e")
+    texto=texto.replace("í","i")
+    texto=texto.replace("ï","i")
+    texto=texto.replace("ì","i")
+    texto=texto.replace("ó","o")
+    texto=texto.replace("ö","o")
+    texto=texto.replace("ò","o")
+    texto=texto.replace("ú","u")
+    texto=texto.replace("ü","u")
+    texto=texto.replace("ù","u")
+    texto=texto.replace(" ","-")
+    texto=texto.replace("&quot;","'")
+    texto=texto.replace("&amp;","&")
+    texto=texto.replace("&apos;","'")
+    texto=texto.replace("|","")
+    texto=texto.replace(".","")
+    texto=texto.replace(",","")
+    texto=texto.replace("*","")
+    while texto.find("--")!=-1:
+        texto=texto.replace("--","-")
+    
+    return texto
+
 def crea_lista_direccion(direccion):
     res=('<!-- wp:shortcode -->\n'
         f'\t[su_list icon="icon: map-marker" icon_color="{color_contrast}"  indent="20" class="lista"]\n'

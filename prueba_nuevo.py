@@ -65,7 +65,7 @@ for img in os.listdir(ruta):
 for negocio in negocios:
     wp_article=WpPost(negocio.nombre,sluguiza(negocio.ciudad))
     wp_article.add_tag(negocio.ciudad)
-    wp_article.add_element(crea_negocio_temp(negocio))
+    wp_article.add_element(crea_negocio(negocio))
     print(sluguiza(negocio.provincia)+"/"+sluguiza(negocio.ciudad)+"/"+sluguiza(negocio.nombre))
     wp_article.set_slug(sluguiza(negocio.nombre))
     wc.publica_post(wp_article)
