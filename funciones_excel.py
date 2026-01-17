@@ -122,8 +122,6 @@ def obten_lista_negocios_municipio(fichero_excel,municipio):
         hoja_activa = datos.active
         fila=1
         while fila<hoja_activa.max_row:
-            print("Revisando fila:",fila)
-            print("Valor de la columna municipio:",hoja_activa.cell(row=fila,column=4).value)
             if hoja_activa.cell(row=fila,column=4).value==municipio:
                 nombre=hoja_activa.cell(row=fila,column=1).value if hoja_activa.cell(row=fila,column=1).value!=None else None
                 direccion=hoja_activa.cell(row=fila,column=2).value if hoja_activa.cell(row=fila,column=2).value!=None else None

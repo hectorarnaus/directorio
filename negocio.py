@@ -1,5 +1,4 @@
-
-import re,html
+import html
 from bs4 import BeautifulSoup
 
 def limpia_comillas(texto):
@@ -216,7 +215,6 @@ class Negocio:
         if self.horario=="":
             return ""
         itemprops = soup.select('time[itemprop="openingHours"]')
-        print(f'{self.nombre} Itemprops length: {len(itemprops)}')
         horario_html=""
         if len(itemprops) == 5:
             horario_html=('<ul>\n'
@@ -300,4 +298,20 @@ class Negocio:
                         '</ul>\n')
         return horario_html  
 
-    
+    def obten_datos_schema(self,tipo_negocio_schema):
+        res=(
+            f'\t"@type": "{tipo_negocio_schema}",\n'
+            f'\t"name": "{self.nombre}",\n'
+            f'\t"image": "{self.imagen}",\n'
+            '\t"address": {\n'
+            '\t\t"@type": "PostalAddress",\n'
+            f'\t\t"streetAddress": "{self.direccion}",\n'
+            f'\t\t"addressLocality": "{self.ciudad}",\n'
+            f'\t\t"addressRegion": "{self.provincia}",\n'
+            '\t\t"addressCountry": "ES"\n'
+            '\t\t},\n'
+            f'\t"telephone": "{self.telefono}",\n'
+            )
+        res+=f'{self.obten_horario_schema()}'
+        res+=f'\t"url": "{self.web}"\n'
+        return res
