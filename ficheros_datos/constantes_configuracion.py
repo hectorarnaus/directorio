@@ -1,5 +1,5 @@
 tipo_negocio="Empresas de alquiler de maquinaria"
-dominio="https://psicosensometrico-ecuador.com/"
+dominio="https://psicosensometrico-ecuador.com"
 color_base="#1F2937"
 color_base2="#374151"
 color_base3="#F3F4F6"

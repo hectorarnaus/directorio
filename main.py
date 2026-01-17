@@ -1,7 +1,7 @@
 import os
 import openpyxl 
 from funciones import *
-from extraer_datos_excel import *
+from funciones_excel import *
 from negocio import *
 from autowordpress import *
 from ficheros_datos.constantes_configuracion import *

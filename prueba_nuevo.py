@@ -1,8 +1,8 @@
 from funciones import *
-from extraer_datos_excel import *
+from funciones_excel import *
 from negocio import *
 from funciones_generar_texto import *
-from extraer_datos_excel import *
+from funciones_excel import *
 from negocio import *
 from autowordpress import *
 from ficheros_datos.constantes_configuracion import *
@@ -17,18 +17,12 @@ wc.connect()
 
 
 
-
-wc=WpConnection(f"{dominio}//xmlrpc.php",'hector.arnaus@gmail.com','bolo3o,Eresgay')
-wc.connect()
-
-
-
 #excel_datos="/home/hector/proyectos/directorio/empresas_con_descripcion_corto.xlsx"
 
 lista_provincias=obten_lista_provincias(excel_datos)
 print("Lista de provincias obtenida:", lista_provincias)
 lista_municipios=obten_lista_municipios(excel_datos)
-print("Lista de municipios obtenida:", lista_municipios)
+print("Obteniendo lista de municipios...")
 negocios=obten_lista_negocios(excel_datos)
 
 etiquetas=['crepería','crepes','creperias cerca','crepe suzette','crepe nutella','crepe nocilla','crepe chocolate']
@@ -53,6 +47,7 @@ ruta=os.getcwd()+("/municipio")
 for img in os.listdir(ruta):
     municipio=obten_nombre_municipio(img)
     print("Creando el artículo del municipio de "+municipio)
+    print(f'{municipio} in {lista_municipios}={municipio in lista_municipios}')
     if municipio in lista_municipios:
         provincia=obten_nombre_provincia_municipio(img)
         wp_img=Image(ruta+"/"+img,f"{tipo_negocio} en el municipio de {municipio}")
@@ -65,7 +60,7 @@ for img in os.listdir(ruta):
 for negocio in negocios:
     wp_article=WpPost(negocio.nombre,sluguiza(negocio.ciudad))
     wp_article.add_tag(negocio.ciudad)
-    wp_article.add_element(crea_negocio_temp(negocio))
+    wp_article.add_element(crea_negocio(negocio))
     print(sluguiza(negocio.provincia)+"/"+sluguiza(negocio.ciudad)+"/"+sluguiza(negocio.nombre))
     wp_article.set_slug(sluguiza(negocio.nombre))
     wc.publica_post(wp_article)

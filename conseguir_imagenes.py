@@ -1,5 +1,5 @@
 import os
-from extraer_datos_excel import *
+from funciones_excel import *
 from pixabay_python import PixabayClient, Category, download,ImageOrientation
 from google_images_search import GoogleImagesSearch
 

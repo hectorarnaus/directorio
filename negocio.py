@@ -2,69 +2,6 @@
 import re,html
 from bs4 import BeautifulSoup
 
-'''
-def obten_horario_dia(horario,dia):
-       
-    horario_troceado=horario.split(";")
-    for trozo in horario_troceado:
-        if dia in trozo:
-            
-            if "Cerrado" in trozo:
-                return None
-            elif f"{dia}, De " in trozo:                
-                texto=trozo[len(f"{dia}, De "):]
-            HORA = r'(?:2[0-3]|[01]?\d)(?::[0-5]\d)?'
-
-            # Expresión regular que captura todos los intervalos
-            patron = rf'(?:\bde\b[\s\u00A0]*)?({HORA})[\s\u00A0]*a[\s\u00A0]*({HORA})'
-            
-            # Encuentra todos los pares de horas
-            tramos = re.findall(patron, texto, flags=re.IGNORECASE)
-            # Aplana la lista de tuplas [(ini, fin), ...] → [ini, fin, ...]
-            horas = [h if ":" in h else f"{h}:00" for par in tramos for h in par]
-
-
-            d_dias=dict([
-                ('lunes','Mo'),
-                ('martes','Tu'),
-                ('miércoles','We'),
-                ('jueves','Th'),
-                ('viernes','Fr'),
-                ('sábado','Sa'),
-                ('domingo','Su')
-            ])
-            if len(horas)==2:
-                return f'\t\t"{d_dias[dia]} {horas[0]}-{horas[1]}"'
-            elif len(horas)==4:
-                return f'\t\t"{d_dias[dia]} {horas[0]}-{horas[1]}, {horas[2]}-{horas[3]}"'
-                     
-    return None
-
-def obten_horario_semanal(horario):
-    horario_dias=[]
-    if obten_horario_dia(horario,"lunes")!=None:
-        horario_dias.append(obten_horario_dia(horario,"lunes"))
-    if obten_horario_dia(horario,"martes")!=None:
-        horario_dias.append(obten_horario_dia(horario,"martes"))
-    if obten_horario_dia(horario,"miércoles")!=None:
-        horario_dias.append(obten_horario_dia(horario,"miércoles"))
-    if obten_horario_dia(horario,"jueves")!=None:
-        horario_dias.append(obten_horario_dia(horario,"jueves"))
-    if obten_horario_dia(horario,"viernes")!=None:
-        horario_dias.append(obten_horario_dia(horario,"viernes"))
-    if obten_horario_dia(horario,"sábado")!=None:
-        horario_dias.append(obten_horario_dia(horario,"sábado"))
-    if obten_horario_dia(horario,"domingo")!=None:
-        horario_dias.append(obten_horario_dia(horario,"domingo"))
-    
-    res=""
-    i=0
-    while i<len(horario_dias)-2:
-        res+=f'{horario_dias[i]},\n'
-        i+=1
-    res+=f'{horario_dias[i]}\n'  
-    return res
-'''
 def limpia_comillas(texto):
     if texto!=None:
         if texto.startswith('"') and texto.endswith('"'):
@@ -72,7 +9,7 @@ def limpia_comillas(texto):
     return texto
 
 class Negocio:
-    def __init__(self,nombre,direccion,CP,ciudad,provincia,telefono,pagina_web,actividad,actividades_relacionadas,marcas,descripcion,mapa,imagen,facebook,instagram,x,youtube,horario,descripcion_seo):
+    def __init__(self,nombre,direccion,CP,ciudad,provincia,telefono,pagina_web,actividad,actividades_relacionadas,marcas,descripcion,mapa,imagen,facebook,instagram,x,youtube,horario,descripcion_seo,tagline):
         self.nombre=html.escape(str(nombre))
         self.direccion=html.escape(str(direccion))
         self.CP=html.escape(str(CP))
@@ -105,6 +42,7 @@ class Negocio:
         self.youtube=html.escape(str(youtube))        
         self.horario=limpia_comillas(horario)
         self.descripcion_seo=html.escape(str(descripcion_seo))
+        self.tagline=tagline
         
    
     def __str__(self):
