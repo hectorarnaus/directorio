@@ -11,4 +11,4 @@ color_accent="#F2B900"
 color_noton="#7B2C2C"
 excel_datos="/home/hector/proyectos/directorio/empresas_con_descripcion_corto.xlsx"
 
-tipo_negocio_schema="HomeAndConstructionBusiness"
+tipo_negocio_schema="Store"

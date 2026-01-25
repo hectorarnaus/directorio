@@ -31,7 +31,8 @@ def obten_datos_schema_negocio(negocio):
         f'\t"telephone": "{negocio.telefono}",\n'
     )
     res+=f'{negocio.obten_horario_schema()}'
-    res+=f'\t"url": "{negocio.web}"\n'
+    if negocio.web!=None:
+        res+=f'\t"url": "{negocio.web}"\n'
     return res
 
 def crear_schema_municipio(municipio):

@@ -110,17 +110,21 @@ def crea_schema_negocio(negocio):
         '\t{\n'
         '\t"@context": "https://schema.org",\n'
         )
-    res+=obten_datos_chema_negocio(negocio)
+    res+=obten_datos_schema_negocio(negocio)
     res+='\t}\n'
     res+='</script>\n'
     
     return res
 
-def obten_datos_chema_negocio(negocio):
+def obten_datos_schema_negocio(negocio):
     res=(
         f'\t"@type": "{tipo_negocio_schema}",\n'
         f'\t"name": "{negocio.nombre}",\n'
-        f'\t"image": "{negocio.imagen}",\n'
+    )
+    if negocio.imagen!=None:
+        res+=f'\t"image": "{negocio.imagen}",\n'
+
+    res+=(
         '\t"address": {\n'
         '\t\t"@type": "PostalAddress",\n'
         f'\t\t"streetAddress": "{negocio.direccion}",\n'
@@ -131,13 +135,12 @@ def obten_datos_chema_negocio(negocio):
         f'\t"telephone": "{negocio.telefono}",\n'
         )
     res+=f'{negocio.obten_horario_schema()}'
-    res+=f'\t"url": "{negocio.web}"\n'
+    if negocio.web!=None:
+        res+=f'\t"url": "{negocio.web}"\n'
     return res
 
 def crear_schema_municipio(municipio):
     negocios=obten_lista_negocios_municipio(excel_datos,municipio)
-    print(f"Lista de negocios de {municipio}")
-    print(negocios)
     res=(
         '{\n'
         '\t"@context": "https://schema.org",\n'
@@ -235,13 +238,8 @@ def crea_ciudad(ciudad,provincia,imagen):
 
     return res
 
-def crea_negocio_temp(negocio):
-    res=('<!-- wp:html -->\n'
-        '\t<div class="migas">\n'
-        f'\t\t<p><a href="{dominio}">Inicio</a> &gt; <a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{dominio}/{sluguiza(negocio.ciudad)}">{negocio.ciudad}</a> &gt; {negocio.nombre}</p>'
-        '\t</div>\n'
-        '<!-- /wp:html -->\n'
-    )
+def crea_negocio(negocio):
+    res=crea_migas_negocio(negocio)
     res+=crea_bloque_contacto(negocio)
     res+=crea_bloque_horario(negocio)       
     if negocio.mapa!=None:
@@ -257,253 +255,3 @@ def crea_negocio_temp(negocio):
         
     
     return res
-
-def nuevo_crea_negocio(negocio):
-    res=('<!-- wp:html -->\n'
-        '\t<div class="migas">\n'
-        f'\t\t<p><a href="{dominio}">Inicio</a> &gt; <a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{dominio}/{sluguiza(negocio.ciudad)}">{negocio.ciudad}</a> &gt; {negocio.nombre}</p>'
-        '\t</div>\n'
-        '<!-- /wp:html -->\n'
-        '<!-- wp:columns -->\n'
-        '<div class="wp-block-columns"><!-- wp:column {"className":"contenedor"} -->\n'
-        '\t<div class="wp-block-column contenedor">'
-
-
-
-        f'{crea_heading("Datos de contacto",2)}'    
-        f'{crea_lista_direccion(negocio.direccion)}'
-        f'{crea_lista_telefono(negocio.telefono)}'
-        f'{crea_lista_web(negocio.web)}'
-
-        '\t<!-- wp:shortcode -->\n'
-        '\t\t[adinserter name="anuncio_manual"]\n'
-        '\t<!-- /wp:shortcode -->\n'
-        f'{crea_botones_datos_contacto(negocio.telefono,negocio.web)}'
-        f'{crea_parrafo(negocio.descripcion_seo)}'
-        f'{crea_heading("Horario",2)}'
-        f'{crea_lista_horario(negocio.horario)}'    
-        '\t<!-- /wp:column -->\n'
-
-        '\t<!-- wp:column {"className":"contenedor"} -->\n'
-        '\t\t<div class="wp-block-column contenedor">'
-
-        f'{crea_heading("Localización",2)}'
-
-        '\t<!-- wp:html -->\n'
-        
-        f'\t\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:2px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
-        '\t<!-- /wp:html -->\n'
-
-        '\t<!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Fotografía</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '\t\t<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
-        f'\t\t\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.imagen}" alt=""/></figure>\n'
-        '\t\t<!-- /wp:image --></div>\n'
-        '\t<!-- /wp:column --></div>\n'
-        '\t<!-- /wp:columns -->\n'
-
-        '<!-- wp:shortcode -->\n'
-        '\t[site_reviews_summary assigned_posts="post_id" schema="true" class="contenedor"]\n'
-        '\t<!-- /wp:shortcode -->\n'
-
-        '<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->\n'
-        #'\t<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
-        #'\t\t<div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-text-align-center has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">DEJA UNA RESEÑA AHORA</a></div>\n'
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">¡DEJA UNA RESEÑA AHORA!</a></div>\n'
-        '\t\t<!-- /wp:button -->\n'
-        
-        '\t<!-- /wp:button --></div>\n'
-        '<!-- /wp:buttons -->\n'
-
-        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Información</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '<!-- wp:paragraph -->\n'
-        '\t<p>Información del negocio</p>\n'
-        '\t<!-- /wp:paragraph --></div>\n'
-        '<!-- /wp:group -->\n'
-
-        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
-        '<div class="wp-block-group contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '<h2 class="wp-block-heading has-text-align-center">¿Qué opinan los usuarios de negocio?</h2>\n'
-        '<!-- /wp:heading -->\n'
-
-        '<!-- wp:paragraph -->\n'
-        '\t<p>A continuación, te dejamos un listado con las opiniones más destacadas que otros usuarios han dejado al negocio de localidad, provincia.</p>\n'
-        '<!-- /wp:paragraph --></div>\n'
-        '<!-- /wp:group -->\n'
-
-        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group contenedor"><!-- wp:heading -->\n'
-        '\t\t<h2 class="wp-block-heading">Escribe tu reseña</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '<!-- wp:shortcode /-->\n'
-
-        '<!-- wp:shortcode -->\n'
-        '\t[site_reviews_form assigned_posts="post_id"  class="contenedor" id="formulario_resenya"]\n'
-        '\t\t<!-- /wp:shortcode --></div>\n'
-        '\t<!-- /wp:group -->  \n'
-
-        '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->\n'
-        f'\t\t<h2 class="wp-block-heading has-text-align-center">Otras creperías de {negocio.ciudad}</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{negocio.ciudad}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
-        '<!-- /wp:group -->\n'
-        
-        '<script type="application/ld+json">\n'
-        f'{crea_schema_negocio(negocio)}'
-        '</script>\n'
-        '<!-- /wp:html -->\n'
-    )
-   
-    return res
-    
-def crea_negocio(negocio):
-    print(negocio.nombre)
-    res=('<!-- wp:html -->\n'
-        '\t<div class="migas">\n'
-        f'\t\t<p><a href="{dominio}">Inicio</a> &gt; <a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{dominio}/{sluguiza(negocio.ciudad)}">{negocio.ciudad}</a> &gt; {negocio.nombre}</p>'
-        '\t</div>\n'
-        '<!-- /wp:html -->\n'
-
-        '<!-- wp:columns -->\n'
-        '<div class="wp-block-columns"><!-- wp:column {"className":"contenedor"} -->\n'
-        '\t<div class="wp-block-column contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Datos de contacto</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '\t<!-- wp:paragraph -->'
-        f'\t\t<p><strong>Dirección postal:</strong> {negocio.direccion}</p>\n'
-        '\t<!-- /wp:paragraph -->\n'
-        f'{crea_lista_direccion(negocio.direccion)}'
-        '\t<!-- wp:paragraph -->\n'
-        f'\t\t<p><strong>Teléfono:</strong> {negocio.telefono}</p>\n'
-        '\t<!-- /wp:paragraph -->\n'
-
-        '\t<!-- wp:paragraph -->\n'
-        f'\t\t<p><strong>Sitio web:</strong> {negocio.web}</p>\n'
-        '\t<!-- /wp:paragraph -->\n'
-
-        '\t<!-- wp:shortcode -->\n'
-        '\t\t[adinserter name="anuncio_manual"]\n'
-        '\t<!-- /wp:shortcode -->\n'
-
-
-        '\t<!-- wp:buttons -->\n'
-
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.telefono}" style="border-radius:15px">¡Llama ahora!</a></div>\n'
-        '\t\t<!-- /wp:button -->\n'
-
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="{negocio.web}" style="border-radius:15px">Visita web</a></div>\n'
-        '\t\t<!-- /wp:button -->\n'
-
-        '\t<!-- /wp:buttons -->\n'
-
-        '\t<!-- wp:paragraph -->\n'
-        f'\t\t<p>{negocio.descripcion_seo}</p>\n'
-        '\t<!-- /wp:paragraph -->\n'
-
-        '\t<!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Horario</h2>\n'
-        '\t\t<!-- /wp:heading -->\n'
-
-        '\t<!-- wp:html -->\n'
-        f'\t\t[su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="15" class="lista-bloque"]\n{negocio.horario}\n'
-		    '\t\t[/su_list]\n'
-        '\t<!-- /wp:html --></div>\n'
-        '\t<!-- /wp:column -->\n'
-
-        '\t<!-- wp:column {"className":"contenedor"} -->\n'
-        '\t\t<div class="wp-block-column contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t\t<h2 class="wp-block-heading has-text-align-center">Localización</h2>\n'
-        '\t\t<!-- /wp:heading -->\n'
-
-        '\t<!-- wp:html -->\n'
-        
-        f'\t\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:2px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
-        '\t<!-- /wp:html -->\n'
-
-        '\t<!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Fotografía</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '\t\t<!-- wp:image {"sizeSlug":"large","align":"center","className":"is-style-default"} -->\n'
-        f'\t\t\t<figure class="wp-block-image aligncenter size-large is-style-default"><img src="{negocio.imagen}" alt=""/></figure>\n'
-        '\t\t<!-- /wp:image --></div>\n'
-        '\t<!-- /wp:column --></div>\n'
-        '\t<!-- /wp:columns -->\n'
-
-        '<!-- wp:shortcode -->\n'
-        '\t[site_reviews_summary assigned_posts="post_id" schema="true" class="contenedor"]\n'
-        '\t<!-- /wp:shortcode -->\n'
-
-        '<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->\n'
-        #'\t<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","style":{"border":{"radius":"15px"}},"fontSize":"medium"} -->\n'
-        #'\t\t<div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-text-align-center has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">DEJA UNA RESEÑA AHORA</a></div>\n'
-        '\t\t<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base-3","textColor":"accent","width":100,"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->\n'
-        f'\t\t<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-3-color has-contrast-2-background-color has-text-color has-background has-link-color has-medium-font-size has-custom-font-size wp-element-button" href="#formulario_resenya" style="border-radius:15px">¡DEJA UNA RESEÑA AHORA!</a></div>\n'
-        '\t\t<!-- /wp:button -->\n'
-        
-        '\t<!-- /wp:button --></div>\n'
-        '<!-- /wp:buttons -->\n'
-
-        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '\t\t<h2 class="wp-block-heading has-text-align-center">Información</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '<!-- wp:paragraph -->\n'
-        '\t<p>Información del negocio</p>\n'
-        '\t<!-- /wp:paragraph --></div>\n'
-        '<!-- /wp:group -->\n'
-
-        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
-        '<div class="wp-block-group contenedor"><!-- wp:heading {"textAlign":"center"} -->\n'
-        '<h2 class="wp-block-heading has-text-align-center">¿Qué opinan los usuarios de negocio?</h2>\n'
-        '<!-- /wp:heading -->\n'
-
-        '<!-- wp:paragraph -->\n'
-        '\t<p>A continuación, te dejamos un listado con las opiniones más destacadas que otros usuarios han dejado al negocio de localidad, provincia.</p>\n'
-        '<!-- /wp:paragraph --></div>\n'
-        '<!-- /wp:group -->\n'
-
-        '<!-- wp:group {"className":"contenedor","layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group contenedor"><!-- wp:heading -->\n'
-        '\t\t<h2 class="wp-block-heading">Escribe tu reseña</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        '<!-- wp:shortcode /-->\n'
-
-        '<!-- wp:shortcode -->\n'
-        '\t[site_reviews_form assigned_posts="post_id"  class="contenedor" id="formulario_resenya"]\n'
-        '\t\t<!-- /wp:shortcode --></div>\n'
-        '\t<!-- /wp:group -->  \n'
-
-        '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
-        '\t<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->\n'
-        f'\t\t<h2 class="wp-block-heading has-text-align-center">Otras creperías de {negocio.ciudad}</h2>\n'
-        '\t<!-- /wp:heading -->\n'
-
-        f'<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":[{negocio.ciudad}],"number":3,"styles":"dpt-slider1","imgAspect":"land1"}} /--></div>\n'
-        '<!-- /wp:group -->\n'
-        
-        '<script type="application/ld+json">\n'
-        f'{crea_schema_negocio(negocio)}'
-        '</script>\n'
-    )
-   
-    return res
-
-
-
-
