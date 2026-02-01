@@ -1,5 +1,7 @@
 import openpyxl 
 from negocio import Negocio
+from municipio import Municipio
+import ast, re
 
 
 
@@ -73,6 +75,43 @@ def limpiar_web(web):
             return web[:web.find("?utm")]
     return web
 
+def limpiar_horario(horario):
+    if horario!=None:
+        horario=horario.replace("&quot;",'"').strip('"')
+        if not horario.startswith("<li>"):
+            horario="<li> "+horario+" </li>"
+    return horario
+
+
+def parse_list_text(text):
+    """Convierte un texto con formato de lista Python en una lista de strings.
+    Ejemplo: "['A', 'B']" -> ['A', 'B']
+    Maneja comillas simples/dobles y ofrece fallback si no es literal Python.
+    """
+    if text is None:
+        return []
+    text = text.strip()
+    if text == "":
+        return []
+    # intento seguro: evaluar literal Python
+    try:
+        val = ast.literal_eval(text)
+        if isinstance(val, (list, tuple)):
+            return [str(x) for x in val]
+        if isinstance(val, str):
+            # si era una cadena simple, la procesamos más abajo
+            text = val
+    except Exception:
+        pass
+
+    # fallback: extraer items entre comillas
+    matches = re.findall(r"(['\"])(.*?)\1", text)
+    if matches:
+        return [m[1].strip() for m in matches]
+
+    # último recurso: dividir por comas y limpiar
+    parts = [p.strip().strip("'\"") for p in re.split(r",\s*", text) if p.strip()]
+    return parts
 
 def obten_lista_negocios(fichero_excel):
     lista_negocios=[]
@@ -99,7 +138,7 @@ def obten_lista_negocios(fichero_excel):
             instagram=hoja_activa.cell(row=fila,column=15).value if hoja_activa.cell(row=fila,column=15).value!=None else None
             x=hoja_activa.cell(row=fila,column=16).value if hoja_activa.cell(row=fila,column=16).value!=None else None
             youtube=hoja_activa.cell(row=fila,column=17).value if hoja_activa.cell(row=fila,column=17).value!=None else None
-            horario=hoja_activa.cell(row=fila,column=18).value if hoja_activa.cell(row=fila,column=18).value!=None else None
+            horario=limpiar_horario(hoja_activa.cell(row=fila,column=18).value if hoja_activa.cell(row=fila,column=18).value!=None else None)
             descripcion_seo=hoja_activa.cell(row=fila,column=19).value  if hoja_activa.cell(row=fila,column=19).value!=None else None
             tagline=hoja_activa.cell(row=fila,column=20).value  if hoja_activa.cell(row=fila,column=20).value!=None else None
 
@@ -149,6 +188,44 @@ def obten_lista_negocios_municipio(fichero_excel,municipio):
             fila+=1
                   
         return lista_negocios
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+               
+def obten_municipio_lista(nombre,lista_municipios):
+    for municipio in lista_municipios:
+        if municipio.nombre==nombre:
+            return municipio
+    return None
+
+def esta_municipio_en_lista(nombre,lista_municipios):
+    for municipio in lista_municipios:
+        if municipio.nombre==nombre:
+            return True
+    return False
+def obten_lista_actividades_municipios(fichero_excel):
+    lista_municipios=[]
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=1
+        while fila<ultima_fila_real(hoja_activa):
+            if esta_municipio_en_lista(hoja_activa.cell(row=fila,column=4).value,lista_municipios)==False:
+                municipio=Municipio(hoja_activa.cell(row=fila,column=4).value,hoja_activa.cell(row=fila,column=5).value)  
+                if hoja_activa.cell(row=fila,column=8)!=None:
+                    municipio.anyade_actividad(hoja_activa.cell(row=fila,column=8).value.lower())
+                if hoja_activa.cell(row=fila,column=9)!=None:
+                    actividades_relacionadas= parse_list_text(hoja_activa.cell(row=fila,column=9).value)
+                    for actividad in actividades_relacionadas:
+                        municipio.anyade_actividad(actividad.lower())
+                lista_municipios.append(municipio)
+            else:   
+                municipio=obten_municipio_lista(hoja_activa.cell(row=fila,column=4).value,lista_municipios)
+                if hoja_activa.cell(row=fila,column=8)!=None:
+                    municipio.anyade_actividad(hoja_activa.cell(row=fila,column=8).value.lower())
+            fila+=1
+        return lista_municipios
     except FileNotFoundError:
         print("Error: Archivo no encontrado.")
     except Exception as e:

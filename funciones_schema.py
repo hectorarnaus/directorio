@@ -18,6 +18,8 @@ def obten_datos_schema_negocio(negocio):
         f'\t"@type": "{tipo_negocio_schema}",\n'
         f'\t"name": "{negocio.nombre}",\n'
     )
+    
+    
     if negocio.imagen!=None:
         res+=f'\t"image": "{negocio.imagen}",\n'
 
@@ -29,15 +31,16 @@ def obten_datos_schema_negocio(negocio):
         '\t\t"addressCountry": "ES"\n'
         '\t\t},\n'
         f'\t"telephone": "{negocio.telefono}",\n'
-    )
+    )   
+    if negocio.web!=None and negocio.web!="":
+        res+=f'\t"url": "{negocio.web}",\n'
     res+=f'{negocio.obten_horario_schema()}'
-    res+=f'\t"url": "{negocio.web}"\n'
+    
+    
     return res
 
-def crear_schema_municipio(municipio):
-    negocios=obten_lista_negocios_municipio(excel_datos,municipio)
-    print(f"Lista de negocios de {municipio}")
-    print(negocios)
+def crea_schema_municipio(municipio):
+    negocios=obten_lista_negocios_municipio(excel_empresas,municipio)
     res=(
         '{\n'
         '\t"@context": "https://schema.org",\n'

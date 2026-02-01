@@ -17,13 +17,13 @@ wc.connect()
 
 
 
-#excel_datos="/home/hector/proyectos/directorio/empresas_con_descripcion_corto.xlsx"
 
-lista_provincias=obten_lista_provincias(excel_datos)
-print("Lista de provincias obtenida:", lista_provincias)
-lista_municipios=obten_lista_municipios(excel_datos)
-print("Obteniendo lista de municipios...")
-negocios=obten_lista_negocios(excel_datos)
+lista_provincias=obten_lista_provincias(excel_empresas)
+lista_municipios=obten_lista_municipios(excel_empresas)
+negocios=obten_lista_negocios(excel_empresas)
+lista_actividades_municipio=obten_lista_actividades_municipios(excel_empresas)
+for municipio in lista_actividades_municipio:
+    print(municipio)
 
 etiquetas=['crepería','crepes','creperias cerca','crepe suzette','crepe nutella','crepe nocilla','crepe chocolate']
 lista_categorias=[]
@@ -36,7 +36,6 @@ for img in os.listdir(ruta):
         wp_img=Image(ruta+"/"+img,f"Descubre todas las {tipo_negocio.lower()} en la provincia de {provincia} ordenadas por orden alfabético")
         wp_img.upload(wc)
         wp_article=WpPost(f"{tipo_negocio} en la provincia de {provincia}")
-        print(f"sluguiza provincia de {provincia}={sluguiza("provincia de "+provincia)}")
         wp_article.add_element(crea_provincia(provincia,wp_img))
         wp_article.set_slug(sluguiza("provincia de "+provincia))
         wp_article.add_category("provincia")
@@ -47,7 +46,6 @@ ruta=os.getcwd()+("/municipio")
 for img in os.listdir(ruta):
     municipio=obten_nombre_municipio(img)
     print("Creando el artículo del municipio de "+municipio)
-    print(f'{municipio} in {lista_municipios}={municipio in lista_municipios}')
     if municipio in lista_municipios:
         provincia=obten_nombre_provincia_municipio(img)
         wp_img=Image(ruta+"/"+img,f"{tipo_negocio} en el municipio de {municipio}")
@@ -58,10 +56,10 @@ for img in os.listdir(ruta):
         wc.publica_post(wp_article)
 
 for negocio in negocios:
+    print("Creando el artículo del negocio "+negocio.nombre)
     wp_article=WpPost(negocio.nombre,sluguiza(negocio.ciudad))
     wp_article.add_tag(negocio.ciudad)
     wp_article.add_element(crea_negocio(negocio))
-    print(sluguiza(negocio.provincia)+"/"+sluguiza(negocio.ciudad)+"/"+sluguiza(negocio.nombre))
     wp_article.set_slug(sluguiza(negocio.nombre))
     wc.publica_post(wp_article)
 

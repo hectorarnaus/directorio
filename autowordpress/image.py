@@ -7,7 +7,6 @@ from wordpress_xmlrpc.methods import media, posts
 
 class Image():
     def __init__(self,path,alt_text):
-        print("Inicializando imagen con path:",path)
         self.path=path
         self.alt_text=alt_text
         self.id=0

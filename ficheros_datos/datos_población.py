@@ -16,7 +16,7 @@ prioridad_maxima = [
     "A Coruña",
 ]
 
-prioridad_media = [
+prioridad_alta = [
     "Vigo",
     "Gijón",
     "L'Hospitalet de Llobregat",
@@ -70,7 +70,7 @@ prioridad_media = [
     "Teruel",
 ]
 
-prioridad_baja = [
+prioridad_media = [
     "San Cristóbal de La Laguna",
     "Marbella",
     "Dos Hermanas",

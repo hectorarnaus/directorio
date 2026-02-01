@@ -4,6 +4,8 @@ from ficheros_datos.keywords import *
 from ficheros_datos.datos_población import *
 from crea_elementos_web import *
 from ficheros_datos.constantes_configuracion import *
+from funciones_excel import ultima_fila_real
+import openpyxl 
 
 
 def spinner(s):
@@ -16,6 +18,39 @@ def spinner(s):
     return s.strip()
 
 def obten_texto_H1(provincia):
+    try:
+        datos=openpyxl.load_workbook(excel_provincias)
+        hoja_activa = datos.active
+        fila=1
+        while fila<ultima_fila_real(hoja_activa):
+            if hoja_activa.cell(row=fila,column=1).value==provincia:
+                return hoja_activa.cell(row=fila,column=6).value
+            fila+=1
+
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+    return ""
+
+def obten_texto_cuerpo(provincia):
+    try:
+        datos=openpyxl.load_workbook(excel_provincias)
+        hoja_activa = datos.active
+        fila=1
+        while fila<ultima_fila_real(hoja_activa):
+            if hoja_activa.cell(row=fila,column=1).value==provincia:
+                return hoja_activa.cell(row=fila,column=7).value
+            fila+=1
+
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+    return ""
+
+
+def obten_texto_H1_old(provincia):
     with open('plantillas_textos/H1_provincia.txt', 'r') as file :
         texto_base = file.read()
         texto=spinner(texto_base)
@@ -96,7 +131,7 @@ def crea_texto_ciudad(ciudad):
                 res+=f'{crea_heading(f"Alquiler flexible de maquinaria y servicios urgentes en {ciudad}",2)}'
                 res+=f'{crea_parrafo(obten_texto_H2('H2_urgencia_flexibilidad.txt',keywords_urgencia_flexibilidad,ciudad))}'
             i+=1
-    print(res)
+   
     return res
         
         
