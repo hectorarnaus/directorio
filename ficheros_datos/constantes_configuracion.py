@@ -13,4 +13,4 @@ excel_empresas="./xslx/empresas_con_descripcion_corto.xlsx"
 excel_localidades="./xslx/localidades.xlsx"
 excel_provincias="./xslx/provincias.xlsx"
 
-tipo_negocio_schema="HomeAndConstructionBusiness"
+tipo_negocio_schema="Store"
