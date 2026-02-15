@@ -8,6 +8,7 @@ from crea_elementos_web import *
 from funciones_schema import *
 
 
+
 def imprime_lista_negocios(lista_negocios):
     res = ""
     for negocio in lista_negocios:
@@ -64,7 +65,6 @@ def imprime_lista_negocios(lista_negocios):
             [su_row]
                 [su_column size="1/1" center="yes"]
             
-                <!-- wp:buttons -->
                     <div class="wp-block-buttons">
                     <div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
                         <a class="wp-block-button__link has-base-3-color has-accent-background-color has-text-color has-background has-link-color wp-element-button"
@@ -72,9 +72,8 @@ def imprime_lista_negocios(lista_negocios):
                         ¡Llama ahora!
                         </a>
                     </div>
-                    </div>
-                <!-- /wp:buttons -->
-            
+                    </div>        
+                
                 [/su_column]
             [/su_row]
             [/su_box]
@@ -83,6 +82,9 @@ def imprime_lista_negocios(lista_negocios):
             """
         res += bloque
     return res
+
+
+
 
 
 def obten_nombre_provincia(imagen):
@@ -104,10 +106,7 @@ def obten_id_categoria_provincia(provincia,lista_categorias):
     return 0
 
 
-<<<<<<< HEAD
 
-
-=======
 def crea_schema_negocio(negocio):
     res=(
         '<script type="application/ld+json">\n'
@@ -158,35 +157,36 @@ def crear_schema_municipio(municipio):
         schema_negocio=(
             '{\t\t\n'
             '\t\t"@type": "ListItem",\n'
-            f'\t\t"position": {i},\n'
+            f'\t\t"position": {i+1},\n'
             '\t\t"item": {\n'
         )
-        schema_negocio+=obten_datos_chema_negocio(negocios[i])
+        schema_negocio+=obten_datos_schema_negocio(negocios[i])
         schema_negocio+='\t\t\t}\n'
         schema_negocio+='\t\t}\n'
         schema_negocio+='\t}\n'
->>>>>>> bd45548a34e18513904b0bd23ccc591ad3e0cad1
 
 
 
 
 def crea_provincia(provincia,imagen):
 
+
+    parrafos=extraer_parrafos(obten_texto_cuerpo_provincia(provincia))
     res=crea_migas_provincia(provincia)
 
     res+=(
-        f'{crea_heading(f"{tipo_negocio} en la provincia de {provincia}",1)}'
-
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
-        '<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Contenido…"} -->\n'
-        f'\t\t{crea_parrafo(obten_texto_H1(obten_texto_H1(provincia)))}\n'
-        f'\t\t<!-- /wp:paragraph -->\n'
+        '<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content">\n'
+        f'\t\t{crea_parrafo(parrafos[0])}\n'
         '\t</div>\n'
-
-        f'{crea_parrafo(obten_texto_cuerpo(provincia))}'
-        
-        f'<figure class="wp-block-media-text__media"><img src="{imagen.get_url()}" alt="" class="wp-image-178 size-full"/></figure></div>\n'
+        f'<figure class="wp-block-media-text__media"><img src="{imagen.get_url()}" alt="" class="wp-image-{imagen.get_id()} size-full"/></figure></div>\n'
         '<!-- /wp:media-text -->\n'
+    )   
+    for i in range(1,len(parrafos)-1)         :
+        res+=f'\t\t{crea_parrafo(parrafos[i])}\n'
+        i+=1
+
+    res+=(     
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
         '\t<div class="wp-block-group">\n'
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
@@ -202,9 +202,15 @@ def crea_ciudad(ciudad,provincia,imagen):
 
     res+=(   
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
-        '<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Contenido…"} -->\n'
-        f'\t\t<p>{obten_texto_H1(ciudad)}</p>\n'
-        f'<!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"><img src="{imagen.get_url()}" alt="" class="wp-image-{imagen.get_id()} size-full"/></figure></div>\n'
+        '\t<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">\n'
+        '\t\t<div class="wp-block-media-text__content">\n'
+        '\t\t\t<!-- wp:paragraph -->\n'
+        f'\t\t\t\t<p>{obten_texto_cuerpo_localidad(ciudad)}</p>\n'
+        '\t\t\t<!-- /wp:paragraph -->\n'
+        '\t\t</div>\n'
+        '\t\t<figure class="wp-block-media-text__media">\n'
+        f'\t\t\t<img src="{imagen.get_url()}" alt="Panorámica de {ciudad}" class="wp-image-{imagen.get_id()} size-full"/>\n'
+        '\t\t</figure>\t</div>\n'
         '<!-- /wp:media-text -->\n'
         f'{crea_texto_ciudad(ciudad)}'
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
@@ -215,7 +221,6 @@ def crea_ciudad(ciudad,provincia,imagen):
         f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{ciudad}"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
 
         '<!-- /wp:group -->'
-        '<div>'
         f'{imprime_lista_negocios(obten_lista_negocios_municipio(excel_empresas,ciudad))}'
         '<script type="application/ld+json">\n'
         f'{crea_schema_municipio(ciudad)}'
@@ -228,7 +233,6 @@ def crea_ciudad(ciudad,provincia,imagen):
     return res
 
 def crea_negocio(negocio):
-<<<<<<< HEAD
     res=crea_migas_negocio(negocio) 
     '''res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
@@ -236,9 +240,6 @@ def crea_negocio(negocio):
         '\t</div>\n'
         '<!-- /wp:html -->\n'
     )'''
-=======
-    res=crea_migas_negocio(negocio)
->>>>>>> bd45548a34e18513904b0bd23ccc591ad3e0cad1
     res+=crea_bloque_contacto(negocio)
     res+=crea_bloque_horario(negocio)       
     if negocio.mapa!=None:

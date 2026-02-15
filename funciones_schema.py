@@ -34,14 +34,12 @@ def obten_datos_schema_negocio(negocio):
     )   
     if negocio.web!=None and negocio.web!="":
         res+=f'\t"url": "{negocio.web}",\n'
-    res+=f'{negocio.obten_horario_schema()}'
-<<<<<<< HEAD
+    if negocio.horario!=None and negocio.horario!="":
+        if negocio.obten_horario_schema().endswith(",\n"):
+            res+=negocio.obten_horario_schema()[:-2]+"\n"
+   
     
     
-=======
-    if negocio.web!=None:
-        res+=f'\t"url": "{negocio.web}"\n'
->>>>>>> bd45548a34e18513904b0bd23ccc591ad3e0cad1
     return res
 
 def crea_schema_municipio(municipio):
@@ -59,7 +57,7 @@ def crea_schema_municipio(municipio):
         schema_negocio=(
             '{\t\t\n'
             '\t\t"@type": "ListItem",\n'
-            f'\t\t"position": {i},\n'
+            f'\t\t"position": {i+1},\n'
             '\t\t"item": {\n'
         )
         schema_negocio+=obten_datos_schema_negocio(negocios[i])

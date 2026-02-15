@@ -1,10 +1,11 @@
-import re
+import re, html
 from random import choice,randint
 from ficheros_datos.keywords import *
 from ficheros_datos.datos_población import *
 from crea_elementos_web import *
 from ficheros_datos.constantes_configuracion import *
 from funciones_excel import ultima_fila_real
+
 import openpyxl 
 
 
@@ -33,7 +34,7 @@ def obten_texto_H1(provincia):
         print(f"Ocurrió un error: {e}")
     return ""
 
-def obten_texto_cuerpo(provincia):
+def obten_texto_cuerpo_provincia(provincia):
     try:
         datos=openpyxl.load_workbook(excel_provincias)
         hoja_activa = datos.active
@@ -49,7 +50,21 @@ def obten_texto_cuerpo(provincia):
         print(f"Ocurrió un error: {e}")
     return ""
 
+def obten_texto_cuerpo_localidad(localidad):
+    try:
+        datos=openpyxl.load_workbook(excel_localidades)
+        hoja_activa = datos.active
+        fila=1
+        while fila<ultima_fila_real(hoja_activa):
+            if hoja_activa.cell(row=fila,column=1).value==localidad:
+                return hoja_activa.cell(row=fila,column=5).value
+            fila+=1
 
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+    return ""
 def obten_texto_H1_old(provincia):
     with open('plantillas_textos/H1_provincia.txt', 'r') as file :
         texto_base = file.read()
@@ -102,9 +117,9 @@ def crea_texto_ciudad(ciudad):
     tipo_keyword=["transaccional","informacional","maquinaria","sector","urgencia"]
     if ciudad in prioridad_maxima:
         cantidad_keywords=5
-    elif ciudad in prioridad_media:
+    elif ciudad in prioridad_alta:
         cantidad_keywords=4
-    elif ciudad in prioridad_baja:
+    elif ciudad in prioridad_media:
         cantidad_keywords=3
     else:
         cantidad_keywords=2
@@ -135,3 +150,13 @@ def crea_texto_ciudad(ciudad):
     return res
         
         
+def extraer_parrafos(texto: str):
+    trozos=texto.split("</p>")
+
+    i=0
+    while i<len(trozos):
+        if "<p>" in trozos[i]:
+            trozos[i]=trozos[i].replace("<p>","")
+            trozos[i]=trozos[i].strip()
+        i+=1
+    return trozos
