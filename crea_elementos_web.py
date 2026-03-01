@@ -38,8 +38,8 @@ def sluguiza(texto):
 
 def crea_lista_direccion(direccion):
     res=('<!-- wp:shortcode -->\n'
-        f'\t[su_list icon="icon: map-marker" icon_color="{color_contrast}"  indent="20" class="lista"]\n'
-        '\t\t<ul>\n'
+        f'\t[su_list icon="icon: map-marker" icon_color="{color_contrast}"  indent="15" class="lista"]\n'
+        '\t\t<ul style="margin:0;">\n'
         f'\t\t\t<li><strong>Dirección postal:</strong> {direccion}</li>\n'
         '\t\t</ul>'
         f'\t[/su_list]'
@@ -48,8 +48,8 @@ def crea_lista_direccion(direccion):
     return res
 def crea_lista_telefono(telefono):
     res=('<!-- wp:shortcode -->\n'
-         f'\t[su_list icon="icon: phone" icon_color="{color_contrast}" indent="20" class="lista"]\n'
-         '\t\t<ul>\n'
+         f'\t[su_list icon="icon: phone" icon_color="{color_contrast}" indent="15" class="lista"]\n'
+         '\t\t<ul style="margin:0;">\n'
         f'\t\t\t<li><strong>Teléfono:</strong> <a href="tel:{telefono}">{telefono}</a></li>\n'
         '\t\t</ul>\n'
         '\t[/su_list]\n'
@@ -60,8 +60,8 @@ def crea_lista_telefono(telefono):
 def crea_lista_web(web):
     if web!=None:
         res=('<!-- wp:shortcode -->\n'
-            f'\t[su_list icon="icon: external-link" icon_color="{color_contrast}" indent="20" class="lista"]\n'
-            '\t\t<ul>\n'
+            f'\t[su_list icon="icon: external-link" icon_color="{color_contrast}" indent="15" class="lista"]\n'
+            '\t\t<ul style="margin:0;">\n'
             f'\t\t\t<li><strong>Sitio web:</strong> <a href="{web}">{web}</a></li>\n'
             '\t\t</ul>\n'
             '\t[/su_list]\n'
@@ -118,7 +118,7 @@ def crea_heading(texto,numero,alineacion="center"):
     return res
 def crea_lista_horario(horario):
     res=('<!-- wp:shortcode -->\n'
-        f'\t[su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="20" class="lista"]\n{horario}\n'
+        f'\t[su_list icon="icon: clock-o" icon_color="{color_contrast}" indent="15" class="lista lista-horario"]\n{horario}\n'
             '\t[/su_list]\n'
         '<!-- /wp:shortcode -->\n'
     )
@@ -126,7 +126,9 @@ def crea_lista_horario(horario):
 
 def crea_mapa(negocio):
     res=('<!-- wp:html -->\n'
-        f'\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:2px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+        f'\t<div class="map-wraper">\n'
+        f'\t\t<iframe src="{negocio.mapa}" width="600" height="450"  style="border:1px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\n'
+        f'\t</div>\n'
         '<!-- /wp:html -->\n'
     )
     return res
@@ -142,18 +144,18 @@ def crea_imagen(negocio):
 
 
 def crea_reviews(negocio):
-    res=('[su_row]'
-         '\t[su_column size="1/1" center="no" class=""]\n'
-        '\t\t<!-- wp:shortcode -->\n'
+    res=('[su_row class="bloque-opiniones"]'
+         '\t[su_column size="1/2" center="no" class=""]'
+        '\t\t<!-- wp:shortcode -->'
         f'\t\t\t[site_reviews_summary rate="4" assigned_terms="{sluguiza(negocio.nombre)}" hide="percentage,bar"]'
-        '\t\t<!-- /wp:shortcode -->\n'        
-        '\t</su_column>\n'
-        '\t[su_column size="1/1" center="no" class=""]\n'
-        '\t\t<!-- wp:shortcode -->\n'
+        '\t\t<!-- /wp:shortcode -->'        
+        '\t</su_column>'
+        '\t[su_column size="1/2" center="no" class=""]'
+        '\t\t<!-- wp:shortcode -->'
         f'\t\t\t[site_reviews_form assigned_terms="{sluguiza(negocio.nombre)}" hide="content,email,terms,title,name"]'
-        '\t\t<!-- /wp:shortcode -->\n'
-        '\t</su_column>\n'
-        '</su_row>\n'
+        '\t\t<!-- /wp:shortcode -->'
+        '\t</su_column>'
+        '</su_row>'
     )
     return res
 def crea_contenedor(contenido):
@@ -165,6 +167,18 @@ def crea_contenedor(contenido):
         '<!-- /wp:group -->\n\n'
     )
     return res
+
+def crea_contenedor_contacto(contenido):
+    res=(
+        '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
+        f'\t<div class="wp-block-group contenedor-contacto" style="background-color: {color_base3}; border-radius:12px; padding:24px 20px; box-shadow:0 2px 8px rgba(15,23,42,0.06);">'
+        f'\t\t{contenido}'
+        '</div>\n'
+        '<!-- /wp:group -->\n\n'
+    )
+    return res
+
+
 
 def crea_bloque_contacto(negocio):
     res=(f'{crea_heading("Datos de contacto",2)}'    
@@ -230,23 +244,23 @@ def crea_tagline(mensaje):
 def crea_migas_negocio(negocio):
     res=(
         '<!-- wp:html -->\n'
-        f'<nav aria-label="Breadcrumb" style="background: {color_base3}; padding: 14px 20px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid {color_accent};">\n'
-        '<ul style="display: flex; flex-wrap: wrap; align-items: center; list-style: none; padding: 0; margin: 0; font-size: 14px; gap: 10px;">\n'
-        '<li style="display: flex; align-items: center;">\n'
-        f'<a href="{dominio}/" style="color: {color_base}; text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: background 0.2s;">🏠 Inicio</a>\n'
-        '</li>\n'
-        f'<li style="color: {color_contrast2};">/</li>\n'
-        '<li style="display: flex; align-items: center;">\n'
-            f'<a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}" style="color: {color_base}; text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: background 0.2s;">Provincia de {negocio.provincia}</a>\n'
-        '</li>\n'
-        f'<li style="color: {color_contrast2};">/</li>\n'
-        '<li style="display: flex; align-items: center;">\n'
-            f'<a href="{dominio}/{sluguiza(negocio.ciudad)}" style="color: {color_base}; text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: background 0.2s;">{negocio.ciudad}</a>\n'
-        '</li>\n'
-        f'<li style="color: {color_contrast2};">/</li>\n'
-        f'<li style="color: {color_contrast}; font-weight: 600; padding: 4px 12px; background: {color_accent}; border-radius: 4px;">{negocio.nombre}</li>\n'
-        '</ul>\n'
-        '</nav>\n'
+        f'\t<nav aria-label="Breadcrumb" class="breadcrumb">\n'
+        '\t\t<ul>\n'
+        '\t\t\t<li>\n'
+        f'\t\t\t\t<a href="{dominio}/">Inicio</a>\n'
+        '\t\t\t</li>\n'
+        f'\t\t\t<li class="breadcrumb-separador">></li>\n'
+        '\t\t\t<li>\n'
+        f'\t\t\t\t<a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}">Provincia de {negocio.provincia}</a>\n'
+        '\t\t\t</li>\n'
+        f'\t\t\t<li class="breadcrumb-separador">></li>\n'
+        '\t\t\t<li>\n'
+        f'\t\t\t\t<a href="{dominio}/{sluguiza(negocio.ciudad)}">{negocio.ciudad}</a>\n'
+        '\t\t\t</li>\n'
+        f'\t\t\t<li class="breadcrumb-separador">></li>\n'
+        f'\t\t\t<li class="breadcrumb-destacado">{negocio.nombre}</li>\n'
+        '\t\t</ul>\n'
+        '\t</nav>\n'
         '<!-- /wp:html -->\n\n\n'
     )
     return res
@@ -254,36 +268,127 @@ def crea_migas_negocio(negocio):
 def crea_migas_ciudad(ciudad,provincia):
     res=(
         '<!-- wp:html -->\n'
-        f'<nav aria-label="Breadcrumb" style="background: {color_base3}; padding: 14px 20px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid {color_accent};">\n'
-        '<ul style="display: flex; flex-wrap: wrap; align-items: center; list-style: none; padding: 0; margin: 0; font-size: 14px; gap: 10px;">\n'
-        '<li style="display: flex; align-items: center;">\n'
-        f'<a href="{dominio}/" style="color: {color_base}; text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: background 0.2s;">🏠 Inicio</a>\n'
-        '</li>\n'
-        f'<li style="color: {color_contrast2};">/</li>\n'
-        '<li style="display: flex; align-items: center;">\n'
-            f'<a href="{dominio}/{sluguiza("Provincia de "+provincia)}" style="color: {color_base}; text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: background 0.2s;">Provincia de {provincia}</a>\n'
-        '</li>\n'
-        f'<li style="color: {color_contrast2};">/</li>\n'
-        f'<li style="color: {color_contrast}; font-weight: 600; padding: 4px 12px; background: {color_accent}; border-radius: 4px;">{ciudad}</li>\n'
-        '</ul>\n'
-        '</nav>\n'
+        f'\t<nav aria-label="Breadcrumb" class="breadcrumb">\n'
+        '\t\t<ul>\n'
+        '\t\t\t<li>\n'
+        f'\t\t\t\t<a href="{dominio}/">Inicio</a>\n'
+        '\t\t\t</li>\n'
+        f'\t\t\t<li class="breadcrumb-separador">></li>\n'
+        '\t\t\t<li>\n'
+        f'\t\t\t\t<a href="{dominio}/{sluguiza("Provincia de "+provincia)}">Provincia de {provincia}</a>\n'
+        '\t\t\t</li>\n'
+        f'\t\t\t<li class="breadcrumb-separador">></li>\n'
+        f'\t\t\t<li class="breadcrumb-destacado">{ciudad}</li>\n'
+        '\t\t</ul>\n'
+        '\t</nav>\n'
         '<!-- /wp:html -->\n\n\n'
     )
     return res
 
 def crea_migas_provincia(provincia):
     res=(
-        '<!-- wp:html -->\n'
-        f'<nav aria-label="Breadcrumb" style="background: {color_base3}; padding: 14px 20px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid {color_accent};">\n'
-        '<ul style="display: flex; flex-wrap: wrap; align-items: center; list-style: none; padding: 0; margin: 0; font-size: 14px; gap: 10px;">\n'
-        '<li style="display: flex; align-items: center;">\n'
-        f'<a href="{dominio}/" style="color: {color_base}; text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: background 0.2s;">🏠 Inicio</a>\n'
+         '<!-- wp:html -->\n'
+        f'<nav aria-label="Breadcrumb" class="breadcrumb">\n'
+        '<ul>\n'
+        '<li>\n'
+        f'<a href="{dominio}/">Inicio</a>\n'
         '</li>\n'
-        f'<li style="color: {color_contrast2};">/</li>\n'
-        f'<li style="color: {color_contrast}; font-weight: 600; padding: 4px 12px; background: {color_accent}; border-radius: 4px;">{provincia}</li>\n'
-
+        f'<li class="breadcrumb-separador">></li>\n'
+        f'<li class="breadcrumb-destacado">{provincia}</li>\n'
         '</ul>\n'
         '</nav>\n'
         '<!-- /wp:html -->\n\n\n'
     )
     return res
+
+def crea_estilos():
+    return (
+        "<style>\n"
+        "\t.lista-horario li {\n"
+        "\t\tdisplay:flex;\n"
+        "\t\tjustify-content:space-between;\n"
+        "\t\tmax-width:320px;\n"
+        f"\t\tgap:8px;\n"
+        "\t}\n"
+        
+        "\t.map-wraper iframe {\n"
+        "\t\twidth:100%;\n"
+        "\t\tmax-width:100%;\n"
+        "\t\theight:300px;\n"
+        "\t}\n"
+        
+        "@media (min-width:768px){\n"
+        "\t.map-wraper iframe { height:400px; }\n"
+        "}\n" \
+        
+        ".breadcrumb {\n"
+        f"\tbackground-color: {color_base3};\n"
+        "\tpadding:20px;\n"
+        "\tborder-radius:8px;\n"
+        "\tmargin-bottom:24px;\n"
+        f"\tborder-left:4px solid {color_accent};\n"
+        "\tmax-width:960px;\n"
+        "\tmargin-inline:auto;\n"
+        "}\n"
+        "\n"
+        
+        ".breadcrumb ul {\n"
+        "\tdisplay:flex;\n"
+        "\tflex-wrap:wrap;\n"
+        "\talign-items:center;\n"
+        "\tlist-style:none;\n"
+        "\tpadding:0;\n"
+        "\tmargin:0;\n"
+        "\tfont-size:16px;\n"
+        "\tgap:10px;\n"
+        "}\n"  
+        
+        ".breadcrumb a {\n"
+        f"\tcolor: {color_base};\n"
+        "\ttext-decoration:none;\n"
+        "\tpadding:4px 10px;\n"
+        "\tborder-radius:4px;\n"
+        "\ttransition:background 0.2s, color 0.2s;\n"
+        "}\n"
+
+                
+        ".breadcrumb a:hover {\n"
+        f"\tbackground:{color_contrast3};\n"
+        f"\tcolor:{color_contrast};\n"
+        "}\n"
+
+
+        ".breadcrumb-destacado{\n"
+        f"\tcolor: {color_contrast};\n"
+        "\tfont-weight: 600;\n"
+        "\tpadding: 4px 12px;\n"
+        f"\tbackground: {color_accent};\n"
+        "\tborder-radius: 4px;\n"
+        "}\n"
+
+        ".breadcrumb-separador{\n"
+        f"\tcolor: {color_contrast2};\n"
+        "}\n"
+
+
+        ".bloque-opiniones {\n"
+        f"\tgap:20px;\n"
+        "}\n"
+
+        "@media (max-width:768px){\n"
+        "\t.bloque-opiniones .su-column {\n"
+        "\t\twidth:100% !important;\n"
+        "\t\tmargin-bottom:16px;\n"
+        "\t}\n"
+        "}\n"
+        
+        "@media (min-width:769px){\n"
+        "\t.bloque-opiniones .su-column {\n"
+        "\t\twidth:50% !important;\n"
+        "\t\tmax-width:50% !important;\n"
+        "\t}\n"
+        "}\n"
+
+
+        "</style>\n"
+    )

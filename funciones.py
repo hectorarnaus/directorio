@@ -172,7 +172,8 @@ def crea_provincia(provincia,imagen):
 
 
     parrafos=extraer_parrafos(obten_texto_cuerpo_provincia(provincia))
-    res=crea_migas_provincia(provincia)
+    res=crea_estilos()
+    res+=crea_migas_provincia(provincia)
 
     res+=(
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
@@ -198,7 +199,8 @@ def crea_provincia(provincia,imagen):
     return res
 
 def crea_ciudad(ciudad,provincia,imagen):
-    res=crea_migas_ciudad(ciudad,provincia)
+    res=crea_estilos()
+    res+=crea_migas_ciudad(ciudad,provincia)
 
     res+=(   
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
@@ -233,7 +235,8 @@ def crea_ciudad(ciudad,provincia,imagen):
     return res
 
 def crea_negocio(negocio):
-    res=crea_migas_negocio(negocio) 
+    res=crea_estilos()
+    res+=crea_migas_negocio(negocio) 
     '''res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
         f'\t\t<p><a href="{dominio}">Inicio</a> &gt; <a href="{dominio}/{sluguiza("Provincia de "+negocio.provincia)}">{negocio.provincia}</a> &gt; <a href="{dominio}/{sluguiza(negocio.ciudad)}">{negocio.ciudad}</a> &gt; {negocio.nombre}</p>'
