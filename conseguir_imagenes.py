@@ -48,7 +48,7 @@ def obten_imagen_google(nombre,carpeta,num,provincia=True):
 
 
 def obten_imagen_pixabay(nombre,carpeta,num,provincia=True):
-    client = PixabayClient(apiKey="50941131-9e334548d8a355bbadf6f5388")
+    client = PixabayClient(apiKey="55038277-b3010950a0f9c7dba9dff51c5")
     searchResult = client.searchImage(q=nombre,category=Category.PLACES)
     hitsList = list(searchResult.hits)
     if len(hitsList)>0:
@@ -66,17 +66,17 @@ def obten_imagen_pixabay(nombre,carpeta,num,provincia=True):
     return False
 
 
-'''municipios=obten_lista_municipios("castilla_leon_1.xlsx")
+municipios=obten_lista_municipios("xslx/localidades.xlsx")
 for municipio in municipios:
-    print(municipio[0])
+    print(municipio)
     res=obten_imagen_pixabay(municipio[0],"municipio",0,municipio[1])
     if res==False:
         obten_imagen_google(municipio[0],"municipio",5,municipio[1])
 '''
-provincias=obten_lista_provincias("castilla_leon_1.xlsx")
+provincias=obten_lista_provincias("xslx/provincias.xlsx")
 for provincia in provincias:
     print(provincia)
     res=obten_imagen_pixabay(provincia,"provincia",0)
     if res==False:
         obten_imagen_google(provincia,"provincia",5)
-   
+'''   

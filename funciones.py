@@ -49,17 +49,23 @@ def imprime_lista_negocios(lista_negocios):
                 [/su_list]
             
                 [/su_column]
+
+
                 [su_column size="1/2" center="no"]
-            
-                <iframe src="{mapa}"
-                        width="600"
-                        height="450"
-                        style="border:1px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+
+                    <div class="map-wrapper">
+                        <iframe src="{mapa}"
+                                width="600"
+                                height="450"
+                                style="border:1px solid {color_contrast}; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
                 [/su_column]
+
             [/su_row]
             
             [su_row]
@@ -206,9 +212,9 @@ def crea_ciudad(ciudad,provincia,imagen):
         f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
         '\t<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">\n'
         '\t\t<div class="wp-block-media-text__content">\n'
-        '\t\t\t<!-- wp:paragraph -->\n'
-        f'\t\t\t\t<p>{obten_texto_cuerpo_localidad(ciudad)}</p>\n'
-        '\t\t\t<!-- /wp:paragraph -->\n'
+     
+        f'\t\t\t\t{maqueta_texto_cuerpo_localidad(obten_texto_cuerpo_localidad(ciudad))}\n'
+
         '\t\t</div>\n'
         '\t\t<figure class="wp-block-media-text__media">\n'
         f'\t\t\t<img src="{imagen.get_url()}" alt="Panorámica de {ciudad}" class="wp-image-{imagen.get_id()} size-full"/>\n'

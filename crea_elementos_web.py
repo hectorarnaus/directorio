@@ -315,6 +315,7 @@ def crea_estilos():
         "\t\twidth:100%;\n"
         "\t\tmax-width:100%;\n"
         "\t\theight:300px;\n"
+        "\t\tborder-radius:12px;\n"
         "\t}\n"
         
         "@media (min-width:768px){\n"

@@ -65,6 +65,15 @@ def obten_texto_cuerpo_localidad(localidad):
     except Exception as e:
         print(f"Ocurrió un error: {e}")
     return ""
+def maqueta_texto_cuerpo_localidad(texto):
+    parrafos=texto.split("</p><p>")
+    res=""
+    for parrafo in parrafos:
+        parrafo=parrafo.replace("<p>","")
+        parrafo=parrafo.replace("</p>","")
+        parrafo=parrafo.strip()
+        res+=f'{crea_parrafo(parrafo)}'
+    return res
 def obten_texto_H1_old(provincia):
     with open('plantillas_textos/H1_provincia.txt', 'r') as file :
         texto_base = file.read()

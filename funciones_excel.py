@@ -19,7 +19,7 @@ def obten_lista_provincias(fichero_excel):
         hoja_activa = datos.active
         fila=2
         while fila<ultima_fila_real(hoja_activa):
-            provincia=hoja_activa.cell(row=fila,column=5).value
+            provincia=hoja_activa.cell(row=fila,column=1).value
             if provincia.isupper():
                 provincia=provincia.capitalize()    
             if provincia not in lista:
@@ -38,13 +38,14 @@ def obten_lista_municipios(fichero_excel):
     try:
         datos=openpyxl.load_workbook(fichero_excel)
         hoja_activa = datos.active
-        fila=1
+        fila=2
         while fila<ultima_fila_real(hoja_activa):
-            localidad=hoja_activa.cell(row=fila,column=4).value
+            localidad=hoja_activa.cell(row=fila,column=1).value
+            print(localidad)
             if localidad.isupper():
                 localidad=localidad.capitalize()    
             if localidad not in lista:
-                lista.append(localidad)
+                lista.append([localidad,hoja_activa.cell(row=fila,column=2).value])
             fila+=1
         lista.sort()
         return lista
