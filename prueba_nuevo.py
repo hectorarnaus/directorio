@@ -19,7 +19,7 @@ wc.connect()
 
 
 lista_provincias=obten_lista_provincias(excel_empresas)
-lista_municipios=obten_lista_municipios(excel_empresas)
+lista_municipios=obten_lista_municipios_con_provincia(excel_empresas)
 negocios=obten_lista_negocios(excel_empresas)
 lista_actividades_municipio=obten_lista_actividades_municipios(excel_empresas)
 for municipio in lista_actividades_municipio:

@@ -41,7 +41,27 @@ def obten_lista_municipios(fichero_excel):
         fila=2
         while fila<ultima_fila_real(hoja_activa):
             localidad=hoja_activa.cell(row=fila,column=1).value
-            print(localidad)
+            if localidad.isupper():
+                localidad=localidad.capitalize()    
+            if localidad not in lista:
+                lista.append(localidad)
+            fila+=1
+        lista.sort()
+        return lista
+
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
+def obten_lista_municipios_con_provincia(fichero_excel):
+    lista=[]
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=2
+        while fila<ultima_fila_real(hoja_activa):
+            localidad=hoja_activa.cell(row=fila,column=1).value
             if localidad.isupper():
                 localidad=localidad.capitalize()    
             if localidad not in lista:
@@ -63,6 +83,21 @@ def obten_provincia_de_municipio(fichero_excel,municipio):
         while fila<hoja_activa.max_row:
             if hoja_activa.cell(row=fila,column=7).value==municipio:
                 return hoja_activa.cell(row=fila,column=8).value
+            fila+=1
+        return ""
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
+def obten_provincia_de_municipio_con_fichero_localidades(fichero_excel,municipio):
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=2
+        while fila<hoja_activa.max_row:
+            if hoja_activa.cell(row=fila,column=1).value==municipio:
+                return hoja_activa.cell(row=fila,column=2).value
             fila+=1
         return ""
     except FileNotFoundError:

@@ -66,7 +66,7 @@ def obten_imagen_pixabay(nombre,carpeta,num,provincia=True):
     return False
 
 
-municipios=obten_lista_municipios("xslx/localidades.xlsx")
+municipios=obten_lista_municipios_con_provincia("xslx/localidades.xlsx")
 for municipio in municipios:
     print(municipio)
     res=obten_imagen_pixabay(municipio[0],"municipio",0,municipio[1])

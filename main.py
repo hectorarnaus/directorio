@@ -17,7 +17,7 @@ wc.connect()
 excel_datos="empresas_con_descripcion_corto.xlsx"
 
 lista_provincias=obten_lista_provincias(excel_datos)
-lista_municipios=obten_lista_municipios(excel_datos)
+lista_municipios=obten_lista_municipios_con_provincia(excel_datos)
 negocios=obten_lista_negocios(excel_datos)
 
 etiquetas=['crepería','crepes','creperias cerca','crepe suzette','crepe nutella','crepe nocilla','crepe chocolate']
