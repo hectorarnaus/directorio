@@ -267,3 +267,4 @@ def obten_lista_actividades_municipios(fichero_excel):
     except Exception as e:
         print(f"Ocurrió un error: {e}")
                
+
