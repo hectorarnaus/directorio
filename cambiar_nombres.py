@@ -1,18 +1,19 @@
 from os import *
 from funciones_excel import ultima_fila_real
 import openpyxl 
+from re import sub
 
 def normaliza_nombre(nombre):
-    nombre=nombre.replace("'a","'A")
-    nombre=nombre.replace("-a","-A")
-    nombre=nombre.replace("'e","'E")
-    nombre=nombre.replace("-e","-E")
-    nombre=nombre.replace("'i","'I")
-    nombre=nombre.replace("-i","-I")
-    nombre=nombre.replace("'o","'O")
-    nombre=nombre.replace("-o","-O")
-    nombre=nombre.replace("'u","'U")
-    nombre=nombre.replace("-u","-U")
+
+    nombre = sub(r'-([a-z])', lambda m: '-' + m.group(1).upper(), nombre)
+    nombre = sub(r"'([a-z])", lambda m: "'" + m.group(1).upper(), nombre)
+    nombre=nombre.replace("D'","d'")
+    nombre=nombre.replace("S'","s'")
+    nombre=nombre.replace("L'","l'")
+    nombre=nombre.replace(" De "," de ")
+    nombre=nombre.replace(" Del "," del ")
+    nombre=nombre.replace(" Y "," y ")
+    nombre=nombre.replace(" I "," i ")
     return nombre        
 
 
@@ -23,6 +24,11 @@ def cambia_nombre_municipio_en_negocios(fichero_excel):
         fila=1
         while fila<ultima_fila_real(hoja_activa):
            
+            old=hoja_activa.cell(row=fila,column=4).value
+            new=normaliza_nombre(hoja_activa.cell(row=fila,column=4).value)
+            if old!=new:
+                print(f"Nombre cambiado: {old} -> {new}")
+
             hoja_activa.cell(row=fila,column=4).value=normaliza_nombre(hoja_activa.cell(row=fila,column=4).value)
             fila+=1   
         datos.save(fichero_excel)    
