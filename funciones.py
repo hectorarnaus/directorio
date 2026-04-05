@@ -250,7 +250,8 @@ def crea_negocio(negocio):
         '<!-- /wp:html -->\n'
     )'''
     res+=crea_bloque_contacto(negocio)
-    res+=crea_bloque_horario(negocio)       
+    if negocio.horario!=None:
+        res+=crea_bloque_horario(negocio)       
     if negocio.mapa!=None:
         res+=crea_bloque_mapa(negocio)
     if negocio.imagen!=None:                                    
