@@ -1,5 +1,7 @@
 import openpyxl 
-from negocio import Negocio
+from Modelo.provincia import Provincia
+from Modelo.negocio import Negocio
+from Modelo.localidad import Localidad
 from municipio import Municipio
 import ast, re
 
@@ -12,6 +14,52 @@ def ultima_fila_real(hoja):
            return i
     return hoja.max_row
 
+def crea_lista_provincias(fichero_excel):
+    lista=[]
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=2
+        while fila<ultima_fila_real(hoja_activa):
+            nombre=hoja_activa.cell(row=fila,column=1).value
+            if nombre.isupper():
+                nombre=nombre.capitalize()
+            actividades=hoja_activa.cell(row=fila,column=5).value
+            cabecera=hoja_activa.cell(row=fila,column=6).value
+            cuerpo=hoja_activa.cell(row=fila,column=7).value
+            lista.append(Provincia(nombre,actividades,cabecera,cuerpo))
+            fila+=1
+        return lista
+        
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
+def crea_lista_localidades(fichero_excel):
+    lista=[]
+    try:
+        datos=openpyxl.load_workbook(fichero_excel)
+        hoja_activa = datos.active
+        fila=2
+        while fila<ultima_fila_real(hoja_activa):
+            nombre=hoja_activa.cell(row=fila,column=1).value
+            if nombre.isupper():
+                nombre=nombre.capitalize()
+            provincia=hoja_activa.cell(row=fila,column=2).value
+            if provincia.isupper():
+                provincia=provincia.capitalize()
+            actividades=hoja_activa.cell(row=fila,column=4).value
+            texto=hoja_activa.cell(row=fila,column=5).value
+            lista.append(Localidad(nombre,provincia,actividades,texto))
+            fila+=1
+        return lista
+        
+    except FileNotFoundError:
+        print("Error: Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
 def obten_lista_provincias(fichero_excel):
     lista=[]
     try:
@@ -19,7 +67,7 @@ def obten_lista_provincias(fichero_excel):
         hoja_activa = datos.active
         fila=2
         while fila<ultima_fila_real(hoja_activa):
-            provincia=hoja_activa.cell(row=fila,column=1).value
+            provincia=hoja_activa.cell(row=fila,column=5).value
             if provincia.isupper():
                 provincia=provincia.capitalize()    
             if provincia not in lista:
@@ -40,7 +88,7 @@ def obten_lista_municipios(fichero_excel):
         hoja_activa = datos.active
         fila=2
         while fila<ultima_fila_real(hoja_activa):
-            localidad=hoja_activa.cell(row=fila,column=1).value
+            localidad=hoja_activa.cell(row=fila,column=4).value
             if localidad.isupper():
                 localidad=localidad.capitalize()    
             if localidad not in lista:
@@ -61,11 +109,11 @@ def obten_lista_municipios_con_provincia(fichero_excel):
         hoja_activa = datos.active
         fila=2
         while fila<ultima_fila_real(hoja_activa):
-            localidad=hoja_activa.cell(row=fila,column=1).value
+            localidad=hoja_activa.cell(row=fila,column=4).value
             if localidad.isupper():
                 localidad=localidad.capitalize()    
             if localidad not in lista:
-                lista.append([localidad,hoja_activa.cell(row=fila,column=2).value])
+                lista.append([localidad,hoja_activa.cell(row=fila,column=5).value])
             fila+=1
         lista.sort()
         return lista

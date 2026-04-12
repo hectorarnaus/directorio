@@ -2,7 +2,7 @@ import os
 import openpyxl 
 from funciones import *
 from funciones_excel import *
-from negocio import *
+from Modelo.negocio import *
 from autowordpress import *
 from ficheros_datos.constantes_configuracion import *
 
@@ -25,14 +25,14 @@ lista_categorias=[]
 
 ruta=os.getcwd()+("/provincia")
 for img in os.listdir(ruta):
-    provincia=obten_nombre_provincia(img)
-    if provincia in lista_provincias:
-        wp_img=Image(ruta+"/"+img,f"Descubre todas las {tipo_negocio.lower()} en la provincia de {provincia} ordenadas por orden alfabético")
+    Provincia=obten_nombre_provincia(img)
+    if Provincia in lista_provincias:
+        wp_img=Image(ruta+"/"+img,f"Descubre todas las {tipo_negocio.lower()} en la provincia de {Provincia} ordenadas por orden alfabético")
         wp_img.upload(wc)
-        wp_article=WpPost(f"{tipo_negocio} en la provincia de {provincia}")
-        print(f"sluguiza provincia de {provincia}={sluguiza("provincia de "+provincia)}")
-        wp_article.add_element(crea_provincia(provincia,wp_img))
-        wp_article.set_slug(sluguiza("provincia de "+provincia))
+        wp_article=WpPost(f"{tipo_negocio} en la provincia de {Provincia}")
+        print(f"sluguiza provincia de {Provincia}={sluguiza("provincia de "+Provincia)}")
+        wp_article.add_element(crea_provincia(Provincia,wp_img))
+        wp_article.set_slug(sluguiza("provincia de "+Provincia))
         wp_article.add_category("provincia")
         wc.publica_post(wp_article)
 
@@ -41,12 +41,12 @@ ruta=os.getcwd()+("/municipio")
 for img in os.listdir(ruta):
     municipio=obten_nombre_municipio(img)
     if municipio in lista_municipios:
-        provincia=obten_nombre_provincia_municipio(img)
+        Provincia=obten_nombre_provincia_municipio(img)
         print(f"Creando el artículo del municipio de {municipio}")
         wp_img=Image(ruta+"/"+img,f"{tipo_negocio} en el municipio de {municipio}")
         wp_img.upload(wc)
-        wp_article=WpPost(f"{tipo_negocio} en el municipio de {municipio}","Provincia de "+provincia)
-        wp_article.add_element(crea_ciudad(municipio,provincia,obten_texto_municipio(municipio),wp_img))
+        wp_article=WpPost(f"{tipo_negocio} en el municipio de {municipio}","Provincia de "+Provincia)
+        wp_article.add_element(crea_localidad(municipio,Provincia,obten_texto_municipio(municipio),wp_img))
         wp_article.set_slug(sluguiza(municipio))
         wc.publica_post(wp_article)
 

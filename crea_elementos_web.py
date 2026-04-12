@@ -1,6 +1,5 @@
 from ficheros_datos.constantes_configuracion import *
-import negocio
-
+from Modelo.negocio import *
 def sluguiza(texto):
     texto=texto.strip()
     texto=texto.lower()
@@ -287,7 +286,7 @@ def crea_migas_ciudad(ciudad,provincia):
 
 def crea_migas_provincia(provincia):
     res=(
-         '<!-- wp:html -->\n'
+        '<!-- wp:html -->\n'
         f'<nav aria-label="Breadcrumb" class="breadcrumb">\n'
         '<ul>\n'
         '<li>\n'
@@ -301,95 +300,3 @@ def crea_migas_provincia(provincia):
     )
     return res
 
-def crea_estilos():
-    return (
-        "<style>\n"
-        "\t.lista-horario li {\n"
-        "\t\tdisplay:flex;\n"
-        "\t\tjustify-content:space-between;\n"
-        "\t\tmax-width:320px;\n"
-        f"\t\tgap:8px;\n"
-        "\t}\n"
-        
-        "\t.map-wraper iframe {\n"
-        "\t\twidth:100%;\n"
-        "\t\tmax-width:100%;\n"
-        "\t\theight:300px;\n"
-        "\t\tborder-radius:12px;\n"
-        "\t}\n"
-        
-        "@media (min-width:768px){\n"
-        "\t.map-wraper iframe { height:400px; }\n"
-        "}\n" \
-        
-        ".breadcrumb {\n"
-        f"\tbackground-color: {color_base3};\n"
-        "\tpadding:20px;\n"
-        "\tborder-radius:8px;\n"
-        "\tmargin-bottom:24px;\n"
-        f"\tborder-left:4px solid {color_accent};\n"
-        "\tmax-width:960px;\n"
-        "\tmargin-inline:auto;\n"
-        "}\n"
-        "\n"
-        
-        ".breadcrumb ul {\n"
-        "\tdisplay:flex;\n"
-        "\tflex-wrap:wrap;\n"
-        "\talign-items:center;\n"
-        "\tlist-style:none;\n"
-        "\tpadding:0;\n"
-        "\tmargin:0;\n"
-        "\tfont-size:16px;\n"
-        "\tgap:10px;\n"
-        "}\n"  
-        
-        ".breadcrumb a {\n"
-        f"\tcolor: {color_base};\n"
-        "\ttext-decoration:none;\n"
-        "\tpadding:4px 10px;\n"
-        "\tborder-radius:4px;\n"
-        "\ttransition:background 0.2s, color 0.2s;\n"
-        "}\n"
-
-                
-        ".breadcrumb a:hover {\n"
-        f"\tbackground:{color_contrast3};\n"
-        f"\tcolor:{color_contrast};\n"
-        "}\n"
-
-
-        ".breadcrumb-destacado{\n"
-        f"\tcolor: {color_contrast};\n"
-        "\tfont-weight: 600;\n"
-        "\tpadding: 4px 12px;\n"
-        f"\tbackground: {color_accent};\n"
-        "\tborder-radius: 4px;\n"
-        "}\n"
-
-        ".breadcrumb-separador{\n"
-        f"\tcolor: {color_contrast2};\n"
-        "}\n"
-
-
-        ".bloque-opiniones {\n"
-        f"\tgap:20px;\n"
-        "}\n"
-
-        "@media (max-width:768px){\n"
-        "\t.bloque-opiniones .su-column {\n"
-        "\t\twidth:100% !important;\n"
-        "\t\tmargin-bottom:16px;\n"
-        "\t}\n"
-        "}\n"
-        
-        "@media (min-width:769px){\n"
-        "\t.bloque-opiniones .su-column {\n"
-        "\t\twidth:50% !important;\n"
-        "\t\tmax-width:50% !important;\n"
-        "\t}\n"
-        "}\n"
-
-
-        "</style>\n"
-    )

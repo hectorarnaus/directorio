@@ -7,8 +7,8 @@ color_contrast="#111827"
 color_contrast2="#9CA3AF"
 color_contrast3="#E5E7EB"
 color_accent="#F2B900"
-
 color_noton="#7B2C2C"
+
 excel_empresas="./xslx/empresas.xlsx"
 excel_localidades="./xslx/localidades.xlsx"
 excel_provincias="./xslx/provincias.xlsx"

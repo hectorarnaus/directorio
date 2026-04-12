@@ -16,6 +16,6 @@ for img in os.listdir(ruta):
 ruta=os.getcwd()+("/municipio/temp")
 for municipio in lista_municipios:
     print("Procesando el municipio de "+municipio)
-    provincia=obten_provincia_de_municipio_con_fichero_localidades(excel_localidades,municipio)
-    fichero=open(ruta+"/"+municipio+"_"+provincia+".jpg","w")
+    Provincia=obten_provincia_de_municipio_con_fichero_localidades(excel_localidades,municipio)
+    fichero=open(ruta+"/"+municipio+"_"+Provincia+".jpg","w")
     fichero.write(municipio)

@@ -1,7 +1,7 @@
 import html
+from turtle import width
 from funciones_excel import *
 from ficheros_datos.constantes_configuracion import *
-from negocio import *
 from funciones_generar_texto import *
 from ficheros_datos.keywords import *
 from crea_elementos_web import *
@@ -148,14 +148,14 @@ def obten_datos_schema_negocio(negocio):
         res+=f'\t"url": "{negocio.web}"\n'
     return res
 
-def crear_schema_municipio(municipio):
-    negocios=obten_lista_negocios_municipio(excel_datos,municipio)
+def crear_schema_localidad(localidad):
+    negocios=obten_lista_negocios_municipio(excel_datos,localidad)
     res=(
         '{\n'
         '\t"@context": "https://schema.org",\n'
         '\t"@type": "ItemList",\n'
-        f'\t\t"name": "Mejores {tipo_negocio.lower()} en {municipio}",\n'
-        f'\t"description": "Directorio de {tipo_negocio.lower()} recomendadas en {municipio}",\n'
+        f'\t\t"name": "Mejores {tipo_negocio.lower()} en {localidad}",\n'
+        f'\t"description": "Directorio de {tipo_negocio.lower()} recomendadas en {localidad}",\n'
         '\t"itemListElement": [\n'
         )
     i=0
@@ -178,22 +178,43 @@ def crea_provincia(provincia,imagen):
 
 
     parrafos=extraer_parrafos(obten_texto_cuerpo_provincia(provincia))
-    res=crea_estilos()
-    res+=crea_migas_provincia(provincia)
+    aux=dividir_parrafo(parrafos[0])
+    primero=aux[0]
+    segundo=aux[1]
+    #crea_estilos()
+    res=crea_migas_provincia(provincia)
+
 
     res+=(
-        f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
-        '<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content">\n'
-        f'\t\t{crea_parrafo(parrafos[0])}\n'
-        '\t</div>\n'
-        f'<figure class="wp-block-media-text__media"><img src="{imagen.get_url()}" alt="" class="wp-image-{imagen.get_id()} size-full"/></figure></div>\n'
-        '<!-- /wp:media-text -->\n'
-    )   
+        '<div class="bloque-intro-imagen">\n'
+        f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaType":"image"}} -->\n'
+	    '\t\t<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">\n'
+		'\t\t\t<div class="wp-block-media-text__content">\n'
+			f'\t\t\t\t<span class="badge-intro">{tipo_negocio}</span>\n'
+            f'\t\t\t\t<h2>Directorio de {tipo_negocio} en la provincia de {provincia}</h2>'
+            f'\t\t\t\t{crea_parrafo(primero)}\n'
+            f'\t\t\t\t{crea_parrafo(segundo)}\n'
+			'\t\t\t\t<a class="intro-cta" href="#empresas">Ver empresas destacadas</a>\n'
+		'\t\t\t</div>\n'
+		'\t\t\t<figure class="wp-block-media-text__media">\n'
+			f'\t\t\t\t<img src="{imagen.get_url()}" alt="Vista de {provincia} para el directorio de {tipo_negocio}" class="{imagen.get_id()} size-full"/>\n'
+		'\t\t\t</figure>\n'
+	'\t\t</div>\n'
+	'\t<!-- /wp:media-text -->\n'
+    '</div>\n'
+    )
+
+
+    res+=(
+        '<div class="bloque-parrafo-normal">\n'
+        f'\t<h3>Ventajas estratégicas en la provincia de {provincia}</h3>\n'
+    )
     for i in range(1,len(parrafos)-1)         :
         res+=f'\t\t{crea_parrafo(parrafos[i])}\n'
         i+=1
-
+    res+="</div>\n"
     res+=(     
+        '<a id="#empresas">'
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
         '\t<div class="wp-block-group">\n'
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
@@ -204,36 +225,61 @@ def crea_provincia(provincia,imagen):
         '\t<!-- /wp:group -->\n')
     return res
 
-def crea_ciudad(ciudad,provincia,imagen):
-    res=crea_estilos()
-    res+=crea_migas_ciudad(ciudad,provincia)
+def crea_localidad(localidad,provincia,imagen):
+    parrafos=extraer_parrafos(obten_texto_cuerpo_localidad(localidad))
+    aux=dividir_parrafo(parrafos[0])
+    primero=aux[0]
+    segundo=aux[1]
+    res=""
+    res+=crea_migas_ciudad(localidad,provincia)
 
     res+=(   
-        f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
-        '\t<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">\n'
-        '\t\t<div class="wp-block-media-text__content">\n'
-     
-        f'\t\t\t\t{maqueta_texto_cuerpo_localidad(obten_texto_cuerpo_localidad(ciudad))}\n'
+        '<div class="bloque-intro-imagen">\n'
+	    '\t<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">\n'
+		'\t\t<div class="wp-block-media-text__content">\n'
+		f'\t\t\t\t<span class="badge-intro">{tipo_negocio}</span>\n'
+        f'\t\t\t\t<h2>Directorio de {tipo_negocio} en la provincia de {localidad}</h2>'
+        f'\t\t\t{crea_parrafo(primero)}\n'
+        f'\t\t\t{crea_parrafo(segundo)}\n'
+		'\t\t\t<a class="intro-cta" href="#empresas">Ver empresas destacadas</a>\n'
+		'\t\t</div>\n'
+		'\t\t<figure class="wp-block-media-text__media">\n'
+		f'\t\t\t<img src="{imagen.get_url()}" alt="Vista de {localidad} para el directorio de {tipo_negocio}" class="{imagen.get_id()} size-full"/>\n'
+		'\t\t</figure>\n'
+	    '\t</div>\n'
+        '</div>\n'
 
-        '\t\t</div>\n'
-        '\t\t<figure class="wp-block-media-text__media">\n'
-        f'\t\t\t<img src="{imagen.get_url()}" alt="Panorámica de {ciudad}" class="wp-image-{imagen.get_id()} size-full"/>\n'
-        '\t\t</figure>\t</div>\n'
-        '<!-- /wp:media-text -->\n'
-        f'{crea_texto_ciudad(ciudad)}'
+        #f'<!-- wp:media-text {{"mediaPosition":"right","mediaId":{imagen.get_id()},"mediaLink":"{dominio}/localidad/ciudad/#main","mediaType":"image"}} -->\n'
+        #'\t<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">\n'
+        #'\t\t<div class="wp-block-media-text__content">\n'
+     
+        
+        '<div class="bloque-parrafo-normal">\n'
+        f'{crea_texto_ciudad(localidad)}'
+        '</div>\n'
+
+        #'\t\t</div>\n'
+        #'\t\t<figure class="wp-block-media-text__media">\n'
+        #f'\t\t\t<img src="{imagen.get_url()}" alt="Panorámica de {ciudad}" class="wp-image-{imagen.get_id()} size-full"/>\n'
+        #'\t\t</figure>\t</div>\n'
+        #'<!-- /wp:media-text -->\n'
+        #'<div class="bloque-parrafo-normal">\n'
+        #f'{crea_texto_ciudad(ciudad)}'
+        #'</div>\n'
+
         '<!-- wp:group {"layout":{"type":"constrained"}} -->\n'
         '\t<div class="wp-block-group">\n'
         '\t\t<!-- wp:heading {"textAlign":"center"} -->\n'
-        f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las {tipo_negocio} de {ciudad}</h2>\n'
+        f'\t\t\t<h2 class="wp-block-heading has-text-align-center">Todas las {tipo_negocio} de {localidad}</h2>\n'
         '\t\t<!-- /wp:heading -->\n'
-        f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{ciudad}"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
+        f'\t<!-- wp:dpt/display-post-types {{"taxonomy":"category","terms":["{localidad}"],"number":100,"styleSup":["title"],"showPgnation":true}} /--></div>\n'
 
         '<!-- /wp:group -->'
-        f'{imprime_lista_negocios(obten_lista_negocios_municipio(excel_empresas,ciudad))}'
+        f'{imprime_lista_negocios(obten_lista_negocios_municipio(excel_empresas,localidad))}'
         '<script type="application/ld+json">\n'
-        f'{crea_schema_municipio(ciudad)}'
+        f'{crea_schema_municipio(localidad)}'
         '</script>\n'
-      )
+        )
     
     
 
@@ -241,7 +287,7 @@ def crea_ciudad(ciudad,provincia,imagen):
     return res
 
 def crea_negocio(negocio):
-    res=crea_estilos()
+    #res=crea_estilos()
     res+=crea_migas_negocio(negocio) 
     '''res=('<!-- wp:html -->\n'
         '\t<div class="migas">\n'
@@ -266,3 +312,226 @@ def crea_negocio(negocio):
     
     return res
 
+def crea_estilos():
+    fichero_css=open("./css/estilos.css","w")
+
+    
+    
+    
+    css=(
+        "\t.lista-horario li {\n"
+        "\t\tdisplay:flex;\n"
+        "\t\tjustify-content:space-between;\n"
+        "\t\tmax-width:320px;\n"
+        f"\t\tgap:8px;\n"
+        "\t}\n"
+        
+        "\t.map-wraper iframe {\n"
+        "\t\twidth:100%;\n"
+        "\t\tmax-width:100%;\n"
+        "\t\theight:300px;\n"
+        "\t\tborder-radius:12px;\n"
+        "\t}\n"
+        
+        "@media (min-width:768px){\n"
+        "\t.map-wraper iframe { height:400px; }\n"
+        "}\n" \
+        
+        ".breadcrumb {\n"
+        f"\tbackground-color: {color_base3};\n"
+        "\tpadding:20px;\n"
+        "\tborder-radius:8px;\n"
+        "\tmargin-bottom:24px;\n"
+        f"\tborder-left:4px solid {color_accent};\n"
+        "\tmax-width:960px;\n"
+        "\tmargin-inline:auto;\n"
+        "}\n"
+        "\n"
+        
+        ".breadcrumb ul {\n"
+        "\tdisplay:flex;\n"
+        "\tflex-wrap:wrap;\n"
+        "\talign-items:center;\n"
+        "\tlist-style:none;\n"
+        "\tpadding:0;\n"
+        "\tmargin:0;\n"
+        "\tfont-size:16px;\n"
+        "\tgap:10px;\n"
+        "}\n"  
+        
+        ".breadcrumb a {\n"
+        f"\tcolor: {color_base};\n"
+        "\ttext-decoration:none;\n"
+        "\tpadding:4px 10px;\n"
+        "\tborder-radius:4px;\n"
+        "\ttransition:background 0.2s, color 0.2s;\n"
+        "}\n"
+
+                
+        ".breadcrumb a:hover {\n"
+        f"\tbackground:{color_contrast3};\n"
+        f"\tcolor:{color_contrast};\n"
+        "}\n"
+
+
+        ".breadcrumb-destacado{\n"
+        f"\tcolor: {color_contrast};\n"
+        "\tfont-weight: 600;\n"
+        "\tpadding: 4px 12px;\n"
+        f"\tbackground: {color_accent};\n"
+        "\tborder-radius: 4px;\n"
+        "}\n"
+
+        ".breadcrumb-separador{\n"
+        f"\tcolor: {color_contrast2};\n"
+        "}\n"
+
+
+        ".bloque-opiniones {\n"
+        f"\tgap:20px;\n"
+        "}\n"
+
+        "@media (max-width:768px){\n"
+        "\t.bloque-opiniones .su-column {\n"
+        "\t\twidth:100% !important;\n"
+        "\t\tmargin-bottom:16px;\n"
+        "\t}\n"
+        "}\n"
+        
+        "@media (min-width:769px){\n"
+        "\t.bloque-opiniones .su-column {\n"
+        "\t\twidth:50% !important;\n"
+        "\t\tmax-width:50% !important;\n"
+        "\t}\n"
+        "}\n"
+
+        
+        ".bloque-intro-imagen {\n"
+        "\tmax-width: 1100px;\n"
+        "\tmargin: 48px auto;\n"
+        "\tpadding: 32px;\n"
+        f"\tbackground: {color_base3};\n"
+        f"\tborder: 1px solid {color_contrast3};\n"
+        "\tborder-radius: 20px;\n"
+        "\tbox-shadow: 0 10px 30px rgba(31, 41, 55, 0.06);\n"
+        "}\n"
+        "\n"
+        ".bloque-intro-imagen .wp-block-media-text {\n"
+        "\tgap: 32px;\n"
+        "\talign-items: center;\n"
+        "}\n"
+        "\n"
+        ".bloque-intro-imagen .wp-block-media-text__content {\n"
+        "\tpadding: 8px 0;\n"
+        "}\n"
+        "\n"
+        ".badge-intro {\n"
+        "\tdisplay: inline-block;\n"
+        "\tpadding: 6px 14px;\n"
+        "\tmargin-bottom: 16px;\n"
+        "\tfont-size: 14px;\n"
+        "\tfont-weight: 600;\n"
+        f"\tcolor: {color_contrast};\n"
+        f"\tbackground: {color_accent};\n"
+        "\tborder-radius: 999px;\n"
+        "}\n"
+        "\n"
+        ".bloque-intro-imagen h2 {\n"
+        "\tmargin: 0 0 16px;\n"
+        "\tfont-size: clamp(28px, 4vw, 40px);\n"
+        "\tline-height: 1.1;\n"
+        f"\tcolor: {color_contrast};\n"
+        "}\n"
+        "\n"
+        ".bloque-intro-imagen p {\n"
+        "\tmargin: 0 0 16px;\n"
+        "\tfont-size: 17px;\n"
+        "\tline-height: 1.75;\n"
+        f"\tcolor: {color_base};\n"
+        "}\n"
+        "\n"
+        ".bloque-intro-imagen .wp-block-media-text__media img {\n"
+        "\twidth: 100%;\n"
+        "\theight: 100%;\n"
+        "\tobject-fit: cover;\n"
+        "\tborder-radius: 18px;\n"
+        "\tbox-shadow: 0 12px 30px rgba(31, 41, 55, 0.12);\n"
+        f"\tborder: 1px solid {color_contrast3};\n"
+        "}\n"
+        "\n"
+        ".intro-cta {\n"
+        "\tdisplay: inline-block;\n"
+        "\tmargin-top: 8px;\n"
+        "\tpadding: 12px 20px;\n"
+        "\tborder-radius: 12px;\n"
+        f"\tbackground: {color_base};\n"
+        "\tcolor: #ffffff;\n"
+        "\ttext-decoration: none;\n"
+        "\tfont-weight: 600;\n"
+        "\ttransition: all .2s ease;\n"
+        "}\n"
+        "\n"
+        ".intro-cta:hover {\n"
+        f"\tbackground: {color_base2};\n"
+        "\ttransform: translateY(-1px);\n"
+        "}\n"
+        "\n"
+        ".intro-cta:active {\n"
+        f"\tbackground: {color_contrast};\n"
+        "}\n"
+        "\n"
+        "@media (max-width: 781px) {\n"
+        "\t.bloque-intro-imagen {\n"
+        "\t\tpadding: 20px;\n"
+        "\t\tmargin: 32px auto;\n"
+        "\t}\n"
+        "\n"
+        "\t.bloque-intro-imagen .wp-block-media-text {\n"
+        "\t\tgap: 20px;\n"
+        "\t}\n"
+        "}\n"
+
+            
+        ".bloque-parrafo-normal {\n"
+        "\tmax-width: 960px;\n"
+        "\tmargin: 32px auto;\n"
+        "\tpadding: 24px 28px;\n"
+        f"\tcolor: {color_base};\n"
+        f"\tbackground: {color_base3};\n"
+        f"\tborder: 1px solid {color_contrast3};\n"
+        f"\tborder-left: 6px solid {color_accent};\n"
+        "\tborder-radius: 0 18px 18px 0;\n"
+        "\tbox-shadow: 0 10px 24px rgba(31, 41, 55, 0.05);\n"
+        "}\n"
+
+        ".bloque-parrafo-normal h3 {\n"
+        "\tmargin: 0 0 12px;\n"
+        "\tfont-size: 23px;\n"
+        "\tline-height: 1.2;\n"
+        f"\tcolor: {color_contrast};\n"
+        "}\n"
+        ".bloque-parrafo-normal p {\n"
+        "\tmargin: 0;\n"
+        "\tfont-size: 17px;\n"
+        "\tline-height: 1.8;\n"
+        f"\tcolor: {color_base};\n"
+        "\t}\n"    
+
+        "t.bloque-parrafo-normal strong {\n"
+        f"\tcolor: {color_contrast};\n"
+        "}\n"
+
+        "@media (max-width: 768px) {\n"
+        "\t.bloque-parrafo-normal {\n"
+        f"\tpadding: 20px;\n"
+        f"\tmargin: 24px auto;\n"
+        f"\tborder-left-width: 5px;\n"
+        "\t}\n"
+        "}\n"
+        
+
+        )
+
+            
+    fichero_css.write(css)
+    fichero_css.close()
