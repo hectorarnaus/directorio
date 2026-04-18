@@ -215,7 +215,7 @@ class Negocio:
                             '\t\t],\n'
                 )
                 return horario_schema
-
+        return ""
 
     def obten_horario_lista_html(self):
         if self.horario==None:

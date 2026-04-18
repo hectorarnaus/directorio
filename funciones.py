@@ -1,5 +1,4 @@
 import html
-from turtle import width
 from funciones_excel import *
 from ficheros_datos.constantes_configuracion import *
 from funciones_generar_texto import *
